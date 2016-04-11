@@ -1,0 +1,41 @@
+LayoutID: VB_CONTROLLER
+FriendlyName: "Virtual Boy Controller"
+Platforms:
+    - NINTENDO_VB
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonStart:
+        Label: "Start"
+        Type: Button
+    ButtonSelect:
+        Label: "Select"
+        Type: Button
+    DirectionalN:
+        Label: "Left D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "Left D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "Left D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "Left D-Pad Left"
+        Type: Directional
+    Button0:
+        Label: "Right D-Pad Up"
+        Type: Directional
+    Button1:
+        Label: "Right D-Pad Right"
+        Type: Directional
+    Button2:
+        Label: "Right D-Pad Down"
+        Type: Directional
+    Button3:
+        Label: "Right D-Pad Left"
+        Type: Directional
