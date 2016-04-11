@@ -1,7 +1,7 @@
-LayoutID: PSP_LAYOUT
-FriendlyName: "PlayStation Portable Layout"
+LayoutID: PSV_LAYOUT
+FriendlyName: "PlayStation Vita Layout"
 Platforms:
-    - SONY_PSP
+    - SONY_PSV
 Layout:
     ButtonA:
         Label: "Cross"
@@ -43,15 +43,29 @@ Layout:
         Label: "D-Pad Left"
         Type: Directional
     AxisLeftAnalogPositiveX:
-        Label: "Analog Right"
+        Label: "Left Analog Right"
         Type: AxisPositive
     AxisLeftAnalogNegativeX:
-        Label: "Analog Left"
+        Label: "Left Analog Left"
         Type: AxisNegative
     AxisLeftAnalogPositiveY:
-        Label: "Analog Up"
+        Label: "Left Analog Up"
         Type: AxisPositive
     AxisLeftAnalogNegativeY:
-        Label: "Analog Down"
+        Label: "Left Analog Down"
         Type: AxisNegative
-        
+    AxisRightAnalogPositiveX:
+        Label: "Right Analog Right"
+        Type: AxisPositive
+    AxisRightAnalogNegativeX:
+        Label: "Right Analog Left"
+        Type: AxisNegative
+    AxisRightAnalogPositiveY:
+        Label: "Right Analog Up"
+        Type: AxisPositive
+    AxisRightAnalogNegativeY:
+        Label: "Right Analog Down"
+        Type: AxisNegative
+    Touchscreen:
+        Label: "Touchscreen"
+        Type: Touchscreen

@@ -4,7 +4,7 @@ Metadata:
   platform_shortname: PSX
   platform_company: Sony
 MaximumInputs: 2
-FriendlyName: Playstation
+FriendlyName: PlayStation
 FileExtensions: 
     - .cue
     - .bin

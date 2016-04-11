@@ -1,5 +1,5 @@
 LayoutID: PSX_CONTROLLER
-FriendlyName: "Playstation Controller"
+FriendlyName: "PlayStation Controller"
 Platforms:
     - SONY_PSX
 Layout:

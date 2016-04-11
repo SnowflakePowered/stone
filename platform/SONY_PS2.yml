@@ -4,7 +4,7 @@ Metadata:
   platform_shortname: PS2
   platform_company: Sony
 MaximumInputs: 4
-FriendlyName: Playstation 2
+FriendlyName: PlayStation 2
 FileExtensions:
     - .bin
     - .iso

@@ -1,0 +1,13 @@
+PlatformID: SONY_PSV
+Metadata:
+  platform_releasedate: 17/12/2011
+  platform_shortname: PSV
+  platform_company: Sony
+MaximumInputs: 1
+FriendlyName: PlayStation Vita
+FileExtensions:
+    - .bin
+    - .iso
+    - .pbp
+    - .cso
+    - .ciso

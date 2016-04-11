@@ -176,7 +176,7 @@
     },
     "GBA_LAYOUT": {
       "LayoutID": "GB_LAYOUT",
-      "FriendlyName": "Nintendo Gameboy Advanced Layout",
+      "FriendlyName": "Game Boy Advanced Layout",
       "Platforms": ["NINTENDO_GBA"],
       "Layout": {
         "ButtonA": {
@@ -223,7 +223,7 @@
     },
     "GB_LAYOUT": {
       "LayoutID": "GB_LAYOUT",
-      "FriendlyName": "Nintendo Gameboy Layout",
+      "FriendlyName": "Game Boy Layout",
       "Platforms": ["NINTENDO_GB", "NINTENDO_GBC"],
       "Layout": {
         "ButtonA": {
@@ -581,7 +581,7 @@
     },
     "PSP_LAYOUT": {
       "LayoutID": "PSP_LAYOUT",
-      "FriendlyName": "PSP Layout",
+      "FriendlyName": "PlayStation Portable Layout",
       "Platforms": ["SONY_PSP"],
       "Layout": {
         "ButtonA": {
@@ -617,7 +617,7 @@
           "Type": "Button"
         },
         "ButtonGuide": {
-          "Label": "PS Button/Analog Toggle",
+          "Label": "PS Button",
           "Type": "Button"
         },
         "DirectionalN": {
@@ -651,20 +651,107 @@
         "AxisLeftAnalogNegativeY": {
           "Label": "Analog Down",
           "Type": "AxisNegative"
+        }
+      }
+    },
+    "PSV_LAYOUT": {
+      "LayoutID": "PSV_LAYOUT",
+      "FriendlyName": "PlayStation Vita Layout",
+      "Platforms": ["SONY_PSV"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "Cross",
+          "Type": "Button"
         },
-        "RumbleBig": {
-          "Label": "Strong Rumble",
-          "Type": "Rumble"
+        "ButtonB": {
+          "Label": "Circle",
+          "Type": "Button"
         },
-        "RumbleSmall": {
-          "Label": "Weak Rumble",
-          "Type": "Rumble"
+        "ButtonX": {
+          "Label": "Square",
+          "Type": "Button"
+        },
+        "ButtonY": {
+          "Label": "Triangle",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Start",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Select",
+          "Type": "Button"
+        },
+        "ButtonL": {
+          "Label": "L",
+          "Type": "Button"
+        },
+        "ButtonR": {
+          "Label": "R",
+          "Type": "Button"
+        },
+        "ButtonGuide": {
+          "Label": "PS Button",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        },
+        "AxisLeftAnalogPositiveX": {
+          "Label": "Left Analog Right",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeX": {
+          "Label": "Left Analog Left",
+          "Type": "AxisNegative"
+        },
+        "AxisLeftAnalogPositiveY": {
+          "Label": "Left Analog Up",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeY": {
+          "Label": "Left Analog Down",
+          "Type": "AxisNegative"
+        },
+        "AxisRightAnalogPositiveX": {
+          "Label": "Right Analog Right",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeX": {
+          "Label": "Right Analog Left",
+          "Type": "AxisNegative"
+        },
+        "AxisRightAnalogPositiveY": {
+          "Label": "Right Analog Up",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeY": {
+          "Label": "Right Analog Down",
+          "Type": "AxisNegative"
+        },
+        "Touchscreen": {
+          "Label": "Touchscreen",
+          "Type": "Touchscreen"
         }
       }
     },
     "PSX_CONTROLLER": {
       "LayoutID": "PSX_CONTROLLER",
-      "FriendlyName": "Playstation Controller",
+      "FriendlyName": "PlayStation Controller",
       "Platforms": ["SONY_PSX"],
       "Layout": {
         "ButtonA": {
@@ -870,6 +957,61 @@
         },
         "DirectionalW": {
           "Label": "D-Pad Left",
+          "Type": "Directional"
+        }
+      }
+    },
+    "VB_CONTROLLER": {
+      "LayoutID": "VB_CONTROLLER",
+      "FriendlyName": "Virtual Boy Controller",
+      "Platforms": ["NINTENDO_VB"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "A",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "B",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Start",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Select",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "Left D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "Left D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "Left D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "Left D-Pad Left",
+          "Type": "Directional"
+        },
+        "Button0": {
+          "Label": "Right D-Pad Up",
+          "Type": "Directional"
+        },
+        "Button1": {
+          "Label": "Right D-Pad Right",
+          "Type": "Directional"
+        },
+        "Button2": {
+          "Label": "Right D-Pad Down",
+          "Type": "Directional"
+        },
+        "Button3": {
+          "Label": "Right D-Pad Left",
           "Type": "Directional"
         }
       }
@@ -1266,7 +1408,7 @@
         "platform_company": "Nintendo"
       },
       "MaximumInputs": 1,
-      "FriendlyName": "Nintendo Game Boy",
+      "FriendlyName": "Game Boy",
       "FileExtensions": [".gb"]
     },
     "NINTENDO_GBA": {
@@ -1277,7 +1419,7 @@
         "platform_company": "Nintendo"
       },
       "MaximumInputs": 1,
-      "FriendlyName": "Nintendo Game Boy Advanced",
+      "FriendlyName": "Game Boy Advanced",
       "FileExtensions": [".gba"]
     },
     "NINTENDO_GBC": {
@@ -1288,7 +1430,7 @@
         "platform_company": "Nintendo"
       },
       "MaximumInputs": 1,
-      "FriendlyName": "Nintendo Game Boy Color",
+      "FriendlyName": "Game Boy Color",
       "FileExtensions": [".gbc"]
     },
     "NINTENDO_GCN": {
@@ -1299,7 +1441,7 @@
         "platform_company": "Nintendo"
       },
       "MaximumInputs": 4,
-      "FriendlyName": "Nintendo Gamecube",
+      "FriendlyName": "Nintendo GameCube",
       "FileExtensions": [".iso", ".gcm"]
     },
     "NINTENDO_NDS": {
@@ -1334,6 +1476,17 @@
       "MaximumInputs": 2,
       "FriendlyName": "Super Nintendo Entertainment System",
       "FileExtensions": [".sfc", ".smc"]
+    },
+    "NINTENDO_VB": {
+      "PlatformID": "NINTENDO_VB",
+      "Metadata": {
+        "platform_releasedate": "21/07/1995",
+        "platform_shortname": "VB",
+        "platform_company": "Nintendo"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Virtual Boy",
+      "FileExtensions": [".vb"]
     },
     "NINTENDO_WII": {
       "PlatformID": "NINTENDO_WII",
@@ -1442,7 +1595,7 @@
         "platform_company": "Sony"
       },
       "MaximumInputs": 4,
-      "FriendlyName": "Playstation 2",
+      "FriendlyName": "PlayStation 2",
       "FileExtensions": [".bin", ".iso", ".ps2", ".img", ".elf"]
     },
     "SONY_PSP": {
@@ -1456,6 +1609,17 @@
       "FriendlyName": "Playstation Portable",
       "FileExtensions": [".bin", ".iso", ".pbp", ".cso", ".ciso"]
     },
+    "SONY_PSV": {
+      "PlatformID": "SONY_PSV",
+      "Metadata": {
+        "platform_releasedate": "17/12/2011",
+        "platform_shortname": "PSV",
+        "platform_company": "Sony"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "PlayStation Vita",
+      "FileExtensions": [".bin", ".iso", ".pbp", ".cso", ".ciso"]
+    },
     "SONY_PSX": {
       "PlatformID": "SONY_PSX",
       "Metadata": {
@@ -1464,7 +1628,7 @@
         "platform_company": "Sony"
       },
       "MaximumInputs": 2,
-      "FriendlyName": "Playstation",
+      "FriendlyName": "PlayStation",
       "FileExtensions": [".cue", ".bin", ".iso", ".pbp"]
     }
   },
