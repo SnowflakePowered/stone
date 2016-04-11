@@ -1,0 +1,41 @@
+LayoutID: SAT_CONTROLLER
+FriendlyName: "Sega Saturn Controller"
+Platforms:
+    - SEGA_SAT
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonC:
+        Label: "C"
+        Type: Button
+    ButtonX:
+        Label: "X"
+        Type: Button
+    ButtonY:
+        Label: "Y"
+        Type: Button
+    ButtonZ:
+        Label: "Z"
+        Type: Button
+    ButtonStart:
+        Label: "Start"
+        Type: Button
+    ButtonSelect:
+        Label: "Select"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional

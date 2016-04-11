@@ -1,0 +1,9 @@
+PlatformID: NINTENDO_NDS
+Metadata:
+  platform_releasedate: 21/11/2004
+  platform_shortname: NDS
+  platform_company: Nintendo
+MaximumInputs: 1
+FriendlyName: Nintendo DS
+FileExtensions: 
+    - .nds

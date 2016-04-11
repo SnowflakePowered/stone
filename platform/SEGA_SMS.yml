@@ -1,0 +1,12 @@
+PlatformID: SEGA_SMS
+Metadata:
+  platform_releasedate: 1985
+  platform_shortname: SMS
+  platform_company: Sega
+MaximumInputs: 2
+FriendlyName: Sega Master System
+FileExtensions:
+    - .bin
+    - .sms
+
+

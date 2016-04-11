@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://snowflakepowe.red/stone/schema/platform",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "PlatformID": {
+      "id": "http://snowflakepowe.red/stone/schema/platform/PlatformID",
+      "type": "string"
+    },
+    "Metadata": {
+      "id": "http://snowflakepowe.red/stone/schema/platform/Metadata",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {}
+    },
+    "MaximumInputs": {
+      "id": "http://snowflakepowe.red/stone/schema/platform/MaximumInputs",
+      "type": "integer"
+    },
+    "FriendlyName": {
+      "id": "http://snowflakepowe.red/stone/schema/platform/FriendlyName",
+      "type": "string"
+    },
+    "FileExtensions": {
+      "id": "http://snowflakepowe.red/stone/schema/platform/FileExtensions",
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "additionalItems": true,
+      "items": {
+        "id": "http://snowflakepowe.red/stone/schema/platform/FileExtensions/0",
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "PlatformID",
+    "Metadata",
+    "MaximumInputs",
+    "FriendlyName",
+    "FileExtensions"
+  ]
+}

@@ -1,0 +1,63 @@
+LayoutID: WII_REMOTE_NUNCHUCK_CONTROLLER
+FriendlyName: "Wii Remote with Nunchuck Attachment"
+Platforms:
+    - NINTENDO_WII
+    - NINTENDO_WIIU
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonC:
+        Label: "C"
+        Type: Button
+    ButtonZ:
+        Label: "Z"
+        Type: Button
+    ButtonStart:
+        Label: "+"
+        Type: Button
+    ButtonSelect:
+        Label: "-"
+        Type: Button
+    ButtonGuide:
+        Label: "Home"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional
+    AxisLeftAnalogPositiveX:
+        Label: "Nunchuck Analog Right"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeX:
+        Label: "Nunchuck Analog Left"
+        Type: AxisNegative
+    AxisLeftAnalogPositiveY:
+        Label: "Nunchuck Analog Up"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeY:
+        Label: "Nunchuck Analog Down"
+        Type: AxisNegative
+    PointerAxisPositiveX:
+        Label: "IR Right"
+        Type: AxisPositive
+    PointerAxisNegativeX:
+        Label: "IR Left"
+        Type: AxisNegative
+    PointerAxisPositiveY:
+        Label: "IR Up"
+        Type: AxisPositive
+    PointerAxisNegativeY:
+        Label: "IR Down"
+        Type: AxisNegative

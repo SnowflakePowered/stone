@@ -1,0 +1,23 @@
+LayoutID: SMS_CONTROLLER
+FriendlyName: "Sega Master System Controller"
+Platforms:
+    - SEGA_SMS
+Layout:
+    ButtonA:
+        Label: "1"
+        Type: Button
+    ButtonB:
+        Label: "2"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional

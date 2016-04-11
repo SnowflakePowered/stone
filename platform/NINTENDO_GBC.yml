@@ -1,0 +1,10 @@
+PlatformID: NINTENDO_GBC
+Metadata:
+  platform_releasedate: 21/10/1998
+  platform_shortname: GBC
+  platform_company: Nintendo
+MaximumInputs: 1
+FriendlyName: Nintendo Game Boy Color
+FileExtensions: 
+    - .gbc
+

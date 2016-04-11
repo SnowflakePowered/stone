@@ -1,0 +1,12 @@
+PlatformID: SONY_PSX
+Metadata:
+  platform_releasedate: 03/12/1994
+  platform_shortname: PSX
+  platform_company: Sony
+MaximumInputs: 2
+FriendlyName: Playstation
+FileExtensions: 
+    - .cue
+    - .bin
+    - .iso
+    - .pbp

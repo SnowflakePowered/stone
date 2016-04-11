@@ -1,0 +1,11 @@
+PlatformID: SEGA_GEN
+Metadata:
+  platform_releasedate: 29/10/1988
+  platform_shortname: Genesis
+  platform_company: Sega
+MaximumInputs: 2
+FriendlyName: Sega Genesis
+FileExtensions:
+    - .bin
+    - .smd
+    - .rom

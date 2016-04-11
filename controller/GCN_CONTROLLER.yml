@@ -1,0 +1,72 @@
+LayoutID: GCN_CONTROLLER
+FriendlyName: "Gamecube Controller"
+Platforms:
+    - NINTENDO_GCN
+    - NINTENDO_WII
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonX:
+        Label: "X"
+        Type: Button
+    ButtonY:
+        Label: "Y"
+        Type: Button
+    ButtonZ:
+        Label: "Z"
+        Type: Button
+    TriggerLeft:
+        Label: "L"
+        Type: Trigger
+    TriggerRight:
+        Label: "R"
+        Type: Trigger
+    ButtonStart:
+        Label: "Start"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional
+    AxisLeftAnalogPositiveX:
+        Label: "Analog Right"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeX:
+        Label: "Analog Left"
+        Type: AxisNegative
+    AxisLeftAnalogPositiveY:
+        Label: "Analog Up"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeY:
+        Label: "Analog Down"
+        Type: AxisNegative
+    AxisRightAnalogPositiveX:
+        Label: "C-Stick Up"
+        Type: AxisPositive
+    AxisRightAnalogNegativeX:
+        Label: "C-Stick Down"
+        Type: AxisNegative
+    AxisRightAnalogPositiveY:
+        Label: "C-Stick Left"
+        Type: AxisPositive
+    AxisRightAnalogNegativeY:
+        Label: "C-Stick Right"
+        Type: AxisNegative
+    RumbleBig:
+        Label: "Strong Rumble"
+        Type: Rumble
+    RumbleSmall:
+        Label: "Weak Rumble"
+        Type: Rumble

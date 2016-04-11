@@ -1,0 +1,9 @@
+PlatformID: NINTENDO_GBA
+Metadata:
+  platform_releasedate: 21/10/2001
+  platform_shortname: GBA
+  platform_company: Nintendo
+MaximumInputs: 1
+FriendlyName: Nintendo Game Boy Advanced
+FileExtensions: 
+    - .gba

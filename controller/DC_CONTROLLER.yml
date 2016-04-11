@@ -1,0 +1,44 @@
+LayoutID: DC_CONTROLLER
+FriendlyName: "Dreamcast Controller"
+Platforms:
+    - SEGA_DC
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonX:
+        Label: "X"
+        Type: Button
+    ButtonY:
+        Label: "Y"
+        Type: Button
+    ButtonStart:
+        Label: "Start"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional
+    AxisLeftAnalogPositiveX:
+        Label: "Analog Right"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeX:
+        Label: "Analog Left"
+        Type: AxisNegative
+    AxisLeftAnalogPositiveY:
+        Label: "Analog Up"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeY:
+        Label: "Analog Down"
+        Type: AxisNegative

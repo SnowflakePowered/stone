@@ -1,0 +1,62 @@
+LayoutID: PSP_LAYOUT
+FriendlyName: "PSP Layout"
+Platforms:
+    - SONY_PSP
+Layout:
+    ButtonA:
+        Label: "Cross"
+        Type: Button
+    ButtonB:
+        Label: "Circle"
+        Type: Button
+    ButtonX:
+        Label: "Square"
+        Type: Button
+    ButtonY:
+        Label: "Triangle"
+        Type: Button
+    ButtonStart:
+        Label: "Start"
+        Type: Button
+    ButtonSelect:
+        Label: "Select"
+        Type: Button
+    ButtonL:
+        Label: "L"
+        Type: Button
+    ButtonR:
+        Label: "R"
+        Type: Button
+    ButtonGuide:
+        Label: "PS Button/Analog Toggle"
+        Type: Button    
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional
+    AxisLeftAnalogPositiveX:
+        Label: "Analog Right"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeX:
+        Label: "Analog Left"
+        Type: AxisNegative
+    AxisLeftAnalogPositiveY:
+        Label: "Analog Up"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeY:
+        Label: "Analog Down"
+        Type: AxisNegative
+    RumbleBig:
+        Label: "Strong Rumble"
+        Type: Rumble
+    RumbleSmall:
+        Label: "Weak Rumble"
+        Type: Rumble

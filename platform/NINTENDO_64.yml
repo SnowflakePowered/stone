@@ -1,0 +1,15 @@
+PlatformID: NINTENDO_N64
+Metadata:
+  platform_releasedate: 23/06/1996
+  platform_shortname: N64
+  platform_company: Nintendo
+MaximumInputs: 4
+FriendlyName: Nintendo 64
+FileExtensions:
+    - '.64'
+    - .n64
+    - .z64
+    - .d64
+    - .u64
+    - .v64
+    - .bin

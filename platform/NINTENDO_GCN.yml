@@ -1,0 +1,10 @@
+PlatformID: NINTENDO_GCN
+Metadata:
+  platform_releasedate: 14/9/2001
+  platform_shortname: GCN
+  platform_company: Nintendo
+MaximumInputs: 4
+FriendlyName: Nintendo Gamecube
+FileExtensions:
+    - .iso
+    - .gcm

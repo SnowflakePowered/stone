@@ -1,0 +1,9 @@
+PlatformID: SEGA_GG
+Metadata:
+  platform_releasedate: 06/10/1990
+  platform_shortname: GG
+  platform_company: Sega
+MaximumInputs: 1
+FriendlyName: Sega Game Gear
+FileExtensions: 
+    - .gg

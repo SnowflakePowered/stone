@@ -1,0 +1,9 @@
+PlatformID: NINTENDO_NES
+Metadata:
+  platform_releasedate: 18/10/1985
+  platform_shortname: NES
+  platform_company: Nintendo
+MaximumInputs: 2
+FriendlyName: Nintendo Entertainment System
+FileExtensions: 
+    - .nes

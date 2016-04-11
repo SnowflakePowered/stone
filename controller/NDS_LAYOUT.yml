@@ -1,0 +1,38 @@
+LayoutID: NDS_LAYOUT
+FriendlyName: "Nintendo DS Layout"
+Platforms:
+    - NINTENDO_DS
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonStart:
+        Label: "Start"
+        Type: Button
+    ButtonSelect:
+        Label: "Select"
+        Type: Button
+    ButtonL:
+        Label: "L"
+        Type: Button
+    ButtonR:
+        Label: "R"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional
+    Touchscreen:
+        Label: "Touchscreen"
+        Type: Touchscreen

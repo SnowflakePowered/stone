@@ -1,0 +1,11 @@
+PlatformID: NINTENDO_3DS
+Metadata:
+  platform_releasedate: 26/02/2011
+  platform_shortname: 3DS
+  platform_company: Nintendo
+MaximumInputs: 1
+FriendlyName: Nintendo 3DS
+FileExtensions: 
+    - .3ds
+    - .3dsx
+    - .cia

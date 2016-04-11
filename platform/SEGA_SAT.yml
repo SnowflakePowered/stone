@@ -1,0 +1,10 @@
+PlatformID: SEGA_SAT
+Metadata:
+  platform_releasedate: 29/10/1988
+  platform_shortname: Saturn
+  platform_company: Sega
+MaximumInputs: 2
+FriendlyName: Sega Saturn
+FileExtensions: 
+    - .iso
+

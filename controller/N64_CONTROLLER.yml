@@ -1,0 +1,59 @@
+LayoutID: N64_CONTROLLER
+FriendlyName: "Nintendo 64 Controller"
+Platforms:
+    - NINTENDO_N64
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonZ:
+        Label: "Z"
+        Type: Button
+    ButtonL:
+        Label: "L"
+        Type: Button
+    ButtonR:
+        Label: "R"
+        Type: Button
+    ButtonStart:
+        Label: "Start"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional
+    AxisLeftAnalogPositiveX:
+        Label: "Analog Right"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeX:
+        Label: "Analog Left"
+        Type: AxisNegative
+    AxisLeftAnalogPositiveY:
+        Label: "Analog Up"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeY:
+        Label: "Analog Down"
+        Type: AxisNegative
+    AxisRightAnalogPositiveX:
+        Label: "C-Button Up"
+        Type: Button
+    AxisRightAnalogNegativeX:
+        Label: "C-Button Down"
+        Type: Button
+    AxisRightAnalogPositiveY:
+        Label: "C-Button Left"
+        Type: Button
+    AxisRightAnalogNegativeY:
+        Label: "C-Button Right"
+        Type: Button

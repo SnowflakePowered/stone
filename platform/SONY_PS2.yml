@@ -1,0 +1,13 @@
+PlatformID: SONY_PS2
+Metadata:
+  platform_releasedate: 04/03/2000
+  platform_shortname: PS2
+  platform_company: Sony
+MaximumInputs: 4
+FriendlyName: Playstation 2
+FileExtensions:
+    - .bin
+    - .iso
+    - .ps2
+    - .img
+    - .elf

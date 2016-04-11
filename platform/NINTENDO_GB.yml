@@ -1,0 +1,9 @@
+PlatformID: NINTENDO_GB
+Metadata:
+  platform_releasedate: 21/04/1989
+  platform_shortname: GB
+  platform_company: Nintendo
+MaximumInputs: 1
+FriendlyName: Nintendo Game Boy
+FileExtensions: 
+    - .gb
