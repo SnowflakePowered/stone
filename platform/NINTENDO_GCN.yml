@@ -4,7 +4,7 @@ Metadata:
   platform_shortname: GCN
   platform_company: Nintendo
 MaximumInputs: 4
-FriendlyName: Nintendo Gamecube
+FriendlyName: Nintendo GameCube
 FileExtensions:
     - .iso
     - .gcm

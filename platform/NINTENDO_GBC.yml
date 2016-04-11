@@ -4,7 +4,7 @@ Metadata:
   platform_shortname: GBC
   platform_company: Nintendo
 MaximumInputs: 1
-FriendlyName: Nintendo Game Boy Color
+FriendlyName: Game Boy Color
 FileExtensions: 
     - .gbc
 

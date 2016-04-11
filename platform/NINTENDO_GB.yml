@@ -4,6 +4,6 @@ Metadata:
   platform_shortname: GB
   platform_company: Nintendo
 MaximumInputs: 1
-FriendlyName: Nintendo Game Boy
+FriendlyName: Game Boy
 FileExtensions: 
     - .gb

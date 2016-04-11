@@ -1,5 +1,5 @@
 LayoutID: GB_LAYOUT
-FriendlyName: "Nintendo Gameboy Layout"
+FriendlyName: "Game Boy Layout"
 Platforms:
     - NINTENDO_GB
     - NINTENDO_GBC

@@ -1,5 +1,5 @@
 LayoutID: GB_LAYOUT
-FriendlyName: "Nintendo Gameboy Advanced Layout"
+FriendlyName: "Game Boy Advanced Layout"
 Platforms:
     - NINTENDO_GBA
 Layout:
