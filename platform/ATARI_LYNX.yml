@@ -1,0 +1,10 @@
+PlatformID: ATARI_LYNX
+Metadata:
+  platform_releasedate: 11/10/1989
+  platform_shortname: Lynx
+  platform_company: Atari
+MaximumInputs: 1
+FriendlyName: Atari Lynx
+FileExtensions:
+    - .lnx
+    - .bin

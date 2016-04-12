@@ -1,0 +1,10 @@
+PlatformID: ATARI_7800
+Metadata:
+  platform_releasedate: 1/6/1986
+  platform_shortname: '7800'
+  platform_company: Atari
+MaximumInputs: 2
+FriendlyName: Atari 7800
+FileExtensions:
+    - .a78
+    - .bin
