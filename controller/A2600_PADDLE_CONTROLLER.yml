@@ -1,0 +1,15 @@
+LayoutID: A2600_PADDLE_CONTROLLER
+FriendlyName: "Atari 2600 Joystick"
+Platforms:
+    - ATARI_2600
+    - ATARI_7800
+Layout:
+    ButtonA:
+        Label: "Fire"
+        Type: Button
+    AxisLeftAnalogPositiveX:
+        Label: "Paddle Right"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeX:
+        Label: "Paddle Left"
+        Type: AxisNegative
