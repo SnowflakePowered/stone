@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 17/12/2011
   platform_shortname: PSV
   platform_company: Sony
+  platform_not_emulated: true
 MaximumInputs: 1
 FriendlyName: PlayStation Vita
 FileExtensions:
