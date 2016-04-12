@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 18/11/2012
   platform_shortname: WiiU
   platform_company: Nintendo
+  platform_type: Home
 MaximumInputs: 5
 FriendlyName: WiiU
 FileExtensions:

@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 15/11/1993
   platform_shortname: Jaguar
   platform_company: Atari
+  platform_type: Home
 MaximumInputs: 2
 FriendlyName: Atari Jaguar
 FileExtensions:

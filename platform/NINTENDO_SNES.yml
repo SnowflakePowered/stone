@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 21/11/1990
   platform_shortname: SNES
   platform_company: Nintendo
+  platform_type: Home
 MaximumInputs: 2
 FriendlyName: Super Nintendo Entertainment System
 FileExtensions:

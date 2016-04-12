@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 1/3/1982
   platform_shortname: '5200'
   platform_company: Atari
+  platform_type: Home
 MaximumInputs: 2
 FriendlyName: Atari 5200
 FileExtensions:

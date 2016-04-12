@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 12/12/1991
   platform_shortname: SCD
   platform_company: Sega
+  platform_type: Addon
 MaximumInputs: 2
 FriendlyName: Sega CD
 FileExtensions:

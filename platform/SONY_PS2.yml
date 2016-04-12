@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 04/03/2000
   platform_shortname: PS2
   platform_company: Sony
+  platform_type: Home
 MaximumInputs: 4
 FriendlyName: PlayStation 2
 FileExtensions:

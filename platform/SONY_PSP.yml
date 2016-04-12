@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 12/12/2004
   platform_shortname: PSP
   platform_company: Sony
+  platform_type: Handheld
 MaximumInputs: 2
 FriendlyName: Playstation Portable
 FileExtensions:

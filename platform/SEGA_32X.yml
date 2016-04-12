@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 21/11/1994
   platform_shortname: 32X
   platform_company: Sega
+  platform_type: Addon
 MaximumInputs: 2
 FriendlyName: Sega 32X
 FileExtensions:

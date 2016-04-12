@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 27/11/1998
   platform_shortname: DC
   platform_company: Sega
+  platform_type: Home
 MaximumInputs: 4
 FriendlyName: Sega Dreamcast
 FileExtensions:

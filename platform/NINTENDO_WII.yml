@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 2/12/2006
   platform_shortname: Wii
   platform_company: Nintendo
+  platform_type: Home
 MaximumInputs: 8
 FriendlyName: Wii
 FileExtensions:

@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 1/6/1986
   platform_shortname: '7800'
   platform_company: Atari
+  platform_type: Home
 MaximumInputs: 2
 FriendlyName: Atari 7800
 FileExtensions:

@@ -3,6 +3,7 @@ Metadata:
   platform_releasedate: 29/10/1988
   platform_shortname: Genesis
   platform_company: Sega
+  platform_type: Home
 MaximumInputs: 2
 FriendlyName: Sega Genesis
 FileExtensions:
