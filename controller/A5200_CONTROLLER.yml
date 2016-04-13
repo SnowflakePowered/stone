@@ -1,68 +1,68 @@
 LayoutID: A5200_CONTROLLER
+Platforms: 
+  - ATARI_5200
 FriendlyName: "Atari 5200 Controller"
-Platforms:
-    - ATARI_5200
-Layout:
-   ButtonA:
-        Label: "Fire 1"
-        Type: Button
-   ButtonB:
-        Label: "Fire 2"
-        Type: Button
-   Button0:
-        Label: "0"
-        Type: Button
-   Button1:
-        Label: "1"
-        Type: Button
-   Button2:
-        Label: "2"
-        Type: Button
-   Button3:
-        Label: "3"
-        Type: Button
-   Button4:
-        Label: "4"
-        Type: Button
-   Button5:
-        Label: "5"
-        Type: Button
-   Button6:
-        Label: "6"
-        Type: Button
-   Button7:
-        Label: "7"
-        Type: Button
-   Button8:
-        Label: "8"
-        Type: Button
-   Button9:
-        Label: "9"
-        Type: Button
-   Button10:
-        Label: "*"
-        Type: Button
-   Button11:
-        Label: "#"
-        Type: Button
-    ButtonStart:
-        Label: "Start"
-        Type: Button
-    ButtonSelect:
-        Label: "Pause"
-        Type: Button
-    ButtonGuide:
-        Label: "Reset"
-        Type: Button
-    AxisLeftAnalogPositiveX:
-        Label: "Analog Right"
-        Type: AxisPositive
-    AxisLeftAnalogNegativeX:
-        Label: "Analog Left"
-        Type: AxisNegative
-    AxisLeftAnalogPositiveY:
-        Label: "Analog Up"
-        Type: AxisPositive
-    AxisLeftAnalogNegativeY:
-        Label: "Analog Down"
-        Type: AxisNegative
+Layout: 
+  AxisLeftAnalogNegativeX: 
+    Label: "Analog Left"
+    Type: AxisNegative
+  AxisLeftAnalogNegativeY: 
+    Label: "Analog Down"
+    Type: AxisNegative
+  AxisLeftAnalogPositiveX: 
+    Label: "Analog Right"
+    Type: AxisPositive
+  AxisLeftAnalogPositiveY: 
+    Label: "Analog Up"
+    Type: AxisPositive
+  Button0: 
+    Label: "0"
+    Type: Button
+  Button1: 
+    Label: "1"
+    Type: Button
+  Button10: 
+    Label: "*"
+    Type: Button
+  Button11: 
+    Label: "#"
+    Type: Button
+  Button2: 
+    Label: "2"
+    Type: Button
+  Button3: 
+    Label: "3"
+    Type: Button
+  Button4: 
+    Label: "4"
+    Type: Button
+  Button5: 
+    Label: "5"
+    Type: Button
+  Button6: 
+    Label: "6"
+    Type: Button
+  Button7: 
+    Label: "7"
+    Type: Button
+  Button8: 
+    Label: "8"
+    Type: Button
+  Button9: 
+    Label: "9"
+    Type: Button
+  ButtonA: 
+    Label: "Fire 1"
+    Type: Button
+  ButtonB: 
+    Label: "Fire 2"
+    Type: Button
+  ButtonGuide: 
+    Label: Reset
+    Type: Button
+  ButtonSelect: 
+    Label: Pause
+    Type: Button
+  ButtonStart: 
+    Label: Start
+    Type: Button
