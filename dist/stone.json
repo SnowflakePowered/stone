@@ -1,343 +1,4 @@
 {
-  "Platforms": {
-    "ATARI_2600": {
-      "PlatformID": "ATARI_2600",
-      "Metadata": {
-        "platform_releasedate": "11/9/1977",
-        "platform_shortname": "2600",
-        "platform_company": "Atari",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Atari 2600",
-      "FileExtensions": [".a26", ".bin"]
-    },
-    "ATARI_5200": {
-      "PlatformID": "ATARI_5200",
-      "Metadata": {
-        "platform_releasedate": "1/3/1982",
-        "platform_shortname": "5200",
-        "platform_company": "Atari",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "Atari 5200",
-      "FileExtensions": [".a52", ".bin"]
-    },
-    "ATARI_7800": {
-      "PlatformID": "ATARI_7800",
-      "Metadata": {
-        "platform_releasedate": "1/6/1986",
-        "platform_shortname": "7800",
-        "platform_company": "Atari",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Atari 7800",
-      "FileExtensions": [".a78", ".bin"]
-    },
-    "ATARI_JAGUAR": {
-      "PlatformID": "ATARI_JAGUAR",
-      "Metadata": {
-        "platform_releasedate": "15/11/1993",
-        "platform_shortname": "Jaguar",
-        "platform_company": "Atari",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Atari Jaguar",
-      "FileExtensions": [".jag", ".j64", ".bin"]
-    },
-    "ATARI_LYNX": {
-      "PlatformID": "ATARI_LYNX",
-      "Metadata": {
-        "platform_releasedate": "11/10/1989",
-        "platform_shortname": "Lynx",
-        "platform_company": "Atari",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Atari Lynx",
-      "FileExtensions": [".lnx", ".bin"]
-    },
-    "NINTENDO_3DS": {
-      "PlatformID": "NINTENDO_3DS",
-      "Metadata": {
-        "platform_releasedate": "26/02/2011",
-        "platform_shortname": "3DS",
-        "platform_company": "Nintendo",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Nintendo 3DS",
-      "FileExtensions": [".3ds", ".3dsx", ".cia"]
-    },
-    "NINTENDO_64": {
-      "PlatformID": "NINTENDO_N64",
-      "Metadata": {
-        "platform_releasedate": "23/06/1996",
-        "platform_shortname": "N64",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "Nintendo 64",
-      "FileExtensions": [".64", ".n64", ".z64", ".d64", ".u64", ".v64", ".bin"]
-    },
-    "NINTENDO_GB": {
-      "PlatformID": "NINTENDO_GB",
-      "Metadata": {
-        "platform_releasedate": "21/04/1989",
-        "platform_shortname": "GB",
-        "platform_company": "Nintendo",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Game Boy",
-      "FileExtensions": [".gb"]
-    },
-    "NINTENDO_GBA": {
-      "PlatformID": "NINTENDO_GBA",
-      "Metadata": {
-        "platform_releasedate": "21/10/2001",
-        "platform_shortname": "GBA",
-        "platform_company": "Nintendo",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Game Boy Advanced",
-      "FileExtensions": [".gba"]
-    },
-    "NINTENDO_GBC": {
-      "PlatformID": "NINTENDO_GBC",
-      "Metadata": {
-        "platform_releasedate": "21/10/1998",
-        "platform_shortname": "GBC",
-        "platform_company": "Nintendo",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Game Boy Color",
-      "FileExtensions": [".gbc"]
-    },
-    "NINTENDO_GCN": {
-      "PlatformID": "NINTENDO_GCN",
-      "Metadata": {
-        "platform_releasedate": "14/9/2001",
-        "platform_shortname": "GCN",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "Nintendo GameCube",
-      "FileExtensions": [".iso", ".gcm"]
-    },
-    "NINTENDO_NDS": {
-      "PlatformID": "NINTENDO_NDS",
-      "Metadata": {
-        "platform_releasedate": "21/11/2004",
-        "platform_shortname": "NDS",
-        "platform_company": "Nintendo",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Nintendo DS",
-      "FileExtensions": [".nds"]
-    },
-    "NINTENDO_NES": {
-      "PlatformID": "NINTENDO_NES",
-      "Metadata": {
-        "platform_releasedate": "18/10/1985",
-        "platform_shortname": "NES",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Nintendo Entertainment System",
-      "FileExtensions": [".nes"]
-    },
-    "NINTENDO_SNES": {
-      "PlatformID": "NINTENDO_SNES",
-      "Metadata": {
-        "platform_releasedate": "21/11/1990",
-        "platform_shortname": "SNES",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Super Nintendo Entertainment System",
-      "FileExtensions": [".sfc", ".smc"]
-    },
-    "NINTENDO_VB": {
-      "PlatformID": "NINTENDO_VB",
-      "Metadata": {
-        "platform_releasedate": "21/07/1995",
-        "platform_shortname": "VB",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Virtual Boy",
-      "FileExtensions": [".vb"]
-    },
-    "NINTENDO_WII": {
-      "PlatformID": "NINTENDO_WII",
-      "Metadata": {
-        "platform_releasedate": "2/12/2006",
-        "platform_shortname": "Wii",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 8,
-      "FriendlyName": "Wii",
-      "FileExtensions": [".iso", ".wbfs", ".ciso"]
-    },
-    "NINTENDO_WIIU": {
-      "PlatformID": "NINTENDO_WIIU",
-      "Metadata": {
-        "platform_releasedate": "18/11/2012",
-        "platform_shortname": "WiiU",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 5,
-      "FriendlyName": "WiiU",
-      "FileExtensions": [".iso"]
-    },
-    "SEGA_32X": {
-      "PlatformID": "SEGA_32X",
-      "Metadata": {
-        "platform_releasedate": "21/11/1994",
-        "platform_shortname": "32X",
-        "platform_company": "Sega",
-        "platform_type": "Addon"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Sega 32X",
-      "FileExtensions": [".bin", ".rom", ".32x"]
-    },
-    "SEGA_CD": {
-      "PlatformID": "SEGA_CD",
-      "Metadata": {
-        "platform_releasedate": "12/12/1991",
-        "platform_shortname": "SCD",
-        "platform_company": "Sega",
-        "platform_type": "Addon"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Sega CD",
-      "FileExtensions": [".iso", ".bin"]
-    },
-    "SEGA_DC": {
-      "PlatformID": "SEGA_DC",
-      "Metadata": {
-        "platform_releasedate": "27/11/1998",
-        "platform_shortname": "DC",
-        "platform_company": "Sega",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "Sega Dreamcast",
-      "FileExtensions": [".dc", ".iso", ".bin"]
-    },
-    "SEGA_GEN": {
-      "PlatformID": "SEGA_GEN",
-      "Metadata": {
-        "platform_releasedate": "29/10/1988",
-        "platform_shortname": "Genesis",
-        "platform_company": "Sega",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Sega Genesis",
-      "FileExtensions": [".bin", ".smd", ".rom"]
-    },
-    "SEGA_GG": {
-      "PlatformID": "SEGA_GG",
-      "Metadata": {
-        "platform_releasedate": "06/10/1990",
-        "platform_shortname": "GG",
-        "platform_company": "Sega",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Sega Game Gear",
-      "FileExtensions": [".gg"]
-    },
-    "SEGA_SAT": {
-      "PlatformID": "SEGA_SAT",
-      "Metadata": {
-        "platform_releasedate": "29/10/1988",
-        "platform_shortname": "Saturn",
-        "platform_company": "Sega",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Sega Saturn",
-      "FileExtensions": [".iso"]
-    },
-    "SEGA_SMS": {
-      "PlatformID": "SEGA_SMS",
-      "Metadata": {
-        "platform_releasedate": 1985,
-        "platform_shortname": "SMS",
-        "platform_company": "Sega",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Sega Master System",
-      "FileExtensions": [".bin", ".sms"]
-    },
-    "SONY_PS2": {
-      "PlatformID": "SONY_PS2",
-      "Metadata": {
-        "platform_releasedate": "04/03/2000",
-        "platform_shortname": "PS2",
-        "platform_company": "Sony",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "PlayStation 2",
-      "FileExtensions": [".bin", ".iso", ".ps2", ".img", ".elf"]
-    },
-    "SONY_PSP": {
-      "PlatformID": "SONY_PSP",
-      "Metadata": {
-        "platform_releasedate": "12/12/2004",
-        "platform_shortname": "PSP",
-        "platform_company": "Sony",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Playstation Portable",
-      "FileExtensions": [".bin", ".iso", ".pbp", ".cso", ".ciso"]
-    },
-    "SONY_PSV": {
-      "PlatformID": "SONY_PSV",
-      "Metadata": {
-        "platform_releasedate": "17/12/2011",
-        "platform_shortname": "PSV",
-        "platform_company": "Sony",
-        "platform_not_emulated": true,
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "PlayStation Vita",
-      "FileExtensions": [".bin", ".iso", ".pbp", ".cso", ".ciso"]
-    },
-    "SONY_PSX": {
-      "PlatformID": "SONY_PSX",
-      "Metadata": {
-        "platform_releasedate": "03/12/1994",
-        "platform_shortname": "PSX",
-        "platform_company": "Sony",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "PlayStation",
-      "FileExtensions": [".cue", ".bin", ".iso", ".pbp"]
-    }
-  },
   "Controllers": {
     "A2600_JOYSTICK_CONTROLLER": {
       "LayoutID": "A2600_JOYSTICK_CONTROLLER",
@@ -1606,6 +1267,45 @@
         }
       }
     },
+    "TG16_CONTROLLER": {
+      "LayoutID": "TG16_CONTROLLER",
+      "FriendlyName": "TurboGrafx-16 Controller",
+      "Platforms": ["NEC_TG16"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "I",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "II",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Run",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Select",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        }
+      }
+    },
     "VB_CONTROLLER": {
       "LayoutID": "VB_CONTROLLER",
       "FriendlyName": "Virtual Boy Controller",
@@ -1906,6 +1606,61 @@
         }
       }
     },
+    "WS_LAYOUT": {
+      "LayoutID": "WS_LAYOUT",
+      "FriendlyName": "Bandai WonderSwan Layout",
+      "Platforms": ["BANDAI_WS", "BANDAI_WSC"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "A",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "B",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Start",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Sound",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "Y1",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "Y2",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "Y3",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "Y4",
+          "Type": "Directional"
+        },
+        "Button0": {
+          "Label": "X1",
+          "Type": "Button"
+        },
+        "Button1": {
+          "Label": "X2",
+          "Type": "Button"
+        },
+        "Button2": {
+          "Label": "X3",
+          "Type": "Button"
+        },
+        "Button3": {
+          "Label": "X4",
+          "Type": "Button"
+        }
+      }
+    },
     "XBOX_CONTROLLER": {
       "LayoutID": "XBOX_CONTROLLER",
       "FriendlyName": "XBOX 360 Controller",
@@ -2022,5 +1777,412 @@
       }
     }
   },
-  "version": "0.0.1"
+  "Platforms": {
+    "ATARI_2600": {
+      "PlatformID": "ATARI_2600",
+      "Metadata": {
+        "platform_releasedate": "11/9/1977",
+        "platform_shortname": "2600",
+        "platform_company": "Atari",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Atari 2600",
+      "FileExtensions": [".a26", ".bin"]
+    },
+    "ATARI_5200": {
+      "PlatformID": "ATARI_5200",
+      "Metadata": {
+        "platform_releasedate": "1/3/1982",
+        "platform_shortname": "5200",
+        "platform_company": "Atari",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "Atari 5200 SuperSystem",
+      "FileExtensions": [".a52", ".bin"]
+    },
+    "ATARI_7800": {
+      "PlatformID": "ATARI_7800",
+      "Metadata": {
+        "platform_releasedate": "1/6/1986",
+        "platform_shortname": "7800",
+        "platform_company": "Atari",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Atari 7800 ProSystem",
+      "FileExtensions": [".a78", ".bin"]
+    },
+    "ATARI_JAGUAR": {
+      "PlatformID": "ATARI_JAGUAR",
+      "Metadata": {
+        "platform_releasedate": "15/11/1993",
+        "platform_shortname": "Jaguar",
+        "platform_company": "Atari",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Atari Jaguar",
+      "FileExtensions": [".jag", ".j64", ".bin"]
+    },
+    "ATARI_LYNX": {
+      "PlatformID": "ATARI_LYNX",
+      "Metadata": {
+        "platform_releasedate": "11/10/1989",
+        "platform_shortname": "Lynx",
+        "platform_company": "Atari",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Atari Lynx",
+      "FileExtensions": [".lnx", ".bin"]
+    },
+    "BANDAI_WS": {
+      "PlatformID": "BANDAI_WS",
+      "Metadata": {
+        "platform_releasedate": "04/03/1999",
+        "platform_shortname": "WS",
+        "platform_company": "Bandai",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Bandai WonderSwan",
+      "FileExtensions": [".ws"]
+    },
+    "BANDAI_WSC": {
+      "PlatformID": "BANDAI_WSC",
+      "Metadata": {
+        "platform_releasedate": "09/12/2000",
+        "platform_shortname": "WSC",
+        "platform_company": "Bandai",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Bandai WonderSwan Color",
+      "FileExtensions": [".wsc", ".ws"]
+    },
+    "NEC_TG16": {
+      "PlatformID": "NEC_TG16",
+      "Metadata": {
+        "platform_releasedate": "30/10/1986",
+        "platform_shortname": "TG16",
+        "platform_jp_name": "PC Engine",
+        "platform_company": "NEC",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "TurboGrafx-16",
+      "FileExtensions": [".pce"]
+    },
+    "NINTENDO_3DS": {
+      "PlatformID": "NINTENDO_3DS",
+      "Metadata": {
+        "platform_releasedate": "26/02/2011",
+        "platform_shortname": "3DS",
+        "platform_company": "Nintendo",
+        "platform_type": "Handheld",
+        "platform_emulator_playable": false
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Nintendo 3DS",
+      "FileExtensions": [".3ds", ".3dsx", ".cia"]
+    },
+    "NINTENDO_64": {
+      "PlatformID": "NINTENDO_N64",
+      "Metadata": {
+        "platform_releasedate": "23/06/1996",
+        "platform_shortname": "N64",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "Nintendo 64",
+      "FileExtensions": [".64", ".n64", ".z64", ".d64", ".u64", ".v64", ".bin"]
+    },
+    "NINTENDO_GB": {
+      "PlatformID": "NINTENDO_GB",
+      "Metadata": {
+        "platform_releasedate": "21/04/1989",
+        "platform_shortname": "GB",
+        "platform_company": "Nintendo",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Game Boy",
+      "FileExtensions": [".gb"]
+    },
+    "NINTENDO_GBA": {
+      "PlatformID": "NINTENDO_GBA",
+      "Metadata": {
+        "platform_releasedate": "21/10/2001",
+        "platform_shortname": "GBA",
+        "platform_company": "Nintendo",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Game Boy Advanced",
+      "FileExtensions": [".gba"]
+    },
+    "NINTENDO_GBC": {
+      "PlatformID": "NINTENDO_GBC",
+      "Metadata": {
+        "platform_releasedate": "21/10/1998",
+        "platform_shortname": "GBC",
+        "platform_company": "Nintendo",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Game Boy Color",
+      "FileExtensions": [".gbc"]
+    },
+    "NINTENDO_GCN": {
+      "PlatformID": "NINTENDO_GCN",
+      "Metadata": {
+        "platform_releasedate": "14/9/2001",
+        "platform_shortname": "GCN",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "Nintendo GameCube",
+      "FileExtensions": [".iso", ".gcm"]
+    },
+    "NINTENDO_NDS": {
+      "PlatformID": "NINTENDO_NDS",
+      "Metadata": {
+        "platform_releasedate": "21/11/2004",
+        "platform_shortname": "NDS",
+        "platform_company": "Nintendo",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Nintendo DS",
+      "FileExtensions": [".nds"]
+    },
+    "NINTENDO_NES": {
+      "PlatformID": "NINTENDO_NES",
+      "Metadata": {
+        "platform_releasedate": "18/10/1985",
+        "platform_shortname": "NES",
+        "platform_jp_name": "Famicom",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Nintendo Entertainment System",
+      "FileExtensions": [".nes"]
+    },
+    "NINTENDO_SNES": {
+      "PlatformID": "NINTENDO_SNES",
+      "Metadata": {
+        "platform_releasedate": "21/11/1990",
+        "platform_shortname": "SNES",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Super Nintendo Entertainment System",
+      "FileExtensions": [".sfc", ".smc"]
+    },
+    "NINTENDO_VB": {
+      "PlatformID": "NINTENDO_VB",
+      "Metadata": {
+        "platform_releasedate": "21/07/1995",
+        "platform_shortname": "VB",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Virtual Boy",
+      "FileExtensions": [".vb"]
+    },
+    "NINTENDO_WII": {
+      "PlatformID": "NINTENDO_WII",
+      "Metadata": {
+        "platform_releasedate": "2/12/2006",
+        "platform_shortname": "Wii",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 8,
+      "FriendlyName": "Wii",
+      "FileExtensions": [".iso", ".wbfs", ".ciso"]
+    },
+    "NINTENDO_WIIU": {
+      "PlatformID": "NINTENDO_WIIU",
+      "Metadata": {
+        "platform_releasedate": "18/11/2012",
+        "platform_shortname": "WiiU",
+        "platform_company": "Nintendo",
+        "platform_type": "Home",
+        "platform_emulator_playable": false
+      },
+      "MaximumInputs": 5,
+      "FriendlyName": "WiiU",
+      "FileExtensions": [".iso"]
+    },
+    "SEGA_32X": {
+      "PlatformID": "SEGA_32X",
+      "Metadata": {
+        "platform_releasedate": "21/11/1994",
+        "platform_shortname": "32X",
+        "platform_company": "Sega",
+        "platform_type": "Addon"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Sega 32X",
+      "FileExtensions": [".bin", ".rom", ".32x"]
+    },
+    "SEGA_CD": {
+      "PlatformID": "SEGA_CD",
+      "Metadata": {
+        "platform_releasedate": "12/12/1991",
+        "platform_shortname": "SCD",
+        "platform_company": "Sega",
+        "platform_type": "Addon"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Sega CD",
+      "FileExtensions": [".iso", ".bin"]
+    },
+    "SEGA_DC": {
+      "PlatformID": "SEGA_DC",
+      "Metadata": {
+        "platform_releasedate": "27/11/1998",
+        "platform_shortname": "DC",
+        "platform_company": "Sega",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "Sega Dreamcast",
+      "FileExtensions": [".dc", ".iso", ".bin"]
+    },
+    "SEGA_GEN": {
+      "PlatformID": "SEGA_GEN",
+      "Metadata": {
+        "platform_releasedate": "29/10/1988",
+        "platform_shortname": "Genesis",
+        "platform_eu_name": "Mega Drive",
+        "platform_jp_name": "Mega Drive",
+        "platform_company": "Sega",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Sega Genesis",
+      "FileExtensions": [".bin", ".smd", ".rom"]
+    },
+    "SEGA_GG": {
+      "PlatformID": "SEGA_GG",
+      "Metadata": {
+        "platform_releasedate": "06/10/1990",
+        "platform_shortname": "GG",
+        "platform_company": "Sega",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Sega Game Gear",
+      "FileExtensions": [".gg"]
+    },
+    "SEGA_SAT": {
+      "PlatformID": "SEGA_SAT",
+      "Metadata": {
+        "platform_releasedate": "29/10/1988",
+        "platform_shortname": "Saturn",
+        "platform_company": "Sega",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Sega Saturn",
+      "FileExtensions": [".iso"]
+    },
+    "SEGA_SMS": {
+      "PlatformID": "SEGA_SMS",
+      "Metadata": {
+        "platform_releasedate": 1985,
+        "platform_shortname": "SMS",
+        "platform_company": "Sega",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Sega Master System",
+      "FileExtensions": [".bin", ".sms"]
+    },
+    "SONY_PS2": {
+      "PlatformID": "SONY_PS2",
+      "Metadata": {
+        "platform_releasedate": "04/03/2000",
+        "platform_shortname": "PS2",
+        "platform_company": "Sony",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "PlayStation 2",
+      "FileExtensions": [".bin", ".iso", ".ps2", ".img", ".elf"]
+    },
+    "SONY_PS3": {
+      "PlatformID": "SONY_PS3",
+      "Metadata": {
+        "platform_releasedate": "11/11/2006",
+        "platform_shortname": "PS3",
+        "platform_company": "Sony",
+        "platform_emulator_playable": false,
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "PlayStation 3",
+      "FileExtensions": [".iso", ".elf", ".pbp"]
+    },
+    "SONY_PS4": {
+      "PlatformID": "SONY_PS4",
+      "Metadata": {
+        "platform_releasedate": "15/11/2013",
+        "platform_shortname": "PS4",
+        "platform_company": "Sony",
+        "platform_emulator_playable": false,
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "PlayStation 4",
+      "FileExtensions": [".iso", ".elf", ".pbp"]
+    },
+    "SONY_PSP": {
+      "PlatformID": "SONY_PSP",
+      "Metadata": {
+        "platform_releasedate": "12/12/2004",
+        "platform_shortname": "PSP",
+        "platform_company": "Sony",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Playstation Portable",
+      "FileExtensions": [".bin", ".iso", ".pbp", ".cso", ".ciso"]
+    },
+    "SONY_PSV": {
+      "PlatformID": "SONY_PSV",
+      "Metadata": {
+        "platform_releasedate": "17/12/2011",
+        "platform_shortname": "PSV",
+        "platform_company": "Sony",
+        "platform_not_emulated": true,
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "PlayStation Vita",
+      "FileExtensions": [".bin", ".iso", ".pbp", ".cso", ".ciso"]
+    },
+    "SONY_PSX": {
+      "PlatformID": "SONY_PSX",
+      "Metadata": {
+        "platform_releasedate": "03/12/1994",
+        "platform_shortname": "PSX",
+        "platform_company": "Sony",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "PlayStation",
+      "FileExtensions": [".cue", ".bin", ".iso", ".pbp"]
+    }
+  },
+  "version": "0.0.2"
 }
