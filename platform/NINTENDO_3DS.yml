@@ -4,6 +4,7 @@ Metadata:
   platform_shortname: 3DS
   platform_company: Nintendo
   platform_type: Handheld
+  platform_emulator_playable: false
 MaximumInputs: 1
 FriendlyName: Nintendo 3DS
 FileExtensions: 

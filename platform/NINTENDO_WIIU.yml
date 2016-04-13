@@ -4,6 +4,7 @@ Metadata:
   platform_shortname: WiiU
   platform_company: Nintendo
   platform_type: Home
+  platform_emulator_playable: false
 MaximumInputs: 5
 FriendlyName: WiiU
 FileExtensions:
