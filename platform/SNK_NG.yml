@@ -1,0 +1,10 @@
+PlatformID: SNK_NG
+Metadata:
+  platform_releasedate: 26/04/1991
+  platform_shortname: NG
+  platform_company: SNK
+  platform_type: Home
+MaximumInputs: 2
+FriendlyName: Neo Geo
+FileExtensions: 
+    - .zip

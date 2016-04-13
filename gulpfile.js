@@ -50,3 +50,15 @@ gulp.task('default', function() {
         .pipe(gulp.dest('./dist'))
 
 })
+
+gulp.task('format-platform', function() {
+    var platformSrc = gulp.src('./platform/*.yml')
+        .pipe(yaml({ space: 2, safe: true }))
+        .pipe(gulp.dest("./src/platform"))
+})
+
+gulp.task('format-controller', function() {
+    var controllerSrc = gulp.src('./controller/*.yml')
+        .pipe(yaml({ space: 2, safe: true }))
+        .pipe(gulp.dest("./src/controller"))
+})

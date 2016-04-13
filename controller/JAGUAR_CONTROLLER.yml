@@ -3,6 +3,15 @@ Platforms:
   - ATARI_JAGUAR
 FriendlyName: "Atari Jaguar Controller"
 Layout: 
+  ButtonA: 
+    Label: A
+    Type: Button
+  ButtonB: 
+    Label: B
+    Type: Button
+  ButtonX: 
+    Label: C #Only define a 'ButtonC' for 6-button gamepads
+    Type: Button
   Button0: 
     Label: "0"
     Type: Button
@@ -38,15 +47,6 @@ Layout:
     Type: Button
   Button9: 
     Label: "9"
-    Type: Button
-  ButtonA: 
-    Label: A
-    Type: Button
-  ButtonB: 
-    Label: B
-    Type: Button
-  ButtonC: 
-    Label: C
     Type: Button
   ButtonSelect: 
     Label: Pause

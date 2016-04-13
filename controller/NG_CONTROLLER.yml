@@ -1,0 +1,50 @@
+LayoutID: NG_CONTROLLER
+FriendlyName: "Neo Geo Controller"
+Platforms:
+    - SNK_NG
+    - SNK_NGCD
+Layout:
+# The Neo Geo has an 8-directional digital joystick
+    ButtonA:
+       Label: "A"
+       Type: Button
+    ButtonB:
+       Label: "B"
+       Type: Button
+# For a 4 button layout, the convention is ABXY instead of ABCD. Only access Z and C buttons for 6-button ABCXYZ layouts.
+    ButtonX: 
+       Label: "C"
+       Type: Button
+    ButtonY:
+       Label: "D"
+       Type: Button
+    ButtonStart: 
+       Label: "Start"
+       Type: Button
+    ButtonSelect:
+       Label: "Select"
+       Type: Button
+    DirectionalN:
+       Label: "D-Pad Up"
+       Type: Directional
+    DirectionalE:
+       Label: "D-Pad Right"
+       Type: Directional
+    DirectionalS:
+       Label: "D-Pad Down"
+       Type: Directional
+    DirectionalW:
+       Label: "D-Pad Left"
+       Type: Directional
+    DirectionalNE:
+       Label: "D-Pad Up Right"
+       Type: Directional
+    DirectionalSE:
+       Label: "D-Pad Down Right"
+       Type: Directional
+    DirectionalNW:
+       Label: "D-Pad Up Left"
+       Type: Directional
+    DirectionalSW:
+       Label: "D-Pad Down Left"
+       Type: Directional
