@@ -1,0 +1,42 @@
+LayoutID: WS_LAYOUT
+FriendlyName: "Bandai WonderSwan Layout"
+Platforms:
+    - BANDAI_WS
+    - BANDAI_WSC
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonStart:
+        Label: "Start"
+        Type: Button
+    ButtonSelect:
+        Label: "Sound"
+        Type: Button
+    DirectionalN:
+        Label: "Y1"
+        Type: Directional
+    DirectionalE:
+        Label: "Y2"
+        Type: Directional
+    DirectionalS:
+        Label: "Y3"
+        Type: Directional
+    DirectionalW:
+        Label: "Y4"
+        Type: Directional
+    Button0:
+        Label: "X1"
+        Type: Button
+    Button1:
+        Label: "X2"
+        Type: Button
+    Button2:
+        Label: "X3"
+        Type: Button
+    Button3:
+        Label: "X4"
+        Type: Button

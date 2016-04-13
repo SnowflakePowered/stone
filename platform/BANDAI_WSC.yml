@@ -1,0 +1,11 @@
+PlatformID: BANDAI_WSC
+Metadata:
+  platform_releasedate: 09/12/2000
+  platform_shortname: WSC
+  platform_company: Bandai
+  platform_type: Handheld
+MaximumInputs: 1
+FriendlyName: Bandai WonderSwan Color
+FileExtensions: 
+    - .wsc
+    - .ws
