@@ -5,7 +5,7 @@ Metadata:
   platform_company: Atari
   platform_type: Home
 MaximumInputs: 2
-FriendlyName: Atari 7800
+FriendlyName: Atari 7800 ProSystem
 FileExtensions:
     - .a78
     - .bin

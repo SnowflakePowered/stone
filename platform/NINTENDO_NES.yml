@@ -2,6 +2,7 @@ PlatformID: NINTENDO_NES
 Metadata:
   platform_releasedate: 18/10/1985
   platform_shortname: NES
+  platform_jp_name: Famicom
   platform_company: Nintendo
   platform_type: Home
 MaximumInputs: 2

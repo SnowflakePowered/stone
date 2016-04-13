@@ -5,7 +5,7 @@ Metadata:
   platform_company: Atari
   platform_type: Home
 MaximumInputs: 4
-FriendlyName: Atari 5200
+FriendlyName: Atari 5200 SuperSystem
 FileExtensions:
     - .a52
     - .bin
