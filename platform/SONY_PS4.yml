@@ -1,0 +1,13 @@
+PlatformID: SONY_PS4
+Metadata:
+  platform_releasedate: 15/11/2013
+  platform_shortname: PS4
+  platform_company: Sony
+  platform_emulator_playable: false
+  platform_type: Home
+MaximumInputs: 4
+FriendlyName: PlayStation 4
+FileExtensions:
+    - .iso
+    - .elf
+    - .pbp
