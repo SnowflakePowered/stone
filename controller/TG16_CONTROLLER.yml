@@ -1,0 +1,30 @@
+
+LayoutID: TG16_CONTROLLER
+FriendlyName: "TurboGrafx-16 Controller"
+Platforms:
+    - NEC_TG16
+Layout:
+    ButtonA:
+        Label: "I"
+        Type: Button
+    ButtonB:
+        Label: "II"
+        Type: Button
+    ButtonStart:
+        Label: "Run"
+        Type: Button
+    ButtonSelect:
+        Label: "Select"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional
