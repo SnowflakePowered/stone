@@ -1,0 +1,68 @@
+LayoutID: JAGUAR_CONTROLLER
+Platforms: 
+  - ATARI_JAGUAR
+FriendlyName: "Atari Jaguar Controller"
+Layout: 
+  Button0: 
+    Label: "0"
+    Type: Button
+  Button1: 
+    Label: "1"
+    Type: Button
+  Button10: 
+    Label: "*"
+    Type: Button
+  Button11: 
+    Label: "#"
+    Type: Button
+  Button2: 
+    Label: "2"
+    Type: Button
+  Button3: 
+    Label: "3"
+    Type: Button
+  Button4: 
+    Label: "4"
+    Type: Button
+  Button5: 
+    Label: "5"
+    Type: Button
+  Button6: 
+    Label: "6"
+    Type: Button
+  Button7: 
+    Label: "7"
+    Type: Button
+  Button8: 
+    Label: "8"
+    Type: Button
+  Button9: 
+    Label: "9"
+    Type: Button
+  ButtonA: 
+    Label: A
+    Type: Button
+  ButtonB: 
+    Label: B
+    Type: Button
+  ButtonC: 
+    Label: C
+    Type: Button
+  ButtonSelect: 
+    Label: Pause
+    Type: Button
+  ButtonStart: 
+    Label: Option
+    Type: Button
+  DirectionalE: 
+    Label: "D-Pad Right"
+    Type: Directional
+  DirectionalN: 
+    Label: "D-Pad Up"
+    Type: Directional
+  DirectionalS: 
+    Label: "D-Pad Down"
+    Type: Directional
+  DirectionalW: 
+    Label: "D-Pad Left"
+    Type: Directional

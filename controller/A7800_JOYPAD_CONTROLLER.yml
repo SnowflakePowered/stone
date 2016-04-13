@@ -4,20 +4,20 @@ Platforms:
     - ATARI_7800
 Layout:
     ButtonA:
-        Label: "A"
-        Type: Button
+       Label: "A"
+       Type: Button
     ButtonB:
-        Label: "B"
-        Type: Button
+       Label: "B"
+       Type: Button
     DirectionalN:
-        Label: "D-Pad Up"
-        Type: Directional
+       Label: "D-Pad Up"
+       Type: Directional
     DirectionalE:
-        Label: "D-Pad Right"
-        Type: Directional
+       Label: "D-Pad Right"
+       Type: Directional
     DirectionalS:
-        Label: "D-Pad Down"
-        Type: Directional
+       Label: "D-Pad Down"
+       Type: Directional
     DirectionalW:
-        Label: "D-Pad Left"
-        Type: Directional
+       Label: "D-Pad Left"
+       Type: Directional

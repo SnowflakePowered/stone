@@ -1,0 +1,35 @@
+LayoutID: LYNX_LAYOUT
+FriendlyName: "Atari Lynx Layout"
+Platforms:
+    - ATARI_LYNX
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonStart:
+        Label: "Option 1"
+        Type: Button
+    ButtonSelect:
+        Label: "Option 2"
+        Type: Button
+    ButtonGuide:
+        Label: "Restart"
+        Type: Button
+    Button0: 
+        Label: "Flip"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional
