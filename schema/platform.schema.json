@@ -11,7 +11,10 @@
     "Metadata": {
       "id": "http://snowflakepowe.red/stone/schema/platform/Metadata",
       "type": "object",
-      "additionalProperties": true,
+      "additionalProperties": false,
+      "patternProperties": {
+           "^platform_": { "type": ["string", "number", "boolean"] }
+       },
       "properties": {}
     },
     "MaximumInputs": {
@@ -30,7 +33,8 @@
       "additionalItems": true,
       "items": {
         "id": "http://snowflakepowe.red/stone/schema/platform/FileExtensions/0",
-        "type": "string"
+        "type": "string",
+        "pattern": "^\\."
       }
     }
   },
