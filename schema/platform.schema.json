@@ -13,7 +13,7 @@
       "type": "object",
       "additionalProperties": false,
       "patternProperties": {
-           "^platform_": { "type": ["string", "number", "boolean"] }
+           "^platform_": { "type": "string" }
        },
       "properties": {}
     },

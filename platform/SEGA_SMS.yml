@@ -1,6 +1,6 @@
 PlatformID: SEGA_SMS
 Metadata:
-  platform_releasedate: 1985
+  platform_releasedate: "1985"
   platform_shortname: SMS
   platform_company: Sega
   platform_type: Home

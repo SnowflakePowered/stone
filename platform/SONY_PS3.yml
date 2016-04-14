@@ -3,7 +3,7 @@ Metadata:
   platform_releasedate: 11/11/2006
   platform_shortname: PS3
   platform_company: Sony
-  platform_emulator_playable: false
+  platform_emulator_dev: rpcs3
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: PlayStation 3
