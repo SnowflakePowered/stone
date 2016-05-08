@@ -7,7 +7,7 @@ Metadata:
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: PlayStation 3
-FileExtensions:
-    - .iso
-    - .elf
-    - .pbp
+FileTypes:
+    - .iso: 'application/x-romfile-ps3'
+    - .elf: 'application/x-romfile-ps3-elf'
+    - .pbp: 'application/x-romfile-ps3-pbp'

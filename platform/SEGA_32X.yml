@@ -6,7 +6,11 @@ Metadata:
   platform_type: Addon
 MaximumInputs: 2
 FriendlyName: Sega 32X
-FileExtensions:
-    - .bin
-    - .rom
-    - .32x
+FileTypes:
+    - .bin: 'application/x-romfile-32x'
+    - .rom: 'application/x-romfile-32x'
+    - .32x: 'application/x-romfile-32x'
+BiosFiles:
+    - 32X_G_BIOS.BIN
+    - 32X_S_BIOS.BIN
+    - 32X_M_BIOS.BIN

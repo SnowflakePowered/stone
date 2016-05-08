@@ -2,10 +2,10 @@ PlatformID: NINTENDO_NES
 Metadata:
   platform_releasedate: 18/10/1985
   platform_shortname: NES
-  platform_jp_name: Famicom
+  platform_jp_name: Family Computer
   platform_company: Nintendo
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Nintendo Entertainment System
-FileExtensions: 
-    - .nes
+FileTypes: 
+    - .nes: 'application/x-romfile-nes'

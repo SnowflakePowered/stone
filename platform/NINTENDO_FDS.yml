@@ -1,0 +1,12 @@
+PlatformID: NINTENDO_FDS
+Metadata:
+  platform_releasedate: 18/10/1985
+  platform_shortname: FDS
+  platform_company: Nintendo
+  platform_type: Home
+MaximumInputs: 2
+FriendlyName: Family Computer Disk System
+FileTypes: 
+    - .fds: 'application/x-romfile-fds'
+BiosFiles:
+    - disksys.rom

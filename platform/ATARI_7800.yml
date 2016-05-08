@@ -6,6 +6,9 @@ Metadata:
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Atari 7800 ProSystem
-FileExtensions:
-    - .a78
-    - .bin
+FileTypes:
+    - .a78: 'application/x-romfile-7800'
+    - .bin: 'application/x-romfile-7800'
+BiosFiles:
+    - 7800 BIOS (U).rom
+    - 7800 BIOS (E).rom

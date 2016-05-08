@@ -6,6 +6,7 @@ Metadata:
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Sega Saturn
-FileExtensions: 
-    - .iso
-
+FileTypes: 
+    - .iso: 'application/x-romfile-sat'
+BiosFiles:
+    - saturn_bios.bin

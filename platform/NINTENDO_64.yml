@@ -6,11 +6,12 @@ Metadata:
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: Nintendo 64
-FileExtensions:
-    - '.64'
-    - .n64
-    - .z64
-    - .d64
-    - .u64
-    - .v64
-    - .bin
+FileTypes:
+    - '.64': 'application/x-romfile-n64-indeterminate'
+    - .n64: 'application/x-romfile-n64-littleendian'
+    - .z64: 'application/x-romfile-n64-bigendian'
+    - .d64: 'application/x-romfile-n64-dd'
+    - .u64: 'application/x-romfile-n64-byteswapped'
+    - .v64: 'application/x-romfile-n64-byteswapped'
+    - .rom: 'application/x-romfile-n64-byteswapped'
+    - .bin: 'application/x-romfile-n64-indeterminate'

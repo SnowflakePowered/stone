@@ -6,8 +6,10 @@ Metadata:
   platform_type: Home
 MaximumInputs: 8
 FriendlyName: Wii
-FileExtensions:
-    - .iso
-    - .wbfs
-    - .ciso
-
+FileTypes:
+    - .iso: 'application/x-romfile-wii'
+    - .wbfs: 'application/x-romfile-wbfs'
+    - .ciso: 'application/x-romfile-wii-compressed'
+BiosFiles:
+    - dsp_rom.bin
+    - dsp_coef.bin

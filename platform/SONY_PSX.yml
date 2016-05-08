@@ -6,8 +6,19 @@ Metadata:
   platform_type: Handheld
 MaximumInputs: 2
 FriendlyName: PlayStation
-FileExtensions: 
-    - .cue
-    - .bin
-    - .iso
-    - .pbp
+FileTypes: 
+    - .m3u: 'text/x-romfile-psx-m3u'
+    - .toc: 'text/x-romfile-psx-toc'
+    - .cue: 'text/x-romfile-psx-cue'
+    - .bin: 'application/x-romfile-psx'
+    - .iso: 'application/x-romfile-psx'
+    - .img: 'application/x-romfile-psx'
+    - .sub: 'application/x-romfile-psx-sub'
+    - .pbp: 'application/x-romfile-psx-pbp'
+    - .ccd: 'text/x-romfile-psx-ccd'
+    - .znx: 'application/x-romfile-psx-compressed'
+BiosFiles:
+    - scph1001.bin
+    - scph5500.bin
+    - scph5501.bin
+    - scph5502.bin

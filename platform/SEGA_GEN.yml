@@ -8,7 +8,7 @@ Metadata:
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Sega Genesis
-FileExtensions:
-    - .bin
-    - .smd
-    - .rom
+FileTypes:
+    - .bin: 'application/x-romfile-gen'
+    - .smd: 'application/x-romfile-gen'
+    - .rom: 'application/x-romfile-gen'

@@ -6,6 +6,7 @@ Metadata:
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Atari 2600
-FileExtensions:
-    - .a26
-    - .bin
+FileTypes:
+    - .a26: 'application/x-romfile-2600'
+    - .bin: 'application/x-romfile-2600'
+    - .rom: 'application/x-romfile-2600'

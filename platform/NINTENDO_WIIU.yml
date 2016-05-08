@@ -7,6 +7,6 @@ Metadata:
   platform_emulator_dev: cemu
 MaximumInputs: 5
 FriendlyName: WiiU
-FileExtensions:
-    - .iso
+FileTypes:
+    - .iso: 'application/x-romfile-wiiu-iso'
 

@@ -25,16 +25,29 @@
       "id": "http://snowflakepowe.red/stone/schema/platform/FriendlyName",
       "type": "string"
     },
-    "FileExtensions": {
-      "id": "http://snowflakepowe.red/stone/schema/platform/FileExtensions",
+    "FileTypes": {
+      "id": "http://snowflakepowe.red/stone/schema/platform/FileTypes",
       "type": "array",
       "minItems": 1,
       "uniqueItems": true,
       "additionalItems": true,
       "items": {
-        "id": "http://snowflakepowe.red/stone/schema/platform/FileExtensions/0",
-        "type": "string",
-        "pattern": "^\\."
+        "id": "http://snowflakepowe.red/stone/schema/platform/FileTypes/0",
+        "type": "object",
+        "patternProperties": {
+          "^\\." : { 
+              "type": "string",
+              "pattern" : "^(application|text)\/x-romfile-.+"
+          }
+        }
+      }
+    },
+    "BiosFiles": {
+      "id": "http://snowflakepowe.red/stone/schema/platform/BiosFiles",
+      "type": "array",
+      "items": {
+        "type" : "string",
+        "pattern" : "^.+\\..+"
       }
     }
   },
@@ -43,6 +56,6 @@
     "Metadata",
     "MaximumInputs",
     "FriendlyName",
-    "FileExtensions"
+    "FileTypes"
   ]
 }

@@ -6,9 +6,9 @@ Metadata:
   platform_type: Handheld
 MaximumInputs: 2
 FriendlyName: Playstation Portable
-FileExtensions:
-    - .bin
-    - .iso
-    - .pbp
-    - .cso
-    - .ciso
+FileTypes:
+    - .bin: 'application/x-romfile-psp'
+    - .iso: 'application/x-romfile-psp'
+    - .pbp: 'application/x-romfile-psp-pbp'
+    - .cso: 'application/x-romfile-psp-compressed'
+    - .ciso: 'application/x-romfile-psp-compressed'

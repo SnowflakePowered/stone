@@ -6,6 +6,8 @@ Metadata:
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: Atari 5200 SuperSystem
-FileExtensions:
-    - .a52
-    - .bin
+FileTypes:
+    - .a52: 'application/x-romfile-5200'
+    - .bin: 'application/x-romfile-5200'
+BiosFiles:
+    - 5200.rom

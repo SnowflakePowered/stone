@@ -6,7 +6,12 @@ Metadata:
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: Sega Dreamcast
-FileExtensions:
-    - .dc
-    - .iso
-    - .bin
+FileTypes:
+    - .dc: 'application/x-romfile-dc'
+    - .iso: 'application/x-romfile-dc'
+    - .bin: 'application/x-romfile-dc'
+    - .cdi: 'application/x-romfile-dc'
+    - .gdi: 'application/x-romfile-dc'
+BiosFiles:
+    - dc_boot.bin
+    - dc_flash.bin

@@ -1902,7 +1902,13 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Atari 2600",
-      "FileExtensions": [".a26", ".bin"]
+      "FileTypes": [{
+        ".a26": "application/x-romfile-2600"
+      }, {
+        ".bin": "application/x-romfile-2600"
+      }, {
+        ".rom": "application/x-romfile-2600"
+      }]
     },
     "ATARI_5200": {
       "PlatformID": "ATARI_5200",
@@ -1914,7 +1920,12 @@
       },
       "MaximumInputs": 4,
       "FriendlyName": "Atari 5200 SuperSystem",
-      "FileExtensions": [".a52", ".bin"]
+      "FileTypes": [{
+        ".a52": "application/x-romfile-5200"
+      }, {
+        ".bin": "application/x-romfile-5200"
+      }],
+      "BiosFiles": ["5200.rom"]
     },
     "ATARI_7800": {
       "PlatformID": "ATARI_7800",
@@ -1926,7 +1937,12 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Atari 7800 ProSystem",
-      "FileExtensions": [".a78", ".bin"]
+      "FileTypes": [{
+        ".a78": "application/x-romfile-7800"
+      }, {
+        ".bin": "application/x-romfile-7800"
+      }],
+      "BiosFiles": ["7800 BIOS (U).rom", "7800 BIOS (E).rom"]
     },
     "ATARI_JAGUAR": {
       "PlatformID": "ATARI_JAGUAR",
@@ -1938,7 +1954,11 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Atari Jaguar",
-      "FileExtensions": [".jag", ".j64", ".bin"]
+      "FileTypes": [{
+        ".jag": "application/x-romfile-jaguar"
+      }, {
+        ".j64": "application/x-romfile-jaguar"
+      }]
     },
     "ATARI_LYNX": {
       "PlatformID": "ATARI_LYNX",
@@ -1950,7 +1970,10 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Atari Lynx",
-      "FileExtensions": [".lnx", ".bin"]
+      "FileTypes": [{
+        ".lnx": "application/x-romfile-lynx"
+      }],
+      "BiosFiles": ["lynxboot.img"]
     },
     "BANDAI_WS": {
       "PlatformID": "BANDAI_WS",
@@ -1962,7 +1985,9 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Bandai WonderSwan",
-      "FileExtensions": [".ws"]
+      "FileTypes": [{
+        ".ws": "application/x-romfile-ws"
+      }]
     },
     "BANDAI_WSC": {
       "PlatformID": "BANDAI_WSC",
@@ -1974,7 +1999,9 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Bandai WonderSwan Color",
-      "FileExtensions": [".wsc", ".ws"]
+      "FileTypes": [{
+        ".wsc": "application/x-romfile-wsc"
+      }]
     },
     "NEC_TG16": {
       "PlatformID": "NEC_TG16",
@@ -1987,7 +2014,10 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "TurboGrafx-16",
-      "FileExtensions": [".pce"]
+      "FileTypes": [{
+        ".pce": "application/x-romfile-tg16"
+      }],
+      "BiosFiles": ["syscard1.pce", "syscard2.pce", "syscard3.pce"]
     },
     "NINTENDO_3DS": {
       "PlatformID": "NINTENDO_3DS",
@@ -2000,7 +2030,13 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Nintendo 3DS",
-      "FileExtensions": [".3ds", ".3dsx", ".cia"]
+      "FileTypes": [{
+        ".3ds": "application/x-romfile-3ds"
+      }, {
+        ".3dsx": "application/x-romfile-3ds-3dsx"
+      }, {
+        ".cia": "application/x-romfile-3ds-cia"
+      }]
     },
     "NINTENDO_64": {
       "PlatformID": "NINTENDO_N64",
@@ -2012,7 +2048,38 @@
       },
       "MaximumInputs": 4,
       "FriendlyName": "Nintendo 64",
-      "FileExtensions": [".64", ".n64", ".z64", ".d64", ".u64", ".v64", ".bin"]
+      "FileTypes": [{
+        ".64": "application/x-romfile-n64-indeterminate"
+      }, {
+        ".n64": "application/x-romfile-n64-littleendian"
+      }, {
+        ".z64": "application/x-romfile-n64-bigendian"
+      }, {
+        ".d64": "application/x-romfile-n64-dd"
+      }, {
+        ".u64": "application/x-romfile-n64-byteswapped"
+      }, {
+        ".v64": "application/x-romfile-n64-byteswapped"
+      }, {
+        ".rom": "application/x-romfile-n64-byteswapped"
+      }, {
+        ".bin": "application/x-romfile-n64-indeterminate"
+      }]
+    },
+    "NINTENDO_FDS": {
+      "PlatformID": "NINTENDO_FDS",
+      "Metadata": {
+        "platform_releasedate": "18/10/1985",
+        "platform_shortname": "FDS",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Family Computer Disk System",
+      "FileTypes": [{
+        ".fds": "application/x-romfile-fds"
+      }],
+      "BiosFiles": ["disksys.rom"]
     },
     "NINTENDO_GB": {
       "PlatformID": "NINTENDO_GB",
@@ -2024,7 +2091,9 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Game Boy",
-      "FileExtensions": [".gb"]
+      "FileTypes": [{
+        ".gb": "application/x-romfile-gb"
+      }]
     },
     "NINTENDO_GBA": {
       "PlatformID": "NINTENDO_GBA",
@@ -2036,7 +2105,10 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Game Boy Advanced",
-      "FileExtensions": [".gba"]
+      "FileTypes": [{
+        ".gba": "application/x-romfile-gba"
+      }],
+      "BiosFiles": ["gba_bios.bin"]
     },
     "NINTENDO_GBC": {
       "PlatformID": "NINTENDO_GBC",
@@ -2048,7 +2120,10 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Game Boy Color",
-      "FileExtensions": [".gbc"]
+      "FileTypes": [{
+        ".gbc": "application/x-romfile-gbc"
+      }],
+      "BiosFiles": ["gbc_bios.bin"]
     },
     "NINTENDO_GCN": {
       "PlatformID": "NINTENDO_GCN",
@@ -2060,7 +2135,12 @@
       },
       "MaximumInputs": 4,
       "FriendlyName": "Nintendo GameCube",
-      "FileExtensions": [".iso", ".gcm"]
+      "FileTypes": [{
+        ".iso": "application/x-romfile-gcn"
+      }, {
+        ".gcm": "application/x-romfile-gcn"
+      }],
+      "BiosFiles": ["IPL.bin", "IPL_E.bin", "IPL_U.bin", "IPL_J.bin"]
     },
     "NINTENDO_NDS": {
       "PlatformID": "NINTENDO_NDS",
@@ -2072,20 +2152,25 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Nintendo DS",
-      "FileExtensions": [".nds"]
+      "FileTypes": [{
+        ".nds": "application/x-romfile-nds"
+      }],
+      "BiosFiles": ["firmware.bin", "biosnds7.rom", "biosnds9.rom"]
     },
     "NINTENDO_NES": {
       "PlatformID": "NINTENDO_NES",
       "Metadata": {
         "platform_releasedate": "18/10/1985",
         "platform_shortname": "NES",
-        "platform_jp_name": "Famicom",
+        "platform_jp_name": "Family Computer",
         "platform_company": "Nintendo",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
       "FriendlyName": "Nintendo Entertainment System",
-      "FileExtensions": [".nes"]
+      "FileTypes": [{
+        ".nes": "application/x-romfile-nes"
+      }]
     },
     "NINTENDO_SNES": {
       "PlatformID": "NINTENDO_SNES",
@@ -2097,7 +2182,11 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Super Nintendo Entertainment System",
-      "FileExtensions": [".sfc", ".smc"]
+      "FileTypes": [{
+        ".sfc": "application/x-romfile-sfc"
+      }, {
+        ".smc": "application/x-romfile-smc"
+      }]
     },
     "NINTENDO_VB": {
       "PlatformID": "NINTENDO_VB",
@@ -2109,7 +2198,9 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Virtual Boy",
-      "FileExtensions": [".vb"]
+      "FileTypes": [{
+        ".vb": "application/x-romfile-vb"
+      }]
     },
     "NINTENDO_WII": {
       "PlatformID": "NINTENDO_WII",
@@ -2121,7 +2212,14 @@
       },
       "MaximumInputs": 8,
       "FriendlyName": "Wii",
-      "FileExtensions": [".iso", ".wbfs", ".ciso"]
+      "FileTypes": [{
+        ".iso": "application/x-romfile-wii"
+      }, {
+        ".wbfs": "application/x-romfile-wbfs"
+      }, {
+        ".ciso": "application/x-romfile-wii-compressed"
+      }],
+      "BiosFiles": ["dsp_rom.bin", "dsp_coef.bin"]
     },
     "NINTENDO_WIIU": {
       "PlatformID": "NINTENDO_WIIU",
@@ -2134,7 +2232,9 @@
       },
       "MaximumInputs": 5,
       "FriendlyName": "WiiU",
-      "FileExtensions": [".iso"]
+      "FileTypes": [{
+        ".iso": "application/x-romfile-wiiu-iso"
+      }]
     },
     "SEGA_32X": {
       "PlatformID": "SEGA_32X",
@@ -2146,7 +2246,14 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Sega 32X",
-      "FileExtensions": [".bin", ".rom", ".32x"]
+      "FileTypes": [{
+        ".bin": "application/x-romfile-32x"
+      }, {
+        ".rom": "application/x-romfile-32x"
+      }, {
+        ".32x": "application/x-romfile-32x"
+      }],
+      "BiosFiles": ["32X_G_BIOS.BIN", "32X_S_BIOS.BIN", "32X_M_BIOS.BIN"]
     },
     "SEGA_CD": {
       "PlatformID": "SEGA_CD",
@@ -2158,7 +2265,12 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Sega CD",
-      "FileExtensions": [".iso", ".bin"]
+      "FileTypes": [{
+        ".iso": "application/x-romfile-segacd"
+      }, {
+        ".bin": "application/x-romfile-segacd"
+      }],
+      "BiosFiles": ["bios_CD_U.bin", "bios_CD_E.bin", "bios_CD_J.bin", "us_scd1_9210.bin", "eu_mcd1_9210.bin", "jp_mcd1_9112.bin"]
     },
     "SEGA_DC": {
       "PlatformID": "SEGA_DC",
@@ -2170,7 +2282,18 @@
       },
       "MaximumInputs": 4,
       "FriendlyName": "Sega Dreamcast",
-      "FileExtensions": [".dc", ".iso", ".bin"]
+      "FileTypes": [{
+        ".dc": "application/x-romfile-dc"
+      }, {
+        ".iso": "application/x-romfile-dc"
+      }, {
+        ".bin": "application/x-romfile-dc"
+      }, {
+        ".cdi": "application/x-romfile-dc"
+      }, {
+        ".gdi": "application/x-romfile-dc"
+      }],
+      "BiosFiles": ["dc_boot.bin", "dc_flash.bin"]
     },
     "SEGA_GEN": {
       "PlatformID": "SEGA_GEN",
@@ -2184,7 +2307,13 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Sega Genesis",
-      "FileExtensions": [".bin", ".smd", ".rom"]
+      "FileTypes": [{
+        ".bin": "application/x-romfile-gen"
+      }, {
+        ".smd": "application/x-romfile-gen"
+      }, {
+        ".rom": "application/x-romfile-gen"
+      }]
     },
     "SEGA_GG": {
       "PlatformID": "SEGA_GG",
@@ -2196,7 +2325,9 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Sega Game Gear",
-      "FileExtensions": [".gg"]
+      "FileTypes": [{
+        ".gg": "application/x-romfile-gg"
+      }]
     },
     "SEGA_SAT": {
       "PlatformID": "SEGA_SAT",
@@ -2208,7 +2339,10 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Sega Saturn",
-      "FileExtensions": [".iso"]
+      "FileTypes": [{
+        ".iso": "application/x-romfile-sat"
+      }],
+      "BiosFiles": ["saturn_bios.bin"]
     },
     "SEGA_SMS": {
       "PlatformID": "SEGA_SMS",
@@ -2220,7 +2354,11 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Sega Master System",
-      "FileExtensions": [".bin", ".sms"]
+      "FileTypes": [{
+        ".bin": "application/x-romfile-sms"
+      }, {
+        ".sms": "application/x-romfile-sms"
+      }]
     },
     "SNK_NG": {
       "PlatformID": "SNK_NG",
@@ -2232,7 +2370,10 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Neo Geo",
-      "FileExtensions": [".zip"]
+      "FileTypes": [{
+        ".zip": "application/x-romfile-arcade-neogeo"
+      }],
+      "BiosFiles": ["neogeo.zip"]
     },
     "SNK_NGCD": {
       "PlatformID": "SNK_NGCD",
@@ -2244,7 +2385,13 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Neo Geo CD",
-      "FileExtensions": [".cue", ".zip"]
+      "FileTypes": [{
+        ".cue": "text/x-romfile-ngcd-cue"
+      }, {
+        ".bin": "application/x-romfile-ngcd-bin"
+      }, {
+        ".zip": "application/x-romfile-ngcd"
+      }]
     },
     "SNK_NGP": {
       "PlatformID": "SNK_NGP",
@@ -2256,7 +2403,9 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Neo Geo Pocket",
-      "FileExtensions": [".ngp"]
+      "FileTypes": [{
+        ".ngp": "application/x-romfile-ngp"
+      }]
     },
     "SNK_NGPC": {
       "PlatformID": "SNK_NGPC",
@@ -2268,7 +2417,9 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "Neo Geo Pocket Color",
-      "FileExtensions": [".ngc"]
+      "FileTypes": [{
+        ".ngc": "application/x-romfile-ngpc"
+      }]
     },
     "SONY_PS2": {
       "PlatformID": "SONY_PS2",
@@ -2280,7 +2431,18 @@
       },
       "MaximumInputs": 4,
       "FriendlyName": "PlayStation 2",
-      "FileExtensions": [".bin", ".iso", ".ps2", ".img", ".elf"]
+      "FileTypes": [{
+        ".bin": "application/x-romfile-ps2"
+      }, {
+        ".iso": "application/x-romfile-ps2"
+      }, {
+        ".ps2": "application/x-romfile-ps2"
+      }, {
+        ".img": "application/x-romfile-ps2"
+      }, {
+        ".elf": "application/x-romfile-ps2-elf"
+      }],
+      "BiosFiles": ["scph-10000.bin", "scph-30003.bin", "scph-30004.bin", "scph-39001.bin", "scph-39004.bin", "scph-50003.bin", "scph-70000.bin", "scph-70004.bin", "scph-70012.bin", "scph-90006.bin"]
     },
     "SONY_PS3": {
       "PlatformID": "SONY_PS3",
@@ -2293,7 +2455,13 @@
       },
       "MaximumInputs": 4,
       "FriendlyName": "PlayStation 3",
-      "FileExtensions": [".iso", ".elf", ".pbp"]
+      "FileTypes": [{
+        ".iso": "application/x-romfile-ps3"
+      }, {
+        ".elf": "application/x-romfile-ps3-elf"
+      }, {
+        ".pbp": "application/x-romfile-ps3-pbp"
+      }]
     },
     "SONY_PS4": {
       "PlatformID": "SONY_PS4",
@@ -2306,7 +2474,13 @@
       },
       "MaximumInputs": 4,
       "FriendlyName": "PlayStation 4",
-      "FileExtensions": [".iso", ".elf", ".pbp"]
+      "FileTypes": [{
+        ".iso": "application/x-romfile-ps4"
+      }, {
+        ".elf": "application/x-romfile-ps4-elf"
+      }, {
+        ".pbp": "application/x-romfile-ps4-pbp"
+      }]
     },
     "SONY_PSP": {
       "PlatformID": "SONY_PSP",
@@ -2318,7 +2492,17 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "Playstation Portable",
-      "FileExtensions": [".bin", ".iso", ".pbp", ".cso", ".ciso"]
+      "FileTypes": [{
+        ".bin": "application/x-romfile-psp"
+      }, {
+        ".iso": "application/x-romfile-psp"
+      }, {
+        ".pbp": "application/x-romfile-psp-pbp"
+      }, {
+        ".cso": "application/x-romfile-psp-compressed"
+      }, {
+        ".ciso": "application/x-romfile-psp-compressed"
+      }]
     },
     "SONY_PSV": {
       "PlatformID": "SONY_PSV",
@@ -2331,7 +2515,17 @@
       },
       "MaximumInputs": 1,
       "FriendlyName": "PlayStation Vita",
-      "FileExtensions": [".bin", ".iso", ".pbp", ".cso", ".ciso"]
+      "FileTypes": [{
+        ".bin": "application/x-romfile-psv"
+      }, {
+        ".iso": "application/x-romfile-psv"
+      }, {
+        ".pbp": "application/x-romfile-psv-pbp"
+      }, {
+        ".cso": "application/x-romfile-psv-compressed"
+      }, {
+        ".ciso": "application/x-romfile-psv-compressed"
+      }]
     },
     "SONY_PSX": {
       "PlatformID": "SONY_PSX",
@@ -2343,7 +2537,28 @@
       },
       "MaximumInputs": 2,
       "FriendlyName": "PlayStation",
-      "FileExtensions": [".cue", ".bin", ".iso", ".pbp"]
+      "FileTypes": [{
+        ".m3u": "text/x-romfile-psx-m3u"
+      }, {
+        ".toc": "text/x-romfile-psx-toc"
+      }, {
+        ".cue": "text/x-romfile-psx-cue"
+      }, {
+        ".bin": "application/x-romfile-psx"
+      }, {
+        ".iso": "application/x-romfile-psx"
+      }, {
+        ".img": "application/x-romfile-psx"
+      }, {
+        ".sub": "application/x-romfile-psx-sub"
+      }, {
+        ".pbp": "application/x-romfile-psx-pbp"
+      }, {
+        ".ccd": "text/x-romfile-psx-ccd"
+      }, {
+        ".znx": "application/x-romfile-psx-compressed"
+      }],
+      "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
   "version": "0.0.3"

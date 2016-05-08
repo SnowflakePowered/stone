@@ -6,7 +6,13 @@ Metadata:
   platform_type: Addon
 MaximumInputs: 2
 FriendlyName: Sega CD
-FileExtensions:
-    - .iso
-    - .bin
-
+FileTypes:
+    - .iso: 'application/x-romfile-segacd'
+    - .bin: 'application/x-romfile-segacd'
+BiosFiles:
+    - bios_CD_U.bin
+    - bios_CD_E.bin
+    - bios_CD_J.bin
+    - us_scd1_9210.bin
+    - eu_mcd1_9210.bin
+    - jp_mcd1_9112.bin

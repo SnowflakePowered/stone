@@ -6,6 +6,5 @@ Metadata:
   platform_type: Handheld
 MaximumInputs: 1
 FriendlyName: Bandai WonderSwan Color
-FileExtensions: 
-    - .wsc
-    - .ws
+FileTypes: 
+    - .wsc: 'application/x-romfile-wsc'

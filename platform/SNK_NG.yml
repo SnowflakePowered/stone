@@ -6,5 +6,7 @@ Metadata:
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Neo Geo
-FileExtensions: 
-    - .zip
+FileTypes: 
+    - .zip: 'application/x-romfile-arcade-neogeo'
+BiosFiles:
+    - neogeo.zip
