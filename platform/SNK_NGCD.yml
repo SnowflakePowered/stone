@@ -7,6 +7,6 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Neo Geo CD
 FileTypes: 
-    - .cue: 'text/x-romfile-ngcd-cue'
+    - .cue: 'application/x-romfile-ngcd-cue'
     - .bin: 'application/x-romfile-ngcd-bin'
     - .zip: 'application/x-romfile-ngcd'

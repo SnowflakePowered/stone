@@ -7,15 +7,15 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: PlayStation
 FileTypes: 
-    - .m3u: 'text/x-romfile-psx-m3u'
-    - .toc: 'text/x-romfile-psx-toc'
-    - .cue: 'text/x-romfile-psx-cue'
+    - .m3u: 'application/x-romfile-psx-m3u'
+    - .toc: 'application/x-romfile-psx-toc'
+    - .cue: 'application/x-romfile-psx-cue'
     - .bin: 'application/x-romfile-psx'
     - .iso: 'application/x-romfile-psx'
     - .img: 'application/x-romfile-psx'
     - .sub: 'application/x-romfile-psx-sub'
     - .pbp: 'application/x-romfile-psx-pbp'
-    - .ccd: 'text/x-romfile-psx-ccd'
+    - .ccd: 'application/x-romfile-psx-ccd'
     - .znx: 'application/x-romfile-psx-compressed'
 BiosFiles:
     - scph1001.bin

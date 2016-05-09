@@ -37,7 +37,7 @@
         "patternProperties": {
           "^\\." : { 
               "type": "string",
-              "pattern" : "^(application|text)\/x-romfile-.+"
+              "pattern" : "^application\/x-romfile-.+"
           }
         }
       }
