@@ -8,5 +8,5 @@ Metadata:
 MaximumInputs: 5
 FriendlyName: WiiU
 FileTypes:
-    - .iso: 'application/x-romfile-wiiu-iso'
+    .iso: 'application/x-romfile-wiiu-iso'
 

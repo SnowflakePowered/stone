@@ -7,6 +7,6 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Atari 2600
 FileTypes:
-    - .a26: 'application/x-romfile-2600'
-    - .bin: 'application/x-romfile-2600'
-    - .rom: 'application/x-romfile-2600'
+    .a26: 'application/x-romfile-2600'
+    .bin: 'application/x-romfile-2600'
+    .rom: 'application/x-romfile-2600'

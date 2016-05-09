@@ -7,4 +7,4 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Bandai WonderSwan Color
 FileTypes: 
-    - .wsc: 'application/x-romfile-wsc'
+    .wsc: 'application/x-romfile-wsc'

@@ -7,5 +7,5 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega Master System
 FileTypes:
-    - .bin: 'application/x-romfile-sms'
-    - .sms: 'application/x-romfile-sms'
+    .bin: 'application/x-romfile-sms'
+    .sms: 'application/x-romfile-sms'

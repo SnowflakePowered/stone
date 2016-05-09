@@ -1,61 +1,58 @@
 {
-  "$schema": "http://json-schema.org/draft-04/schema#",
-  "id": "http://snowflakepowe.red/stone/schema/platform",
-  "type": "object",
-  "additionalProperties": false,
-  "properties": {
-    "PlatformID": {
-      "id": "http://snowflakepowe.red/stone/schema/platform/PlatformID",
-      "type": "string"
-    },
-    "Metadata": {
-      "id": "http://snowflakepowe.red/stone/schema/platform/Metadata",
-      "type": "object",
-      "additionalProperties": false,
-      "patternProperties": {
-           "^platform_": { "type": "string" }
-       },
-      "properties": {}
-    },
-    "MaximumInputs": {
-      "id": "http://snowflakepowe.red/stone/schema/platform/MaximumInputs",
-      "type": "integer"
-    },
-    "FriendlyName": {
-      "id": "http://snowflakepowe.red/stone/schema/platform/FriendlyName",
-      "type": "string"
-    },
-    "FileTypes": {
-      "id": "http://snowflakepowe.red/stone/schema/platform/FileTypes",
-      "type": "array",
-      "minItems": 1,
-      "uniqueItems": true,
-      "additionalItems": true,
-      "items": {
-        "id": "http://snowflakepowe.red/stone/schema/platform/FileTypes/0",
-        "type": "object",
-        "patternProperties": {
-          "^\\." : { 
-              "type": "string",
-              "pattern" : "^application\/x-romfile-.+"
-          }
-        }
-      }
-    },
-    "BiosFiles": {
-      "id": "http://snowflakepowe.red/stone/schema/platform/BiosFiles",
-      "type": "array",
-      "items": {
-        "type" : "string",
-        "pattern" : "^.+\\..+"
-      }
-    }
-  },
-  "required": [
-    "PlatformID",
-    "Metadata",
-    "MaximumInputs",
-    "FriendlyName",
-    "FileTypes"
-  ]
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"id": "http://snowflakepowe.red/stone/schema/platform",
+	"type": "object",
+	"additionalProperties": false,
+	"properties": {
+		"PlatformID": {
+			"id": "http://snowflakepowe.red/stone/schema/platform/PlatformID",
+			"type": "string"
+		},
+		"Metadata": {
+			"id": "http://snowflakepowe.red/stone/schema/platform/Metadata",
+			"type": "object",
+			"additionalProperties": false,
+			"patternProperties": {
+				"^platform_": {
+					"type": "string"
+				}
+			},
+			"properties": {}
+		},
+		"MaximumInputs": {
+			"id": "http://snowflakepowe.red/stone/schema/platform/MaximumInputs",
+			"type": "integer"
+		},
+		"FriendlyName": {
+			"id": "http://snowflakepowe.red/stone/schema/platform/FriendlyName",
+			"type": "string"
+		},
+		"FileTypes": {
+			"id": "http://snowflakepowe.red/stone/schema/platform/FileTypes",
+			"type": "object",
+			"minItems": 1,
+			"uniqueItems": true,
+			"patternProperties": {
+				"^\\.": {
+					"type": "string",
+					"pattern": "^application\/x-romfile-.+"
+				}
+			}
+		},
+		"BiosFiles": {
+			"id": "http://snowflakepowe.red/stone/schema/platform/BiosFiles",
+			"type": "array",
+			"items": {
+				"type": "string",
+				"pattern": "^.+\\..+"
+			}
+		}
+	},
+	"required": [
+		"PlatformID",
+		"Metadata",
+		"MaximumInputs",
+		"FriendlyName",
+		"FileTypes"
+	]
 }

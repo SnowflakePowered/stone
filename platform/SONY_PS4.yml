@@ -8,6 +8,6 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: PlayStation 4
 FileTypes:
-    - .iso: 'application/x-romfile-ps4'
-    - .elf: 'application/x-romfile-ps4-elf'
-    - .pbp: 'application/x-romfile-ps4-pbp'
+    .iso: 'application/x-romfile-ps4'
+    .elf: 'application/x-romfile-ps4-elf'
+    .pbp: 'application/x-romfile-ps4-pbp'

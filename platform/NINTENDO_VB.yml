@@ -7,4 +7,4 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Virtual Boy 
 FileTypes: 
-    - .vb: 'application/x-romfile-vb'
+    .vb: 'application/x-romfile-vb'

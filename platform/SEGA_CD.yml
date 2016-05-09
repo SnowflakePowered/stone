@@ -7,8 +7,8 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega CD
 FileTypes:
-    - .iso: 'application/x-romfile-segacd'
-    - .bin: 'application/x-romfile-segacd'
+    .iso: 'application/x-romfile-segacd'
+    .bin: 'application/x-romfile-segacd'
 BiosFiles:
     - bios_CD_U.bin
     - bios_CD_E.bin

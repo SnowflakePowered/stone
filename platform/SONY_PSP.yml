@@ -7,8 +7,8 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Playstation Portable
 FileTypes:
-    - .bin: 'application/x-romfile-psp'
-    - .iso: 'application/x-romfile-psp'
-    - .pbp: 'application/x-romfile-psp-pbp'
-    - .cso: 'application/x-romfile-psp-compressed'
-    - .ciso: 'application/x-romfile-psp-compressed'
+    .bin: 'application/x-romfile-psp'
+    .iso: 'application/x-romfile-psp'
+    .pbp: 'application/x-romfile-psp-pbp'
+    .cso: 'application/x-romfile-psp-compressed'
+    .ciso: 'application/x-romfile-psp-compressed'

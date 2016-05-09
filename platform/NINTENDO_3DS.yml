@@ -8,6 +8,6 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Nintendo 3DS
 FileTypes: 
-    - .3ds: 'application/x-romfile-3ds'
-    - .3dsx: 'application/x-romfile-3ds-3dsx'
-    - .cia: 'application/x-romfile-3ds-cia'
+    .3ds: 'application/x-romfile-3ds'
+    .3dsx: 'application/x-romfile-3ds-3dsx'
+    .cia: 'application/x-romfile-3ds-cia'

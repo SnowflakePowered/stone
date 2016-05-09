@@ -7,5 +7,5 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Super Nintendo Entertainment System
 FileTypes:
-    - .sfc: 'application/x-romfile-sfc'
-    - .smc: 'application/x-romfile-smc'
+    .sfc: 'application/x-romfile-sfc'
+    .smc: 'application/x-romfile-smc'

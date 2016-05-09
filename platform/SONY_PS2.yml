@@ -7,11 +7,11 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: PlayStation 2
 FileTypes:
-    - .bin: 'application/x-romfile-ps2'
-    - .iso: 'application/x-romfile-ps2'
-    - .ps2: 'application/x-romfile-ps2'
-    - .img: 'application/x-romfile-ps2'
-    - .elf: 'application/x-romfile-ps2-elf'
+    .bin: 'application/x-romfile-ps2'
+    .iso: 'application/x-romfile-ps2'
+    .ps2: 'application/x-romfile-ps2'
+    .img: 'application/x-romfile-ps2'
+    .elf: 'application/x-romfile-ps2-elf'
 BiosFiles:
     - scph-10000.bin
     - scph-30003.bin
