@@ -26,13 +26,13 @@ Usage
 
 Stone comes in the form of a compiled and minified json file. You can simply parse this file to get the latest stone definitions.
 
-### C Sharp
+### *C#*
 
 ```c#
 var stone = JsonConvert.DeserializeObject("stone.dist.json");
 ```
 
-### Node.js
+### *Node.js*
 
 ```js
 var stone = require('stone-definitions')
