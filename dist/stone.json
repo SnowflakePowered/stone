@@ -1,5 +1,688 @@
 {
+  "Platforms": {
+    "ATARI_2600": {
+      "PlatformID": "ATARI_2600",
+      "Metadata": {
+        "platform_releasedate": "11/9/1977",
+        "platform_shortname": "2600",
+        "platform_company": "Atari",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Atari 2600",
+      "FileTypes": {
+        ".a26": "application/x-romfile-2600",
+        ".bin": "application/x-romfile-2600",
+        ".rom": "application/x-romfile-2600"
+      }
+    },
+    "ATARI_5200": {
+      "PlatformID": "ATARI_5200",
+      "Metadata": {
+        "platform_releasedate": "1/3/1982",
+        "platform_shortname": "5200",
+        "platform_company": "Atari",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "Atari 5200 SuperSystem",
+      "FileTypes": {
+        ".a52": "application/x-romfile-5200",
+        ".bin": "application/x-romfile-5200"
+      },
+      "BiosFiles": ["5200.rom"]
+    },
+    "ATARI_7800": {
+      "PlatformID": "ATARI_7800",
+      "Metadata": {
+        "platform_releasedate": "1/6/1986",
+        "platform_shortname": "7800",
+        "platform_company": "Atari",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Atari 7800 ProSystem",
+      "FileTypes": {
+        ".a78": "application/x-romfile-7800",
+        ".bin": "application/x-romfile-7800"
+      },
+      "BiosFiles": ["7800 BIOS (U).rom", "7800 BIOS (E).rom"]
+    },
+    "ATARI_JAGUAR": {
+      "PlatformID": "ATARI_JAGUAR",
+      "Metadata": {
+        "platform_releasedate": "15/11/1993",
+        "platform_shortname": "Jaguar",
+        "platform_company": "Atari",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Atari Jaguar",
+      "FileTypes": {
+        ".jag": "application/x-romfile-jaguar",
+        ".j64": "application/x-romfile-jaguar"
+      }
+    },
+    "ATARI_LYNX": {
+      "PlatformID": "ATARI_LYNX",
+      "Metadata": {
+        "platform_releasedate": "11/10/1989",
+        "platform_shortname": "Lynx",
+        "platform_company": "Atari",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Atari Lynx",
+      "FileTypes": {
+        ".lnx": "application/x-romfile-lynx"
+      },
+      "BiosFiles": ["lynxboot.img"]
+    },
+    "BANDAI_WS": {
+      "PlatformID": "BANDAI_WS",
+      "Metadata": {
+        "platform_releasedate": "04/03/1999",
+        "platform_shortname": "WS",
+        "platform_company": "Bandai",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Bandai WonderSwan",
+      "FileTypes": {
+        ".ws": "application/x-romfile-ws"
+      }
+    },
+    "BANDAI_WSC": {
+      "PlatformID": "BANDAI_WSC",
+      "Metadata": {
+        "platform_releasedate": "09/12/2000",
+        "platform_shortname": "WSC",
+        "platform_company": "Bandai",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Bandai WonderSwan Color",
+      "FileTypes": {
+        ".wsc": "application/x-romfile-wsc"
+      }
+    },
+    "NEC_TG16": {
+      "PlatformID": "NEC_TG16",
+      "Metadata": {
+        "platform_releasedate": "30/10/1986",
+        "platform_shortname": "TG16",
+        "platform_jp_name": "PC Engine",
+        "platform_company": "NEC",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "TurboGrafx-16",
+      "FileTypes": {
+        ".pce": "application/x-romfile-tg16"
+      },
+      "BiosFiles": ["syscard1.pce", "syscard2.pce", "syscard3.pce"]
+    },
+    "NINTENDO_3DS": {
+      "PlatformID": "NINTENDO_3DS",
+      "Metadata": {
+        "platform_releasedate": "26/02/2011",
+        "platform_shortname": "3DS",
+        "platform_company": "Nintendo",
+        "platform_type": "Handheld",
+        "platform_emulator_dev": "Citra"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Nintendo 3DS",
+      "FileTypes": {
+        ".3ds": "application/x-romfile-3ds",
+        ".3dsx": "application/x-romfile-3ds-3dsx",
+        ".cia": "application/x-romfile-3ds-cia"
+      }
+    },
+    "NINTENDO_64": {
+      "PlatformID": "NINTENDO_N64",
+      "Metadata": {
+        "platform_releasedate": "23/06/1996",
+        "platform_shortname": "N64",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "Nintendo 64",
+      "FileTypes": {
+        ".64": "application/x-romfile-n64-indeterminate",
+        ".n64": "application/x-romfile-n64-littleendian",
+        ".z64": "application/x-romfile-n64-bigendian",
+        ".d64": "application/x-romfile-n64-dd",
+        ".u64": "application/x-romfile-n64-byteswapped",
+        ".v64": "application/x-romfile-n64-byteswapped",
+        ".rom": "application/x-romfile-n64-byteswapped",
+        ".bin": "application/x-romfile-n64-indeterminate"
+      }
+    },
+    "NINTENDO_FDS": {
+      "PlatformID": "NINTENDO_FDS",
+      "Metadata": {
+        "platform_releasedate": "18/10/1985",
+        "platform_shortname": "FDS",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Family Computer Disk System",
+      "FileTypes": {
+        ".fds": "application/x-romfile-fds"
+      },
+      "BiosFiles": ["disksys.rom"]
+    },
+    "NINTENDO_GB": {
+      "PlatformID": "NINTENDO_GB",
+      "Metadata": {
+        "platform_releasedate": "21/04/1989",
+        "platform_shortname": "GB",
+        "platform_company": "Nintendo",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Game Boy",
+      "FileTypes": {
+        ".gb": "application/x-romfile-gb"
+      }
+    },
+    "NINTENDO_GBA": {
+      "PlatformID": "NINTENDO_GBA",
+      "Metadata": {
+        "platform_releasedate": "21/10/2001",
+        "platform_shortname": "GBA",
+        "platform_company": "Nintendo",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Game Boy Advanced",
+      "FileTypes": {
+        ".gba": "application/x-romfile-gba"
+      },
+      "BiosFiles": ["gba_bios.bin"]
+    },
+    "NINTENDO_GBC": {
+      "PlatformID": "NINTENDO_GBC",
+      "Metadata": {
+        "platform_releasedate": "21/10/1998",
+        "platform_shortname": "GBC",
+        "platform_company": "Nintendo",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Game Boy Color",
+      "FileTypes": {
+        ".gbc": "application/x-romfile-gbc"
+      },
+      "BiosFiles": ["gbc_bios.bin"]
+    },
+    "NINTENDO_GCN": {
+      "PlatformID": "NINTENDO_GCN",
+      "Metadata": {
+        "platform_releasedate": "14/9/2001",
+        "platform_shortname": "GCN",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "Nintendo GameCube",
+      "FileTypes": {
+        ".iso": "application/x-romfile-gcn",
+        ".gcm": "application/x-romfile-gcn"
+      },
+      "BiosFiles": ["IPL.bin", "IPL_E.bin", "IPL_U.bin", "IPL_J.bin"]
+    },
+    "NINTENDO_NDS": {
+      "PlatformID": "NINTENDO_NDS",
+      "Metadata": {
+        "platform_releasedate": "21/11/2004",
+        "platform_shortname": "NDS",
+        "platform_company": "Nintendo",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Nintendo DS",
+      "FileTypes": {
+        ".nds": "application/x-romfile-nds"
+      },
+      "BiosFiles": ["firmware.bin", "biosnds7.rom", "biosnds9.rom"]
+    },
+    "NINTENDO_NES": {
+      "PlatformID": "NINTENDO_NES",
+      "Metadata": {
+        "platform_releasedate": "18/10/1985",
+        "platform_shortname": "NES",
+        "platform_jp_name": "Family Computer",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Nintendo Entertainment System",
+      "FileTypes": {
+        ".nes": "application/x-romfile-nes"
+      }
+    },
+    "NINTENDO_SNES": {
+      "PlatformID": "NINTENDO_SNES",
+      "Metadata": {
+        "platform_releasedate": "21/11/1990",
+        "platform_shortname": "SNES",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Super Nintendo Entertainment System",
+      "FileTypes": {
+        ".sfc": "application/x-romfile-sfc",
+        ".smc": "application/x-romfile-smc"
+      }
+    },
+    "NINTENDO_VB": {
+      "PlatformID": "NINTENDO_VB",
+      "Metadata": {
+        "platform_releasedate": "21/07/1995",
+        "platform_shortname": "VB",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Virtual Boy",
+      "FileTypes": {
+        ".vb": "application/x-romfile-vb"
+      }
+    },
+    "NINTENDO_WII": {
+      "PlatformID": "NINTENDO_WII",
+      "Metadata": {
+        "platform_releasedate": "2/12/2006",
+        "platform_shortname": "Wii",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 8,
+      "FriendlyName": "Wii",
+      "FileTypes": {
+        ".iso": "application/x-romfile-wii",
+        ".wbfs": "application/x-romfile-wbfs",
+        ".ciso": "application/x-romfile-wii-compressed"
+      },
+      "BiosFiles": ["dsp_rom.bin", "dsp_coef.bin"]
+    },
+    "NINTENDO_WIIU": {
+      "PlatformID": "NINTENDO_WIIU",
+      "Metadata": {
+        "platform_releasedate": "18/11/2012",
+        "platform_shortname": "WiiU",
+        "platform_company": "Nintendo",
+        "platform_type": "Home",
+        "platform_emulator_dev": "cemu"
+      },
+      "MaximumInputs": 5,
+      "FriendlyName": "WiiU",
+      "FileTypes": {
+        ".iso": "application/x-romfile-wiiu-iso"
+      }
+    },
+    "PANASONIC_3DO": {
+      "PlatformID": "PANASONIC_3DO",
+      "Metadata": {
+        "platform_releasedate": "04/10/1993",
+        "platform_shortname": "3DO",
+        "platform_company": "Panasonic",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 8,
+      "FriendlyName": "3DO Interactive Multiplayer",
+      "FileTypes": {
+        ".bin": "application/x-romfile-3do",
+        ".iso": "application/x-romfile-3do",
+        ".cue": "application/x-romfile-3do-cue"
+      },
+      "BiosFiles": ["3DO-FZ-10.bin"]
+    },
+    "SEGA_32X": {
+      "PlatformID": "SEGA_32X",
+      "Metadata": {
+        "platform_releasedate": "21/11/1994",
+        "platform_shortname": "32X",
+        "platform_company": "Sega",
+        "platform_type": "Addon"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Sega 32X",
+      "FileTypes": {
+        ".bin": "application/x-romfile-32x",
+        ".rom": "application/x-romfile-32x",
+        ".32x": "application/x-romfile-32x"
+      },
+      "BiosFiles": ["32X_G_BIOS.BIN", "32X_S_BIOS.BIN", "32X_M_BIOS.BIN"]
+    },
+    "SEGA_CD": {
+      "PlatformID": "SEGA_CD",
+      "Metadata": {
+        "platform_releasedate": "12/12/1991",
+        "platform_shortname": "SCD",
+        "platform_company": "Sega",
+        "platform_type": "Addon"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Sega CD",
+      "FileTypes": {
+        ".iso": "application/x-romfile-segacd",
+        ".bin": "application/x-romfile-segacd"
+      },
+      "BiosFiles": ["bios_CD_U.bin", "bios_CD_E.bin", "bios_CD_J.bin", "us_scd1_9210.bin", "eu_mcd1_9210.bin", "jp_mcd1_9112.bin"]
+    },
+    "SEGA_DC": {
+      "PlatformID": "SEGA_DC",
+      "Metadata": {
+        "platform_releasedate": "27/11/1998",
+        "platform_shortname": "DC",
+        "platform_company": "Sega",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "Sega Dreamcast",
+      "FileTypes": {
+        ".dc": "application/x-romfile-dc",
+        ".iso": "application/x-romfile-dc",
+        ".bin": "application/x-romfile-dc",
+        ".cdi": "application/x-romfile-dc",
+        ".gdi": "application/x-romfile-dc"
+      },
+      "BiosFiles": ["dc_boot.bin", "dc_flash.bin"]
+    },
+    "SEGA_GEN": {
+      "PlatformID": "SEGA_GEN",
+      "Metadata": {
+        "platform_releasedate": "29/10/1988",
+        "platform_shortname": "Genesis",
+        "platform_eu_name": "Mega Drive",
+        "platform_jp_name": "Mega Drive",
+        "platform_company": "Sega",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Sega Genesis",
+      "FileTypes": {
+        ".bin": "application/x-romfile-gen",
+        ".smd": "application/x-romfile-gen",
+        ".rom": "application/x-romfile-gen"
+      }
+    },
+    "SEGA_GG": {
+      "PlatformID": "SEGA_GG",
+      "Metadata": {
+        "platform_releasedate": "06/10/1990",
+        "platform_shortname": "GG",
+        "platform_company": "Sega",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Sega Game Gear",
+      "FileTypes": {
+        ".gg": "application/x-romfile-gg"
+      }
+    },
+    "SEGA_SAT": {
+      "PlatformID": "SEGA_SAT",
+      "Metadata": {
+        "platform_releasedate": "29/10/1988",
+        "platform_shortname": "Saturn",
+        "platform_company": "Sega",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Sega Saturn",
+      "FileTypes": {
+        ".iso": "application/x-romfile-sat"
+      },
+      "BiosFiles": ["saturn_bios.bin"]
+    },
+    "SEGA_SMS": {
+      "PlatformID": "SEGA_SMS",
+      "Metadata": {
+        "platform_releasedate": "1985",
+        "platform_shortname": "SMS",
+        "platform_company": "Sega",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Sega Master System",
+      "FileTypes": {
+        ".bin": "application/x-romfile-sms",
+        ".sms": "application/x-romfile-sms"
+      }
+    },
+    "SNK_NG": {
+      "PlatformID": "SNK_NG",
+      "Metadata": {
+        "platform_releasedate": "26/04/1991",
+        "platform_shortname": "NG",
+        "platform_company": "SNK",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Neo Geo",
+      "FileTypes": {
+        ".zip": "application/x-romfile-arcade-neogeo"
+      },
+      "BiosFiles": ["neogeo.zip"]
+    },
+    "SNK_NGCD": {
+      "PlatformID": "SNK_NGCD",
+      "Metadata": {
+        "platform_releasedate": "01/09/1994",
+        "platform_shortname": "NGCD",
+        "platform_company": "SNK",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Neo Geo CD",
+      "FileTypes": {
+        ".cue": "application/x-romfile-ngcd-cue",
+        ".bin": "application/x-romfile-ngcd-bin",
+        ".zip": "application/x-romfile-ngcd"
+      }
+    },
+    "SNK_NGP": {
+      "PlatformID": "SNK_NGP",
+      "Metadata": {
+        "platform_releasedate": "28/10/1998",
+        "platform_shortname": "NGP",
+        "platform_company": "SNK",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Neo Geo Pocket",
+      "FileTypes": {
+        ".ngp": "application/x-romfile-ngp"
+      }
+    },
+    "SNK_NGPC": {
+      "PlatformID": "SNK_NGPC",
+      "Metadata": {
+        "platform_releasedate": "16/03/1999",
+        "platform_shortname": "NGPC",
+        "platform_company": "SNK",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Neo Geo Pocket Color",
+      "FileTypes": {
+        ".ngc": "application/x-romfile-ngpc"
+      }
+    },
+    "SONY_PS2": {
+      "PlatformID": "SONY_PS2",
+      "Metadata": {
+        "platform_releasedate": "04/03/2000",
+        "platform_shortname": "PS2",
+        "platform_company": "Sony",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "PlayStation 2",
+      "FileTypes": {
+        ".bin": "application/x-romfile-ps2",
+        ".iso": "application/x-romfile-ps2",
+        ".ps2": "application/x-romfile-ps2",
+        ".img": "application/x-romfile-ps2",
+        ".elf": "application/x-romfile-ps2-elf"
+      },
+      "BiosFiles": ["scph-10000.bin", "scph-30003.bin", "scph-30004.bin", "scph-39001.bin", "scph-39004.bin", "scph-50003.bin", "scph-70000.bin", "scph-70004.bin", "scph-70012.bin", "scph-90006.bin"]
+    },
+    "SONY_PS3": {
+      "PlatformID": "SONY_PS3",
+      "Metadata": {
+        "platform_releasedate": "11/11/2006",
+        "platform_shortname": "PS3",
+        "platform_company": "Sony",
+        "platform_emulator_dev": "rpcs3",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "PlayStation 3",
+      "FileTypes": {
+        ".iso": "application/x-romfile-ps3",
+        ".elf": "application/x-romfile-ps3-elf",
+        ".pbp": "application/x-romfile-ps3-pbp"
+      }
+    },
+    "SONY_PS4": {
+      "PlatformID": "SONY_PS4",
+      "Metadata": {
+        "platform_releasedate": "15/11/2013",
+        "platform_shortname": "PS4",
+        "platform_company": "Sony",
+        "platform_emulator_dev": "None",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "PlayStation 4",
+      "FileTypes": {
+        ".iso": "application/x-romfile-ps4",
+        ".elf": "application/x-romfile-ps4-elf",
+        ".pbp": "application/x-romfile-ps4-pbp"
+      }
+    },
+    "SONY_PSP": {
+      "PlatformID": "SONY_PSP",
+      "Metadata": {
+        "platform_releasedate": "12/12/2004",
+        "platform_shortname": "PSP",
+        "platform_company": "Sony",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Playstation Portable",
+      "FileTypes": {
+        ".bin": "application/x-romfile-psp",
+        ".iso": "application/x-romfile-psp",
+        ".pbp": "application/x-romfile-psp-pbp",
+        ".cso": "application/x-romfile-psp-compressed",
+        ".ciso": "application/x-romfile-psp-compressed"
+      }
+    },
+    "SONY_PSV": {
+      "PlatformID": "SONY_PSV",
+      "Metadata": {
+        "platform_releasedate": "17/12/2011",
+        "platform_shortname": "PSV",
+        "platform_company": "Sony",
+        "platform_emulator_dev": "None",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "PlayStation Vita",
+      "FileTypes": {
+        ".bin": "application/x-romfile-psv",
+        ".iso": "application/x-romfile-psv",
+        ".pbp": "application/x-romfile-psv-pbp",
+        ".cso": "application/x-romfile-psv-compressed",
+        ".ciso": "application/x-romfile-psv-compressed"
+      }
+    },
+    "SONY_PSX": {
+      "PlatformID": "SONY_PSX",
+      "Metadata": {
+        "platform_releasedate": "03/12/1994",
+        "platform_shortname": "PSX",
+        "platform_company": "Sony",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "PlayStation",
+      "FileTypes": {
+        ".m3u": "application/x-romfile-psx-m3u",
+        ".toc": "application/x-romfile-psx-toc",
+        ".cue": "application/x-romfile-psx-cue",
+        ".bin": "application/x-romfile-psx",
+        ".iso": "application/x-romfile-psx",
+        ".img": "application/x-romfile-psx",
+        ".sub": "application/x-romfile-psx-sub",
+        ".pbp": "application/x-romfile-psx-pbp",
+        ".ccd": "application/x-romfile-psx-ccd",
+        ".znx": "application/x-romfile-psx-compressed"
+      },
+      "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
+    }
+  },
   "Controllers": {
+    "3DO_CONTROLLER": {
+      "LayoutID": "3DO_CONTROLLER",
+      "FriendlyName": "3DO Interactive Multiplayer Controller",
+      "Platforms": ["PANASONIC_3DO"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "A",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "B",
+          "Type": "Button"
+        },
+        "ButtonC": {
+          "Label": "C",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Play/Pause",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Stop",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        },
+        "ButtonL": {
+          "Label": "L",
+          "Type": "Button"
+        },
+        "ButtonR": {
+          "Label": "R",
+          "Type": "Button"
+        }
+      }
+    },
     "A2600_JOYSTICK_CONTROLLER": {
       "LayoutID": "A2600_JOYSTICK_CONTROLLER",
       "Platforms": ["ATARI_2600", "ATARI_7800"],
@@ -1891,620 +2574,5 @@
       }
     }
   },
-  "Platforms": {
-    "ATARI_2600": {
-      "PlatformID": "ATARI_2600",
-      "Metadata": {
-        "platform_releasedate": "11/9/1977",
-        "platform_shortname": "2600",
-        "platform_company": "Atari",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Atari 2600",
-      "FileTypes": {
-        ".a26": "application/x-romfile-2600",
-        ".bin": "application/x-romfile-2600",
-        ".rom": "application/x-romfile-2600"
-      }
-    },
-    "ATARI_5200": {
-      "PlatformID": "ATARI_5200",
-      "Metadata": {
-        "platform_releasedate": "1/3/1982",
-        "platform_shortname": "5200",
-        "platform_company": "Atari",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "Atari 5200 SuperSystem",
-      "FileTypes": {
-        ".a52": "application/x-romfile-5200",
-        ".bin": "application/x-romfile-5200"
-      },
-      "BiosFiles": ["5200.rom"]
-    },
-    "ATARI_7800": {
-      "PlatformID": "ATARI_7800",
-      "Metadata": {
-        "platform_releasedate": "1/6/1986",
-        "platform_shortname": "7800",
-        "platform_company": "Atari",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Atari 7800 ProSystem",
-      "FileTypes": {
-        ".a78": "application/x-romfile-7800",
-        ".bin": "application/x-romfile-7800"
-      },
-      "BiosFiles": ["7800 BIOS (U).rom", "7800 BIOS (E).rom"]
-    },
-    "ATARI_JAGUAR": {
-      "PlatformID": "ATARI_JAGUAR",
-      "Metadata": {
-        "platform_releasedate": "15/11/1993",
-        "platform_shortname": "Jaguar",
-        "platform_company": "Atari",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Atari Jaguar",
-      "FileTypes": {
-        ".jag": "application/x-romfile-jaguar",
-        ".j64": "application/x-romfile-jaguar"
-      }
-    },
-    "ATARI_LYNX": {
-      "PlatformID": "ATARI_LYNX",
-      "Metadata": {
-        "platform_releasedate": "11/10/1989",
-        "platform_shortname": "Lynx",
-        "platform_company": "Atari",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Atari Lynx",
-      "FileTypes": {
-        ".lnx": "application/x-romfile-lynx"
-      },
-      "BiosFiles": ["lynxboot.img"]
-    },
-    "BANDAI_WS": {
-      "PlatformID": "BANDAI_WS",
-      "Metadata": {
-        "platform_releasedate": "04/03/1999",
-        "platform_shortname": "WS",
-        "platform_company": "Bandai",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Bandai WonderSwan",
-      "FileTypes": {
-        ".ws": "application/x-romfile-ws"
-      }
-    },
-    "BANDAI_WSC": {
-      "PlatformID": "BANDAI_WSC",
-      "Metadata": {
-        "platform_releasedate": "09/12/2000",
-        "platform_shortname": "WSC",
-        "platform_company": "Bandai",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Bandai WonderSwan Color",
-      "FileTypes": {
-        ".wsc": "application/x-romfile-wsc"
-      }
-    },
-    "NEC_TG16": {
-      "PlatformID": "NEC_TG16",
-      "Metadata": {
-        "platform_releasedate": "30/10/1986",
-        "platform_shortname": "TG16",
-        "platform_jp_name": "PC Engine",
-        "platform_company": "NEC",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "TurboGrafx-16",
-      "FileTypes": {
-        ".pce": "application/x-romfile-tg16"
-      },
-      "BiosFiles": ["syscard1.pce", "syscard2.pce", "syscard3.pce"]
-    },
-    "NINTENDO_3DS": {
-      "PlatformID": "NINTENDO_3DS",
-      "Metadata": {
-        "platform_releasedate": "26/02/2011",
-        "platform_shortname": "3DS",
-        "platform_company": "Nintendo",
-        "platform_type": "Handheld",
-        "platform_emulator_dev": "Citra"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Nintendo 3DS",
-      "FileTypes": {
-        ".3ds": "application/x-romfile-3ds",
-        ".3dsx": "application/x-romfile-3ds-3dsx",
-        ".cia": "application/x-romfile-3ds-cia"
-      }
-    },
-    "NINTENDO_64": {
-      "PlatformID": "NINTENDO_N64",
-      "Metadata": {
-        "platform_releasedate": "23/06/1996",
-        "platform_shortname": "N64",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "Nintendo 64",
-      "FileTypes": {
-        ".64": "application/x-romfile-n64-indeterminate",
-        ".n64": "application/x-romfile-n64-littleendian",
-        ".z64": "application/x-romfile-n64-bigendian",
-        ".d64": "application/x-romfile-n64-dd",
-        ".u64": "application/x-romfile-n64-byteswapped",
-        ".v64": "application/x-romfile-n64-byteswapped",
-        ".rom": "application/x-romfile-n64-byteswapped",
-        ".bin": "application/x-romfile-n64-indeterminate"
-      }
-    },
-    "NINTENDO_FDS": {
-      "PlatformID": "NINTENDO_FDS",
-      "Metadata": {
-        "platform_releasedate": "18/10/1985",
-        "platform_shortname": "FDS",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Family Computer Disk System",
-      "FileTypes": {
-        ".fds": "application/x-romfile-fds"
-      },
-      "BiosFiles": ["disksys.rom"]
-    },
-    "NINTENDO_GB": {
-      "PlatformID": "NINTENDO_GB",
-      "Metadata": {
-        "platform_releasedate": "21/04/1989",
-        "platform_shortname": "GB",
-        "platform_company": "Nintendo",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Game Boy",
-      "FileTypes": {
-        ".gb": "application/x-romfile-gb"
-      }
-    },
-    "NINTENDO_GBA": {
-      "PlatformID": "NINTENDO_GBA",
-      "Metadata": {
-        "platform_releasedate": "21/10/2001",
-        "platform_shortname": "GBA",
-        "platform_company": "Nintendo",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Game Boy Advanced",
-      "FileTypes": {
-        ".gba": "application/x-romfile-gba"
-      },
-      "BiosFiles": ["gba_bios.bin"]
-    },
-    "NINTENDO_GBC": {
-      "PlatformID": "NINTENDO_GBC",
-      "Metadata": {
-        "platform_releasedate": "21/10/1998",
-        "platform_shortname": "GBC",
-        "platform_company": "Nintendo",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Game Boy Color",
-      "FileTypes": {
-        ".gbc": "application/x-romfile-gbc"
-      },
-      "BiosFiles": ["gbc_bios.bin"]
-    },
-    "NINTENDO_GCN": {
-      "PlatformID": "NINTENDO_GCN",
-      "Metadata": {
-        "platform_releasedate": "14/9/2001",
-        "platform_shortname": "GCN",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "Nintendo GameCube",
-      "FileTypes": {
-        ".iso": "application/x-romfile-gcn",
-        ".gcm": "application/x-romfile-gcn"
-      },
-      "BiosFiles": ["IPL.bin", "IPL_E.bin", "IPL_U.bin", "IPL_J.bin"]
-    },
-    "NINTENDO_NDS": {
-      "PlatformID": "NINTENDO_NDS",
-      "Metadata": {
-        "platform_releasedate": "21/11/2004",
-        "platform_shortname": "NDS",
-        "platform_company": "Nintendo",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Nintendo DS",
-      "FileTypes": {
-        ".nds": "application/x-romfile-nds"
-      },
-      "BiosFiles": ["firmware.bin", "biosnds7.rom", "biosnds9.rom"]
-    },
-    "NINTENDO_NES": {
-      "PlatformID": "NINTENDO_NES",
-      "Metadata": {
-        "platform_releasedate": "18/10/1985",
-        "platform_shortname": "NES",
-        "platform_jp_name": "Family Computer",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Nintendo Entertainment System",
-      "FileTypes": {
-        ".nes": "application/x-romfile-nes"
-      }
-    },
-    "NINTENDO_SNES": {
-      "PlatformID": "NINTENDO_SNES",
-      "Metadata": {
-        "platform_releasedate": "21/11/1990",
-        "platform_shortname": "SNES",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Super Nintendo Entertainment System",
-      "FileTypes": {
-        ".sfc": "application/x-romfile-sfc",
-        ".smc": "application/x-romfile-smc"
-      }
-    },
-    "NINTENDO_VB": {
-      "PlatformID": "NINTENDO_VB",
-      "Metadata": {
-        "platform_releasedate": "21/07/1995",
-        "platform_shortname": "VB",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Virtual Boy",
-      "FileTypes": {
-        ".vb": "application/x-romfile-vb"
-      }
-    },
-    "NINTENDO_WII": {
-      "PlatformID": "NINTENDO_WII",
-      "Metadata": {
-        "platform_releasedate": "2/12/2006",
-        "platform_shortname": "Wii",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 8,
-      "FriendlyName": "Wii",
-      "FileTypes": {
-        ".iso": "application/x-romfile-wii",
-        ".wbfs": "application/x-romfile-wbfs",
-        ".ciso": "application/x-romfile-wii-compressed"
-      },
-      "BiosFiles": ["dsp_rom.bin", "dsp_coef.bin"]
-    },
-    "NINTENDO_WIIU": {
-      "PlatformID": "NINTENDO_WIIU",
-      "Metadata": {
-        "platform_releasedate": "18/11/2012",
-        "platform_shortname": "WiiU",
-        "platform_company": "Nintendo",
-        "platform_type": "Home",
-        "platform_emulator_dev": "cemu"
-      },
-      "MaximumInputs": 5,
-      "FriendlyName": "WiiU",
-      "FileTypes": {
-        ".iso": "application/x-romfile-wiiu-iso"
-      }
-    },
-    "SEGA_32X": {
-      "PlatformID": "SEGA_32X",
-      "Metadata": {
-        "platform_releasedate": "21/11/1994",
-        "platform_shortname": "32X",
-        "platform_company": "Sega",
-        "platform_type": "Addon"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Sega 32X",
-      "FileTypes": {
-        ".bin": "application/x-romfile-32x",
-        ".rom": "application/x-romfile-32x",
-        ".32x": "application/x-romfile-32x"
-      },
-      "BiosFiles": ["32X_G_BIOS.BIN", "32X_S_BIOS.BIN", "32X_M_BIOS.BIN"]
-    },
-    "SEGA_CD": {
-      "PlatformID": "SEGA_CD",
-      "Metadata": {
-        "platform_releasedate": "12/12/1991",
-        "platform_shortname": "SCD",
-        "platform_company": "Sega",
-        "platform_type": "Addon"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Sega CD",
-      "FileTypes": {
-        ".iso": "application/x-romfile-segacd",
-        ".bin": "application/x-romfile-segacd"
-      },
-      "BiosFiles": ["bios_CD_U.bin", "bios_CD_E.bin", "bios_CD_J.bin", "us_scd1_9210.bin", "eu_mcd1_9210.bin", "jp_mcd1_9112.bin"]
-    },
-    "SEGA_DC": {
-      "PlatformID": "SEGA_DC",
-      "Metadata": {
-        "platform_releasedate": "27/11/1998",
-        "platform_shortname": "DC",
-        "platform_company": "Sega",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "Sega Dreamcast",
-      "FileTypes": {
-        ".dc": "application/x-romfile-dc",
-        ".iso": "application/x-romfile-dc",
-        ".bin": "application/x-romfile-dc",
-        ".cdi": "application/x-romfile-dc",
-        ".gdi": "application/x-romfile-dc"
-      },
-      "BiosFiles": ["dc_boot.bin", "dc_flash.bin"]
-    },
-    "SEGA_GEN": {
-      "PlatformID": "SEGA_GEN",
-      "Metadata": {
-        "platform_releasedate": "29/10/1988",
-        "platform_shortname": "Genesis",
-        "platform_eu_name": "Mega Drive",
-        "platform_jp_name": "Mega Drive",
-        "platform_company": "Sega",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Sega Genesis",
-      "FileTypes": {
-        ".bin": "application/x-romfile-gen",
-        ".smd": "application/x-romfile-gen",
-        ".rom": "application/x-romfile-gen"
-      }
-    },
-    "SEGA_GG": {
-      "PlatformID": "SEGA_GG",
-      "Metadata": {
-        "platform_releasedate": "06/10/1990",
-        "platform_shortname": "GG",
-        "platform_company": "Sega",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Sega Game Gear",
-      "FileTypes": {
-        ".gg": "application/x-romfile-gg"
-      }
-    },
-    "SEGA_SAT": {
-      "PlatformID": "SEGA_SAT",
-      "Metadata": {
-        "platform_releasedate": "29/10/1988",
-        "platform_shortname": "Saturn",
-        "platform_company": "Sega",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Sega Saturn",
-      "FileTypes": {
-        ".iso": "application/x-romfile-sat"
-      },
-      "BiosFiles": ["saturn_bios.bin"]
-    },
-    "SEGA_SMS": {
-      "PlatformID": "SEGA_SMS",
-      "Metadata": {
-        "platform_releasedate": "1985",
-        "platform_shortname": "SMS",
-        "platform_company": "Sega",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Sega Master System",
-      "FileTypes": {
-        ".bin": "application/x-romfile-sms",
-        ".sms": "application/x-romfile-sms"
-      }
-    },
-    "SNK_NG": {
-      "PlatformID": "SNK_NG",
-      "Metadata": {
-        "platform_releasedate": "26/04/1991",
-        "platform_shortname": "NG",
-        "platform_company": "SNK",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Neo Geo",
-      "FileTypes": {
-        ".zip": "application/x-romfile-arcade-neogeo"
-      },
-      "BiosFiles": ["neogeo.zip"]
-    },
-    "SNK_NGCD": {
-      "PlatformID": "SNK_NGCD",
-      "Metadata": {
-        "platform_releasedate": "01/09/1994",
-        "platform_shortname": "NGCD",
-        "platform_company": "SNK",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Neo Geo CD",
-      "FileTypes": {
-        ".cue": "application/x-romfile-ngcd-cue",
-        ".bin": "application/x-romfile-ngcd-bin",
-        ".zip": "application/x-romfile-ngcd"
-      }
-    },
-    "SNK_NGP": {
-      "PlatformID": "SNK_NGP",
-      "Metadata": {
-        "platform_releasedate": "28/10/1998",
-        "platform_shortname": "NGP",
-        "platform_company": "SNK",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Neo Geo Pocket",
-      "FileTypes": {
-        ".ngp": "application/x-romfile-ngp"
-      }
-    },
-    "SNK_NGPC": {
-      "PlatformID": "SNK_NGPC",
-      "Metadata": {
-        "platform_releasedate": "16/03/1999",
-        "platform_shortname": "NGPC",
-        "platform_company": "SNK",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "Neo Geo Pocket Color",
-      "FileTypes": {
-        ".ngc": "application/x-romfile-ngpc"
-      }
-    },
-    "SONY_PS2": {
-      "PlatformID": "SONY_PS2",
-      "Metadata": {
-        "platform_releasedate": "04/03/2000",
-        "platform_shortname": "PS2",
-        "platform_company": "Sony",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "PlayStation 2",
-      "FileTypes": {
-        ".bin": "application/x-romfile-ps2",
-        ".iso": "application/x-romfile-ps2",
-        ".ps2": "application/x-romfile-ps2",
-        ".img": "application/x-romfile-ps2",
-        ".elf": "application/x-romfile-ps2-elf"
-      },
-      "BiosFiles": ["scph-10000.bin", "scph-30003.bin", "scph-30004.bin", "scph-39001.bin", "scph-39004.bin", "scph-50003.bin", "scph-70000.bin", "scph-70004.bin", "scph-70012.bin", "scph-90006.bin"]
-    },
-    "SONY_PS3": {
-      "PlatformID": "SONY_PS3",
-      "Metadata": {
-        "platform_releasedate": "11/11/2006",
-        "platform_shortname": "PS3",
-        "platform_company": "Sony",
-        "platform_emulator_dev": "rpcs3",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "PlayStation 3",
-      "FileTypes": {
-        ".iso": "application/x-romfile-ps3",
-        ".elf": "application/x-romfile-ps3-elf",
-        ".pbp": "application/x-romfile-ps3-pbp"
-      }
-    },
-    "SONY_PS4": {
-      "PlatformID": "SONY_PS4",
-      "Metadata": {
-        "platform_releasedate": "15/11/2013",
-        "platform_shortname": "PS4",
-        "platform_company": "Sony",
-        "platform_emulator_dev": "None",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "PlayStation 4",
-      "FileTypes": {
-        ".iso": "application/x-romfile-ps4",
-        ".elf": "application/x-romfile-ps4-elf",
-        ".pbp": "application/x-romfile-ps4-pbp"
-      }
-    },
-    "SONY_PSP": {
-      "PlatformID": "SONY_PSP",
-      "Metadata": {
-        "platform_releasedate": "12/12/2004",
-        "platform_shortname": "PSP",
-        "platform_company": "Sony",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "Playstation Portable",
-      "FileTypes": {
-        ".bin": "application/x-romfile-psp",
-        ".iso": "application/x-romfile-psp",
-        ".pbp": "application/x-romfile-psp-pbp",
-        ".cso": "application/x-romfile-psp-compressed",
-        ".ciso": "application/x-romfile-psp-compressed"
-      }
-    },
-    "SONY_PSV": {
-      "PlatformID": "SONY_PSV",
-      "Metadata": {
-        "platform_releasedate": "17/12/2011",
-        "platform_shortname": "PSV",
-        "platform_company": "Sony",
-        "platform_emulator_dev": "None",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 1,
-      "FriendlyName": "PlayStation Vita",
-      "FileTypes": {
-        ".bin": "application/x-romfile-psv",
-        ".iso": "application/x-romfile-psv",
-        ".pbp": "application/x-romfile-psv-pbp",
-        ".cso": "application/x-romfile-psv-compressed",
-        ".ciso": "application/x-romfile-psv-compressed"
-      }
-    },
-    "SONY_PSX": {
-      "PlatformID": "SONY_PSX",
-      "Metadata": {
-        "platform_releasedate": "03/12/1994",
-        "platform_shortname": "PSX",
-        "platform_company": "Sony",
-        "platform_type": "Handheld"
-      },
-      "MaximumInputs": 2,
-      "FriendlyName": "PlayStation",
-      "FileTypes": {
-        ".m3u": "application/x-romfile-psx-m3u",
-        ".toc": "application/x-romfile-psx-toc",
-        ".cue": "application/x-romfile-psx-cue",
-        ".bin": "application/x-romfile-psx",
-        ".iso": "application/x-romfile-psx",
-        ".img": "application/x-romfile-psx",
-        ".sub": "application/x-romfile-psx-sub",
-        ".pbp": "application/x-romfile-psx-pbp",
-        ".ccd": "application/x-romfile-psx-ccd",
-        ".znx": "application/x-romfile-psx-compressed"
-      },
-      "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
-    }
-  },
-  "version": "3.0.0"
+  "version": "3.1.0"
 }

@@ -1,0 +1,38 @@
+LayoutID: 3DO_CONTROLLER
+FriendlyName: "3DO Interactive Multiplayer Controller"
+Platforms:
+    - PANASONIC_3DO
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonC:
+        Label: "C"
+        Type: Button
+    ButtonStart:
+        Label: "Play/Pause"
+        Type: Button
+    ButtonSelect:
+        Label: "Stop"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional
+    ButtonL:
+        Label: "L"
+        Type: Button
+    ButtonR:
+        Label: "R"
+        Type: Button

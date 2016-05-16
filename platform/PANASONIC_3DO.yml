@@ -1,0 +1,14 @@
+PlatformID: PANASONIC_3DO
+Metadata:
+  platform_releasedate: 04/10/1993
+  platform_shortname: 3DO
+  platform_company: Panasonic
+  platform_type: Home
+MaximumInputs: 8
+FriendlyName: 3DO Interactive Multiplayer
+FileTypes: 
+    .bin: 'application/x-romfile-3do'
+    .iso: 'application/x-romfile-3do'
+    .cue: 'application/x-romfile-3do-cue'
+BiosFiles:
+    - 3DO-FZ-10.bin
