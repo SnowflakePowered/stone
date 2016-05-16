@@ -1,6 +1,7 @@
 LayoutID: JAGUAR_CONTROLLER
 Platforms: 
   - ATARI_JAGUAR
+  - ATARI_JAGUAR_CD
 FriendlyName: "Atari Jaguar Controller"
 Layout: 
   ButtonA: 

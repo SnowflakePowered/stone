@@ -1,0 +1,13 @@
+PlatformID: ATARI_JAGUAR
+Metadata:
+  platform_releasedate: 21/09/1995
+  platform_shortname: Jag CD
+  platform_company: Atari
+  platform_type: Home
+MaximumInputs: 2
+FriendlyName: Atari Jaguar CD
+FileTypes:
+    .cdi: 'application/x-romfile-jaguar-cdi'
+    .ccd: 'application/x-romfile-jaguar-ccd'
+    .img: 'application/x-romfile-jaguar-img'
+    .sub: 'application/x-romfile-jaguar-sub'
