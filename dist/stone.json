@@ -2627,7 +2627,9 @@
       "MaximumInputs": 1,
       "FriendlyName": "Nintendo DS",
       "FileTypes": {
-        ".nds": "application/x-romfile-nds"
+        ".nds": "application/x-romfile-nds",
+        ".gba": "application/x-romfile-nds-slot2",
+        ".ids": "application/x-romfile-nds"
       },
       "BiosFiles": ["firmware.bin", "biosnds7.rom", "biosnds9.rom"]
     },
@@ -3034,5 +3036,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "3.4.5"
+  "version": "3.4.6"
 }

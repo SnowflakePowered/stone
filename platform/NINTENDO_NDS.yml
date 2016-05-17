@@ -8,6 +8,8 @@ MaximumInputs: 1
 FriendlyName: Nintendo DS
 FileTypes: 
     .nds: 'application/x-romfile-nds'
+    .gba: 'application/x-romfile-nds-slot2'
+    .ids: 'application/x-romfile-nds'
 BiosFiles:
     - firmware.bin
     - biosnds7.rom
