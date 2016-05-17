@@ -8,3 +8,4 @@ MaximumInputs: 1
 FriendlyName: Sega Game Gear
 FileTypes: 
     .gg: 'application/x-romfile-gg'
+    .sms: 'application/x-romfile-gg'

@@ -2795,7 +2795,8 @@
       "MaximumInputs": 1,
       "FriendlyName": "Sega Game Gear",
       "FileTypes": {
-        ".gg": "application/x-romfile-gg"
+        ".gg": "application/x-romfile-gg",
+        ".sms": "application/x-romfile-gg"
       }
     },
     "SEGA_SAT": {
@@ -3017,5 +3018,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "3.3.0"
+  "version": "3.3.2"
 }
