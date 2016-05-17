@@ -1,0 +1,24 @@
+LayoutID: SG1000_CONTROLLER
+Platforms: 
+  - SEGA_SG1000
+FriendlyName: "SG-1000 Joystick"
+Layout: 
+  ButtonA: 
+    Label: "Fire 1"
+    Type: Button
+  ButtonB: 
+    Label: "Fire 2"
+    Type: Button
+  DirectionalE: 
+    Label: "Joystick Right"
+    Type: Directional
+  DirectionalN: 
+    Label: "Joystick Up"
+    Type: Directional
+  DirectionalS: 
+    Label: "Joystick Down"
+    Type: Directional
+  DirectionalW: 
+    Label: "Joystick Left"
+    Type: Directional
+

@@ -1,0 +1,14 @@
+PlatformID: COLECO_CV
+Metadata:
+  platform_releasedate: 1/8/1982
+  platform_shortname: 'CV'
+  platform_company: Coleco
+  platform_type: Home
+MaximumInputs: 4
+FriendlyName: ColecoVision
+FileTypes:
+    .rom: 'application/x-romfile-cv'
+    .col: 'application/x-romfile-cv'
+BiosFiles:
+    - ColecoVision BIOS (1982).rom
+    - ColecoVision BIOS (1982).col

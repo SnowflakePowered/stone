@@ -1,0 +1,14 @@
+PlatformID: NEC_PCFX
+Metadata:
+  platform_releasedate: 23/11/1994
+  platform_shortname: "PC-FX"
+  platform_company: NEC
+  platform_type: Home
+MaximumInputs: 2
+FriendlyName: "PC-FX"
+FileTypes: 
+    .bin: 'application/x-romfile-pcfx'
+    .iso: 'application/x-romfile-pcfx'
+    .cue: 'application/x-romfile-pcfx-cue'
+BiosFiles:
+    - pcfx.rom

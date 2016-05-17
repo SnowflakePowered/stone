@@ -1,0 +1,10 @@
+PlatformID: MATTEL_INT
+Metadata:
+  platform_releasedate: 1/8/1982
+  platform_shortname: 'INT'
+  platform_company: Mattel Electronics
+  platform_type: Home
+MaximumInputs: 2
+FriendlyName: Intellivision
+FileTypes:
+    .int: 'application/x-romfile-int'

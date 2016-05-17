@@ -1,15 +1,25 @@
-LayoutID: TG16_CONTROLLER
-FriendlyName: "TurboGrafx-16 Controller"
+LayoutID: PCFX_CONTROLLER
+FriendlyName: "PCFX 6-button Controller"
 Platforms:
-    - NEC_TG16
-    - NEC_TGCD
-    - NEC_SGFX
+    - NEC_PCFX
 Layout:
     ButtonA:
         Label: "I"
         Type: Button
     ButtonB:
         Label: "II"
+        Type: Button
+    ButtonC:
+        Label: "III"
+        Type: Button
+    ButtonX:
+        Label: "IV"
+        Type: Button
+    ButtonY:
+        Label: "V"
+        Type: Button
+    ButtonZ:
+        Label: "VI"
         Type: Button
     ButtonStart:
         Label: "Run"
@@ -29,3 +39,9 @@ Layout:
     DirectionalW:
         Label: "D-Pad Left"
         Type: Directional
+    Button0:
+        Label: "MODE 1"
+        Type: Button
+    Button1:
+        Label: "MODE 2"
+        Type: Button

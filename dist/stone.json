@@ -219,6 +219,89 @@
         }
       }
     },
+    "COLECOVISION_CONTROLLER": {
+      "LayoutID": "COLECOVISION_CONTROLLER",
+      "Platforms": ["COLECO_CV"],
+      "FriendlyName": "ColecoVision Controller",
+      "Layout": {
+        "AxisLeftAnalogNegativeX": {
+          "Label": "Control Disk Left",
+          "Type": "AxisNegative"
+        },
+        "AxisLeftAnalogPositiveX": {
+          "Label": "Control Disk Right",
+          "Type": "AxisPositive"
+        },
+        "Button0": {
+          "Label": "0",
+          "Type": "Button"
+        },
+        "Button1": {
+          "Label": "1",
+          "Type": "Button"
+        },
+        "Button10": {
+          "Label": "*",
+          "Type": "Button"
+        },
+        "Button11": {
+          "Label": "#",
+          "Type": "Button"
+        },
+        "Button2": {
+          "Label": "2",
+          "Type": "Button"
+        },
+        "Button3": {
+          "Label": "3",
+          "Type": "Button"
+        },
+        "Button4": {
+          "Label": "4",
+          "Type": "Button"
+        },
+        "Button5": {
+          "Label": "5",
+          "Type": "Button"
+        },
+        "Button6": {
+          "Label": "6",
+          "Type": "Button"
+        },
+        "Button7": {
+          "Label": "7",
+          "Type": "Button"
+        },
+        "Button8": {
+          "Label": "8",
+          "Type": "Button"
+        },
+        "Button9": {
+          "Label": "9",
+          "Type": "Button"
+        },
+        "ButtonA": {
+          "Label": "Fire 1",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "Fire 2",
+          "Type": "Button"
+        },
+        "ButtonGuide": {
+          "Label": "Reset",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Pause",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Start",
+          "Type": "Button"
+        }
+      }
+    },
     "DC_CONTROLLER": {
       "LayoutID": "DC_CONTROLLER",
       "FriendlyName": "Dreamcast Controller",
@@ -626,6 +709,89 @@
         "DirectionalW": {
           "Label": "D-Pad Left",
           "Type": "Directional"
+        }
+      }
+    },
+    "INTELLIVISION_CONTROLLER": {
+      "LayoutID": "INTELLIVISION_CONTROLLER",
+      "Platforms": ["MATTEL_INT"],
+      "FriendlyName": "Intellivision Controller",
+      "Layout": {
+        "AxisLeftAnalogNegativeX": {
+          "Label": "Control Disk Left",
+          "Type": "AxisNegative"
+        },
+        "AxisLeftAnalogPositiveX": {
+          "Label": "Control Disk Right",
+          "Type": "AxisPositive"
+        },
+        "Button0": {
+          "Label": "0",
+          "Type": "Button"
+        },
+        "Button1": {
+          "Label": "1",
+          "Type": "Button"
+        },
+        "Button10": {
+          "Label": "*",
+          "Type": "Button"
+        },
+        "Button11": {
+          "Label": "#",
+          "Type": "Button"
+        },
+        "Button2": {
+          "Label": "2",
+          "Type": "Button"
+        },
+        "Button3": {
+          "Label": "3",
+          "Type": "Button"
+        },
+        "Button4": {
+          "Label": "4",
+          "Type": "Button"
+        },
+        "Button5": {
+          "Label": "5",
+          "Type": "Button"
+        },
+        "Button6": {
+          "Label": "6",
+          "Type": "Button"
+        },
+        "Button7": {
+          "Label": "7",
+          "Type": "Button"
+        },
+        "Button8": {
+          "Label": "8",
+          "Type": "Button"
+        },
+        "Button9": {
+          "Label": "9",
+          "Type": "Button"
+        },
+        "ButtonA": {
+          "Label": "Fire 1",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "Fire 2",
+          "Type": "Button"
+        },
+        "ButtonGuide": {
+          "Label": "Reset",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Pause",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Start",
+          "Type": "Button"
         }
       }
     },
@@ -1050,6 +1216,69 @@
         }
       }
     },
+    "PCFX_CONTROLLER": {
+      "LayoutID": "PCFX_CONTROLLER",
+      "FriendlyName": "PCFX 6-button Controller",
+      "Platforms": ["NEC_PCFX"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "I",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "II",
+          "Type": "Button"
+        },
+        "ButtonC": {
+          "Label": "III",
+          "Type": "Button"
+        },
+        "ButtonX": {
+          "Label": "IV",
+          "Type": "Button"
+        },
+        "ButtonY": {
+          "Label": "V",
+          "Type": "Button"
+        },
+        "ButtonZ": {
+          "Label": "VI",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Run",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Select",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        },
+        "Button0": {
+          "Label": "MODE 1",
+          "Type": "Button"
+        },
+        "Button1": {
+          "Label": "MODE 2",
+          "Type": "Button"
+        }
+      }
+    },
     "PSP_LAYOUT": {
       "LayoutID": "PSP_LAYOUT",
       "FriendlyName": "PlayStation Portable Layout",
@@ -1346,6 +1575,37 @@
         }
       }
     },
+    "SG1000_CONTROLLER": {
+      "LayoutID": "SG1000_CONTROLLER",
+      "Platforms": ["SEGA_SG1000"],
+      "FriendlyName": "SG-1000 Joystick",
+      "Layout": {
+        "ButtonA": {
+          "Label": "Fire 1",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "Fire 2",
+          "Type": "Button"
+        },
+        "DirectionalE": {
+          "Label": "Joystick Right",
+          "Type": "Directional"
+        },
+        "DirectionalN": {
+          "Label": "Joystick Up",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "Joystick Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "Joystick Left",
+          "Type": "Directional"
+        }
+      }
+    },
     "SMS_CONTROLLER": {
       "LayoutID": "SMS_CONTROLLER",
       "FriendlyName": "Sega Master System Controller",
@@ -1435,7 +1695,7 @@
     "TG16_CONTROLLER": {
       "LayoutID": "TG16_CONTROLLER",
       "FriendlyName": "TurboGrafx-16 Controller",
-      "Platforms": ["NEC_TG16"],
+      "Platforms": ["NEC_TG16", "NEC_TGCD", "NEC_SGFX"],
       "Layout": {
         "ButtonA": {
           "Label": "I",
@@ -1522,6 +1782,45 @@
         },
         "Button3": {
           "Label": "Right D-Pad Left",
+          "Type": "Directional"
+        }
+      }
+    },
+    "VECTREX_CONTROLLER": {
+      "LayoutID": "VECTREX_CONTROLLER",
+      "FriendlyName": "Vectrex Controller",
+      "Platforms": ["GCE_VECTREX"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "1",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "2",
+          "Type": "Button"
+        },
+        "ButtonX": {
+          "Label": "3",
+          "Type": "Button"
+        },
+        "ButtonY": {
+          "Label": "4",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
           "Type": "Directional"
         }
       }
@@ -2066,6 +2365,85 @@
         ".wsc": "application/x-romfile-wsc"
       }
     },
+    "COLECO_CV": {
+      "PlatformID": "COLECO_CV",
+      "Metadata": {
+        "platform_releasedate": "1/8/1982",
+        "platform_shortname": "CV",
+        "platform_company": "Coleco",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "ColecoVision",
+      "FileTypes": {
+        ".rom": "application/x-romfile-cv",
+        ".col": "application/x-romfile-cv"
+      },
+      "BiosFiles": ["ColecoVision BIOS (1982).rom", "ColecoVision BIOS (1982).col"]
+    },
+    "GCE_VECTREX": {
+      "PlatformID": "GCE_VECTREX",
+      "Metadata": {
+        "platform_releasedate": "1/8/1982",
+        "platform_shortname": "Vectrex",
+        "platform_company": "General Computer",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Vectrex",
+      "FileTypes": {
+        ".vec": "application/x-romfile-vec",
+        ".bin": "application/x-romfile-vec",
+        ".vol": "application/x-romfile-vec-vol",
+        ".pcx": "application/x-romfile-vec-pcx"
+      }
+    },
+    "MATTEL_INT": {
+      "PlatformID": "MATTEL_INT",
+      "Metadata": {
+        "platform_releasedate": "1/8/1982",
+        "platform_shortname": "INT",
+        "platform_company": "Mattel Electronics",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Intellivision",
+      "FileTypes": {
+        ".int": "application/x-romfile-int"
+      }
+    },
+    "NEC_PCFX": {
+      "PlatformID": "NEC_PCFX",
+      "Metadata": {
+        "platform_releasedate": "23/11/1994",
+        "platform_shortname": "PC-FX",
+        "platform_company": "NEC",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "PC-FX",
+      "FileTypes": {
+        ".bin": "application/x-romfile-pcfx",
+        ".iso": "application/x-romfile-pcfx",
+        ".cue": "application/x-romfile-pcfx-cue"
+      },
+      "BiosFiles": ["pcfx.rom"]
+    },
+    "NEC_SGFX": {
+      "PlatformID": "NEC_SGFX",
+      "Metadata": {
+        "platform_releasedate": "1/11/1989",
+        "platform_shortname": "SuperGrafx",
+        "platform_company": "NEC",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "PC Engine SuperGrafx",
+      "FileTypes": {
+        ".pce": "application/x-romfile-sgfx"
+      },
+      "BiosFiles": ["syscard1.pce", "syscard2.pce", "syscard3.pce"]
+    },
     "NEC_TG16": {
       "PlatformID": "NEC_TG16",
       "Metadata": {
@@ -2075,10 +2453,27 @@
         "platform_company": "NEC",
         "platform_type": "Home"
       },
-      "MaximumInputs": 1,
+      "MaximumInputs": 2,
       "FriendlyName": "TurboGrafx-16",
       "FileTypes": {
         ".pce": "application/x-romfile-tg16"
+      },
+      "BiosFiles": ["syscard1.pce", "syscard2.pce", "syscard3.pce"]
+    },
+    "NEC_TGCD": {
+      "PlatformID": "NEC_TGCD",
+      "Metadata": {
+        "platform_releasedate": "30/10/1986",
+        "platform_shortname": "TGCD",
+        "platform_jp_name": "PC Engine CD",
+        "platform_company": "NEC",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "TurboGrafx-CD",
+      "FileTypes": {
+        ".iso": "application/x-romfile-tgcd",
+        ".cue": "application/x-romfile-tgcd-cue"
       },
       "BiosFiles": ["syscard1.pce", "syscard2.pce", "syscard3.pce"]
     },
@@ -2118,6 +2513,21 @@
         ".v64": "application/x-romfile-n64-byteswapped",
         ".rom": "application/x-romfile-n64-byteswapped",
         ".bin": "application/x-romfile-n64-indeterminate"
+      }
+    },
+    "NINTENDO_64DD": {
+      "PlatformID": "NINTENDO_N64DD",
+      "Metadata": {
+        "platform_releasedate": "23/06/1996",
+        "platform_shortname": "N64DD",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "Nintendo 64 DD",
+      "FileTypes": {
+        ".d64": "application/x-romfile-n64-dd",
+        ".dd": "application/x-romfile-n64-dd"
       }
     },
     "NINTENDO_FDS": {
@@ -2222,7 +2632,8 @@
       "MaximumInputs": 2,
       "FriendlyName": "Nintendo Entertainment System",
       "FileTypes": {
-        ".nes": "application/x-romfile-nes"
+        ".nes": "application/x-romfile-nes",
+        ".bin": "application/x-romfile-nes"
       }
     },
     "NINTENDO_SNES": {
@@ -2401,6 +2812,20 @@
         ".iso": "application/x-romfile-sat"
       },
       "BiosFiles": ["saturn_bios.bin"]
+    },
+    "SEGA_SG1000": {
+      "PlatformID": "SEGA_SG1000",
+      "Metadata": {
+        "platform_releasedate": "15/07/1983",
+        "platform_shortname": "SG-1000",
+        "platform_company": "Sega",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Sega SG-1000",
+      "FileTypes": {
+        ".sg": "application/x-romfile-sg1000"
+      }
     },
     "SEGA_SMS": {
       "PlatformID": "SEGA_SMS",
@@ -2591,5 +3016,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "3.1.0"
+  "version": "3.3.0"
 }

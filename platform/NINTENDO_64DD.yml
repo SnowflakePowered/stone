@@ -1,0 +1,11 @@
+PlatformID: NINTENDO_N64DD
+Metadata:
+  platform_releasedate: 23/06/1996
+  platform_shortname: N64DD
+  platform_company: Nintendo
+  platform_type: Home
+MaximumInputs: 4
+FriendlyName: Nintendo 64 DD
+FileTypes:
+    .d64: 'application/x-romfile-n64-dd'
+    .dd: 'application/x-romfile-n64-dd'

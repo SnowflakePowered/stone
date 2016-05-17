@@ -5,7 +5,7 @@ Metadata:
   platform_jp_name: PC Engine
   platform_company: NEC
   platform_type: Home
-MaximumInputs: 1
+MaximumInputs: 2
 FriendlyName: TurboGrafx-16
 FileTypes: 
     .pce: 'application/x-romfile-tg16'

@@ -9,3 +9,4 @@ MaximumInputs: 2
 FriendlyName: Nintendo Entertainment System
 FileTypes: 
     .nes: 'application/x-romfile-nes'
+    .bin: 'application/x-romfile-nes'

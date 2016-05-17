@@ -1,0 +1,16 @@
+PlatformID: NEC_TGCD
+Metadata:
+  platform_releasedate: 30/10/1986
+  platform_shortname: TGCD
+  platform_jp_name: PC Engine CD
+  platform_company: NEC
+  platform_type: Home
+MaximumInputs: 2
+FriendlyName: TurboGrafx-CD
+FileTypes: 
+    .iso: 'application/x-romfile-tgcd'
+    .cue: 'application/x-romfile-tgcd-cue'
+BiosFiles:
+    - syscard1.pce
+    - syscard2.pce
+    - syscard3.pce
