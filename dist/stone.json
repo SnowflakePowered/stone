@@ -2823,7 +2823,9 @@
       "MaximumInputs": 2,
       "FriendlyName": "Sega Saturn",
       "FileTypes": {
-        ".iso": "application/x-romfile-sat"
+        ".iso": "application/x-romfile-sat",
+        ".cue": "application/x-romfile-sat-cue",
+        ".bin": "application/x-romfile-sat"
       },
       "BiosFiles": ["saturn_bios.bin"]
     },
@@ -3031,5 +3033,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "3.4.3"
+  "version": "3.4.4"
 }

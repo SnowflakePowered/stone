@@ -8,5 +8,7 @@ MaximumInputs: 2
 FriendlyName: Sega Saturn
 FileTypes: 
     .iso: 'application/x-romfile-sat'
+    .cue: 'application/x-romfile-sat-cue'
+    .bin: 'application/x-romfile-sat'
 BiosFiles:
     - saturn_bios.bin
