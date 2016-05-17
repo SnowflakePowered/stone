@@ -2754,7 +2754,8 @@
       "FriendlyName": "Sega CD",
       "FileTypes": {
         ".iso": "application/x-romfile-segacd",
-        ".bin": "application/x-romfile-segacd"
+        ".bin": "application/x-romfile-segacd",
+        ".cue": "application/x-romfile-segacd-cue"
       },
       "BiosFiles": ["bios_CD_U.bin", "bios_CD_E.bin", "bios_CD_J.bin", "us_scd1_9210.bin", "eu_mcd1_9210.bin", "jp_mcd1_9112.bin"]
     },
@@ -3033,5 +3034,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "3.4.4"
+  "version": "3.4.5"
 }
