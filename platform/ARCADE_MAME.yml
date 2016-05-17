@@ -1,0 +1,7 @@
+PlatformID: ARCADE_MAME
+Metadata:
+  platform_type: Arcade
+MaximumInputs: 8
+FriendlyName: Arcade
+FileTypes: 
+    .zip: 'application/x-romfile-arcade+zip'

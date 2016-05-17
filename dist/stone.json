@@ -2242,6 +2242,17 @@
     }
   },
   "Platforms": {
+    "ARCADE_MAME": {
+      "PlatformID": "ARCADE_MAME",
+      "Metadata": {
+        "platform_type": "Arcade"
+      },
+      "MaximumInputs": 8,
+      "FriendlyName": "Arcade",
+      "FileTypes": {
+        ".zip": "application/x-romfile-arcade+zip"
+      }
+    },
     "ATARI_2600": {
       "PlatformID": "ATARI_2600",
       "Metadata": {
@@ -3020,5 +3031,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "3.3.3"
+  "version": "3.4.3"
 }
