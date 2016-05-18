@@ -9,5 +9,5 @@ FriendlyName: Vectrex
 FileTypes:
     .vec: 'application/x-romfile-vec'
     .bin: 'application/x-romfile-vec'
-    .vol: 'application/x-romfile-vec-vol'
-    .pcx: 'application/x-romfile-vec-pcx'
+    .vol: 'application/x-romfile-vec-overlay-vol'
+    .pcx: 'application/x-romfile-vec-overlay-pcx'

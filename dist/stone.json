@@ -2405,8 +2405,8 @@
       "FileTypes": {
         ".vec": "application/x-romfile-vec",
         ".bin": "application/x-romfile-vec",
-        ".vol": "application/x-romfile-vec-vol",
-        ".pcx": "application/x-romfile-vec-pcx"
+        ".vol": "application/x-romfile-vec-overlay-vol",
+        ".pcx": "application/x-romfile-vec-overlay-pcx"
       }
     },
     "MATTEL_INT": {
@@ -2501,7 +2501,7 @@
       "FriendlyName": "Nintendo 3DS",
       "FileTypes": {
         ".3ds": "application/x-romfile-3ds",
-        ".3dsx": "application/x-romfile-3ds-3dsx",
+        ".3dsx": "application/x-romfile-3ds-homebrew",
         ".cia": "application/x-romfile-3ds-cia"
       }
     },
@@ -3036,5 +3036,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "3.4.6"
+  "version": "3.4.7"
 }
