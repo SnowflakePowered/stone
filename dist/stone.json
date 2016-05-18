@@ -2505,42 +2505,6 @@
         ".cia": "application/x-romfile-3ds-cia"
       }
     },
-    "NINTENDO_64": {
-      "PlatformID": "NINTENDO_N64",
-      "Metadata": {
-        "platform_releasedate": "23/06/1996",
-        "platform_shortname": "N64",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "Nintendo 64",
-      "FileTypes": {
-        ".64": "application/x-romfile-n64-indeterminate",
-        ".n64": "application/x-romfile-n64-littleendian",
-        ".z64": "application/x-romfile-n64-bigendian",
-        ".d64": "application/x-romfile-n64-dd",
-        ".u64": "application/x-romfile-n64-byteswapped",
-        ".v64": "application/x-romfile-n64-byteswapped",
-        ".rom": "application/x-romfile-n64-byteswapped",
-        ".bin": "application/x-romfile-n64-indeterminate"
-      }
-    },
-    "NINTENDO_64DD": {
-      "PlatformID": "NINTENDO_N64DD",
-      "Metadata": {
-        "platform_releasedate": "23/06/1996",
-        "platform_shortname": "N64DD",
-        "platform_company": "Nintendo",
-        "platform_type": "Home"
-      },
-      "MaximumInputs": 4,
-      "FriendlyName": "Nintendo 64 DD",
-      "FileTypes": {
-        ".d64": "application/x-romfile-n64-dd",
-        ".dd": "application/x-romfile-n64-dd"
-      }
-    },
     "NINTENDO_FDS": {
       "PlatformID": "NINTENDO_FDS",
       "Metadata": {
@@ -2615,6 +2579,42 @@
         ".gcm": "application/x-romfile-gcn"
       },
       "BiosFiles": ["IPL.bin", "IPL_E.bin", "IPL_U.bin", "IPL_J.bin"]
+    },
+    "NINTENDO_N64": {
+      "PlatformID": "NINTENDO_N64",
+      "Metadata": {
+        "platform_releasedate": "23/06/1996",
+        "platform_shortname": "N64",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "Nintendo 64",
+      "FileTypes": {
+        ".64": "application/x-romfile-n64-indeterminate",
+        ".n64": "application/x-romfile-n64-littleendian",
+        ".z64": "application/x-romfile-n64-bigendian",
+        ".d64": "application/x-romfile-n64-dd",
+        ".u64": "application/x-romfile-n64-indeterminate",
+        ".v64": "application/x-romfile-n64-byteswapped",
+        ".rom": "application/x-romfile-n64-indeterminate",
+        ".bin": "application/x-romfile-n64-indeterminate"
+      }
+    },
+    "NINTENDO_N64DD": {
+      "PlatformID": "NINTENDO_N64DD",
+      "Metadata": {
+        "platform_releasedate": "23/06/1996",
+        "platform_shortname": "N64DD",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 4,
+      "FriendlyName": "Nintendo 64 DD",
+      "FileTypes": {
+        ".d64": "application/x-romfile-n64-dd",
+        ".dd": "application/x-romfile-n64-dd"
+      }
     },
     "NINTENDO_NDS": {
       "PlatformID": "NINTENDO_NDS",
@@ -3036,5 +3036,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "3.4.7"
+  "version": "3.4.8"
 }
