@@ -10,7 +10,6 @@ FileTypes:
     '.64': 'application/x-romfile-n64-indeterminate'
     .n64: 'application/x-romfile-n64-littleendian'
     .z64: 'application/x-romfile-n64-bigendian'
-    .d64: 'application/x-romfile-n64-dd'
     .u64: 'application/x-romfile-n64-indeterminate'
     .v64: 'application/x-romfile-n64-byteswapped'
     .rom: 'application/x-romfile-n64-indeterminate'

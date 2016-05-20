@@ -2615,7 +2615,6 @@
         ".64": "application/x-romfile-n64-indeterminate",
         ".n64": "application/x-romfile-n64-littleendian",
         ".z64": "application/x-romfile-n64-bigendian",
-        ".d64": "application/x-romfile-n64-dd",
         ".u64": "application/x-romfile-n64-indeterminate",
         ".v64": "application/x-romfile-n64-byteswapped",
         ".rom": "application/x-romfile-n64-indeterminate",
@@ -2869,9 +2868,12 @@
       "MaximumInputs": 2,
       "FriendlyName": "Sega Saturn",
       "FileTypes": {
-        ".iso": "application/x-romfile-sat",
-        ".cue": "application/x-romfile-sat-cue",
-        ".bin": "application/x-romfile-sat"
+        ".iso": "application/x-romfile-sat-iso9660",
+        ".ccd": "application/x-romfile-sat-clonecd-control",
+        ".img": "application/x-romfile-sat-clonecd-rawimage",
+        ".sub": "application/x-romfile-sat-clonecd-subchannel",
+        ".bin": "application/x-romfile-sat-rawimage",
+        ".cue": "application/x-romfile-sat-cuesheet"
       },
       "BiosFiles": ["saturn_bios.bin"]
     },
@@ -3095,5 +3097,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "4.0.1"
+  "version": "4.1.1"
 }

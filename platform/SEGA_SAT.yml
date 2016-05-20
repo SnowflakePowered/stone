@@ -7,8 +7,11 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega Saturn
 FileTypes: 
-    .iso: 'application/x-romfile-sat'
-    .cue: 'application/x-romfile-sat-cue'
-    .bin: 'application/x-romfile-sat'
+    .iso: 'application/x-romfile-sat-iso9660'
+    .ccd: 'application/x-romfile-sat-clonecd-control'
+    .img: 'application/x-romfile-sat-clonecd-rawimage'
+    .sub: 'application/x-romfile-sat-clonecd-subchannel'
+    .bin: 'application/x-romfile-sat-rawimage'
+    .cue: 'application/x-romfile-sat-cuesheet'
 BiosFiles:
     - saturn_bios.bin
