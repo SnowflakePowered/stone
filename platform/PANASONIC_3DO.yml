@@ -7,8 +7,11 @@ Metadata:
 MaximumInputs: 8
 FriendlyName: 3DO Interactive Multiplayer
 FileTypes: 
-    .bin: 'application/x-romfile-3do'
-    .iso: 'application/x-romfile-3do'
-    .cue: 'application/x-romfile-3do-cue'
+    .iso: 'application/x-romfile-3do-iso9660'
+    .ccd: 'application/x-romfile-3do-clonecd-control'
+    .img: 'application/x-romfile-3do-clonecd-rawimage'
+    .sub: 'application/x-romfile-3do-clonecd-subchannel'
+    .bin: 'application/x-romfile-3do-rawimage'
+    .cue: 'application/x-romfile-3do-cuesheet'
 BiosFiles:
     - 3DO-FZ-10.bin
