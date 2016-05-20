@@ -8,3 +8,4 @@ MaximumInputs: 1
 FriendlyName: Neo Geo Pocket Color
 FileTypes: 
     .ngc: 'application/x-romfile-ngpc'
+    .bin: 'application/x-romfile-ngpc'

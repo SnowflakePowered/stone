@@ -7,9 +7,13 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega 32X
 FileTypes:
-    .bin: 'application/x-romfile-32x'
     .rom: 'application/x-romfile-32x'
     .32x: 'application/x-romfile-32x'
+    .ccd: 'application/x-romfile-32xcd-clonecd-control'
+    .img: 'application/x-romfile-32xcd-clonecd-rawimage'
+    .sub: 'application/x-romfile-32xcd-clonecd-subchannel'
+    .bin: 'application/x-romfile-32xcd-rawimage'
+    .cue: 'application/x-romfile-32xcd-cuesheet'
 BiosFiles:
     - 32X_G_BIOS.BIN
     - 32X_S_BIOS.BIN

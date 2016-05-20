@@ -8,5 +8,6 @@ MaximumInputs: 2
 FriendlyName: Family Computer Disk System
 FileTypes: 
     .fds: 'application/x-romfile-fds'
+    .bin: 'application/x-romfile-fds'
 BiosFiles:
     - disksys.rom

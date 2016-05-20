@@ -8,5 +8,6 @@ MaximumInputs: 1
 FriendlyName: Game Boy Color
 FileTypes: 
     .gbc: 'application/x-romfile-gbc'
+    .bin: 'application/x-romfile-gbc'
 BiosFiles:
     - gbc_bios.bin

@@ -1,22 +1,24 @@
-PlatformID: SONY_PSX
+PlatformID: SONY_psx
 Metadata:
   platform_releasedate: 03/12/1994
-  platform_shortname: PSX
+  platform_shortname: psx
   platform_company: Sony
   platform_type: Handheld
 MaximumInputs: 2
 FriendlyName: PlayStation
 FileTypes: 
-    .m3u: 'application/x-romfile-psx-m3u'
-    .toc: 'application/x-romfile-psx-toc'
-    .cue: 'application/x-romfile-psx-cue'
-    .bin: 'application/x-romfile-psx'
-    .iso: 'application/x-romfile-psx'
-    .img: 'application/x-romfile-psx'
-    .sub: 'application/x-romfile-psx-sub'
-    .pbp: 'application/x-romfile-psx-pbp'
-    .ccd: 'application/x-romfile-psx-ccd'
-    .znx: 'application/x-romfile-psx-compressed'
+    .m3u: 'application/x-romfile-psx-playlist'
+    .toc: 'application/x-romfile-psx-cdrdao'
+    .bin: 'application/x-romfile-psx-rawimage'
+    .cue: 'application/x-romfile-psx-cuesheet'
+    .iso: 'application/x-romfile-psx-iso9660'
+    .psx: 'application/x-romfile-psx-rawimage'
+    .ccd: 'application/x-romfile-psx-clonecd-control'
+    .img: 'application/x-romfile-psx-clonecd-rawimage'
+    .sub: 'application/x-romfile-psx-clonecd-subchannel'
+    .pbp: 'application/x-romfile-psx-eboot'
+    .znx: 'application/x-romfile-psx-iso9660-compressed'
+    .exe: 'application/x-romfile-psx-exe'
 BiosFiles:
     - scph1001.bin
     - scph5500.bin

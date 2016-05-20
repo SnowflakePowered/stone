@@ -7,9 +7,12 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega CD
 FileTypes:
-    .iso: 'application/x-romfile-segacd'
-    .bin: 'application/x-romfile-segacd'
-    .cue: 'application/x-romfile-segacd-cue'
+    .iso: 'application/x-romfile-scd-iso9660'
+    .ccd: 'application/x-romfile-scd-clonecd-control'
+    .img: 'application/x-romfile-scd-clonecd-rawimage'
+    .sub: 'application/x-romfile-scd-clonecd-subchannel'
+    .bin: 'application/x-romfile-scd-rawimage'
+    .cue: 'application/x-romfile-scd-cuesheet'
 BiosFiles:
     - bios_CD_U.bin
     - bios_CD_E.bin

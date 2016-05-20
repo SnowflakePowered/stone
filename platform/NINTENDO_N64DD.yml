@@ -9,3 +9,4 @@ FriendlyName: Nintendo 64 DD
 FileTypes:
     .d64: 'application/x-romfile-n64-dd'
     .dd: 'application/x-romfile-n64-dd'
+    .bin: 'application/x-romfile-n64-dd'

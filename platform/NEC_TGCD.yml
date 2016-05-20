@@ -8,8 +8,9 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: TurboGrafx-CD
 FileTypes: 
-    .iso: 'application/x-romfile-tgcd'
-    .cue: 'application/x-romfile-tgcd-cue'
+    .bin: 'application/x-romfile-tgcd-rawimage'
+    .iso: 'application/x-romfile-tgcd-iso9660'
+    .cue: 'application/x-romfile-tgcd-cuesheet'
 BiosFiles:
     - syscard1.pce
     - syscard2.pce

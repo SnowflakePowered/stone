@@ -9,3 +9,4 @@ FriendlyName: Sega Game Gear
 FileTypes: 
     .gg: 'application/x-romfile-gg'
     .sms: 'application/x-romfile-gg'
+    .bin: 'application/x-romfile-gg'

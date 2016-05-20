@@ -8,5 +8,6 @@ MaximumInputs: 1
 FriendlyName: Atari Lynx
 FileTypes:
     .lnx: 'application/x-romfile-lynx'
+    .bin: 'application/x-romfile-lynx'
 BiosFiles:
     - lynxboot.img

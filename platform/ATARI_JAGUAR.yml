@@ -9,3 +9,4 @@ FriendlyName: Atari Jaguar
 FileTypes:
     .jag: 'application/x-romfile-jaguar'
     .j64: 'application/x-romfile-jaguar'
+    .rom: 'application/x-romfile-jaguar'

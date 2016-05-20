@@ -7,10 +7,13 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: PlayStation 2
 FileTypes:
-    .bin: 'application/x-romfile-ps2'
-    .iso: 'application/x-romfile-ps2'
-    .ps2: 'application/x-romfile-ps2'
-    .img: 'application/x-romfile-ps2'
+    .bin: 'application/x-romfile-ps2-rawimage'
+    .cue: 'application/x-romfile-ps2-cuesheet'
+    .iso: 'application/x-romfile-ps2-iso9660'
+    .ps2: 'application/x-romfile-ps2-rawimage'
+    .ccd: 'application/x-romfile-ps2-clonecd-control'
+    .img: 'application/x-romfile-ps2-clonecd-rawimage'
+    .sub: 'application/x-romfile-ps2-clonecd-subchannel'
     .elf: 'application/x-romfile-ps2-elf'
 BiosFiles:
     - scph-10000.bin

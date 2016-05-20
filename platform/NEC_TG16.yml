@@ -9,6 +9,7 @@ MaximumInputs: 2
 FriendlyName: TurboGrafx-16
 FileTypes: 
     .pce: 'application/x-romfile-tg16'
+    .bin: 'application/x-romfile-tg16'
 BiosFiles:
     - syscard1.pce
     - syscard2.pce

@@ -7,8 +7,11 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: "PC-FX"
 FileTypes: 
-    .bin: 'application/x-romfile-pcfx'
-    .iso: 'application/x-romfile-pcfx'
-    .cue: 'application/x-romfile-pcfx-cue'
+    .bin: 'application/x-romfile-pcfx-rawimage'
+    .iso: 'application/x-romfile-pcfx-iso9660'
+    .cue: 'application/x-romfile-pcfx-cuesheet'
+    .ccd: 'application/x-romfile-pcfx-clonecd-control'
+    .img: 'application/x-romfile-pcfx-clonecd-rawimage'
+    .sub: 'application/x-romfile-pcfx-clonecd-subchannel'
 BiosFiles:
     - pcfx.rom

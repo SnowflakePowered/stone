@@ -7,9 +7,11 @@ Metadata:
 MaximumInputs: 8
 FriendlyName: Wii
 FileTypes:
-    .iso: 'application/x-romfile-wii'
+    .iso: 'application/x-romfile-wii-iso9660'
     .wbfs: 'application/x-romfile-wbfs'
-    .ciso: 'application/x-romfile-wii-compressed'
+    .ciso: 'application/x-romfile-wii-iso9660-compressed'
+    .elf: 'application/x-romfile-wii-homebrew'
+    .dol: 'application/x-romfile-wii-dol'
 BiosFiles:
     - dsp_rom.bin
     - dsp_coef.bin

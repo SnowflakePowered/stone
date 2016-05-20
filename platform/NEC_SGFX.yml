@@ -8,6 +8,7 @@ MaximumInputs: 2
 FriendlyName: PC Engine SuperGrafx
 FileTypes: 
     .pce: 'application/x-romfile-sgfx'
+    .bin: 'application/x-romfile-sgfx'
 BiosFiles:
     - syscard1.pce
     - syscard2.pce

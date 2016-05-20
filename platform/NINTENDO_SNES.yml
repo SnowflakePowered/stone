@@ -7,5 +7,8 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Super Nintendo Entertainment System
 FileTypes:
-    .sfc: 'application/x-romfile-sfc'
-    .smc: 'application/x-romfile-smc'
+    .sfc: 'application/x-romfile-snes-headerless'
+    .smc: 'application/x-romfile-snes-magiccard'
+    .swc: 'application/x-romfile-snes-wildcard'
+    .bin: 'application/x-romfile-snes-headerless'
+    .fig: 'application/x-romfile-snes-profighter'

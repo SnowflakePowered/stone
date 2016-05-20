@@ -9,3 +9,4 @@ FriendlyName: "Sega SG-1000"
 FileTypes:
     .sg: 'application/x-romfile-sg1000'
     .sc: 'application/x-romfile-sc1000'
+    .bin: 'application/x-romfile-sg1000'

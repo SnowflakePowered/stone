@@ -8,3 +8,4 @@ MaximumInputs: 2
 FriendlyName: Intellivision
 FileTypes:
     .int: 'application/x-romfile-int'
+    .bin: 'application/x-romfile-int'
