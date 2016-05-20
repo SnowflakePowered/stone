@@ -3069,7 +3069,7 @@
       }
     },
     "SONY_PSX": {
-      "PlatformID": "SONY_psx",
+      "PlatformID": "SONY_PSX",
       "Metadata": {
         "platform_releasedate": "03/12/1994",
         "platform_shortname": "psx",
@@ -3095,5 +3095,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "4.0.0"
+  "version": "4.0.1"
 }
