@@ -10,3 +10,5 @@ FileTypes:
     .jag: 'application/x-romfile-jaguar'
     .j64: 'application/x-romfile-jaguar'
     .rom: 'application/x-romfile-jaguar'
+    .abs: 'application/x-romfile-jaguar'
+    .cof: 'application/x-romfile-jaguar'
