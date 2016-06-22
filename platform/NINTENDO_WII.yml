@@ -12,6 +12,7 @@ FileTypes:
     .ciso: 'application/x-romfile-wii-iso9660-compressed'
     .elf: 'application/x-romfile-wii-homebrew'
     .dol: 'application/x-romfile-wii-dol'
+    .wad: 'application/x-romfile-wii-wad'
 BiosFiles:
     - dsp_rom.bin
     - dsp_coef.bin
