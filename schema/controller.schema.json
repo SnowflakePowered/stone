@@ -24,7 +24,8 @@
                         "Rumble",
                         "Keyboard",
                         "Pointer",
-                        "PointerAxis",
+                        "PointerAxisPositive",
+						"PointerAxisNegative",
                         "Touchscreen"
                     ]
                 }
@@ -321,8 +322,8 @@
                     "id": "http://snowflakepowe.red/stone/schema/controller/Layout/RumbleSmall",
                     "$ref": "#/definitions/ControllerElement"
                 },
-                "PointerMouse": {
-                    "id": "http://snowflakepowe.red/stone/schema/controller/Layout/PointerMouse",
+                "Pointer2D": {
+                    "id": "http://snowflakepowe.red/stone/schema/controller/Layout/Pointer2D",
                     "$ref": "#/definitions/ControllerElement"
                 },
                 "PointerAxisPositiveX": {

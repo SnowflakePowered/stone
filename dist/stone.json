@@ -3111,5 +3111,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "4.5.2"
+  "version": "5.0.0"
 }
