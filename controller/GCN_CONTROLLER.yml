@@ -19,6 +19,12 @@ Layout:
     ButtonZ:
         Label: "Z"
         Type: Button
+    ButtonL:
+        Label: "Digital L"
+        Type: Button
+    ButtonR:
+        Label: "Digital R"
+        Type: Button
     TriggerLeft:
         Label: "L"
         Type: Trigger
