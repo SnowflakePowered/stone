@@ -326,6 +326,10 @@
                     "id": "http://snowflakepowe.red/stone/schema/controller/Layout/Pointer2D",
                     "$ref": "#/definitions/ControllerElement"
                 },
+                "Pointer3D": {
+                    "id": "http://snowflakepowe.red/stone/schema/controller/Layout/Pointer3D",
+                    "$ref": "#/definitions/ControllerElement"
+                },
                 "PointerAxisPositiveX": {
                     "id": "http://snowflakepowe.red/stone/schema/controller/Layout/PointerAxisPositiveX",
                     "$ref": "#/definitions/ControllerElement"
