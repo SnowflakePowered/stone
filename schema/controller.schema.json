@@ -341,6 +341,14 @@
                     "id": "http://snowflakepowe.red/stone/schema/controller/Layout/PointerAxisNegativeY",
                     "$ref": "#/definitions/ControllerElement"
                 },
+                "PointerAxisPositiveZ": {
+                    "id": "http://snowflakepowe.red/stone/schema/controller/Layout/PointerAxisPositiveZ",
+                    "$ref": "#/definitions/ControllerElement"
+                },
+                "PointerAxisNegativeZ": {
+                    "id": "http://snowflakepowe.red/stone/schema/controller/Layout/PointerAxisNegativeZ",
+                    "$ref": "#/definitions/ControllerElement"
+                },
                 "Keyboard": {
                     "id": "http://snowflakepowe.red/stone/schema/controller/Layout/Keyboard",
                     "$ref": "#/definitions/ControllerElement"
