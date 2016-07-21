@@ -6,20 +6,6 @@ Stone
 
 Stone is a standard on how to refer to past-and-present gaming consoles and their controllers.
 
-Stone currently specifies:
-
- * All Nintendo Home and Handheld consoles (excepting Game And Watch and Color TV Game)
- * All Sega Home and Handheld consoles (excepting Sega Pico and SG-1000)
- * All Sony Home and Handheld consoles (excepting Pocketstation)
- * All Atari Home and Handheld consoles
- * All SNK Home and Handheld consoles (excepting Neo Geo X*)
- * Wonderswan and Wonderswan color
- * TurboGrafx-16
- 
- \* Neo Geo X is not a standalone platform according to the Stone specification.
-
-Work is underway to support all consoles listed in the [Stone specification](https://github.com/SnowflakePowered/stone-spec), 
-and more.
 
 Usage
 -----
