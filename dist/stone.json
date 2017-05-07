@@ -2661,7 +2661,7 @@
         ".nds": "application/x-romfile-nds",
         ".ids": "application/x-romfile-nds",
         ".gba": "application/x-romfile-nds-slot2",
-        ".srl": "application/x-romfile-nds-encrypted"
+        ".srl": "application/x-romfile-nds-clean"
       },
       "BiosFiles": ["firmware.bin", "biosnds7.rom", "biosnds9.rom"]
     },
@@ -3112,5 +3112,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "5.2.0"
+  "version": "6.0.0"
 }

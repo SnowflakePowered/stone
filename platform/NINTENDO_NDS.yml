@@ -10,7 +10,7 @@ FileTypes:
     .nds: 'application/x-romfile-nds'
     .ids: 'application/x-romfile-nds'
     .gba: 'application/x-romfile-nds-slot2'
-    .srl: 'application/x-romfile-nds-encrypted'
+    .srl: 'application/x-romfile-nds-clean'
 BiosFiles:
     - firmware.bin
     - biosnds7.rom
