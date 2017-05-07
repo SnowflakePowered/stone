@@ -2659,8 +2659,9 @@
       "FriendlyName": "Nintendo DS",
       "FileTypes": {
         ".nds": "application/x-romfile-nds",
+        ".ids": "application/x-romfile-nds",
         ".gba": "application/x-romfile-nds-slot2",
-        ".ids": "application/x-romfile-nds"
+        ".srl": "application/x-romfile-nds-encrypted"
       },
       "BiosFiles": ["firmware.bin", "biosnds7.rom", "biosnds9.rom"]
     },
@@ -3111,5 +3112,5 @@
       "BiosFiles": ["scph1001.bin", "scph5500.bin", "scph5501.bin", "scph5502.bin"]
     }
   },
-  "version": "5.1.0"
+  "version": "5.2.0"
 }
