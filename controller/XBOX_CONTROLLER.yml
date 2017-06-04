@@ -3,6 +3,7 @@ FriendlyName: "XBOX 360 Controller"
 Platforms:
     - MICROSOFT_XBOX
     - MICROSOFT_X360
+    - MICROSOFT_XBO
 Layout:
     ButtonA:
         Label: "A"

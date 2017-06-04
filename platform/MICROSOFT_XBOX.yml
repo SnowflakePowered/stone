@@ -1,0 +1,16 @@
+PlatformID: MICROSOFT_XBOX
+Metadata:
+  platform_releasedate: 2001-11-15
+  platform_shortname: XBOX
+  platform_company: Microsoft
+  platform_emulator_dev: None
+  platform_type: Home
+MaximumInputs: 4
+FriendlyName: Xbox
+FileTypes:
+    .iso: 'application/x-romfile-xbox-disk'
+    .xbe: 'application/x-romfile-xbox-executable'
+BiosFiles:
+    - mcpx_1.0.bin
+    - complex_4627Debug.bin
+    - 3944.bin

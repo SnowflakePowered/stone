@@ -1,0 +1,11 @@
+PlatformID: MICROSOFT_XBO
+Metadata:
+  platform_releasedate: 2013-11-22
+  platform_shortname: XBO
+  platform_company: Microsoft
+  platform_emulator_dev: None
+  platform_type: Home
+MaximumInputs: 4
+FriendlyName: Xbox One
+FileTypes:
+    .appx: 'application/x-romfile-xbo-appx-bundle'
