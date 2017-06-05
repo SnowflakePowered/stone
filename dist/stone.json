@@ -93,14 +93,14 @@
       "MaximumInputs": 2,
       "FriendlyName": "Atari Jaguar CD",
       "FileTypes": {
-        ".iso": "application/x-romfile-jaguar-udf",
-        ".cdi": "application/x-romfile-jaguar-diskjuggler",
+        ".nrg": "application/x-romfile-jaguar-nero",
+        ".cdi": "application/x-romfile-jaguar-discjuggler",
         ".ccd": "application/x-romfile-jaguar-clonecd-control",
-        ".img": "application/x-romfile-jaguar-clonecd-rawimage",
+        ".img": "application/x-romfile-jaguar-clonecd-image",
         ".sub": "application/x-romfile-jaguar-clonecd-subchannel",
-        ".bin": "application/x-romfile-jaguar-rawimage",
-        ".cue": "application/x-romfile-jaguar-cuesheet",
-        ".nrg": "application/x-romfile-jaguar-nero"
+        ".bin": "application/x-romfile-jaguar-discimage",
+        ".iso": "application/x-romfile-jaguar-discimage",
+        ".cue": "application/x-romfile-jaguar-cuesheet"
       }
     },
     "ATARI_LYNX": {
@@ -236,7 +236,7 @@
       "MaximumInputs": 4,
       "FriendlyName": "Xbox One",
       "FileTypes": {
-        ".appx": "application/x-romfile-xbo-appx-bundle"
+        ".appx": "application/x-romfile-xbo-appx-package"
       }
     },
     "MICROSOFT_XBOX": {
@@ -269,8 +269,8 @@
       "MaximumInputs": 2,
       "FriendlyName": "PC-FX",
       "FileTypes": {
-        ".bin": "application/x-romfile-pcfx-rawimage",
-        ".iso": "application/x-romfile-pcfx-udf",
+        ".bin": "application/x-romfile-pcfx-discimage",
+        ".iso": "application/x-romfile-pcfx-discimage",
         ".cue": "application/x-romfile-pcfx-cuesheet",
         ".ccd": "application/x-romfile-pcfx-clonecd-control",
         ".img": "application/x-romfile-pcfx-clonecd-rawimage",
@@ -448,9 +448,9 @@
       "FileTypes": {
         ".iso": "application/x-romfile-gcn-discimage",
         ".gcm": "application/x-romfile-gcn-discimage",
+        ".gcz": "application/x-romfile-gcn-dolphin-compressed",
         ".dol": "application/x-romfile-gcn-executable",
-        ".elf": "application/x-romfile-gcn-elf",
-        ".gcz": "application/x-romfile-gcn-compressed"
+        ".elf": "application/x-romfile-gcn-elf"
       },
       "BiosFiles": {
         "IPL.bin": ["fc924a7c879b661abc37cec4f018fdf3", "0cdda509e2da83c85bfe423dd87346cc", "db92574caab77a7ec99d4605fd6f2450"]
@@ -521,7 +521,7 @@
       "Metadata": {
         "platform_releasedate": "1985-10-18T00:00:00.000Z",
         "platform_shortname": "NES",
-        "platform_jp_name": "Family Computer",
+        "platform_name_jp": "Family Computer",
         "platform_company": "Nintendo",
         "platform_type": "Home"
       },
@@ -530,7 +530,8 @@
       "FileTypes": {
         ".nes": "application/x-romfile-nes-ines",
         ".bin": "application/x-romfile-nes-ines",
-        ".unf": "application/x-romfile-nes-unif"
+        ".unf": "application/x-romfile-nes-unif",
+        ".pas": "application/x-romfile-nes"
       }
     },
     "NINTENDO_SNES": {
@@ -538,6 +539,7 @@
       "Metadata": {
         "platform_releasedate": "1990-11-21T00:00:00.000Z",
         "platform_shortname": "SNES",
+        "platform_name_jp": "Super Famicom",
         "platform_company": "Nintendo",
         "platform_type": "Home"
       },
@@ -598,9 +600,10 @@
       "MaximumInputs": 8,
       "FriendlyName": "Wii",
       "FileTypes": {
-        ".iso": "application/x-romfile-wii-udf",
+        ".iso": "application/x-romfile-wii-discimage",
         ".wbfs": "application/x-romfile-wii-wbfs",
-        ".ciso": "application/x-romfile-wii-udf-compressed",
+        ".ciso": "application/x-romfile-wii-discimage-compressed",
+        ".gcz": "application/x-romfile-wii-dolphin-compressed",
         ".elf": "application/x-romfile-wii-elf",
         ".dol": "application/x-romfile-wii-executable",
         ".wad": "application/x-romfile-wii-package"
@@ -622,9 +625,9 @@
       "MaximumInputs": 5,
       "FriendlyName": "WiiU",
       "FileTypes": {
-        ".wud": "application/x-romfile-wiiu-diskimage",
-        ".iso": "application/x-romfile-wiiu-udf",
-        ".wux": "application/x-romfile-wiiu-diskimage-compressed",
+        ".wud": "application/x-romfile-wiiu-discimage",
+        ".iso": "application/x-romfile-wiiu-discimage",
+        ".wux": "application/x-romfile-wiiu-discimage-compressed",
         ".rpx": "application/x-romfile-wiiu-executable"
       }
     },
@@ -639,11 +642,11 @@
       "MaximumInputs": 8,
       "FriendlyName": "3DO Interactive Multiplayer",
       "FileTypes": {
-        ".iso": "application/x-romfile-3do-discimage",
         ".ccd": "application/x-romfile-3do-clonecd-control",
-        ".img": "application/x-romfile-3do-clonecd-rawimage",
+        ".img": "application/x-romfile-3do-clonecd-image",
         ".sub": "application/x-romfile-3do-clonecd-subchannel",
         ".bin": "application/x-romfile-3do-discimage",
+        ".iso": "application/x-romfile-3do-discimage",
         ".cue": "application/x-romfile-3do-cuesheet"
       },
       "BiosFiles": {
@@ -666,17 +669,42 @@
       "FriendlyName": "Sega 32X",
       "FileTypes": {
         ".rom": "application/x-romfile-32x",
-        ".32x": "application/x-romfile-32x",
-        ".ccd": "application/x-romfile-32xcd-clonecd-control",
-        ".img": "application/x-romfile-32xcd-clonecd-image",
-        ".sub": "application/x-romfile-32xcd-clonecd-subchannel",
-        ".bin": "application/x-romfile-32xcd-discimage",
-        ".cue": "application/x-romfile-32xcd-cuesheet"
+        ".32x": "application/x-romfile-32x"
       },
       "BiosFiles": {
         "32X_G_BIOS.BIN": ["6a5433f6a132a2b683635819a6dcf085"],
         "32X_S_BIOS.BIN": ["7f041b6a55cd7423a6c08a219335269e"],
         "32X_M_BIOS.BIN": ["f88354ec482be09aeccd76a97bb75868"]
+      }
+    },
+    "SEGA_32X_CD": {
+      "PlatformID": "SEGA_32X_CD",
+      "Metadata": {
+        "platform_releasedate": "1994-11-21T00:00:00.000Z",
+        "platform_shortname": "32X CD",
+        "platform_company": "Sega",
+        "platform_type": "Addon"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Sega 32X CD",
+      "FileTypes": {
+        ".ccd": "application/x-romfile-32xcd-clonecd-control",
+        ".img": "application/x-romfile-32xcd-clonecd-image",
+        ".sub": "application/x-romfile-32xcd-clonecd-subchannel",
+        ".bin": "application/x-romfile-32xcd-discimage",
+        ".iso": "application/x-romfile-32xcd-discimage",
+        ".cue": "application/x-romfile-32xcd-cuesheet"
+      },
+      "BiosFiles": {
+        "32X_G_BIOS.BIN": ["6a5433f6a132a2b683635819a6dcf085"],
+        "32X_S_BIOS.BIN": ["7f041b6a55cd7423a6c08a219335269e"],
+        "32X_M_BIOS.BIN": ["f88354ec482be09aeccd76a97bb75868"],
+        "bios_CD_U.bin": ["2efd74e3232ff260e371b99f84024f7f"],
+        "bios_CD_E.bin": ["e66fa1dc5820d254611fdcdba0662372"],
+        "bios_CD_J.bin": ["278a9397d192149e84e820ac621a8edd"],
+        "us_scd1_9210.bin": ["2efd74e3232ff260e371b99f84024f7f"],
+        "eu_mcd1_9210.bin": ["e66fa1dc5820d254611fdcdba0662372"],
+        "jp_mcd1_9112.bin": ["bdeb4c47da613946d422d97d98b21cda"]
       }
     },
     "SEGA_CD": {
@@ -718,7 +746,7 @@
         ".raw": "application/x-romfile-dc-rawtrack",
         ".gdi": "application/x-romfile-dc-gdi",
         ".elf": "application/x-romfile-dc-elf",
-        ".cdi": "application/x-romfile-dc-diskjuggler"
+        ".cdi": "application/x-romfile-dc-discjuggler"
       },
       "BiosFiles": {
         "dc_boot.bin": ["e10c53c2f8b90bab96ead2d368858623"],
@@ -730,8 +758,8 @@
       "Metadata": {
         "platform_releasedate": "1988-10-29T00:00:00.000Z",
         "platform_shortname": "Genesis",
-        "platform_eu_name": "Mega Drive",
-        "platform_jp_name": "Mega Drive",
+        "platform_name_eu": "Mega Drive",
+        "platform_name_jp": "Mega Drive",
         "platform_company": "Sega",
         "platform_type": "Home"
       },
@@ -838,7 +866,7 @@
       "MaximumInputs": 2,
       "FriendlyName": "Neo Geo",
       "FileTypes": {
-        ".zip": "application/x-romfile-arcade-neogeo"
+        ".zip": "application/x-romfile-arcade-neogeo+zip"
       },
       "BiosFiles": {
         "neogeo.zip": []
@@ -908,7 +936,7 @@
         ".nrg": "application/x-romfile-ps2-nero",
         ".mdf": "application/x-romfile-ps2-alcohol120",
         ".cso": "application/x-romfile-ps2-discimage-compressed",
-        ".gz": "application/x-romfile-ps2-discimage+gzip"
+        ".gz": "application/x-romfile-ps2-discimage-gzip-compressed"
       },
       "BiosFiles": {
         "scph-10000.bin": ["acf4730ceb38ac9d8c7d8e21f2614600"],
@@ -1691,7 +1719,7 @@
     "GEN6_CONTROLELR": {
       "LayoutID": "GEN6_CONTROLLER",
       "FriendlyName": "Sega Genesis 6-button Controller",
-      "Platforms": ["SEGA_GEN", "SEGA_CD", "SEGA_32X"],
+      "Platforms": ["SEGA_GEN", "SEGA_CD", "SEGA_32X", "SEGA_32X_CD"],
       "Layout": {
         "ButtonA": {
           "Label": "A",
@@ -3272,5 +3300,5 @@
       }
     }
   },
-  "version": "7.0.0"
+  "version": "7.0.0-alpha.1"
 }
