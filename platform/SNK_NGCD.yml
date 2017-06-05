@@ -7,13 +7,6 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Neo Geo CD
 FileTypes: 
-    .iso: 'application/x-romfile-ngcd-iso9660'
-    .bin: 'application/x-romfile-ngcd-rawimage'
-    .elf: 'application/x-romfile-ngcd-elf'
-    .cdi: 'application/x-romfile-ngcd-diskjuggler'
-    .gdi: 'application/x-romfile-ngcd-rawimage'
-    .ccd: 'application/x-romfile-ngcd-clonecd-control'
-    .img: 'application/x-romfile-ngcd-clonecd-rawimage'
-    .sub: 'application/x-romfile-ngcd-clonecd-subchannel'
-    .nrg: 'application/x-romfile-ngcd-nero'
-    .zip: 'application/x-romfile-ngcd+zip'
+    .iso: 'application/x-romfile-ngcd-discimage'
+    .bin: 'application/x-romfile-ngcd-discimage'
+    .cue: 'application/x-romfile-ngcd-cuesheet'

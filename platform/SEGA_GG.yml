@@ -10,3 +10,6 @@ FileTypes:
     .gg: 'application/x-romfile-gg'
     .sms: 'application/x-romfile-gg'
     .bin: 'application/x-romfile-gg'
+BiosFiles:
+    bios.gg: 
+        - 672e104c3be3a238301aceffc3b23fd6

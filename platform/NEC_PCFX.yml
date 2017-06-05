@@ -8,10 +8,19 @@ MaximumInputs: 2
 FriendlyName: "PC-FX"
 FileTypes: 
     .bin: 'application/x-romfile-pcfx-rawimage'
-    .iso: 'application/x-romfile-pcfx-iso9660'
+    .iso: 'application/x-romfile-pcfx-udf'
     .cue: 'application/x-romfile-pcfx-cuesheet'
     .ccd: 'application/x-romfile-pcfx-clonecd-control'
     .img: 'application/x-romfile-pcfx-clonecd-rawimage'
     .sub: 'application/x-romfile-pcfx-clonecd-subchannel'
 BiosFiles:
-    - pcfx.rom
+    pcfx.rom:
+        - 08e36edbea28a017f79f8d4f7ff9b6d7
+    fx-scsi.rom:
+        - 430e9745f9235c515bc8e652d6ca3004
+    pcfxbios.bin: 
+        - 08e36edbea28a017f79f8d4f7ff9b6d7
+    pcfx.bios: 
+        - 08e36edbea28a017f79f8d4f7ff9b6d7
+    pcfxv101.bin:
+        - e2fb7c7220e3a7838c2dd7e401a7f3d8

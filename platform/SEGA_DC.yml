@@ -7,17 +7,13 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: Sega Dreamcast
 FileTypes:
-    .dc: 'application/x-romfile-dc-rawimage'
-    .iso: 'application/x-romfile-dc-iso9660'
-    .bin: 'application/x-romfile-dc-rawimage'
-    .raw: 'application/x-romfile-dc-rawimage'
+    .bin: 'application/x-romfile-dc-rawtrack'
+    .raw: 'application/x-romfile-dc-rawtrack'
+    .gdi: 'application/x-romfile-dc-gdi'
     .elf: 'application/x-romfile-dc-elf'
     .cdi: 'application/x-romfile-dc-diskjuggler'
-    .gdi: 'application/x-romfile-dc-rawimage'
-    .ccd: 'application/x-romfile-dc-clonecd-control'
-    .img: 'application/x-romfile-dc-clonecd-rawimage'
-    .sub: 'application/x-romfile-dc-clonecd-subchannel'
-    .nrg: 'application/x-romfile-dc-nero'
 BiosFiles:
-    - dc_boot.bin
-    - dc_flash.bin
+    dc_boot.bin:
+        - e10c53c2f8b90bab96ead2d368858623 
+    dc_flash.bin:
+        - 0a93f7940c455905bea6e392dfde92a4

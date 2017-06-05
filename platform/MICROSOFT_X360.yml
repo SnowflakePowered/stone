@@ -1,16 +1,13 @@
 PlatformID: MICROSOFT_X360
 Metadata:
-  platform_releasedate: 2001-11-15
-  platform_shortname: XBOX
+  platform_releasedate: 2005-11-22
+  platform_shortname: X360
   platform_company: Microsoft
-  platform_emulator_dev: None
+  platform_emulator_dev: Xenia
   platform_type: Home
 MaximumInputs: 4
-FriendlyName: Xbox
+FriendlyName: Xbox 360
 FileTypes:
-    .iso: 'application/x-romfile-xbox-disk'
-    .xbe: 'application/x-romfile-xbox-executable'
-BiosFiles:
-    - mcpx_1.0.bin
-    - complex_4627Debug.bin
-    - 3944.bin
+    .iso: 'application/x-romfile-x360-discimage'
+    .xex: 'application/x-romfile-x360-executable'
+    .xcp: 'application/x-romfile-x360-content-package'

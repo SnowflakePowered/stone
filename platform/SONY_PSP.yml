@@ -7,9 +7,9 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Playstation Portable
 FileTypes:
-    .bin: 'application/x-romfile-psp-rawimage'
-    .iso: 'application/x-romfile-psp-iso9660'
+    .iso: 'application/x-romfile-psp-discimage'
+    .cso: 'application/x-romfile-psp-discimage-compressed'
+    .ciso: 'application/x-romfile-psp-discimage-compressed'
+    .dax: 'application/x-romfile-psp-dax-compressed'
     .pbp: 'application/x-romfile-psp-eboot'
-    .cso: 'application/x-romfile-psp-iso9660-compressed'
-    .ciso: 'application/x-romfile-psp-iso9660-compressed'
-    .dax: 'application/x-romfile-psp-iso9660-compressed'
+    .elf: 'application/x-romfile-psp-elf'

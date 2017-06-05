@@ -10,11 +10,14 @@ FileTypes:
     .rom: 'application/x-romfile-32x'
     .32x: 'application/x-romfile-32x'
     .ccd: 'application/x-romfile-32xcd-clonecd-control'
-    .img: 'application/x-romfile-32xcd-clonecd-rawimage'
+    .img: 'application/x-romfile-32xcd-clonecd-image'
     .sub: 'application/x-romfile-32xcd-clonecd-subchannel'
-    .bin: 'application/x-romfile-32xcd-rawimage'
+    .bin: 'application/x-romfile-32xcd-discimage'
     .cue: 'application/x-romfile-32xcd-cuesheet'
 BiosFiles:
-    - 32X_G_BIOS.BIN
-    - 32X_S_BIOS.BIN
-    - 32X_M_BIOS.BIN
+    32X_G_BIOS.BIN:
+        - 6a5433f6a132a2b683635819a6dcf085
+    32X_S_BIOS.BIN:
+        - 7f041b6a55cd7423a6c08a219335269e
+    32X_M_BIOS.BIN:
+        - f88354ec482be09aeccd76a97bb75868 

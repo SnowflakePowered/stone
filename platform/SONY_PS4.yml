@@ -9,4 +9,3 @@ MaximumInputs: 4
 FriendlyName: PlayStation 4
 FileTypes:
     .elf: 'application/x-romfile-ps4-elf'
-    .pbp: 'application/x-romfile-ps4-pbp'

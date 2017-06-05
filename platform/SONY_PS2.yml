@@ -7,22 +7,27 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: PlayStation 2
 FileTypes:
-    .bin: 'application/x-romfile-ps2-rawimage'
-    .cue: 'application/x-romfile-ps2-cuesheet'
-    .iso: 'application/x-romfile-ps2-iso9660'
-    .ps2: 'application/x-romfile-ps2-rawimage'
-    .ccd: 'application/x-romfile-ps2-clonecd-control'
-    .img: 'application/x-romfile-ps2-clonecd-rawimage'
-    .sub: 'application/x-romfile-ps2-clonecd-subchannel'
+    .bin: 'application/x-romfile-ps2-discimage'
+    .iso: 'application/x-romfile-ps2-discimage'
+    .img: 'application/x-romfile-ps2-discimage'
     .elf: 'application/x-romfile-ps2-elf'
+    .nrg: 'application/x-romfile-ps2-nero'
+    .mdf: 'application/x-romfile-ps2-alcohol120'
+    .cso: 'application/x-romfile-ps2-discimage-compressed'
+    .gz: 'application/x-romfile-ps2-discimage+gzip'
+
 BiosFiles:
-    - scph-10000.bin
-    - scph-30003.bin
-    - scph-30004.bin
-    - scph-39001.bin
-    - scph-39004.bin
-    - scph-50003.bin
-    - scph-70000.bin
-    - scph-70004.bin
-    - scph-70012.bin
-    - scph-90006.bin
+    scph-10000.bin:
+        - acf4730ceb38ac9d8c7d8e21f2614600
+    scph-30003.bin:
+        - b7fa11e87d51752a98b38e3e691cbf17
+    scph-39001.bin:
+        - d5ce2c7d119f563ce04bc04dbc3a323e
+    scph-50003.bin:
+        - 4b59943913d9f9e950ffcbbf75cdb894
+    scph-70000.bin:
+        - 0eee5d1c779aa50e94edd168b4ebf42e
+    scph-70004.bin:
+        - dc752f160044f2ed5fc1f4964db2a095
+    scph-70012.bin:
+        - d333558cc14561c1fdc334c75d5f37b7

@@ -10,5 +10,7 @@ FileTypes:
     .a78: 'application/x-romfile-7800'
     .bin: 'application/x-romfile-7800'
 BiosFiles:
-    - 7800 BIOS (U).rom
-    - 7800 BIOS (E).rom
+    7800 BIOS (U).rom:
+        - 0763f1ffb006ddbe32e52d497ee848ae
+    7800 BIOS (E).rom:
+        - 397bb566584be7b9764e7a68974c4263

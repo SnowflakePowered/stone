@@ -11,6 +11,9 @@ FileTypes:
     .pce: 'application/x-romfile-tg16'
     .bin: 'application/x-romfile-tg16'
 BiosFiles:
-    - syscard1.pce
-    - syscard2.pce
-    - syscard3.pce
+    syscard3.pce:
+        - ff1a674273fe3540ccef576376407d1d
+        - 38179df8f4ac870017db21ebcbf53114
+        - 0754f903b52e3b3342202bdafb13efa5
+    gecard.pce:
+        - 6d2cb14fc3e1f65ceb135633d1694122

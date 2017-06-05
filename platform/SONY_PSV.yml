@@ -8,8 +8,6 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: PlayStation Vita
 FileTypes:
-    .bin: 'application/x-romfile-psv'
-    .iso: 'application/x-romfile-psv'
-    .pbp: 'application/x-romfile-psv-pbp'
-    .cso: 'application/x-romfile-psv-compressed'
-    .ciso: 'application/x-romfile-psv-compressed'
+    .vpk: 'application/x-romfile-psv-henkaku'
+    .pkg: 'application/x-romfile-psv-package'
+    .zip: 'application/x-romfile-psv-mai+zip'

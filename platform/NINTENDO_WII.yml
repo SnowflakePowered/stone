@@ -7,12 +7,14 @@ Metadata:
 MaximumInputs: 8
 FriendlyName: Wii
 FileTypes:
-    .iso: 'application/x-romfile-wii-iso9660'
-    .wbfs: 'application/x-romfile-wbfs'
-    .ciso: 'application/x-romfile-wii-iso9660-compressed'
-    .elf: 'application/x-romfile-wii-homebrew'
-    .dol: 'application/x-romfile-wii-dol'
-    .wad: 'application/x-romfile-wii-wad'
+    .iso: 'application/x-romfile-wii-udf'
+    .wbfs: 'application/x-romfile-wii-wbfs'
+    .ciso: 'application/x-romfile-wii-udf-compressed'
+    .elf: 'application/x-romfile-wii-elf'
+    .dol: 'application/x-romfile-wii-executable'
+    .wad: 'application/x-romfile-wii-package'
 BiosFiles:
-    - dsp_rom.bin
-    - dsp_coef.bin
+    dsp_rom.bin:
+         - 23645d446729a166ab3a9aaba2f5fba5
+    dsp_coef.bin:
+        -  9a6514b88003c9c47e334de654ec550b

@@ -8,6 +8,10 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: PlayStation 3
 FileTypes:
-    .iso: 'application/x-romfile-ps3'
     .elf: 'application/x-romfile-ps3-elf'
-    .pbp: 'application/x-romfile-ps3-pbp'
+    .self: 'application/x-romfile-ps3-elf-signed'
+    .pkg: 'application/x-romfile-ps3-package'
+    .bin: 'application/x-romfile-ps3-elf'
+BiosFiles:
+    PS3UPDAT.PUP: 
+        - b2483b4abc157494447c9c409c036041

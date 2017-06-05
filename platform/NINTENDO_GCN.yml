@@ -7,12 +7,13 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: Nintendo GameCube
 FileTypes:
-    .iso: 'application/x-romfile-gcn-iso9660'
-    .gcm: 'application/x-romfile-gcn-iso9660'
-    .dol: 'application/x-romfile-gcn-dol'
-    .elf: 'application/x-romfile-gcn-homebrew'
+    .iso: 'application/x-romfile-gcn-discimage'
+    .gcm: 'application/x-romfile-gcn-discimage'
+    .dol: 'application/x-romfile-gcn-executable'
+    .elf: 'application/x-romfile-gcn-elf'
+    .gcz: 'application/x-romfile-gcn-compressed'
 BiosFiles:
-    - IPL.bin
-    - IPL_E.bin
-    - IPL_U.bin
-    - IPL_J.bin
+    IPL.bin:
+        - fc924a7c879b661abc37cec4f018fdf3
+        - 0cdda509e2da83c85bfe423dd87346cc
+        - db92574caab77a7ec99d4605fd6f2450

@@ -7,7 +7,6 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: Nintendo 64
 FileTypes:
-    '.64': 'application/x-romfile-n64-indeterminate'
     .n64: 'application/x-romfile-n64-littleendian'
     .z64: 'application/x-romfile-n64-bigendian'
     .u64: 'application/x-romfile-n64-indeterminate'

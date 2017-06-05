@@ -7,7 +7,7 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Atari Jaguar CD
 FileTypes:
-    .iso: 'application/x-romfile-jaguar-iso9660'
+    .iso: 'application/x-romfile-jaguar-udf'
     .cdi: 'application/x-romfile-jaguar-diskjuggler'
     .ccd: 'application/x-romfile-jaguar-clonecd-control'
     .img: 'application/x-romfile-jaguar-clonecd-rawimage'

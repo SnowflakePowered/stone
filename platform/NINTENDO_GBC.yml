@@ -10,4 +10,5 @@ FileTypes:
     .gbc: 'application/x-romfile-gbc'
     .bin: 'application/x-romfile-gbc'
 BiosFiles:
-    - gbc_bios.bin
+    gbc_bios.bin:
+        - dbfce9db9deaa2567f6a84fde55f9680

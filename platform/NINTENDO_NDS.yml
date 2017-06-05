@@ -12,6 +12,7 @@ FileTypes:
     .gba: 'application/x-romfile-nds-slot2'
     .srl: 'application/x-romfile-nds-clean'
 BiosFiles:
-    - firmware.bin
-    - biosnds7.rom
-    - biosnds9.rom
+    biosnds7.rom:
+        - df692a80a5b1bc90728bc3dfc76cd948
+    biosnds9.rom:
+        - a392174eb3e572fed6447e956bde4b25

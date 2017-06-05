@@ -10,3 +10,8 @@ FileTypes:
     .d64: 'application/x-romfile-n64-dd'
     .dd: 'application/x-romfile-n64-dd'
     .bin: 'application/x-romfile-n64-dd'
+BiosFiles:
+    64DD_IPL.bin: 
+        - 8d3d9f294b6e174bc7b1d2fd1c727530
+    64DD_IPL.n64:
+        - 8d3d9f294b6e174bc7b1d2fd1c727530

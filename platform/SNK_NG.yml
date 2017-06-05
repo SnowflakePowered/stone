@@ -9,4 +9,4 @@ FriendlyName: Neo Geo
 FileTypes: 
     .zip: 'application/x-romfile-arcade-neogeo'
 BiosFiles:
-    - neogeo.zip
+    neogeo.zip: []

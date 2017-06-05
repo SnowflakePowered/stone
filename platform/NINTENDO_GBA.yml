@@ -10,4 +10,5 @@ FileTypes:
     .gba: 'application/x-romfile-gba'
     .bin: 'application/x-romfile-gba'
 BiosFiles:
-    - gba_bios.bin
+    gba_bios.bin:
+        - a860e8c0b6d573d191e4ec7db1b1e4f6

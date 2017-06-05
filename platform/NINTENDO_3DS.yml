@@ -8,6 +8,11 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Nintendo 3DS
 FileTypes: 
-    .3ds: 'application/x-romfile-3ds-encrypted'
+    .3ds: 'application/x-romfile-3ds-cartimage'
+    .cci: 'application/x-romfile-3ds-cartimage'
     .3dsx: 'application/x-romfile-3ds-homebrew'
-    .cia: 'application/x-romfile-3ds-cia'
+    .cia: 'application/x-romfile-3ds-importable'
+    .cxi: 'application/x-romfile-3ds-executable'
+    .app: 'application/x-romfile-3ds-executable'
+    .elf: 'application/x-romfile-3ds-elf'
+    .axf: 'application/x-romfile-3ds-elf'
