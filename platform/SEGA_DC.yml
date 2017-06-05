@@ -11,7 +11,7 @@ FileTypes:
     .raw: 'application/x-romfile-dc-rawtrack'
     .gdi: 'application/x-romfile-dc-gdi'
     .elf: 'application/x-romfile-dc-elf'
-    .cdi: 'application/x-romfile-dc-diskjuggler'
+    .cdi: 'application/x-romfile-dc-discjuggler'
 BiosFiles:
     dc_boot.bin:
         - e10c53c2f8b90bab96ead2d368858623 

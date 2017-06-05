@@ -7,6 +7,9 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Nintendo DS
 FileTypes: 
+# While the NitroROM and NitroARC filesystems are often used for
+# Nintendo DS ROMs, the cart format does not prescribe a file format.
+# Therefore, Stone considers NDS cart dumps to be raw binary data.
     .nds: 'application/x-romfile-nds'
     .ids: 'application/x-romfile-nds'
     .gba: 'application/x-romfile-nds-slot2'

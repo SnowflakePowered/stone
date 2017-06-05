@@ -8,6 +8,10 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Nintendo 3DS
 FileTypes: 
+# .3ds and .cci files are NCSD containers that contain additional
+# header data by Nintendo to boot NCCH .cxi. Therefore, Stone
+# considers .3ds and .cci files to not be a simple dump of their
+# ROM data, but an image of the filesystem on the cart.
     .3ds: 'application/x-romfile-3ds-cartimage'
     .cci: 'application/x-romfile-3ds-cartimage'
     .3dsx: 'application/x-romfile-3ds-homebrew'

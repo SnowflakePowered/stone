@@ -9,11 +9,6 @@ FriendlyName: Sega 32X
 FileTypes:
     .rom: 'application/x-romfile-32x'
     .32x: 'application/x-romfile-32x'
-    .ccd: 'application/x-romfile-32xcd-clonecd-control'
-    .img: 'application/x-romfile-32xcd-clonecd-image'
-    .sub: 'application/x-romfile-32xcd-clonecd-subchannel'
-    .bin: 'application/x-romfile-32xcd-discimage'
-    .cue: 'application/x-romfile-32xcd-cuesheet'
 BiosFiles:
     32X_G_BIOS.BIN:
         - 6a5433f6a132a2b683635819a6dcf085

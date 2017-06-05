@@ -14,4 +14,6 @@ FileTypes:
     .bin: 'application/x-romfile-ps3-elf'
 BiosFiles:
     PS3UPDAT.PUP: 
+# Below is the 4.81 update PUP, other PUPs can and should
+# be added later.
         - b2483b4abc157494447c9c409c036041

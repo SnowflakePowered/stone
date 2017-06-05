@@ -5,10 +5,10 @@ Metadata:
   platform_company: NEC
   platform_type: Home
 MaximumInputs: 2
-FriendlyName: "PC-FX"
+FriendlyName: 'PC-FX'
 FileTypes: 
-    .bin: 'application/x-romfile-pcfx-rawimage'
-    .iso: 'application/x-romfile-pcfx-udf'
+    .bin: 'application/x-romfile-pcfx-discimage'
+    .iso: 'application/x-romfile-pcfx-discimage'
     .cue: 'application/x-romfile-pcfx-cuesheet'
     .ccd: 'application/x-romfile-pcfx-clonecd-control'
     .img: 'application/x-romfile-pcfx-clonecd-rawimage'

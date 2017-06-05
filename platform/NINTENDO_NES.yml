@@ -2,7 +2,7 @@ PlatformID: NINTENDO_NES
 Metadata:
   platform_releasedate: 1985-10-18
   platform_shortname: NES
-  platform_jp_name: Family Computer
+  platform_name_jp: Family Computer
   platform_company: Nintendo
   platform_type: Home
 MaximumInputs: 2
@@ -11,3 +11,4 @@ FileTypes:
     .nes: 'application/x-romfile-nes-ines'
     .bin: 'application/x-romfile-nes-ines'
     .unf: 'application/x-romfile-nes-unif'
+    .pas: 'application/x-romfile-nes'

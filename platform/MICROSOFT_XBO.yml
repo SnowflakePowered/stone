@@ -8,4 +8,4 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: Xbox One
 FileTypes:
-    .appx: 'application/x-romfile-xbo-appx-bundle'
+    .appx: 'application/x-romfile-xbo-appx-package'

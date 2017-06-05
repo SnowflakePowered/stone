@@ -2,6 +2,7 @@ PlatformID: NINTENDO_SNES
 Metadata:
   platform_releasedate: 1990-11-21
   platform_shortname: SNES
+  platform_name_jp: Super Famicom
   platform_company: Nintendo
   platform_type: Home
 MaximumInputs: 2

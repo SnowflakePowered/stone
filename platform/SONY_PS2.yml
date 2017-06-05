@@ -14,7 +14,7 @@ FileTypes:
     .nrg: 'application/x-romfile-ps2-nero'
     .mdf: 'application/x-romfile-ps2-alcohol120'
     .cso: 'application/x-romfile-ps2-discimage-compressed'
-    .gz: 'application/x-romfile-ps2-discimage+gzip'
+    .gz: 'application/x-romfile-ps2-discimage-gzip-compressed'
 
 BiosFiles:
     scph-10000.bin:

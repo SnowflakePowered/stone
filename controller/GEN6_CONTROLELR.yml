@@ -4,6 +4,7 @@ Platforms:
     - SEGA_GEN
     - SEGA_CD
     - SEGA_32X
+    - SEGA_32X_CD
 Layout:
     ButtonA:
         Label: "A"

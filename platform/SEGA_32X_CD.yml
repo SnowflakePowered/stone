@@ -1,0 +1,34 @@
+PlatformID: SEGA_32X_CD
+Metadata:
+  platform_releasedate: 1994-11-21
+  platform_shortname: 32X CD
+  platform_company: Sega
+  platform_type: Addon
+MaximumInputs: 2
+FriendlyName: Sega 32X CD
+FileTypes:
+    .ccd: 'application/x-romfile-32xcd-clonecd-control'
+    .img: 'application/x-romfile-32xcd-clonecd-image'
+    .sub: 'application/x-romfile-32xcd-clonecd-subchannel'
+    .bin: 'application/x-romfile-32xcd-discimage'
+    .iso: 'application/x-romfile-32xcd-discimage'
+    .cue: 'application/x-romfile-32xcd-cuesheet'
+BiosFiles:
+    32X_G_BIOS.BIN:
+        - 6a5433f6a132a2b683635819a6dcf085
+    32X_S_BIOS.BIN:
+        - 7f041b6a55cd7423a6c08a219335269e
+    32X_M_BIOS.BIN:
+        - f88354ec482be09aeccd76a97bb75868 
+    bios_CD_U.bin:
+        - 2efd74e3232ff260e371b99f84024f7f
+    bios_CD_E.bin:
+        - e66fa1dc5820d254611fdcdba0662372
+    bios_CD_J.bin:
+        - 278a9397d192149e84e820ac621a8edd
+    us_scd1_9210.bin:
+        - 2efd74e3232ff260e371b99f84024f7f
+    eu_mcd1_9210.bin:
+        - e66fa1dc5820d254611fdcdba0662372
+    jp_mcd1_9112.bin:
+        - bdeb4c47da613946d422d97d98b21cda
