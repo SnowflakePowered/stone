@@ -1050,7 +1050,7 @@
     "NDS_LAYOUT": {
       "LayoutID": "NDS_LAYOUT",
       "FriendlyName": "Nintendo DS Layout",
-      "Platforms": ["NINTENDO_DS"],
+      "Platforms": ["NINTENDO_NDS"],
       "Layout": {
         "ButtonA": {
           "Label": "A",
@@ -2291,7 +2291,7 @@
     "ATARI_2600": {
       "PlatformID": "ATARI_2600",
       "Metadata": {
-        "platform_releasedate": "1977-09-11T00:00:00.000Z",
+        "platform_releasedate": "1977-09-11",
         "platform_shortname": "2600",
         "platform_company": "Atari",
         "platform_type": "Home"
@@ -2307,7 +2307,7 @@
     "ATARI_5200": {
       "PlatformID": "ATARI_5200",
       "Metadata": {
-        "platform_releasedate": "1982-03-01T00:00:00.000Z",
+        "platform_releasedate": "1982-03-01",
         "platform_shortname": "5200",
         "platform_company": "Atari",
         "platform_type": "Home"
@@ -2325,7 +2325,7 @@
     "ATARI_7800": {
       "PlatformID": "ATARI_7800",
       "Metadata": {
-        "platform_releasedate": "1986-06-01T00:00:00.000Z",
+        "platform_releasedate": "1986-06-01",
         "platform_shortname": "7800",
         "platform_company": "Atari",
         "platform_type": "Home"
@@ -2344,7 +2344,7 @@
     "ATARI_JAGUAR": {
       "PlatformID": "ATARI_JAGUAR",
       "Metadata": {
-        "platform_releasedate": "1993-11-15T00:00:00.000Z",
+        "platform_releasedate": "1993-11-15",
         "platform_shortname": "Jaguar",
         "platform_company": "Atari",
         "platform_type": "Home"
@@ -2362,7 +2362,7 @@
     "ATARI_JAGUAR_CD": {
       "PlatformID": "ATARI_JAGUAR",
       "Metadata": {
-        "platform_releasedate": "1995-09-21T00:00:00.000Z",
+        "platform_releasedate": "1995-09-21",
         "platform_shortname": "Jag CD",
         "platform_company": "Atari",
         "platform_type": "Home"
@@ -2383,7 +2383,7 @@
     "ATARI_LYNX": {
       "PlatformID": "ATARI_LYNX",
       "Metadata": {
-        "platform_releasedate": "1989-10-11T00:00:00.000Z",
+        "platform_releasedate": "1989-10-11",
         "platform_shortname": "Lynx",
         "platform_company": "Atari",
         "platform_type": "Handheld"
@@ -2401,7 +2401,7 @@
     "BANDAI_WS": {
       "PlatformID": "BANDAI_WS",
       "Metadata": {
-        "platform_releasedate": "1999-03-04T00:00:00.000Z",
+        "platform_releasedate": "1999-03-04",
         "platform_shortname": "WS",
         "platform_company": "Bandai",
         "platform_type": "Handheld"
@@ -2416,7 +2416,7 @@
     "BANDAI_WSC": {
       "PlatformID": "BANDAI_WSC",
       "Metadata": {
-        "platform_releasedate": "2000-12-09T00:00:00.000Z",
+        "platform_releasedate": "2000-12-09",
         "platform_shortname": "WSC",
         "platform_company": "Bandai",
         "platform_type": "Handheld"
@@ -2431,7 +2431,7 @@
     "COLECO_CV": {
       "PlatformID": "COLECO_CV",
       "Metadata": {
-        "platform_releasedate": "1982-08-01T00:00:00.000Z",
+        "platform_releasedate": "1982-08-01",
         "platform_shortname": "CV",
         "platform_company": "Coleco",
         "platform_type": "Home"
@@ -2449,7 +2449,7 @@
     "GCE_VECTREX": {
       "PlatformID": "GCE_VECTREX",
       "Metadata": {
-        "platform_releasedate": "1982-08-01T00:00:00.000Z",
+        "platform_releasedate": "1982-08-01",
         "platform_shortname": "Vectrex",
         "platform_company": "General Computer",
         "platform_type": "Home"
@@ -2466,7 +2466,7 @@
     "MAGNAVOX_O2": {
       "PlatformID": "MAGNAVOX_O2",
       "Metadata": {
-        "platform_releasedate": "1978-12-01T00:00:00.000Z",
+        "platform_releasedate": "1978-12-01",
         "platform_shortname": "Odyssey 2",
         "platform_company": "Magnavox",
         "platform_type": "Home"
@@ -2486,7 +2486,7 @@
     "MATTEL_INT": {
       "PlatformID": "MATTEL_INT",
       "Metadata": {
-        "platform_releasedate": "1982-08-01T00:00:00.000Z",
+        "platform_releasedate": "1982-08-01",
         "platform_shortname": "INT",
         "platform_company": "Mattel Electronics",
         "platform_type": "Home"
@@ -2507,7 +2507,7 @@
     "MICROSOFT_X360": {
       "PlatformID": "MICROSOFT_X360",
       "Metadata": {
-        "platform_releasedate": "2005-11-22T00:00:00.000Z",
+        "platform_releasedate": "2005-11-22",
         "platform_shortname": "X360",
         "platform_company": "Microsoft",
         "platform_emulator_dev": "Xenia",
@@ -2539,7 +2539,7 @@
     "MICROSOFT_XBOX": {
       "PlatformID": "MICROSOFT_XBOX",
       "Metadata": {
-        "platform_releasedate": "2001-11-15T00:00:00.000Z",
+        "platform_releasedate": "2001-11-15",
         "platform_shortname": "XBOX",
         "platform_company": "Microsoft",
         "platform_type": "Home"
@@ -2558,7 +2558,7 @@
     "NEC_PCFX": {
       "PlatformID": "NEC_PCFX",
       "Metadata": {
-        "platform_releasedate": "1994-11-23T00:00:00.000Z",
+        "platform_releasedate": "1994-11-23",
         "platform_shortname": "PC-FX",
         "platform_company": "NEC",
         "platform_type": "Home"
@@ -2584,7 +2584,7 @@
     "NEC_SGFX": {
       "PlatformID": "NEC_SGFX",
       "Metadata": {
-        "platform_releasedate": "1989-11-01T00:00:00.000Z",
+        "platform_releasedate": "1989-11-01",
         "platform_shortname": "SuperGrafx",
         "platform_company": "NEC",
         "platform_type": "Home"
@@ -2603,7 +2603,7 @@
     "NEC_TG16": {
       "PlatformID": "NEC_TG16",
       "Metadata": {
-        "platform_releasedate": "1987-10-30T00:00:00.000Z",
+        "platform_releasedate": "1987-10-30",
         "platform_shortname": "TG16",
         "platform_jp_name": "PC Engine",
         "platform_company": "NEC",
@@ -2623,7 +2623,7 @@
     "NEC_TGCD": {
       "PlatformID": "NEC_TGCD",
       "Metadata": {
-        "platform_releasedate": "1988-12-04T00:00:00.000Z",
+        "platform_releasedate": "1988-12-04",
         "platform_shortname": "TGCD",
         "platform_jp_name": "PC Engine CD",
         "platform_company": "NEC",
@@ -2644,7 +2644,7 @@
     "NINTENDO_3DS": {
       "PlatformID": "NINTENDO_3DS",
       "Metadata": {
-        "platform_releasedate": "2011-02-26T00:00:00.000Z",
+        "platform_releasedate": "2011-02-26",
         "platform_shortname": "3DS",
         "platform_company": "Nintendo",
         "platform_type": "Handheld",
@@ -2666,7 +2666,7 @@
     "NINTENDO_FDS": {
       "PlatformID": "NINTENDO_FDS",
       "Metadata": {
-        "platform_releasedate": "1985-10-18T00:00:00.000Z",
+        "platform_releasedate": "1985-10-18",
         "platform_shortname": "FDS",
         "platform_company": "Nintendo",
         "platform_type": "Home"
@@ -2684,7 +2684,7 @@
     "NINTENDO_GB": {
       "PlatformID": "NINTENDO_GB",
       "Metadata": {
-        "platform_releasedate": "1989-04-21T00:00:00.000Z",
+        "platform_releasedate": "1989-04-21",
         "platform_shortname": "GB",
         "platform_company": "Nintendo",
         "platform_type": "Handheld"
@@ -2699,7 +2699,7 @@
     "NINTENDO_GBA": {
       "PlatformID": "NINTENDO_GBA",
       "Metadata": {
-        "platform_releasedate": "2001-10-21T00:00:00.000Z",
+        "platform_releasedate": "2001-10-21",
         "platform_shortname": "GBA",
         "platform_company": "Nintendo",
         "platform_type": "Handheld"
@@ -2717,7 +2717,7 @@
     "NINTENDO_GBC": {
       "PlatformID": "NINTENDO_GBC",
       "Metadata": {
-        "platform_releasedate": "1998-10-21T00:00:00.000Z",
+        "platform_releasedate": "1998-10-21",
         "platform_shortname": "GBC",
         "platform_company": "Nintendo",
         "platform_type": "Handheld"
@@ -2735,7 +2735,7 @@
     "NINTENDO_GCN": {
       "PlatformID": "NINTENDO_GCN",
       "Metadata": {
-        "platform_releasedate": "2001-09-14T00:00:00.000Z",
+        "platform_releasedate": "2001-09-14",
         "platform_shortname": "GCN",
         "platform_company": "Nintendo",
         "platform_type": "Home"
@@ -2756,7 +2756,7 @@
     "NINTENDO_N64": {
       "PlatformID": "NINTENDO_N64",
       "Metadata": {
-        "platform_releasedate": "1996-06-23T00:00:00.000Z",
+        "platform_releasedate": "1996-06-23",
         "platform_shortname": "N64",
         "platform_company": "Nintendo",
         "platform_type": "Home"
@@ -2775,7 +2775,7 @@
     "NINTENDO_N64DD": {
       "PlatformID": "NINTENDO_N64DD",
       "Metadata": {
-        "platform_releasedate": "1999-12-01T00:00:00.000Z",
+        "platform_releasedate": "1999-12-01",
         "platform_shortname": "N64DD",
         "platform_company": "Nintendo",
         "platform_type": "Home"
@@ -2795,7 +2795,7 @@
     "NINTENDO_NDS": {
       "PlatformID": "NINTENDO_NDS",
       "Metadata": {
-        "platform_releasedate": "2004-11-21T00:00:00.000Z",
+        "platform_releasedate": "2004-11-21",
         "platform_shortname": "NDS",
         "platform_company": "Nintendo",
         "platform_type": "Handheld"
@@ -2816,7 +2816,7 @@
     "NINTENDO_NES": {
       "PlatformID": "NINTENDO_NES",
       "Metadata": {
-        "platform_releasedate": "1985-10-18T00:00:00.000Z",
+        "platform_releasedate": "1985-10-18",
         "platform_shortname": "NES",
         "platform_name_jp": "Family Computer",
         "platform_company": "Nintendo",
@@ -2834,7 +2834,7 @@
     "NINTENDO_SNES": {
       "PlatformID": "NINTENDO_SNES",
       "Metadata": {
-        "platform_releasedate": "1990-11-21T00:00:00.000Z",
+        "platform_releasedate": "1990-11-21",
         "platform_shortname": "SNES",
         "platform_name_jp": "Super Famicom",
         "platform_company": "Nintendo",
@@ -2874,7 +2874,7 @@
     "NINTENDO_VB": {
       "PlatformID": "NINTENDO_VB",
       "Metadata": {
-        "platform_releasedate": "1995-07-21T00:00:00.000Z",
+        "platform_releasedate": "1995-07-21",
         "platform_shortname": "VB",
         "platform_company": "Nintendo",
         "platform_type": "Home"
@@ -2889,7 +2889,7 @@
     "NINTENDO_WII": {
       "PlatformID": "NINTENDO_WII",
       "Metadata": {
-        "platform_releasedate": "2006-12-02T00:00:00.000Z",
+        "platform_releasedate": "2006-12-02",
         "platform_shortname": "Wii",
         "platform_company": "Nintendo",
         "platform_type": "Home"
@@ -2913,7 +2913,7 @@
     "NINTENDO_WIIU": {
       "PlatformID": "NINTENDO_WIIU",
       "Metadata": {
-        "platform_releasedate": "2012-11-18T00:00:00.000Z",
+        "platform_releasedate": "2012-11-18",
         "platform_shortname": "WiiU",
         "platform_company": "Nintendo",
         "platform_type": "Home",
@@ -2931,7 +2931,7 @@
     "PANASONIC_3DO": {
       "PlatformID": "PANASONIC_3DO",
       "Metadata": {
-        "platform_releasedate": "1993-10-04T00:00:00.000Z",
+        "platform_releasedate": "1993-10-04",
         "platform_shortname": "3DO",
         "platform_company": "Panasonic",
         "platform_type": "Home"
@@ -2957,7 +2957,7 @@
     "SEGA_32X": {
       "PlatformID": "SEGA_32X",
       "Metadata": {
-        "platform_releasedate": "1994-11-21T00:00:00.000Z",
+        "platform_releasedate": "1994-11-21",
         "platform_shortname": "32X",
         "platform_company": "Sega",
         "platform_type": "Addon"
@@ -2977,7 +2977,7 @@
     "SEGA_32X_CD": {
       "PlatformID": "SEGA_32X_CD",
       "Metadata": {
-        "platform_releasedate": "1994-11-21T00:00:00.000Z",
+        "platform_releasedate": "1994-11-21",
         "platform_shortname": "32X CD",
         "platform_company": "Sega",
         "platform_type": "Addon"
@@ -3007,7 +3007,7 @@
     "SEGA_CD": {
       "PlatformID": "SEGA_CD",
       "Metadata": {
-        "platform_releasedate": "1991-12-12T00:00:00.000Z",
+        "platform_releasedate": "1991-12-12",
         "platform_shortname": "SCD",
         "platform_company": "Sega",
         "platform_type": "Addon"
@@ -3031,7 +3031,7 @@
     "SEGA_DC": {
       "PlatformID": "SEGA_DC",
       "Metadata": {
-        "platform_releasedate": "1998-11-27T00:00:00.000Z",
+        "platform_releasedate": "1998-11-27",
         "platform_shortname": "DC",
         "platform_company": "Sega",
         "platform_type": "Home"
@@ -3053,7 +3053,7 @@
     "SEGA_GEN": {
       "PlatformID": "SEGA_GEN",
       "Metadata": {
-        "platform_releasedate": "1988-10-29T00:00:00.000Z",
+        "platform_releasedate": "1988-10-29",
         "platform_shortname": "Genesis",
         "platform_name_eu": "Mega Drive",
         "platform_name_jp": "Mega Drive",
@@ -3073,7 +3073,7 @@
     "SEGA_GG": {
       "PlatformID": "SEGA_GG",
       "Metadata": {
-        "platform_releasedate": "1990-10-06T00:00:00.000Z",
+        "platform_releasedate": "1990-10-06",
         "platform_shortname": "GG",
         "platform_company": "Sega",
         "platform_type": "Handheld"
@@ -3092,7 +3092,7 @@
     "SEGA_SAT": {
       "PlatformID": "SEGA_SAT",
       "Metadata": {
-        "platform_releasedate": "1988-10-29T00:00:00.000Z",
+        "platform_releasedate": "1988-10-29",
         "platform_shortname": "Saturn",
         "platform_company": "Sega",
         "platform_type": "Home"
@@ -3119,7 +3119,7 @@
     "SEGA_SG1000": {
       "PlatformID": "SEGA_SG1000",
       "Metadata": {
-        "platform_releasedate": "1983-07-15T00:00:00.000Z",
+        "platform_releasedate": "1983-07-15",
         "platform_shortname": "SG-1000",
         "platform_company": "Sega",
         "platform_type": "Home"
@@ -3135,7 +3135,7 @@
     "SEGA_SMS": {
       "PlatformID": "SEGA_SMS",
       "Metadata": {
-        "platform_releasedate": "1985-10-20T00:00:00.000Z",
+        "platform_releasedate": "1985-10-20",
         "platform_shortname": "SMS",
         "platform_company": "Sega",
         "platform_type": "Home"
@@ -3155,7 +3155,7 @@
     "SNK_NG": {
       "PlatformID": "SNK_NG",
       "Metadata": {
-        "platform_releasedate": "1991-04-26T00:00:00.000Z",
+        "platform_releasedate": "1991-04-26",
         "platform_shortname": "NG",
         "platform_company": "SNK",
         "platform_type": "Home"
@@ -3172,7 +3172,7 @@
     "SNK_NGCD": {
       "PlatformID": "SNK_NGCD",
       "Metadata": {
-        "platform_releasedate": "1994-09-10T00:00:00.000Z",
+        "platform_releasedate": "1994-09-10",
         "platform_shortname": "NGCD",
         "platform_company": "SNK",
         "platform_type": "Home"
@@ -3188,7 +3188,7 @@
     "SNK_NGP": {
       "PlatformID": "SNK_NGP",
       "Metadata": {
-        "platform_releasedate": "1998-10-28T00:00:00.000Z",
+        "platform_releasedate": "1998-10-28",
         "platform_shortname": "NGP",
         "platform_company": "SNK",
         "platform_type": "Handheld"
@@ -3203,7 +3203,7 @@
     "SNK_NGPC": {
       "PlatformID": "SNK_NGPC",
       "Metadata": {
-        "platform_releasedate": "1999-03-16T00:00:00.000Z",
+        "platform_releasedate": "1999-03-16",
         "platform_shortname": "NGPC",
         "platform_company": "SNK",
         "platform_type": "Handheld"
@@ -3218,7 +3218,7 @@
     "SONY_PS2": {
       "PlatformID": "SONY_PS2",
       "Metadata": {
-        "platform_releasedate": "2000-03-04T00:00:00.000Z",
+        "platform_releasedate": "2000-03-04",
         "platform_shortname": "PS2",
         "platform_company": "Sony",
         "platform_type": "Home"
@@ -3248,7 +3248,7 @@
     "SONY_PS3": {
       "PlatformID": "SONY_PS3",
       "Metadata": {
-        "platform_releasedate": "2006-11-11T00:00:00.000Z",
+        "platform_releasedate": "2006-11-11",
         "platform_shortname": "PS3",
         "platform_company": "Sony",
         "platform_emulator_dev": "rpcs3",
@@ -3269,7 +3269,7 @@
     "SONY_PS4": {
       "PlatformID": "SONY_PS4",
       "Metadata": {
-        "platform_releasedate": "2013-11-15T00:00:00.000Z",
+        "platform_releasedate": "2013-11-15",
         "platform_shortname": "PS4",
         "platform_company": "Sony",
         "platform_emulator_dev": "None",
@@ -3284,7 +3284,7 @@
     "SONY_PSP": {
       "PlatformID": "SONY_PSP",
       "Metadata": {
-        "platform_releasedate": "2004-12-12T00:00:00.000Z",
+        "platform_releasedate": "2004-12-12",
         "platform_shortname": "PSP",
         "platform_company": "Sony",
         "platform_type": "Handheld"
@@ -3303,7 +3303,7 @@
     "SONY_PSV": {
       "PlatformID": "SONY_PSV",
       "Metadata": {
-        "platform_releasedate": "2011-12-17T00:00:00.000Z",
+        "platform_releasedate": "2011-12-17",
         "platform_shortname": "PSV",
         "platform_company": "Sony",
         "platform_emulator_dev": "None",
@@ -3320,7 +3320,7 @@
     "SONY_PSX": {
       "PlatformID": "SONY_PSX",
       "Metadata": {
-        "platform_releasedate": "1994-12-03T00:00:00.000Z",
+        "platform_releasedate": "1994-12-03",
         "platform_shortname": "psx",
         "platform_company": "Sony",
         "platform_type": "Handheld"
@@ -3347,5 +3347,5 @@
       }
     }
   },
-  "version": "7.0.0-alpha.1"
+  "version": "7.0.0-alpha.2"
 }

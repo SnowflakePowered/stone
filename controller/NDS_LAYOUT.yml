@@ -1,7 +1,7 @@
 LayoutID: NDS_LAYOUT
 FriendlyName: "Nintendo DS Layout"
 Platforms:
-    - NINTENDO_DS
+    - NINTENDO_NDS
 Layout:
     ButtonA:
         Label: "A"

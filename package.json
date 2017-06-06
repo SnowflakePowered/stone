@@ -1,6 +1,6 @@
 {
   "name": "stone-definitions",
-  "version": "7.0.0-alpha.2",
+  "version": "7.0.0-alpha.3",
   "description": "Stone Platform and Controller Specification",
   "main": "./dist/stone.dist.json",
   "scripts": {
