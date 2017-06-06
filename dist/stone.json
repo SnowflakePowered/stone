@@ -665,7 +665,7 @@
         }
       }
     },
-    "GEN6_CONTROLELR": {
+    "GEN6_CONTROLLER": {
       "LayoutID": "GEN6_CONTROLLER",
       "FriendlyName": "Sega Genesis 6-button Controller",
       "Platforms": ["SEGA_GEN", "SEGA_CD", "SEGA_32X", "SEGA_32X_CD"],
@@ -3347,5 +3347,5 @@
       }
     }
   },
-  "version": "7.0.0-alpha.2"
+  "version": "7.0.0-alpha.3"
 }
