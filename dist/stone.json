@@ -941,6 +941,33 @@
         }
       }
     },
+    "MAGNAVOX_O2_CONTROLLER": {
+      "LayoutID": "MAGNAVOX_02_CONTROLLER",
+      "Platforms": ["MAGNAVOX_02"],
+      "FriendlyName": "Magnavox Oddysey 2 Joystick",
+      "Layout": {
+        "ButtonA": {
+          "Label": "Fire",
+          "Type": "Button"
+        },
+        "DirectionalE": {
+          "Label": "Joystick Right",
+          "Type": "Directional"
+        },
+        "DirectionalN": {
+          "Label": "Joystick Up",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "Joystick Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "Joystick Left",
+          "Type": "Directional"
+        }
+      }
+    },
     "N64_CONTROLLER": {
       "LayoutID": "N64_CONTROLLER",
       "FriendlyName": "Nintendo 64 Controller",
@@ -2434,6 +2461,26 @@
         ".bin": "application/x-romfile-vec",
         ".vol": "application/x-romfile-vec-overlay-vol",
         ".pcx": "application/x-romfile-vec-overlay-pcx"
+      }
+    },
+    "MAGNAVOX_O2": {
+      "PlatformID": "MAGNAVOX_O2",
+      "Metadata": {
+        "platform_releasedate": "1978-12-01T00:00:00.000Z",
+        "platform_shortname": "Odyssey 2",
+        "platform_company": "Magnavox",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Magnavox Odyssey 2",
+      "FileTypes": {
+        ".bin": "application/x-romfile-o2"
+      },
+      "BiosFiles": {
+        "o2rom.bin": ["562d5ebf9e030a40d6fabfc2f33139fd"],
+        "g7400.bin": ["c500ff71236068e0dc0d0603d265ae76"],
+        "jopac.bin": ["279008e4a0db2dc5f1c048853b033828"],
+        "c52.bin": ["f1071cdb0b6b10dde94d3bc8a6146387"]
       }
     },
     "MATTEL_INT": {
