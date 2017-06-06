@@ -82,6 +82,7 @@ This should always be the **earliest** release date of the console, in any regio
 
 The release date should be in ISO 8601 (YYYY-MM-DD) format, however this specification does not guarantee the format of this metadata. 
 
+If only a year and a month is known, assume the date of release to be the first of that month (YYYY-MM-01).
 ### Company
 **Key:** `platform_company`
 
@@ -118,7 +119,7 @@ The localised European friendly name for the *platform*. For example, *Mega Driv
 For *platforms* that do not have a mature emulation scene, the name of the emulator currently in development that may or may not provide a playable experience on that *platform*.
 
 ## BIOS Files
-Stone also describes common BIOS and firmware files required by many emulators to run. BIOS files are optional and may not exist for every *platform*. They are described by mapping the common name of the BIOS file to known *MD5* hashes of the file, accounting for without describing, different versions of BIOS files. BIOS files that go by different names but are hash-wise the same file, should have their definitions repeated with the different name.
+Stone also describes common BIOS and firmware files required by many emulators to run. BIOS files are optional and may not exist for every *platform*. They are described by mapping the common name of the BIOS file to known lowercase *MD5* hashes of the file, accounting for without describing, different versions of BIOS files. BIOS files that go by different names but are hash-wise the same file, should have their definitions repeated with the different name.
 
 An empty array of hashes means that the file has no known hash, and only a known file name, and thus in regards to Stone, *any file* with that filename could presumably be a valid BIOS file.
 
