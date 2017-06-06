@@ -1,6 +1,6 @@
 PlatformID: MAGNAVOX_O2
 Metadata:
-  platform_releasedate: 1978-12-01
+  platform_releasedate: '1978-12-01'
   platform_shortname: 'Odyssey 2'
   platform_company: Magnavox
   platform_type: Home
