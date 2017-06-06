@@ -13,6 +13,8 @@ The following changes to the documents do not constitute a breaking change, and 
 * Adding a *platform* to a *controller*
 * Changing the label of a *controller element*
 * Changing the **any schema** such that the previous documents **continue to pass validation**
+* Adding a new *platform*
+* Adding a new *controller*
 
 ## Breaking Changes
 The following changes to the documents constitute a breaking change, and as such, the major version number **must** be increased.
@@ -25,3 +27,5 @@ The following changes to the documents constitute a breaking change, and as such
 * Changing the maximum amount of inputs of a *platform*
 * Changing **any schema** such that the previous documents **require changes to pass validation**
 * Changing the specifications such that **any of the above changes are incurred**
+* Removing a *controller*
+* Removing a *platform*
