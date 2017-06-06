@@ -1,6 +1,6 @@
 PlatformID: SONY_PS4
 Metadata:
-  platform_releasedate: 2013-11-15
+  platform_releasedate: '2013-11-15'
   platform_shortname: PS4
   platform_company: Sony
   platform_emulator_dev: None

@@ -1,6 +1,6 @@
 PlatformID: MICROSOFT_X360
 Metadata:
-  platform_releasedate: 2005-11-22
+  platform_releasedate: '2005-11-22'
   platform_shortname: X360
   platform_company: Microsoft
   platform_emulator_dev: Xenia
