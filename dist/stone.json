@@ -942,8 +942,8 @@
       }
     },
     "MAGNAVOX_O2_CONTROLLER": {
-      "LayoutID": "MAGNAVOX_02_CONTROLLER",
-      "Platforms": ["MAGNAVOX_02"],
+      "LayoutID": "MAGNAVOX_O2_CONTROLLER",
+      "Platforms": ["MAGNAVOX_O2"],
       "FriendlyName": "Magnavox Oddysey 2 Joystick",
       "Layout": {
         "ButtonA": {
@@ -3347,5 +3347,5 @@
       }
     }
   },
-  "version": "7.0.0-alpha.3"
+  "version": "7.0.0-alpha.6"
 }

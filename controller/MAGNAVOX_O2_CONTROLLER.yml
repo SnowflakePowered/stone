@@ -1,6 +1,6 @@
-LayoutID: MAGNAVOX_02_CONTROLLER
+LayoutID: MAGNAVOX_O2_CONTROLLER
 Platforms: 
-  - MAGNAVOX_02
+  - MAGNAVOX_O2
 FriendlyName: "Magnavox Oddysey 2 Joystick"
 Layout: 
   ButtonA: 
