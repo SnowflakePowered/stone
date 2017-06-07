@@ -6,6 +6,9 @@ Stone
 
 Stone is a standard on how to refer to past-and-present gaming consoles and their controllers.
 
+Rationale
+---------
+Stone gives each unique video game console and their common controller layouts a unique ID. This makes references to a certain console or controller unambiguous. Stone serves as a source of truth for video game console metadata, their consoles, and the formats with which their games are distributed in. It provides a semantic definition for the button layouts for various controllers, as well as unambiguous and unique content-types for various formats that games are distributed and archived in.
 
 Usage
 -----
@@ -27,4 +30,4 @@ var stone = require('stone-definitions')
 Contributing
 ------------
 
-Feel free to contribute to Stone by filing a Pull Request. Definitions are written in YAML, and are verified against a JSON Schema to ensure that each definition is valid.
+Feel free to contribute to Stone by filing a Pull Request. Definitions are written in YAML, and are verified against a JSON Schema to ensure that each definition is valid. Stone is licensed under the MIT License.
