@@ -3128,7 +3128,7 @@
       "FriendlyName": "Sega SG-1000",
       "FileTypes": {
         ".sg": "application/vnd.stone-romfile.sega.sg1000",
-        ".sc": "application/vnd.stone-romfile.sega.sc1000",
+        ".sc": "application/vnd.stone-romfile.sega.sg1000",
         ".bin": "application/vnd.stone-romfile.sega.sg1000"
       }
     },
@@ -3347,5 +3347,5 @@
       }
     }
   },
-  "version": "7.0.0-alpha.9"
+  "version": "7.0.0-alpha.10"
 }
