@@ -99,14 +99,14 @@ Numbered buttons are meant to be used as numeric pad buttons, or placeholder but
 | AxisRightAnalogNegativeY | Downwards movement of the right analog stick along the Y axis (vertically) | Analog stick movement                    |
 | RumbleBig                | A large rumble action (usually through the larger of two rumble motors in a controller | Rumble                                   |
 | RumbleSmall              | A smaller rumble action (usually through the smaller of two rumble motors in a controller | Rumble                                   |
-| Pointer2D                | A pointing device that can express position in the form of a contiguous set of coordinates on a 2 dimensional cartesian plane. Examples include a mouse, or the Wii Remote IR | Co-ordinate space pointer                |
-| Pointer3D                | A pointing device that can express position in the form of a contiguous set of coordinates in 3 dimensional space. Examples include the Oculus Touch device, or the Playstation Move | Co-ordinate space pointer                |
+| Pointer2D                | A pointing device that can express position in the form of a set of coordinates on a 2 dimensional plane. Examples include a mouse, or the Wii Remote IR | Co-ordinate space pointer                |
+| Pointer3D                | A pointing device that can express position in the form of a set of coordinates in 3 dimensional space. Examples include the Oculus Touch device, or the Playstation Move | Co-ordinate space pointer                |
 | PointerAxisPositiveX     | Continous rightwards movement of a pointer device on the X axis (horizontal) | Pointer Axis                             |
 | PointerAxisNegativeX     | Continous leftwards movement of a pointer device on the X axis (horizontal) | Pointer Axis                             |
 | PointerAxisPositiveY     | Continous upwards movement of a pointer device on the Y axis (vertical) | Pointer Axis                             |
 | PointerAxisNegativeY     | Continous downwards movement of a pointer device on the Y axis (vertical) | Pointer Axis                             |
 | PointerAxisPositiveZ     | Continous forwards movement of a pointer device on the Z axis | Pointer Axis                             |
 | PointerAxisNegativeZ     | Continous backwards movement of a pointer device on the Z axis | Pointer Axis                             |
-| Touchscreen              | A touch sensitive surface of unspecified size and precision, where input can be expressed as a non-contiguous matrix of coordinates on a 2 dimentional cartesian plane. However, most touchscreens in video game controllers are only concerned with a single matrix due to the lack of multi-touch | Touchscreen                              |
+| Touchscreen              | A touch sensitive surface of unspecified size and precision, where input can be expressed as a set of coordinates on a 2 dimensional plane. | Touchscreen                              |
 | Keyboard                 | A keyboad with an unspecified amount of keys. Intended for emulated computers such as the Commodore 64 | Keyboard                                 |
 | NoElement                | No element                               | Null. Intended for internal use by consumers only |
