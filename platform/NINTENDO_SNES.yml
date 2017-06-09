@@ -8,11 +8,11 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Super Nintendo Entertainment System
 FileTypes:
-    .sfc: 'application/x-romfile-snes'
-    .bin: 'application/x-romfile-snes'
-    .smc: 'application/x-romfile-snes-magiccard'
-    .swc: 'application/x-romfile-snes-wildcard'
-    .fig: 'application/x-romfile-snes-profighter'
+    .sfc: 'application/vnd.stone-romfile.nintendo.snes'
+    .bin: 'application/vnd.stone-romfile.nintendo.snes'
+    .smc: 'application/vnd.stone-romfile.nintendo.snes-magiccard'
+    .swc: 'application/vnd.stone-romfile.nintendo.snes-wildcard'
+    .fig: 'application/vnd.stone-romfile.nintendo.snes-profighter'
 BiosFiles: 
   BS-X.bin: 
     - fed4d8242cfbed61343d53d48432aced

@@ -7,5 +7,5 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Neo Geo Pocket
 FileTypes: 
-    .ngp: 'application/x-romfile-ngp'
-    .bin: 'application/x-romfile-ngp'
+    .ngp: 'application/vnd.stone-romfile.snk.ngp'
+    .bin: 'application/vnd.stone-romfile.snk.ngp'

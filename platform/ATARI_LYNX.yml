@@ -7,8 +7,8 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Atari Lynx
 FileTypes:
-    .lnx: 'application/x-romfile-lynx'
-    .bin: 'application/x-romfile-lynx'
+    .lnx: 'application/vnd.stone-romfile.lynx'
+    .bin: 'application/vnd.stone-romfile.lynx'
 BiosFiles:
     lynxboot.img:
         - fcd403db69f54290b51035d82f835e7b

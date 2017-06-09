@@ -7,9 +7,9 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Playstation Portable
 FileTypes:
-    .iso: 'application/x-romfile-psp-discimage'
-    .cso: 'application/x-romfile-psp-discimage-compressed'
-    .ciso: 'application/x-romfile-psp-discimage-compressed'
-    .dax: 'application/x-romfile-psp-dax-compressed'
-    .pbp: 'application/x-romfile-psp-eboot'
-    .elf: 'application/x-romfile-psp-elf'
+    .iso: 'application/vnd.stone-romfile.sony.psp-discimage'
+    .cso: 'application/vnd.stone-romfile.sony.psp-discimage-compressed'
+    .ciso: 'application/vnd.stone-romfile.sony.psp-discimage-compressed'
+    .dax: 'application/vnd.stone-romfile.sony.psp-dax-compressed'
+    .pbp: 'application/vnd.stone-romfile.sony.psp-eboot'
+    .elf: 'application/vnd.stone-romfile.sony.psp-elf'

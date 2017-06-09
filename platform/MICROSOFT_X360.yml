@@ -8,6 +8,6 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: Xbox 360
 FileTypes:
-    .iso: 'application/x-romfile-x360-discimage'
-    .xex: 'application/x-romfile-x360-executable'
-    .xcp: 'application/x-romfile-x360-content-package'
+    .iso: 'application/vnd.stone-romfile.microsoft.x360-discimage'
+    .xex: 'application/vnd.stone-romfile.microsoft.x360-executable'
+    .xcp: 'application/vnd.stone-romfile.microsoft.sx360-content-package'

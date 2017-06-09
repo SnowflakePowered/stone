@@ -7,5 +7,5 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Game Boy
 FileTypes: 
-    .gb: 'application/x-romfile-gb'
-    .bin: 'application/x-romfile-gb'
+    .gb: 'application/vnd.stone-romfile.nintendo.gb'
+    .bin: 'application/vnd.stone-romfile.nintendo.gb'

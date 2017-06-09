@@ -7,8 +7,8 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega 32X
 FileTypes:
-    .rom: 'application/x-romfile-32x'
-    .32x: 'application/x-romfile-32x'
+    .rom: 'application/vnd.stone-romfile.sega.32x'
+    .32x: 'application/vnd.stone-romfile.sega.32x'
 BiosFiles:
     32X_G_BIOS.BIN:
         - 6a5433f6a132a2b683635819a6dcf085

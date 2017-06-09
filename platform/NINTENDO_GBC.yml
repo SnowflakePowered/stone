@@ -7,8 +7,8 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Game Boy Color
 FileTypes: 
-    .gbc: 'application/x-romfile-gbc'
-    .bin: 'application/x-romfile-gbc'
+    .gbc: 'application/vnd.stone-romfile.nintendo.gbc'
+    .bin: 'application/vnd.stone-romfile.nintendo.gbc'
 BiosFiles:
     gbc_bios.bin:
         - dbfce9db9deaa2567f6a84fde55f9680

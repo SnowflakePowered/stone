@@ -7,13 +7,13 @@ Metadata:
 MaximumInputs: 8
 FriendlyName: Wii
 FileTypes:
-    .iso: 'application/x-romfile-wii-discimage'
-    .wbfs: 'application/x-romfile-wii-wbfs'
-    .ciso: 'application/x-romfile-wii-discimage-compressed'
-    .gcz: 'application/x-romfile-wii-dolphin-compressed'
-    .elf: 'application/x-romfile-wii-elf'
-    .dol: 'application/x-romfile-wii-executable'
-    .wad: 'application/x-romfile-wii-package'
+    .iso: 'application/vnd.stone-romfile.nintendo.wii-discimage'
+    .wbfs: 'application/vnd.stone-romfile.nintendo.wii-wbfs'
+    .ciso: 'application/vnd.stone-romfile.nintendo.wii-discimage-compressed'
+    .gcz: 'application/vnd.stone-romfile.nintendo.wii-dolphin-compressed'
+    .elf: 'application/vnd.stone-romfile.nintendo.wii-elf'
+    .dol: 'application/vnd.stone-romfile.nintendo.wii-executable'
+    .wad: 'application/vnd.stone-romfile.nintendo.wii-package'
 BiosFiles:
     dsp_rom.bin:
          - 23645d446729a166ab3a9aaba2f5fba5

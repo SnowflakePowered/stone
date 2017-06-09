@@ -35,7 +35,7 @@
       "patternProperties": {
         "^\\.": {
           "type": "string",
-          "pattern": "^application/x-romfile-.+"
+          "pattern": "^application\\/vnd\\.stone-romfile\\..+"
         }
       }
     },

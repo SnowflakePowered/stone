@@ -2285,7 +2285,7 @@
       "MaximumInputs": 8,
       "FriendlyName": "Arcade",
       "FileTypes": {
-        ".zip": "application/x-romfile-arcade+zip"
+        ".zip": "application/vnd.stone-romfile.arcade+zip"
       }
     },
     "ATARI_2600": {
@@ -2299,9 +2299,9 @@
       "MaximumInputs": 2,
       "FriendlyName": "Atari 2600",
       "FileTypes": {
-        ".a26": "application/x-romfile-2600",
-        ".bin": "application/x-romfile-2600",
-        ".rom": "application/x-romfile-2600"
+        ".a26": "application/vnd.stone-romfile.atari.a2600",
+        ".bin": "application/vnd.stone-romfile.atari.a2600",
+        ".rom": "application/vnd.stone-romfile.atari.a2600"
       }
     },
     "ATARI_5200": {
@@ -2315,8 +2315,8 @@
       "MaximumInputs": 4,
       "FriendlyName": "Atari 5200 SuperSystem",
       "FileTypes": {
-        ".a52": "application/x-romfile-5200",
-        ".bin": "application/x-romfile-5200"
+        ".a52": "application/vnd.stone-romfile.atari.a5200",
+        ".bin": "application/vnd.stone-romfile.atari.a5200"
       },
       "BiosFiles": {
         "5200.rom": ["ee7b85f5ca384dcb1f284946f3c12ac4", "281f20ea4320404ec820fb7ec0693b38"]
@@ -2333,8 +2333,8 @@
       "MaximumInputs": 2,
       "FriendlyName": "Atari 7800 ProSystem",
       "FileTypes": {
-        ".a78": "application/x-romfile-7800",
-        ".bin": "application/x-romfile-7800"
+        ".a78": "application/vnd.stone-romfile.atari.a7800",
+        ".bin": "application/vnd.stone-romfile.atari.a7800"
       },
       "BiosFiles": {
         "7800 BIOS (U).rom": ["0763f1ffb006ddbe32e52d497ee848ae"],
@@ -2352,11 +2352,11 @@
       "MaximumInputs": 2,
       "FriendlyName": "Atari Jaguar",
       "FileTypes": {
-        ".jag": "application/x-romfile-jaguar",
-        ".j64": "application/x-romfile-jaguar",
-        ".rom": "application/x-romfile-jaguar",
-        ".abs": "application/x-romfile-jaguar",
-        ".cof": "application/x-romfile-jaguar"
+        ".jag": "application/vnd.stone-romfile.jaguar",
+        ".j64": "application/vnd.stone-romfile.jaguar",
+        ".rom": "application/vnd.stone-romfile.jaguar",
+        ".abs": "application/vnd.stone-romfile.jaguar",
+        ".cof": "application/vnd.stone-romfile.jaguar"
       }
     },
     "ATARI_JAGUAR_CD": {
@@ -2370,14 +2370,14 @@
       "MaximumInputs": 2,
       "FriendlyName": "Atari Jaguar CD",
       "FileTypes": {
-        ".nrg": "application/x-romfile-jaguar-nero",
-        ".cdi": "application/x-romfile-jaguar-discjuggler",
-        ".ccd": "application/x-romfile-jaguar-clonecd-control",
-        ".img": "application/x-romfile-jaguar-clonecd-image",
-        ".sub": "application/x-romfile-jaguar-clonecd-subchannel",
-        ".bin": "application/x-romfile-jaguar-discimage",
-        ".iso": "application/x-romfile-jaguar-discimage",
-        ".cue": "application/x-romfile-jaguar-cuesheet"
+        ".nrg": "application/vnd.stone-romfile.atari.jaguar-nero",
+        ".cdi": "application/vnd.stone-romfile.atari.jaguar-discjuggler",
+        ".ccd": "application/vnd.stone-romfile.atari.jaguar-clonecd-control",
+        ".img": "application/vnd.stone-romfile.atari.jaguar-clonecd-image",
+        ".sub": "application/vnd.stone-romfile.atari.jaguar-clonecd-subchannel",
+        ".bin": "application/vnd.stone-romfile.atari.jaguar-discimage",
+        ".iso": "application/vnd.stone-romfile.atari.jaguar-discimage",
+        ".cue": "application/vnd.stone-romfile.atari.jaguar-cuesheet"
       }
     },
     "ATARI_LYNX": {
@@ -2391,8 +2391,8 @@
       "MaximumInputs": 1,
       "FriendlyName": "Atari Lynx",
       "FileTypes": {
-        ".lnx": "application/x-romfile-lynx",
-        ".bin": "application/x-romfile-lynx"
+        ".lnx": "application/vnd.stone-romfile.lynx",
+        ".bin": "application/vnd.stone-romfile.lynx"
       },
       "BiosFiles": {
         "lynxboot.img": ["fcd403db69f54290b51035d82f835e7b"]
@@ -2409,8 +2409,8 @@
       "MaximumInputs": 1,
       "FriendlyName": "Bandai WonderSwan",
       "FileTypes": {
-        ".ws": "application/x-romfile-ws",
-        ".bin": "application/x-romfile-ws"
+        ".ws": "application/vnd.stone-romfile.bandai.ws",
+        ".bin": "application/vnd.stone-romfile.bandai.ws"
       }
     },
     "BANDAI_WSC": {
@@ -2424,8 +2424,8 @@
       "MaximumInputs": 1,
       "FriendlyName": "Bandai WonderSwan Color",
       "FileTypes": {
-        ".wsc": "application/x-romfile-wsc",
-        ".bin": "application/x-romfile-wsc"
+        ".wsc": "application/vnd.stone-romfile.bandai.wsc",
+        ".bin": "application/vnd.stone-romfile.bandai.wsc"
       }
     },
     "COLECO_CV": {
@@ -2439,8 +2439,8 @@
       "MaximumInputs": 4,
       "FriendlyName": "ColecoVision",
       "FileTypes": {
-        ".rom": "application/x-romfile-cv",
-        ".col": "application/x-romfile-cv"
+        ".rom": "application/vnd.stone-romfile.coleco.cv",
+        ".col": "application/vnd.stone-romfile.coleco.cv"
       },
       "BiosFiles": {
         "coleco.rom": ["2c66f5911e5b42b8ebe113403548eee7"]
@@ -2457,10 +2457,10 @@
       "MaximumInputs": 1,
       "FriendlyName": "Vectrex",
       "FileTypes": {
-        ".vec": "application/x-romfile-vec",
-        ".bin": "application/x-romfile-vec",
-        ".vol": "application/x-romfile-vec-overlay-vol",
-        ".pcx": "application/x-romfile-vec-overlay-pcx"
+        ".vec": "application/vnd.stone-romfile.generalcomputer.vec",
+        ".bin": "application/vnd.stone-romfile.generalcomputer.vec",
+        ".vol": "application/vnd.stone-romfile.generalcomputer.vec-overlay-vol",
+        ".pcx": "application/vnd.stone-romfile.generalcomputer.vec-overlay-pcx"
       }
     },
     "MAGNAVOX_O2": {
@@ -2474,7 +2474,7 @@
       "MaximumInputs": 2,
       "FriendlyName": "Magnavox Odyssey 2",
       "FileTypes": {
-        ".bin": "application/x-romfile-o2"
+        ".bin": "application/vnd.stone-romfile.magnavox.o2"
       },
       "BiosFiles": {
         "o2rom.bin": ["562d5ebf9e030a40d6fabfc2f33139fd"],
@@ -2494,8 +2494,8 @@
       "MaximumInputs": 2,
       "FriendlyName": "Intellivision",
       "FileTypes": {
-        ".int": "application/x-romfile-int",
-        ".bin": "application/x-romfile-int"
+        ".int": "application/vnd.stone-romfile.mattel.int",
+        ".bin": "application/vnd.stone-romfile.mattel.int"
       },
       "BiosFiles": {
         "exec.bin": ["62e761035cb657903761800f4437b8af"],
@@ -2516,9 +2516,9 @@
       "MaximumInputs": 4,
       "FriendlyName": "Xbox 360",
       "FileTypes": {
-        ".iso": "application/x-romfile-x360-discimage",
-        ".xex": "application/x-romfile-x360-executable",
-        ".xcp": "application/x-romfile-x360-content-package"
+        ".iso": "application/vnd.stone-romfile.microsoft.x360-discimage",
+        ".xex": "application/vnd.stone-romfile.microsoft.x360-executable",
+        ".xcp": "application/vnd.stone-romfile.microsoft.sx360-content-package"
       }
     },
     "MICROSOFT_XBO": {
@@ -2533,7 +2533,7 @@
       "MaximumInputs": 4,
       "FriendlyName": "Xbox One",
       "FileTypes": {
-        ".appx": "application/x-romfile-xbo-appx-package"
+        ".appx": "application/vnd.stone-romfile.microsoft.xbo-appx-package"
       }
     },
     "MICROSOFT_XBOX": {
@@ -2547,7 +2547,7 @@
       "MaximumInputs": 4,
       "FriendlyName": "Xbox",
       "FileTypes": {
-        ".xbe": "application/x-romfile-xbox-executable"
+        ".xbe": "application/vnd.stone-romfile.microsoft.xbox-executable"
       },
       "BiosFiles": {
         "mcpx_1.0.bin": ["d49c52a4102f6df7bcf8d0617ac475ed"],
@@ -2566,12 +2566,12 @@
       "MaximumInputs": 2,
       "FriendlyName": "PC-FX",
       "FileTypes": {
-        ".bin": "application/x-romfile-pcfx-discimage",
-        ".iso": "application/x-romfile-pcfx-discimage",
-        ".cue": "application/x-romfile-pcfx-cuesheet",
-        ".ccd": "application/x-romfile-pcfx-clonecd-control",
-        ".img": "application/x-romfile-pcfx-clonecd-rawimage",
-        ".sub": "application/x-romfile-pcfx-clonecd-subchannel"
+        ".bin": "application/vnd.stone-romfile.nec.pcfx-discimage",
+        ".iso": "application/vnd.stone-romfile.nec.pcfx-discimage",
+        ".cue": "application/vnd.stone-romfile.nec.pcfx-cuesheet",
+        ".ccd": "application/vnd.stone-romfile.nec.pcfx-clonecd-control",
+        ".img": "application/vnd.stone-romfile.nec.pcfx-clonecd-rawimage",
+        ".sub": "application/vnd.stone-romfile.nec.pcfx-clonecd-subchannel"
       },
       "BiosFiles": {
         "pcfx.rom": ["08e36edbea28a017f79f8d4f7ff9b6d7"],
@@ -2592,8 +2592,8 @@
       "MaximumInputs": 2,
       "FriendlyName": "PC Engine SuperGrafx",
       "FileTypes": {
-        ".pce": "application/x-romfile-sgfx",
-        ".bin": "application/x-romfile-sgfx"
+        ".pce": "application/vnd.stone-romfile.nec.sgfx",
+        ".bin": "application/vnd.stone-romfile.nec.sgfx"
       },
       "BiosFiles": {
         "syscard3.pce": ["ff1a674273fe3540ccef576376407d1d", "38179df8f4ac870017db21ebcbf53114", "0754f903b52e3b3342202bdafb13efa5"],
@@ -2612,8 +2612,8 @@
       "MaximumInputs": 2,
       "FriendlyName": "TurboGrafx-16",
       "FileTypes": {
-        ".pce": "application/x-romfile-tg16",
-        ".bin": "application/x-romfile-tg16"
+        ".pce": "application/vnd.stone-romfile.nec.tg16",
+        ".bin": "application/vnd.stone-romfile.nec.tg16"
       },
       "BiosFiles": {
         "syscard3.pce": ["ff1a674273fe3540ccef576376407d1d", "38179df8f4ac870017db21ebcbf53114", "0754f903b52e3b3342202bdafb13efa5"],
@@ -2632,9 +2632,9 @@
       "MaximumInputs": 2,
       "FriendlyName": "TurboGrafx-CD",
       "FileTypes": {
-        ".bin": "application/x-romfile-tgcd-discimage",
-        ".iso": "application/x-romfile-tgcd-discimage",
-        ".cue": "application/x-romfile-tgcd-cuesheet"
+        ".bin": "application/vnd.stone-romfile.nec.tgcd-discimage",
+        ".iso": "application/vnd.stone-romfile.nec.tgcd-discimage",
+        ".cue": "application/vnd.stone-romfile.nec.tgcd-cuesheet"
       },
       "BiosFiles": {
         "syscard3.pce": ["ff1a674273fe3540ccef576376407d1d", "38179df8f4ac870017db21ebcbf53114", "0754f903b52e3b3342202bdafb13efa5"],
@@ -2653,14 +2653,14 @@
       "MaximumInputs": 1,
       "FriendlyName": "Nintendo 3DS",
       "FileTypes": {
-        ".3ds": "application/x-romfile-3ds-cartimage",
-        ".cci": "application/x-romfile-3ds-cartimage",
-        ".3dsx": "application/x-romfile-3ds-homebrew",
-        ".cia": "application/x-romfile-3ds-importable",
-        ".cxi": "application/x-romfile-3ds-executable",
-        ".app": "application/x-romfile-3ds-executable",
-        ".elf": "application/x-romfile-3ds-elf",
-        ".axf": "application/x-romfile-3ds-elf"
+        ".3ds": "application/vnd.stone-romfile.nintendo.3ds-cartimage",
+        ".cci": "application/vnd.stone-romfile.nintendo.3ds-cartimage",
+        ".3dsx": "application/vnd.stone-romfile.nintendo.3ds-homebrew",
+        ".cia": "application/vnd.stone-romfile.nintendo.3ds-importable",
+        ".cxi": "application/vnd.stone-romfile.nintendo.3ds-executable",
+        ".app": "application/vnd.stone-romfile.nintendo.3ds-executable",
+        ".elf": "application/vnd.stone-romfile.nintendo.3ds-elf",
+        ".axf": "application/vnd.stone-romfile.nintendo.3ds-elf"
       }
     },
     "NINTENDO_FDS": {
@@ -2674,8 +2674,8 @@
       "MaximumInputs": 2,
       "FriendlyName": "Family Computer Disk System",
       "FileTypes": {
-        ".fds": "application/x-romfile-fds",
-        ".bin": "application/x-romfile-fds"
+        ".fds": "application/vnd.stone-romfile.nintendo.fds",
+        ".bin": "application/vnd.stone-romfile.nintendo.fds"
       },
       "BiosFiles": {
         "disksys.rom": ["ca30b50f880eb660a320674ed365ef7a"]
@@ -2692,8 +2692,8 @@
       "MaximumInputs": 1,
       "FriendlyName": "Game Boy",
       "FileTypes": {
-        ".gb": "application/x-romfile-gb",
-        ".bin": "application/x-romfile-gb"
+        ".gb": "application/vnd.stone-romfile.nintendo.gb",
+        ".bin": "application/vnd.stone-romfile.nintendo.gb"
       }
     },
     "NINTENDO_GBA": {
@@ -2707,8 +2707,8 @@
       "MaximumInputs": 1,
       "FriendlyName": "Game Boy Advanced",
       "FileTypes": {
-        ".gba": "application/x-romfile-gba",
-        ".bin": "application/x-romfile-gba"
+        ".gba": "application/vnd.stone-romfile.nintendo.gba",
+        ".bin": "application/vnd.stone-romfile.nintendo.gba"
       },
       "BiosFiles": {
         "gba_bios.bin": ["a860e8c0b6d573d191e4ec7db1b1e4f6"]
@@ -2725,8 +2725,8 @@
       "MaximumInputs": 1,
       "FriendlyName": "Game Boy Color",
       "FileTypes": {
-        ".gbc": "application/x-romfile-gbc",
-        ".bin": "application/x-romfile-gbc"
+        ".gbc": "application/vnd.stone-romfile.nintendo.gbc",
+        ".bin": "application/vnd.stone-romfile.nintendo.gbc"
       },
       "BiosFiles": {
         "gbc_bios.bin": ["dbfce9db9deaa2567f6a84fde55f9680"]
@@ -2743,11 +2743,11 @@
       "MaximumInputs": 4,
       "FriendlyName": "Nintendo GameCube",
       "FileTypes": {
-        ".iso": "application/x-romfile-gcn-discimage",
-        ".gcm": "application/x-romfile-gcn-discimage",
-        ".gcz": "application/x-romfile-gcn-dolphin-compressed",
-        ".dol": "application/x-romfile-gcn-executable",
-        ".elf": "application/x-romfile-gcn-elf"
+        ".iso": "application/vnd.stone-romfile.nintendo.gcn-discimage",
+        ".gcm": "application/vnd.stone-romfile.nintendo.gcn-discimage",
+        ".gcz": "application/vnd.stone-romfile.nintendo.gcn-dolphin-compressed",
+        ".dol": "application/vnd.stone-romfile.nintendo.gcn-executable",
+        ".elf": "application/vnd.stone-romfile.nintendo.gcn-elf"
       },
       "BiosFiles": {
         "IPL.bin": ["fc924a7c879b661abc37cec4f018fdf3", "0cdda509e2da83c85bfe423dd87346cc", "db92574caab77a7ec99d4605fd6f2450"]
@@ -2764,12 +2764,12 @@
       "MaximumInputs": 4,
       "FriendlyName": "Nintendo 64",
       "FileTypes": {
-        ".n64": "application/x-romfile-n64-littleendian",
-        ".z64": "application/x-romfile-n64-bigendian",
-        ".u64": "application/x-romfile-n64-indeterminate",
-        ".v64": "application/x-romfile-n64-byteswapped",
-        ".rom": "application/x-romfile-n64-indeterminate",
-        ".bin": "application/x-romfile-n64-indeterminate"
+        ".n64": "application/vnd.stone-romfile.nintendo.n64-littleendian",
+        ".z64": "application/vnd.stone-romfile.nintendo.n64-bigendian",
+        ".u64": "application/vnd.stone-romfile.nintendo.n64-indeterminate",
+        ".v64": "application/vnd.stone-romfile.nintendo.n64-byteswapped",
+        ".rom": "application/vnd.stone-romfile.nintendo.n64-indeterminate",
+        ".bin": "application/vnd.stone-romfile.nintendo.n64-indeterminate"
       }
     },
     "NINTENDO_N64DD": {
@@ -2783,9 +2783,9 @@
       "MaximumInputs": 4,
       "FriendlyName": "Nintendo 64 DD",
       "FileTypes": {
-        ".d64": "application/x-romfile-n64-dd",
-        ".dd": "application/x-romfile-n64-dd",
-        ".bin": "application/x-romfile-n64-dd"
+        ".d64": "application/vnd.stone-romfile.nintendo.n64-dd",
+        ".dd": "application/vnd.stone-romfile.nintendo.n64-dd",
+        ".bin": "application/vnd.stone-romfile.nintendo.n64-dd"
       },
       "BiosFiles": {
         "64DD_IPL.bin": ["8d3d9f294b6e174bc7b1d2fd1c727530"],
@@ -2803,10 +2803,10 @@
       "MaximumInputs": 1,
       "FriendlyName": "Nintendo DS",
       "FileTypes": {
-        ".nds": "application/x-romfile-nds",
-        ".ids": "application/x-romfile-nds",
-        ".gba": "application/x-romfile-nds-slot2",
-        ".srl": "application/x-romfile-nds-clean"
+        ".nds": "application/vnd.stone-romfile.nintendo.nds",
+        ".ids": "application/vnd.stone-romfile.nintendo.nds",
+        ".gba": "application/vnd.stone-romfile.nintendo.nds-slot2",
+        ".srl": "application/vnd.stone-romfile.nintendo.nds-clean"
       },
       "BiosFiles": {
         "biosnds7.rom": ["df692a80a5b1bc90728bc3dfc76cd948"],
@@ -2825,10 +2825,10 @@
       "MaximumInputs": 2,
       "FriendlyName": "Nintendo Entertainment System",
       "FileTypes": {
-        ".nes": "application/x-romfile-nes-ines",
-        ".bin": "application/x-romfile-nes-ines",
-        ".unf": "application/x-romfile-nes-unif",
-        ".pas": "application/x-romfile-nes"
+        ".nes": "application/vnd.stone-romfile.nintendo.nes-ines",
+        ".bin": "application/vnd.stone-romfile.nintendo.nes-ines",
+        ".unf": "application/vnd.stone-romfile.nintendo.nes-unif",
+        ".pas": "application/vnd.stone-romfile.nintendo.nes"
       }
     },
     "NINTENDO_SNES": {
@@ -2843,11 +2843,11 @@
       "MaximumInputs": 2,
       "FriendlyName": "Super Nintendo Entertainment System",
       "FileTypes": {
-        ".sfc": "application/x-romfile-snes",
-        ".bin": "application/x-romfile-snes",
-        ".smc": "application/x-romfile-snes-magiccard",
-        ".swc": "application/x-romfile-snes-wildcard",
-        ".fig": "application/x-romfile-snes-profighter"
+        ".sfc": "application/vnd.stone-romfile.nintendo.snes",
+        ".bin": "application/vnd.stone-romfile.nintendo.snes",
+        ".smc": "application/vnd.stone-romfile.nintendo.snes-magiccard",
+        ".swc": "application/vnd.stone-romfile.nintendo.snes-wildcard",
+        ".fig": "application/vnd.stone-romfile.nintendo.snes-profighter"
       },
       "BiosFiles": {
         "BS-X.bin": ["fed4d8242cfbed61343d53d48432aced"],
@@ -2882,8 +2882,8 @@
       "MaximumInputs": 1,
       "FriendlyName": "Virtual Boy",
       "FileTypes": {
-        ".vb": "application/x-romfile-vb",
-        ".bin": "application/x-romfile-vb"
+        ".vb": "application/vnd.stone-romfile.nintendo.vb",
+        ".bin": "application/vnd.stone-romfile.nintendo.vb"
       }
     },
     "NINTENDO_WII": {
@@ -2897,13 +2897,13 @@
       "MaximumInputs": 8,
       "FriendlyName": "Wii",
       "FileTypes": {
-        ".iso": "application/x-romfile-wii-discimage",
-        ".wbfs": "application/x-romfile-wii-wbfs",
-        ".ciso": "application/x-romfile-wii-discimage-compressed",
-        ".gcz": "application/x-romfile-wii-dolphin-compressed",
-        ".elf": "application/x-romfile-wii-elf",
-        ".dol": "application/x-romfile-wii-executable",
-        ".wad": "application/x-romfile-wii-package"
+        ".iso": "application/vnd.stone-romfile.nintendo.wii-discimage",
+        ".wbfs": "application/vnd.stone-romfile.nintendo.wii-wbfs",
+        ".ciso": "application/vnd.stone-romfile.nintendo.wii-discimage-compressed",
+        ".gcz": "application/vnd.stone-romfile.nintendo.wii-dolphin-compressed",
+        ".elf": "application/vnd.stone-romfile.nintendo.wii-elf",
+        ".dol": "application/vnd.stone-romfile.nintendo.wii-executable",
+        ".wad": "application/vnd.stone-romfile.nintendo.wii-package"
       },
       "BiosFiles": {
         "dsp_rom.bin": ["23645d446729a166ab3a9aaba2f5fba5"],
@@ -2922,10 +2922,10 @@
       "MaximumInputs": 5,
       "FriendlyName": "WiiU",
       "FileTypes": {
-        ".wud": "application/x-romfile-wiiu-discimage",
-        ".iso": "application/x-romfile-wiiu-discimage",
-        ".wux": "application/x-romfile-wiiu-discimage-compressed",
-        ".rpx": "application/x-romfile-wiiu-executable"
+        ".wud": "application/vnd.stone-romfile.nintendo.wiiu-discimage",
+        ".iso": "application/vnd.stone-romfile.nintendo.wiiu-discimage",
+        ".wux": "application/vnd.stone-romfile.nintendo.wiiu-discimage-compressed",
+        ".rpx": "application/vnd.stone-romfile.nintendo.wiiu-executable"
       }
     },
     "PANASONIC_3DO": {
@@ -2939,12 +2939,12 @@
       "MaximumInputs": 8,
       "FriendlyName": "3DO Interactive Multiplayer",
       "FileTypes": {
-        ".ccd": "application/x-romfile-3do-clonecd-control",
-        ".img": "application/x-romfile-3do-clonecd-image",
-        ".sub": "application/x-romfile-3do-clonecd-subchannel",
-        ".bin": "application/x-romfile-3do-discimage",
-        ".iso": "application/x-romfile-3do-discimage",
-        ".cue": "application/x-romfile-3do-cuesheet"
+        ".ccd": "application/vnd.stone-romfile.panasonic.3do-clonecd-control",
+        ".img": "application/vnd.stone-romfile.panasonic.3do-clonecd-image",
+        ".sub": "application/vnd.stone-romfile.panasonic.3do-clonecd-subchannel",
+        ".bin": "application/vnd.stone-romfile.panasonic.3do-discimage",
+        ".iso": "application/vnd.stone-romfile.panasonic.3do-discimage",
+        ".cue": "application/vnd.stone-romfile.panasonic.3do-cuesheet"
       },
       "BiosFiles": {
         "3DO-FZ-10.bin": ["51f2f43ae2f3508a14d9f56597e2d3ce"],
@@ -2965,8 +2965,8 @@
       "MaximumInputs": 2,
       "FriendlyName": "Sega 32X",
       "FileTypes": {
-        ".rom": "application/x-romfile-32x",
-        ".32x": "application/x-romfile-32x"
+        ".rom": "application/vnd.stone-romfile.sega.32x",
+        ".32x": "application/vnd.stone-romfile.sega.32x"
       },
       "BiosFiles": {
         "32X_G_BIOS.BIN": ["6a5433f6a132a2b683635819a6dcf085"],
@@ -2985,12 +2985,12 @@
       "MaximumInputs": 2,
       "FriendlyName": "Sega 32X CD",
       "FileTypes": {
-        ".ccd": "application/x-romfile-32xcd-clonecd-control",
-        ".img": "application/x-romfile-32xcd-clonecd-image",
-        ".sub": "application/x-romfile-32xcd-clonecd-subchannel",
-        ".bin": "application/x-romfile-32xcd-discimage",
-        ".iso": "application/x-romfile-32xcd-discimage",
-        ".cue": "application/x-romfile-32xcd-cuesheet"
+        ".ccd": "application/vnd.stone-romfile.sega.32xcd-clonecd-control",
+        ".img": "application/vnd.stone-romfile.sega.32xcd-clonecd-image",
+        ".sub": "application/vnd.stone-romfile.sega.32xcd-clonecd-subchannel",
+        ".bin": "application/vnd.stone-romfile.sega.32xcd-discimage",
+        ".iso": "application/vnd.stone-romfile.sega.32xcd-discimage",
+        ".cue": "application/vnd.stone-romfile.sega.32xcd-cuesheet"
       },
       "BiosFiles": {
         "32X_G_BIOS.BIN": ["6a5433f6a132a2b683635819a6dcf085"],
@@ -3015,9 +3015,9 @@
       "MaximumInputs": 2,
       "FriendlyName": "Sega CD",
       "FileTypes": {
-        ".bin": "application/x-romfile-scd-discimage",
-        ".iso": "application/x-romfile-scd-discimage",
-        ".cue": "application/x-romfile-scd-cuesheet"
+        ".bin": "application/vnd.stone-romfile.sega.scd-discimage",
+        ".iso": "application/vnd.stone-romfile.sega.scd-discimage",
+        ".cue": "application/vnd.stone-romfile.sega.scd-cuesheet"
       },
       "BiosFiles": {
         "bios_CD_U.bin": ["2efd74e3232ff260e371b99f84024f7f"],
@@ -3039,11 +3039,11 @@
       "MaximumInputs": 4,
       "FriendlyName": "Sega Dreamcast",
       "FileTypes": {
-        ".bin": "application/x-romfile-dc-rawtrack",
-        ".raw": "application/x-romfile-dc-rawtrack",
-        ".gdi": "application/x-romfile-dc-gdi",
-        ".elf": "application/x-romfile-dc-elf",
-        ".cdi": "application/x-romfile-dc-discjuggler"
+        ".bin": "application/vnd.stone-romfile.sega.dc-rawtrack",
+        ".raw": "application/vnd.stone-romfile.sega.dc-rawtrack",
+        ".gdi": "application/vnd.stone-romfile.sega.dc-gdi",
+        ".elf": "application/vnd.stone-romfile.sega.dc-elf",
+        ".cdi": "application/vnd.stone-romfile.sega.dc-discjuggler"
       },
       "BiosFiles": {
         "dc_boot.bin": ["e10c53c2f8b90bab96ead2d368858623"],
@@ -3063,11 +3063,11 @@
       "MaximumInputs": 2,
       "FriendlyName": "Sega Genesis",
       "FileTypes": {
-        ".bin": "application/x-romfile-gen",
-        ".smd": "application/x-romfile-gen",
-        ".rom": "application/x-romfile-gen",
-        ".md": "application/x-romfile-gen",
-        ".gen": "application/x-romfile-gen"
+        ".bin": "application/vnd.stone-romfile.sega.gen",
+        ".smd": "application/vnd.stone-romfile.sega.gen",
+        ".rom": "application/vnd.stone-romfile.sega.gen",
+        ".md": "application/vnd.stone-romfile.sega.gen",
+        ".gen": "application/vnd.stone-romfile.sega.gen"
       }
     },
     "SEGA_GG": {
@@ -3081,9 +3081,9 @@
       "MaximumInputs": 1,
       "FriendlyName": "Sega Game Gear",
       "FileTypes": {
-        ".gg": "application/x-romfile-gg",
-        ".sms": "application/x-romfile-gg",
-        ".bin": "application/x-romfile-gg"
+        ".gg": "application/vnd.stone-romfile.sega.gg",
+        ".sms": "application/vnd.stone-romfile.sega.gg",
+        ".bin": "application/vnd.stone-romfile.sega.gg"
       },
       "BiosFiles": {
         "bios.gg": ["672e104c3be3a238301aceffc3b23fd6"]
@@ -3100,12 +3100,12 @@
       "MaximumInputs": 2,
       "FriendlyName": "Sega Saturn",
       "FileTypes": {
-        ".ccd": "application/x-romfile-sat-clonecd-control",
-        ".img": "application/x-romfile-sat-clonecd-image",
-        ".sub": "application/x-romfile-sat-clonecd-subchannel",
-        ".bin": "application/x-romfile-sat-discimage",
-        ".iso": "application/x-romfile-sat-discimage",
-        ".cue": "application/x-romfile-sat-cuesheet"
+        ".ccd": "application/vnd.stone-romfile.sega.sat-clonecd-control",
+        ".img": "application/vnd.stone-romfile.sega.sat-clonecd-image",
+        ".sub": "application/vnd.stone-romfile.sega.sat-clonecd-subchannel",
+        ".bin": "application/vnd.stone-romfile.sega.sat-discimage",
+        ".iso": "application/vnd.stone-romfile.sega.sat-discimage",
+        ".cue": "application/vnd.stone-romfile.sega.sat-cuesheet"
       },
       "BiosFiles": {
         "saturn_bios.bin": ["af5828fdff51384f99b3c4926be27762"],
@@ -3127,9 +3127,9 @@
       "MaximumInputs": 1,
       "FriendlyName": "Sega SG-1000",
       "FileTypes": {
-        ".sg": "application/x-romfile-sg1000",
-        ".sc": "application/x-romfile-sc1000",
-        ".bin": "application/x-romfile-sg1000"
+        ".sg": "application/vnd.stone-romfile.sega.sg1000",
+        ".sc": "application/vnd.stone-romfile.sega.sc1000",
+        ".bin": "application/vnd.stone-romfile.sega.sg1000"
       }
     },
     "SEGA_SMS": {
@@ -3143,8 +3143,8 @@
       "MaximumInputs": 2,
       "FriendlyName": "Sega Master System",
       "FileTypes": {
-        ".bin": "application/x-romfile-sms",
-        ".sms": "application/x-romfile-sms"
+        ".bin": "application/vnd.stone-romfile.sega.sms",
+        ".sms": "application/vnd.stone-romfile.sega.sms"
       },
       "BiosFiles": {
         "bios_E.sms": ["840481177270d5642a14ca71ee72844c"],
@@ -3163,7 +3163,7 @@
       "MaximumInputs": 2,
       "FriendlyName": "Neo Geo",
       "FileTypes": {
-        ".zip": "application/x-romfile-arcade-neogeo+zip"
+        ".zip": "application/vnd.stone-romfile.snk.arcade-neogeo+zip"
       },
       "BiosFiles": {
         "neogeo.zip": []
@@ -3180,9 +3180,9 @@
       "MaximumInputs": 2,
       "FriendlyName": "Neo Geo CD",
       "FileTypes": {
-        ".iso": "application/x-romfile-ngcd-discimage",
-        ".bin": "application/x-romfile-ngcd-discimage",
-        ".cue": "application/x-romfile-ngcd-cuesheet"
+        ".iso": "application/vnd.stone-romfile.snk.ngcd-discimage",
+        ".bin": "application/vnd.stone-romfile.snk.ngcd-discimage",
+        ".cue": "application/vnd.stone-romfile.snk.ngcd-cuesheet"
       }
     },
     "SNK_NGP": {
@@ -3196,8 +3196,8 @@
       "MaximumInputs": 1,
       "FriendlyName": "Neo Geo Pocket",
       "FileTypes": {
-        ".ngp": "application/x-romfile-ngp",
-        ".bin": "application/x-romfile-ngp"
+        ".ngp": "application/vnd.stone-romfile.snk.ngp",
+        ".bin": "application/vnd.stone-romfile.snk.ngp"
       }
     },
     "SNK_NGPC": {
@@ -3211,8 +3211,8 @@
       "MaximumInputs": 1,
       "FriendlyName": "Neo Geo Pocket Color",
       "FileTypes": {
-        ".ngc": "application/x-romfile-ngpc",
-        ".bin": "application/x-romfile-ngpc"
+        ".ngc": "application/vnd.stone-romfile.snk.ngpc",
+        ".bin": "application/vnd.stone-romfile.snk.ngpc"
       }
     },
     "SONY_PS2": {
@@ -3226,14 +3226,14 @@
       "MaximumInputs": 4,
       "FriendlyName": "PlayStation 2",
       "FileTypes": {
-        ".bin": "application/x-romfile-ps2-discimage",
-        ".iso": "application/x-romfile-ps2-discimage",
-        ".img": "application/x-romfile-ps2-discimage",
-        ".elf": "application/x-romfile-ps2-elf",
-        ".nrg": "application/x-romfile-ps2-nero",
-        ".mdf": "application/x-romfile-ps2-alcohol120",
-        ".cso": "application/x-romfile-ps2-discimage-compressed",
-        ".gz": "application/x-romfile-ps2-discimage-gzip-compressed"
+        ".bin": "application/vnd.stone-romfile.sony.ps2-discimage",
+        ".iso": "application/vnd.stone-romfile.sony.ps2-discimage",
+        ".img": "application/vnd.stone-romfile.sony.ps2-discimage",
+        ".elf": "application/vnd.stone-romfile.sony.ps2-elf",
+        ".nrg": "application/vnd.stone-romfile.sony.ps2-nero",
+        ".mdf": "application/vnd.stone-romfile.sony.ps2-alcohol120",
+        ".cso": "application/vnd.stone-romfile.sony.ps2-discimage-compressed",
+        ".gz": "application/vnd.stone-romfile.sony.ps2-discimage-gzip-compressed"
       },
       "BiosFiles": {
         "scph-10000.bin": ["acf4730ceb38ac9d8c7d8e21f2614600"],
@@ -3257,10 +3257,10 @@
       "MaximumInputs": 4,
       "FriendlyName": "PlayStation 3",
       "FileTypes": {
-        ".elf": "application/x-romfile-ps3-elf",
-        ".self": "application/x-romfile-ps3-elf-signed",
-        ".pkg": "application/x-romfile-ps3-package",
-        ".bin": "application/x-romfile-ps3-elf"
+        ".elf": "application/vnd.stone-romfile.sony.ps3-elf",
+        ".self": "application/vnd.stone-romfile.sony.ps3-elf-signed",
+        ".pkg": "application/vnd.stone-romfile.sony.ps3-package",
+        ".bin": "application/vnd.stone-romfile.sony.ps3-elf"
       },
       "BiosFiles": {
         "PS3UPDAT.PUP": ["b2483b4abc157494447c9c409c036041"]
@@ -3278,7 +3278,7 @@
       "MaximumInputs": 4,
       "FriendlyName": "PlayStation 4",
       "FileTypes": {
-        ".elf": "application/x-romfile-ps4-elf"
+        ".elf": "application/vnd.stone-romfile.sony.ps4-elf"
       }
     },
     "SONY_PSP": {
@@ -3292,12 +3292,12 @@
       "MaximumInputs": 2,
       "FriendlyName": "Playstation Portable",
       "FileTypes": {
-        ".iso": "application/x-romfile-psp-discimage",
-        ".cso": "application/x-romfile-psp-discimage-compressed",
-        ".ciso": "application/x-romfile-psp-discimage-compressed",
-        ".dax": "application/x-romfile-psp-dax-compressed",
-        ".pbp": "application/x-romfile-psp-eboot",
-        ".elf": "application/x-romfile-psp-elf"
+        ".iso": "application/vnd.stone-romfile.sony.psp-discimage",
+        ".cso": "application/vnd.stone-romfile.sony.psp-discimage-compressed",
+        ".ciso": "application/vnd.stone-romfile.sony.psp-discimage-compressed",
+        ".dax": "application/vnd.stone-romfile.sony.psp-dax-compressed",
+        ".pbp": "application/vnd.stone-romfile.sony.psp-eboot",
+        ".elf": "application/vnd.stone-romfile.sony.psp-elf"
       }
     },
     "SONY_PSV": {
@@ -3312,9 +3312,9 @@
       "MaximumInputs": 1,
       "FriendlyName": "PlayStation Vita",
       "FileTypes": {
-        ".vpk": "application/x-romfile-psv-henkaku",
-        ".pkg": "application/x-romfile-psv-package",
-        ".zip": "application/x-romfile-psv-mai+zip"
+        ".vpk": "application/vnd.stone-romfile.sony.psv-henkaku",
+        ".pkg": "application/vnd.stone-romfile.sony.psv-package",
+        ".zip": "application/vnd.stone-romfile.sony.psv-mai+zip"
       }
     },
     "SONY_PSX": {
@@ -3328,16 +3328,16 @@
       "MaximumInputs": 2,
       "FriendlyName": "PlayStation",
       "FileTypes": {
-        ".m3u": "application/x-romfile-psx-playlist",
-        ".bin": "application/x-romfile-psx-discimage",
-        ".cue": "application/x-romfile-psx-cuesheet",
-        ".sbi": "application/x-romfile-psx-subchannel",
-        ".ccd": "application/x-romfile-psx-clonecd-control",
-        ".img": "application/x-romfile-psx-clonecd-image",
-        ".sub": "application/x-romfile-psx-clonecd-subchannel",
-        ".toc": "application/x-romfile-psx-cdrdao",
-        ".pbp": "application/x-romfile-psx-eboot",
-        ".exe": "application/x-romfile-psx-exe"
+        ".m3u": "application/vnd.stone-romfile.sony.psx-playlist",
+        ".bin": "application/vnd.stone-romfile.sony.psx-discimage",
+        ".cue": "application/vnd.stone-romfile.sony.psx-cuesheet",
+        ".sbi": "application/vnd.stone-romfile.sony.psx-subchannel",
+        ".ccd": "application/vnd.stone-romfile.sony.psx-clonecd-control",
+        ".img": "application/vnd.stone-romfile.sony.psx-clonecd-image",
+        ".sub": "application/vnd.stone-romfile.sony.psx-clonecd-subchannel",
+        ".toc": "application/vnd.stone-romfile.sony.psx-cdrdao",
+        ".pbp": "application/vnd.stone-romfile.sony.psx-eboot",
+        ".exe": "application/vnd.stone-romfile.sony.psx-exe"
       },
       "BiosFiles": {
         "scph1001.bin": ["924e392ed05558ffdb115408c263dccf"],
@@ -3347,5 +3347,5 @@
       }
     }
   },
-  "version": "7.0.0-alpha.6"
+  "version": "7.0.0-alpha.7"
 }

@@ -7,12 +7,12 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega Saturn
 FileTypes: 
-    .ccd: 'application/x-romfile-sat-clonecd-control'
-    .img: 'application/x-romfile-sat-clonecd-image'
-    .sub: 'application/x-romfile-sat-clonecd-subchannel'
-    .bin: 'application/x-romfile-sat-discimage'
-    .iso: 'application/x-romfile-sat-discimage'
-    .cue: 'application/x-romfile-sat-cuesheet'
+    .ccd: 'application/vnd.stone-romfile.sega.sat-clonecd-control'
+    .img: 'application/vnd.stone-romfile.sega.sat-clonecd-image'
+    .sub: 'application/vnd.stone-romfile.sega.sat-clonecd-subchannel'
+    .bin: 'application/vnd.stone-romfile.sega.sat-discimage'
+    .iso: 'application/vnd.stone-romfile.sega.sat-discimage'
+    .cue: 'application/vnd.stone-romfile.sega.sat-cuesheet'
 BiosFiles:
     saturn_bios.bin:
         - af5828fdff51384f99b3c4926be27762

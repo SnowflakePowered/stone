@@ -7,14 +7,14 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: PlayStation 2
 FileTypes:
-    .bin: 'application/x-romfile-ps2-discimage'
-    .iso: 'application/x-romfile-ps2-discimage'
-    .img: 'application/x-romfile-ps2-discimage'
-    .elf: 'application/x-romfile-ps2-elf'
-    .nrg: 'application/x-romfile-ps2-nero'
-    .mdf: 'application/x-romfile-ps2-alcohol120'
-    .cso: 'application/x-romfile-ps2-discimage-compressed'
-    .gz: 'application/x-romfile-ps2-discimage-gzip-compressed'
+    .bin: 'application/vnd.stone-romfile.sony.ps2-discimage'
+    .iso: 'application/vnd.stone-romfile.sony.ps2-discimage'
+    .img: 'application/vnd.stone-romfile.sony.ps2-discimage'
+    .elf: 'application/vnd.stone-romfile.sony.ps2-elf'
+    .nrg: 'application/vnd.stone-romfile.sony.ps2-nero'
+    .mdf: 'application/vnd.stone-romfile.sony.ps2-alcohol120'
+    .cso: 'application/vnd.stone-romfile.sony.ps2-discimage-compressed'
+    .gz: 'application/vnd.stone-romfile.sony.ps2-discimage-gzip-compressed'
 
 BiosFiles:
     scph-10000.bin:

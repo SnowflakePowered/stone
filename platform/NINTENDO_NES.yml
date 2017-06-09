@@ -8,7 +8,7 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Nintendo Entertainment System
 FileTypes: 
-    .nes: 'application/x-romfile-nes-ines'
-    .bin: 'application/x-romfile-nes-ines'
-    .unf: 'application/x-romfile-nes-unif'
-    .pas: 'application/x-romfile-nes'
+    .nes: 'application/vnd.stone-romfile.nintendo.nes-ines'
+    .bin: 'application/vnd.stone-romfile.nintendo.nes-ines'
+    .unf: 'application/vnd.stone-romfile.nintendo.nes-unif'
+    .pas: 'application/vnd.stone-romfile.nintendo.nes'

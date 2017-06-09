@@ -7,8 +7,8 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Atari 7800 ProSystem
 FileTypes:
-    .a78: 'application/x-romfile-7800'
-    .bin: 'application/x-romfile-7800'
+    .a78: 'application/vnd.stone-romfile.atari.a7800'
+    .bin: 'application/vnd.stone-romfile.atari.a7800'
 BiosFiles:
     7800 BIOS (U).rom:
         - 0763f1ffb006ddbe32e52d497ee848ae

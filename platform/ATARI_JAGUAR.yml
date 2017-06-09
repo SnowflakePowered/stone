@@ -7,8 +7,8 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Atari Jaguar
 FileTypes:
-    .jag: 'application/x-romfile-jaguar'
-    .j64: 'application/x-romfile-jaguar'
-    .rom: 'application/x-romfile-jaguar'
-    .abs: 'application/x-romfile-jaguar'
-    .cof: 'application/x-romfile-jaguar'
+    .jag: 'application/vnd.stone-romfile.jaguar'
+    .j64: 'application/vnd.stone-romfile.jaguar'
+    .rom: 'application/vnd.stone-romfile.jaguar'
+    .abs: 'application/vnd.stone-romfile.jaguar'
+    .cof: 'application/vnd.stone-romfile.jaguar'

@@ -7,12 +7,12 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega 32X CD
 FileTypes:
-    .ccd: 'application/x-romfile-32xcd-clonecd-control'
-    .img: 'application/x-romfile-32xcd-clonecd-image'
-    .sub: 'application/x-romfile-32xcd-clonecd-subchannel'
-    .bin: 'application/x-romfile-32xcd-discimage'
-    .iso: 'application/x-romfile-32xcd-discimage'
-    .cue: 'application/x-romfile-32xcd-cuesheet'
+    .ccd: 'application/vnd.stone-romfile.sega.32xcd-clonecd-control'
+    .img: 'application/vnd.stone-romfile.sega.32xcd-clonecd-image'
+    .sub: 'application/vnd.stone-romfile.sega.32xcd-clonecd-subchannel'
+    .bin: 'application/vnd.stone-romfile.sega.32xcd-discimage'
+    .iso: 'application/vnd.stone-romfile.sega.32xcd-discimage'
+    .cue: 'application/vnd.stone-romfile.sega.32xcd-cuesheet'
 BiosFiles:
     32X_G_BIOS.BIN:
         - 6a5433f6a132a2b683635819a6dcf085

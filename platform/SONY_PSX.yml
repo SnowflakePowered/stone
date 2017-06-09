@@ -7,16 +7,16 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: PlayStation
 FileTypes: 
-    .m3u: 'application/x-romfile-psx-playlist'
-    .bin: 'application/x-romfile-psx-discimage'
-    .cue: 'application/x-romfile-psx-cuesheet'
-    .sbi: 'application/x-romfile-psx-subchannel'
-    .ccd: 'application/x-romfile-psx-clonecd-control'
-    .img: 'application/x-romfile-psx-clonecd-image'
-    .sub: 'application/x-romfile-psx-clonecd-subchannel'
-    .toc: 'application/x-romfile-psx-cdrdao'    
-    .pbp: 'application/x-romfile-psx-eboot'
-    .exe: 'application/x-romfile-psx-exe'
+    .m3u: 'application/vnd.stone-romfile.sony.psx-playlist'
+    .bin: 'application/vnd.stone-romfile.sony.psx-discimage'
+    .cue: 'application/vnd.stone-romfile.sony.psx-cuesheet'
+    .sbi: 'application/vnd.stone-romfile.sony.psx-subchannel'
+    .ccd: 'application/vnd.stone-romfile.sony.psx-clonecd-control'
+    .img: 'application/vnd.stone-romfile.sony.psx-clonecd-image'
+    .sub: 'application/vnd.stone-romfile.sony.psx-clonecd-subchannel'
+    .toc: 'application/vnd.stone-romfile.sony.psx-cdrdao'    
+    .pbp: 'application/vnd.stone-romfile.sony.psx-eboot'
+    .exe: 'application/vnd.stone-romfile.sony.psx-exe'
 BiosFiles:
     scph1001.bin:
         - 924e392ed05558ffdb115408c263dccf

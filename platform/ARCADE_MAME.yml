@@ -4,4 +4,4 @@ Metadata:
 MaximumInputs: 8
 FriendlyName: Arcade
 FileTypes: 
-    .zip: 'application/x-romfile-arcade+zip'
+    .zip: 'application/vnd.stone-romfile.arcade+zip'

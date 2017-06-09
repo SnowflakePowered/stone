@@ -8,7 +8,7 @@ Metadata:
 MaximumInputs: 5
 FriendlyName: WiiU
 FileTypes:
-    .wud: 'application/x-romfile-wiiu-discimage'
-    .iso: 'application/x-romfile-wiiu-discimage'
-    .wux: 'application/x-romfile-wiiu-discimage-compressed'
-    .rpx: 'application/x-romfile-wiiu-executable'
+    .wud: 'application/vnd.stone-romfile.nintendo.wiiu-discimage'
+    .iso: 'application/vnd.stone-romfile.nintendo.wiiu-discimage'
+    .wux: 'application/vnd.stone-romfile.nintendo.wiiu-discimage-compressed'
+    .rpx: 'application/vnd.stone-romfile.nintendo.wiiu-executable'

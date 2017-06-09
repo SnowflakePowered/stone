@@ -7,8 +7,8 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Intellivision
 FileTypes:
-    .int: 'application/x-romfile-int'
-    .bin: 'application/x-romfile-int'
+    .int: 'application/vnd.stone-romfile.mattel.int'
+    .bin: 'application/vnd.stone-romfile.mattel.int'
 BiosFiles:
     exec.bin: 
       - 62e761035cb657903761800f4437b8af

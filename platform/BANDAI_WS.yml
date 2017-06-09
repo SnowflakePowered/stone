@@ -7,5 +7,5 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Bandai WonderSwan
 FileTypes: 
-    .ws: 'application/x-romfile-ws'
-    .bin: 'application/x-romfile-ws'
+    .ws: 'application/vnd.stone-romfile.bandai.ws'
+    .bin: 'application/vnd.stone-romfile.bandai.ws'

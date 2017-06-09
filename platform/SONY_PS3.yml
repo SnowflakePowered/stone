@@ -8,10 +8,10 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: PlayStation 3
 FileTypes:
-    .elf: 'application/x-romfile-ps3-elf'
-    .self: 'application/x-romfile-ps3-elf-signed'
-    .pkg: 'application/x-romfile-ps3-package'
-    .bin: 'application/x-romfile-ps3-elf'
+    .elf: 'application/vnd.stone-romfile.sony.ps3-elf'
+    .self: 'application/vnd.stone-romfile.sony.ps3-elf-signed'
+    .pkg: 'application/vnd.stone-romfile.sony.ps3-package'
+    .bin: 'application/vnd.stone-romfile.sony.ps3-elf'
 BiosFiles:
     PS3UPDAT.PUP: 
 # Below is the 4.81 update PUP, other PUPs can and should

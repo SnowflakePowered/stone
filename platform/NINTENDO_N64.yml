@@ -7,9 +7,9 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: Nintendo 64
 FileTypes:
-    .n64: 'application/x-romfile-n64-littleendian'
-    .z64: 'application/x-romfile-n64-bigendian'
-    .u64: 'application/x-romfile-n64-indeterminate'
-    .v64: 'application/x-romfile-n64-byteswapped'
-    .rom: 'application/x-romfile-n64-indeterminate'
-    .bin: 'application/x-romfile-n64-indeterminate'
+    .n64: 'application/vnd.stone-romfile.nintendo.n64-littleendian'
+    .z64: 'application/vnd.stone-romfile.nintendo.n64-bigendian'
+    .u64: 'application/vnd.stone-romfile.nintendo.n64-indeterminate'
+    .v64: 'application/vnd.stone-romfile.nintendo.n64-byteswapped'
+    .rom: 'application/vnd.stone-romfile.nintendo.n64-indeterminate'
+    .bin: 'application/vnd.stone-romfile.nintendo.n64-indeterminate'

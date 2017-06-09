@@ -7,8 +7,8 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Game Boy Advanced
 FileTypes: 
-    .gba: 'application/x-romfile-gba'
-    .bin: 'application/x-romfile-gba'
+    .gba: 'application/vnd.stone-romfile.nintendo.gba'
+    .bin: 'application/vnd.stone-romfile.nintendo.gba'
 BiosFiles:
     gba_bios.bin:
         - a860e8c0b6d573d191e4ec7db1b1e4f6

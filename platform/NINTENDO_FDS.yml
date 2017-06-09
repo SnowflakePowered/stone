@@ -7,8 +7,8 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Family Computer Disk System
 FileTypes: 
-    .fds: 'application/x-romfile-fds'
-    .bin: 'application/x-romfile-fds'
+    .fds: 'application/vnd.stone-romfile.nintendo.fds'
+    .bin: 'application/vnd.stone-romfile.nintendo.fds'
 BiosFiles:
     disksys.rom:
         - ca30b50f880eb660a320674ed365ef7a
