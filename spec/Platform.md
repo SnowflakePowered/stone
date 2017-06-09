@@ -26,7 +26,7 @@ Content-type naming follows the following guidelines:
 
   * After the beginning prefix, Stone content-types SHOULD be namespaced with the platform vendor, then MUST indicate the platform with which the mimetype is for, in the form of a short name. For example, `application/vnd.stone-romfile.nintendo.nes-...`
 
-  * For cartridge games, a pure, unheadered (besides what is present on the cartridge) binary dump of the cartridge data (and which is sufficient to run the game by itself), SHOULD have no other suffix than the platform for it's mimetype. This is especially the case if the platform's ROM dumps are distributed in a single format. For example, Sega Genesis (`SEGA_GEN`) has only one content-type, `application/vnd.stone-romfile.sega.gen`. The SNES (`NINTENDO_SNES`) has content-type `application/vnd.stone-romfile.sega.snes` for unheadered `.sfc` ROMs, but has additional suffixed content-type for other formats such as Super MagicCard dumps (`.smc`, `application/vnd.stone-romfile.nintendo.smc`).
+  * For cartridge games, a pure, unheadered (besides what is present on the cartridge) binary dump of the cartridge data (and which is sufficient to run the game by itself), SHOULD have no other suffix than the platform for it's mimetype. This is especially the case if the platform's ROM dumps are distributed in a single format. For example, Sega Genesis (`SEGA_GEN`) has only one content-type, `application/vnd.stone-romfile.sega.gen`. The SNES (`NINTENDO_SNES`) has content-type `application/vnd.stone-romfile.nintendo.snes` for unheadered `.sfc` ROMs, but has additional suffixed content-type for other formats such as Super MagicCard dumps (`.smc`, `application/vnd.stone-romfile.nintendo.snes.smc`).
 
   * Content-types SHOULD be suffixed with a description of their format if applicable. For example, the iNES file format (`.nes`) for the Nintendo Entertainment System (`NINTENDO_NES`) has content-type `application/vnd.stone-romfile.nintendo.nes-ines`, while the non-suffixed `application/vnd.stone-romfile.nintendo.nes` is reserved, as per the previous rules, for the unheadered `.pas` unheadered ROM format.
 
@@ -72,7 +72,7 @@ Platforms should specify the maximum number of acceptable inputs, disregarding p
 
 ## Metadata
 *Platforms* can have various **string** metadata to provide additional information. Metadata for platforms must begin with the suffix `platform_`, but have no additional restrictions for naming, and can contain any valid UTF-8 string. 
- 
+
 Any additional information is welcome to be added by Pull Request. Metadata is entirely **optional**, this specification **does not guarantee the existence** or format of any metadata for any *Platform*. When in doubt, treat all metadata as strings with no special meaning.
 
 There are certain types of metadata that should have specific key names by convention:
