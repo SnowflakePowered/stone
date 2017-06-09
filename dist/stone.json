@@ -2518,7 +2518,7 @@
       "FileTypes": {
         ".iso": "application/vnd.stone-romfile.microsoft.x360-discimage",
         ".xex": "application/vnd.stone-romfile.microsoft.x360-executable",
-        ".xcp": "application/vnd.stone-romfile.microsoft.sx360-content-package"
+        ".xcp": "application/vnd.stone-romfile.microsoft.x360-content-package"
       }
     },
     "MICROSOFT_XBO": {
@@ -3347,5 +3347,5 @@
       }
     }
   },
-  "version": "7.0.0-alpha.7"
+  "version": "7.0.0-alpha.8"
 }

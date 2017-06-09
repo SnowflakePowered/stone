@@ -10,4 +10,4 @@ FriendlyName: Xbox 360
 FileTypes:
     .iso: 'application/vnd.stone-romfile.microsoft.x360-discimage'
     .xex: 'application/vnd.stone-romfile.microsoft.x360-executable'
-    .xcp: 'application/vnd.stone-romfile.microsoft.sx360-content-package'
+    .xcp: 'application/vnd.stone-romfile.microsoft.x360-content-package'
