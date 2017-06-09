@@ -7,8 +7,8 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Atari Jaguar
 FileTypes:
-    .jag: 'application/vnd.stone-romfile.jaguar'
-    .j64: 'application/vnd.stone-romfile.jaguar'
-    .rom: 'application/vnd.stone-romfile.jaguar'
-    .abs: 'application/vnd.stone-romfile.jaguar'
-    .cof: 'application/vnd.stone-romfile.jaguar'
+    .jag: 'application/vnd.stone-romfile.atari.lynx'
+    .j64: 'application/vnd.stone-romfile.atari.lynx'
+    .rom: 'application/vnd.stone-romfile.atari.lynx'
+    .abs: 'application/vnd.stone-romfile.atari.lynx'
+    .cof: 'application/vnd.stone-romfile.atari.lynx'

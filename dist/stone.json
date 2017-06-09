@@ -2352,11 +2352,11 @@
       "MaximumInputs": 2,
       "FriendlyName": "Atari Jaguar",
       "FileTypes": {
-        ".jag": "application/vnd.stone-romfile.jaguar",
-        ".j64": "application/vnd.stone-romfile.jaguar",
-        ".rom": "application/vnd.stone-romfile.jaguar",
-        ".abs": "application/vnd.stone-romfile.jaguar",
-        ".cof": "application/vnd.stone-romfile.jaguar"
+        ".jag": "application/vnd.stone-romfile.atari.lynx",
+        ".j64": "application/vnd.stone-romfile.atari.lynx",
+        ".rom": "application/vnd.stone-romfile.atari.lynx",
+        ".abs": "application/vnd.stone-romfile.atari.lynx",
+        ".cof": "application/vnd.stone-romfile.atari.lynx"
       }
     },
     "ATARI_JAGUAR_CD": {
@@ -2391,8 +2391,8 @@
       "MaximumInputs": 1,
       "FriendlyName": "Atari Lynx",
       "FileTypes": {
-        ".lnx": "application/vnd.stone-romfile.lynx",
-        ".bin": "application/vnd.stone-romfile.lynx"
+        ".lnx": "application/vnd.stone-romfile.atari.lynx",
+        ".bin": "application/vnd.stone-romfile.atari.lynx"
       },
       "BiosFiles": {
         "lynxboot.img": ["fcd403db69f54290b51035d82f835e7b"]
@@ -3347,5 +3347,5 @@
       }
     }
   },
-  "version": "7.0.0-alpha.8"
+  "version": "7.0.0-alpha.9"
 }
