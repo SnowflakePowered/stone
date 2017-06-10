@@ -71,7 +71,7 @@ Generally, follow official terminology and omit the name of the company for the 
 Platforms should specify the maximum number of acceptable inputs, disregarding peripherals such as multitaps, on their hardware.
 
 ## Metadata
-*Platforms* can have various **string** metadata to provide additional information. Metadata for platforms must begin with the suffix `platform_`, but have no additional restrictions for naming, and can contain any valid UTF-8 string. 
+*Platforms* can have various **string** metadata to provide additional information. Metadata for platforms must begin with the prefix `platform_`, but have no additional restrictions for naming, and can contain any valid UTF-8 string. 
 
 Any additional information is welcome to be added by Pull Request. Metadata is entirely **optional**, this specification **does not guarantee the existence** or format of any metadata for any *Platform*. When in doubt, treat all metadata as strings with no special meaning.
 
