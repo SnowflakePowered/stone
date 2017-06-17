@@ -3,7 +3,7 @@ Metadata:
   platform_releasedate: '1994-12-03'
   platform_shortname: psx
   platform_company: Sony
-  platform_type: Handheld
+  platform_type: Home
 MaximumInputs: 2
 FriendlyName: PlayStation
 FileTypes: 
