@@ -2050,7 +2050,7 @@
     },
     "SWITCH_RIGHT_JOYCON_CONTROLLER": {
       "LayoutID": "SWITCH_RIGHT_JOYCON_CONTROLLER",
-      "FriendlyName": "Nintendo Switch JoyCon",
+      "FriendlyName": "Nintendo Right Switch JoyCon",
       "Platforms": ["NINTENDO_NSW"],
       "Layout": {
         "ButtonA": {
@@ -3904,5 +3904,5 @@
       }
     }
   },
-  "version": "7.1.0"
+  "version": "7.1.1"
 }
