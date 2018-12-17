@@ -1,5 +1,5 @@
 LayoutID: SWITCH_RIGHT_JOYCON_CONTROLLER
-FriendlyName: "Nintendo Right Switch JoyCon"
+FriendlyName: "Nintendo Switch Right JoyCon"
 Platforms:
     - NINTENDO_NSW
 Layout:
