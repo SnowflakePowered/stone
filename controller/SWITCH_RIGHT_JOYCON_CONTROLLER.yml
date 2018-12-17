@@ -1,0 +1,65 @@
+LayoutID: SWITCH_RIGHT_JOYCON_CONTROLLER
+FriendlyName: "Nintendo Switch JoyCon"
+Platforms:
+    - NINTENDO_NSW
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonX:
+        Label: "X"
+        Type: Button
+    ButtonY:
+        Label: "Y"
+        Type: Button
+    ButtonStart:
+        Label: "+"
+        Type: Button
+    ButtonGuide:
+        Label: "Home"
+        Type: Button
+    ButtonR:
+        Label: "R"
+        Type: Button
+    TriggerRight:
+        Label: "ZR"
+        Type: Button
+    Button0:
+        Label: "SL"
+        Type: Button
+    Button1:
+        Label: "SR"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional
+    AxisRightAnalogPositiveX:
+        Label: "Right Analog Right"
+        Type: AxisPositive
+    AxisRightAnalogNegativeX:
+        Label: "Right Analog Left"
+        Type: AxisNegative
+    AxisRightAnalogPositiveY:
+        Label: "Right Analog Up"
+        Type: AxisPositive
+    AxisRightAnalogNegativeY:
+        Label: "Right Analog Down"
+        Type: AxisNegative
+    RumbleSmall:
+        Label: "HD Rumble"
+        Type: Rumble
+    Gyroscope:
+        Label: "Gyroscope"
+        Type: Gyroscope

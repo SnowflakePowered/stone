@@ -1,41 +1,47 @@
-LayoutID: GCN_CONTROLLER
-FriendlyName: "Gamecube Controller"
+LayoutID: DUALSHOCK_4_CONTROLLER
+FriendlyName: "DUALSHOCK 4"
 Platforms:
-    - NINTENDO_GCN
-    - NINTENDO_WII
-    - NINTENDO_WIIU
-    - NINTENDO_NSW
+    - SONY_PS4
 Layout:
     ButtonA:
-        Label: "A"
+        Label: "Cross"
         Type: Button
     ButtonB:
-        Label: "B"
+        Label: "Circle"
         Type: Button
     ButtonX:
-        Label: "X"
+        Label: "Square"
         Type: Button
     ButtonY:
-        Label: "Y"
+        Label: "Triangle"
         Type: Button
-    ButtonZ:
-        Label: "Z"
+    ButtonStart:
+        Label: "Options"
+        Type: Button
+    ButtonSelect:
+        Label: "Share"
         Type: Button
     ButtonL:
-        Label: "Digital L"
+        Label: "L1"
         Type: Button
     ButtonR:
-        Label: "Digital R"
+        Label: "R1"
         Type: Button
-    TriggerLeft:
-        Label: "L"
-        Type: Trigger
-    TriggerRight:
-        Label: "R"
-        Type: Trigger
-    ButtonStart:
-        Label: "Start"
+    ButtonClickL:
+        Label: "L3"
         Type: Button
+    ButtonClickR:
+        Label: "R3"
+        Type: Button
+    ButtonGuide:
+        Label: "PS Button"
+        Type: Button
+    Button0:
+        Label: "Touchpad Click"
+        Type: Button
+    Touchscreen:
+        Label: "Touchpad"
+        Type: Touchscreen
     DirectionalN:
         Label: "D-Pad Up"
         Type: Directional
@@ -48,29 +54,35 @@ Layout:
     DirectionalW:
         Label: "D-Pad Left"
         Type: Directional
+    TriggerLeft:
+        Label: "L2"
+        Type: Trigger
+    TriggerRight:
+        Label: "R2"
+        Type: Trigger
     AxisLeftAnalogPositiveX:
-        Label: "Analog Right"
+        Label: "Left Analog Right"
         Type: AxisPositive
     AxisLeftAnalogNegativeX:
-        Label: "Analog Left"
+        Label: "Left Analog Left"
         Type: AxisNegative
     AxisLeftAnalogPositiveY:
-        Label: "Analog Up"
+        Label: "Left Analog Up"
         Type: AxisPositive
     AxisLeftAnalogNegativeY:
-        Label: "Analog Down"
+        Label: "Left Analog Down"
         Type: AxisNegative
     AxisRightAnalogPositiveX:
-        Label: "C-Stick Up"
+        Label: "Right Analog Right"
         Type: AxisPositive
     AxisRightAnalogNegativeX:
-        Label: "C-Stick Down"
+        Label: "Right Analog Left"
         Type: AxisNegative
     AxisRightAnalogPositiveY:
-        Label: "C-Stick Left"
+        Label: "Right Analog Up"
         Type: AxisPositive
     AxisRightAnalogNegativeY:
-        Label: "C-Stick Right"
+        Label: "Right Analog Down"
         Type: AxisNegative
     RumbleBig:
         Label: "Strong Rumble"
@@ -78,3 +90,6 @@ Layout:
     RumbleSmall:
         Label: "Weak Rumble"
         Type: Rumble
+    Gyroscope:
+        Label: "Gyroscope"
+        Type: Gyroscope

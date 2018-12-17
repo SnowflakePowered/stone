@@ -26,7 +26,8 @@
                         "Pointer",
                         "PointerAxisPositive",
 						"PointerAxisNegative",
-                        "Touchscreen"
+                        "Touchscreen",
+                        "Gyroscope"
                     ]
                 }
             },
@@ -360,6 +361,10 @@
                 },
                 "Touchscreen": {
                     "id": "http://snowflakepowe.red/stone/schema/controller/Layout/Touchscreen",
+                    "$ref": "#/definitions/ControllerElement"
+                },
+                "Gyroscope": {
+                    "id": "http://snowflakepowe.red/stone/schema/controller/Layout/Gyroscope",
                     "$ref": "#/definitions/ControllerElement"
                 }
             }

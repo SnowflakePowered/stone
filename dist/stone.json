@@ -361,6 +361,133 @@
         }
       }
     },
+    "DUALSHOCK_4_CONTROLLER": {
+      "LayoutID": "DUALSHOCK_4_CONTROLLER",
+      "FriendlyName": "DUALSHOCK 4",
+      "Platforms": ["SONY_PS4"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "Cross",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "Circle",
+          "Type": "Button"
+        },
+        "ButtonX": {
+          "Label": "Square",
+          "Type": "Button"
+        },
+        "ButtonY": {
+          "Label": "Triangle",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Options",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Share",
+          "Type": "Button"
+        },
+        "ButtonL": {
+          "Label": "L1",
+          "Type": "Button"
+        },
+        "ButtonR": {
+          "Label": "R1",
+          "Type": "Button"
+        },
+        "ButtonClickL": {
+          "Label": "L3",
+          "Type": "Button"
+        },
+        "ButtonClickR": {
+          "Label": "R3",
+          "Type": "Button"
+        },
+        "ButtonGuide": {
+          "Label": "PS Button",
+          "Type": "Button"
+        },
+        "Button0": {
+          "Label": "Touchpad Click",
+          "Type": "Button"
+        },
+        "Touchscreen": {
+          "Label": "Touchpad",
+          "Type": "Touchscreen"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        },
+        "TriggerLeft": {
+          "Label": "L2",
+          "Type": "Trigger"
+        },
+        "TriggerRight": {
+          "Label": "R2",
+          "Type": "Trigger"
+        },
+        "AxisLeftAnalogPositiveX": {
+          "Label": "Left Analog Right",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeX": {
+          "Label": "Left Analog Left",
+          "Type": "AxisNegative"
+        },
+        "AxisLeftAnalogPositiveY": {
+          "Label": "Left Analog Up",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeY": {
+          "Label": "Left Analog Down",
+          "Type": "AxisNegative"
+        },
+        "AxisRightAnalogPositiveX": {
+          "Label": "Right Analog Right",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeX": {
+          "Label": "Right Analog Left",
+          "Type": "AxisNegative"
+        },
+        "AxisRightAnalogPositiveY": {
+          "Label": "Right Analog Up",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeY": {
+          "Label": "Right Analog Down",
+          "Type": "AxisNegative"
+        },
+        "RumbleBig": {
+          "Label": "Strong Rumble",
+          "Type": "Rumble"
+        },
+        "RumbleSmall": {
+          "Label": "Weak Rumble",
+          "Type": "Rumble"
+        },
+        "Gyroscope": {
+          "Label": "Gyroscope",
+          "Type": "Gyroscope"
+        }
+      }
+    },
     "DUALSHOCK_CONTROLLER": {
       "LayoutID": "DUALSHOCK_CONTROLLER",
       "FriendlyName": "DUALSHOCK",
@@ -434,6 +561,22 @@
           "Label": "R2",
           "Type": "Trigger"
         },
+        "Button0": {
+          "Label": "Cross (Analog)",
+          "Type": "Trigger"
+        },
+        "Button1": {
+          "Label": "Circle (Analog)",
+          "Type": "Trigger"
+        },
+        "Button2": {
+          "Label": "Square (Analog)",
+          "Type": "Trigger"
+        },
+        "Button3": {
+          "Label": "Triangle (Analog)",
+          "Type": "Trigger"
+        },
         "AxisLeftAnalogPositiveX": {
           "Label": "Left Analog Right",
           "Type": "AxisPositive"
@@ -473,6 +616,10 @@
         "RumbleSmall": {
           "Label": "Weak Rumble",
           "Type": "Rumble"
+        },
+        "Gyroscope": {
+          "Label": "SIXAXIS",
+          "Type": "Gyroscope"
         }
       }
     },
@@ -565,7 +712,7 @@
     "GCN_CONTROLLER": {
       "LayoutID": "GCN_CONTROLLER",
       "FriendlyName": "Gamecube Controller",
-      "Platforms": ["NINTENDO_GCN", "NINTENDO_WII"],
+      "Platforms": ["NINTENDO_GCN", "NINTENDO_WII", "NINTENDO_WIIU", "NINTENDO_NSW"],
       "Layout": {
         "ButtonA": {
           "Label": "A",
@@ -1727,6 +1874,267 @@
         }
       }
     },
+    "SWITCH_LEFT_JOYCON_CONTROLLER": {
+      "LayoutID": "SWITCH_LEFT_JOYCON_CONTROLLER",
+      "FriendlyName": "Nintendo Switch Left JoyCon",
+      "Platforms": ["NINTENDO_NSW"],
+      "Layout": {
+        "ButtonSelect": {
+          "Label": "-",
+          "Type": "Button"
+        },
+        "ButtonL": {
+          "Label": "L",
+          "Type": "Button"
+        },
+        "TriggerLeft": {
+          "Label": "ZL",
+          "Type": "Button"
+        },
+        "Button0": {
+          "Label": "SL",
+          "Type": "Button"
+        },
+        "Button1": {
+          "Label": "SR",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        },
+        "AxisLeftAnalogPositiveX": {
+          "Label": "Left Analog Right",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeX": {
+          "Label": "Left Analog Left",
+          "Type": "AxisNegative"
+        },
+        "AxisLeftAnalogPositiveY": {
+          "Label": "Left Analog Up",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeY": {
+          "Label": "Left Analog Down",
+          "Type": "AxisNegative"
+        },
+        "ButtonGuide": {
+          "Label": "Capture",
+          "Type": "Button"
+        },
+        "RumbleSmall": {
+          "Label": "HD Rumble",
+          "Type": "Rumble"
+        },
+        "Gyroscope": {
+          "Label": "Gyroscope",
+          "Type": "Gyroscope"
+        }
+      }
+    },
+    "SWITCH_PRO_CONTROLLER": {
+      "LayoutID": "SWITCH_PRO_CONTROLLER",
+      "FriendlyName": "Nintendo Switch Pro Controller",
+      "Platforms": ["NINTENDO_NSW"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "A",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "B",
+          "Type": "Button"
+        },
+        "ButtonX": {
+          "Label": "X",
+          "Type": "Button"
+        },
+        "ButtonY": {
+          "Label": "Y",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "+",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "-",
+          "Type": "Button"
+        },
+        "ButtonGuide": {
+          "Label": "Home",
+          "Type": "Button"
+        },
+        "ButtonL": {
+          "Label": "L",
+          "Type": "Button"
+        },
+        "ButtonR": {
+          "Label": "R",
+          "Type": "Button"
+        },
+        "TriggerLeft": {
+          "Label": "ZL",
+          "Type": "Button"
+        },
+        "TriggerRight": {
+          "Label": "ZR",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        },
+        "AxisLeftAnalogPositiveX": {
+          "Label": "Left Analog Right",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeX": {
+          "Label": "Left Analog Left",
+          "Type": "AxisNegative"
+        },
+        "AxisLeftAnalogPositiveY": {
+          "Label": "Left Analog Up",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeY": {
+          "Label": "Left Analog Down",
+          "Type": "AxisNegative"
+        },
+        "AxisRightAnalogPositiveX": {
+          "Label": "Right Analog Right",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeX": {
+          "Label": "Right Analog Left",
+          "Type": "AxisNegative"
+        },
+        "AxisRightAnalogPositiveY": {
+          "Label": "Right Analog Up",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeY": {
+          "Label": "Right Analog Down",
+          "Type": "AxisNegative"
+        },
+        "Button0": {
+          "Label": "Capture",
+          "Type": "Button"
+        }
+      }
+    },
+    "SWITCH_RIGHT_JOYCON_CONTROLLER": {
+      "LayoutID": "SWITCH_RIGHT_JOYCON_CONTROLLER",
+      "FriendlyName": "Nintendo Switch JoyCon",
+      "Platforms": ["NINTENDO_NSW"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "A",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "B",
+          "Type": "Button"
+        },
+        "ButtonX": {
+          "Label": "X",
+          "Type": "Button"
+        },
+        "ButtonY": {
+          "Label": "Y",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "+",
+          "Type": "Button"
+        },
+        "ButtonGuide": {
+          "Label": "Home",
+          "Type": "Button"
+        },
+        "ButtonR": {
+          "Label": "R",
+          "Type": "Button"
+        },
+        "TriggerRight": {
+          "Label": "ZR",
+          "Type": "Button"
+        },
+        "Button0": {
+          "Label": "SL",
+          "Type": "Button"
+        },
+        "Button1": {
+          "Label": "SR",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        },
+        "AxisRightAnalogPositiveX": {
+          "Label": "Right Analog Right",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeX": {
+          "Label": "Right Analog Left",
+          "Type": "AxisNegative"
+        },
+        "AxisRightAnalogPositiveY": {
+          "Label": "Right Analog Up",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeY": {
+          "Label": "Right Analog Down",
+          "Type": "AxisNegative"
+        },
+        "RumbleSmall": {
+          "Label": "HD Rumble",
+          "Type": "Rumble"
+        },
+        "Gyroscope": {
+          "Label": "Gyroscope",
+          "Type": "Gyroscope"
+        }
+      }
+    },
     "TG16_CONTROLLER": {
       "LayoutID": "TG16_CONTROLLER",
       "FriendlyName": "TurboGrafx-16 Controller",
@@ -1963,6 +2371,109 @@
         }
       }
     },
+    "WIIU_PRO_CONTROLLER": {
+      "LayoutID": "WIIU_PRO_CONTROLLER",
+      "FriendlyName": "WiiU Pro Controller",
+      "Platforms": ["NINTENDO_WIIU", "NINTENDO_NSW"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "A",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "B",
+          "Type": "Button"
+        },
+        "ButtonX": {
+          "Label": "X",
+          "Type": "Button"
+        },
+        "ButtonY": {
+          "Label": "Y",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "+",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "-",
+          "Type": "Button"
+        },
+        "ButtonGuide": {
+          "Label": "Home",
+          "Type": "Button"
+        },
+        "ButtonL": {
+          "Label": "L1",
+          "Type": "Button"
+        },
+        "ButtonR": {
+          "Label": "R1",
+          "Type": "Button"
+        },
+        "TriggerLeft": {
+          "Label": "L2",
+          "Type": "Button"
+        },
+        "TriggerRight": {
+          "Label": "R2",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        },
+        "AxisLeftAnalogPositiveX": {
+          "Label": "Left Analog Right",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeX": {
+          "Label": "Left Analog Left",
+          "Type": "AxisNegative"
+        },
+        "AxisLeftAnalogPositiveY": {
+          "Label": "Left Analog Up",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeY": {
+          "Label": "Left Analog Down",
+          "Type": "AxisNegative"
+        },
+        "AxisRightAnalogPositiveX": {
+          "Label": "Right Analog Right",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeX": {
+          "Label": "Right Analog Left",
+          "Type": "AxisNegative"
+        },
+        "AxisRightAnalogPositiveY": {
+          "Label": "Right Analog Up",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeY": {
+          "Label": "Right Analog Down",
+          "Type": "AxisNegative"
+        },
+        "Button0": {
+          "Label": "Power",
+          "Type": "Button"
+        }
+      }
+    },
     "WII_REMOTE_CONTROLLER": {
       "LayoutID": "WII_REMOTE_CONTROLLER",
       "FriendlyName": "Wii Remote",
@@ -2019,6 +2530,14 @@
         "PointerAxisNegativeY": {
           "Label": "IR Down",
           "Type": "AxisNegative"
+        },
+        "Pointer2D": {
+          "Label": "IR",
+          "Type": "Pointer"
+        },
+        "Gyroscope": {
+          "Label": "Wii MotionPlus",
+          "Type": "Gyroscope"
         }
       }
     },
@@ -2102,6 +2621,14 @@
         "PointerAxisNegativeY": {
           "Label": "IR Down",
           "Type": "AxisNegative"
+        },
+        "Pointer2D": {
+          "Label": "IR",
+          "Type": "Pointer"
+        },
+        "Gyroscope": {
+          "Label": "Wii MotionPlus",
+          "Type": "Gyroscope"
         }
       }
     },
@@ -2831,6 +3358,36 @@
         ".pas": "application/vnd.stone-romfile.nintendo.nes"
       }
     },
+    "NINTENDO_NSW": {
+      "PlatformID": "NINTENDO_NSW",
+      "Metadata": {
+        "platform_releasedate": "2017-03-03",
+        "platform_shortname": "NSW",
+        "platform_company": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 8,
+      "FriendlyName": "Nintendo Switch",
+      "FileTypes": {
+        ".nro": "application/vnd.stone-romfile.nintendo.nsw-homebrew",
+        ".nso": "application/vnd.stone-romfile.nintendo.nsw-executable",
+        ".xci": "application/vnd.stone-romfile.nintendo.nsw-cartimage",
+        ".nsp": "application/vnd.stone-romfile.nintendo.nsw-package",
+        ".nca": "application/vnd.stone-romfile.nintendo.nsw-importable"
+      },
+      "BiosFiles": {
+        "console.keys": [],
+        "prod.keys": [],
+        "PRODINFO.bin": [],
+        "BCPKG2-1-Normal-Main.bin": [],
+        "fuses.bin": [],
+        "BOOT0": [],
+        "BOOT1": [],
+        "secmon.bin": [],
+        "pkg1_decr.bin": [],
+        "rawnand.bin": []
+      }
+    },
     "NINTENDO_SNES": {
       "PlatformID": "NINTENDO_SNES",
       "Metadata": {
@@ -3347,5 +3904,5 @@
       }
     }
   },
-  "version": "7.0.0-alpha.12"
+  "version": "7.1.0"
 }

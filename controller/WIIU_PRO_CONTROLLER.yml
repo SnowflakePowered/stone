@@ -1,8 +1,8 @@
-LayoutID: WII_REMOTE_NUNCHUCK_CONTROLLER
-FriendlyName: "Wii Remote with Nunchuck Attachment"
+LayoutID: WIIU_PRO_CONTROLLER
+FriendlyName: "WiiU Pro Controller"
 Platforms:
-    - NINTENDO_WII
     - NINTENDO_WIIU
+    - NINTENDO_NSW
 Layout:
     ButtonA:
         Label: "A"
@@ -10,11 +10,11 @@ Layout:
     ButtonB:
         Label: "B"
         Type: Button
-    ButtonC:
-        Label: "C"
+    ButtonX:
+        Label: "X"
         Type: Button
-    ButtonZ:
-        Label: "Z"
+    ButtonY:
+        Label: "Y"
         Type: Button
     ButtonStart:
         Label: "+"
@@ -24,6 +24,18 @@ Layout:
         Type: Button
     ButtonGuide:
         Label: "Home"
+        Type: Button
+    ButtonL:
+        Label: "L1"
+        Type: Button
+    ButtonR:
+        Label: "R1"
+        Type: Button
+    TriggerLeft:
+        Label: "L2"
+        Type: Button
+    TriggerRight:
+        Label: "R2"
         Type: Button
     DirectionalN:
         Label: "D-Pad Up"
@@ -38,32 +50,29 @@ Layout:
         Label: "D-Pad Left"
         Type: Directional
     AxisLeftAnalogPositiveX:
-        Label: "Nunchuck Analog Right"
+        Label: "Left Analog Right"
         Type: AxisPositive
     AxisLeftAnalogNegativeX:
-        Label: "Nunchuck Analog Left"
+        Label: "Left Analog Left"
         Type: AxisNegative
     AxisLeftAnalogPositiveY:
-        Label: "Nunchuck Analog Up"
+        Label: "Left Analog Up"
         Type: AxisPositive
     AxisLeftAnalogNegativeY:
-        Label: "Nunchuck Analog Down"
+        Label: "Left Analog Down"
         Type: AxisNegative
-    PointerAxisPositiveX:
-        Label: "IR Right"
+    AxisRightAnalogPositiveX:
+        Label: "Right Analog Right"
         Type: AxisPositive
-    PointerAxisNegativeX:
-        Label: "IR Left"
+    AxisRightAnalogNegativeX:
+        Label: "Right Analog Left"
         Type: AxisNegative
-    PointerAxisPositiveY:
-        Label: "IR Up"
+    AxisRightAnalogPositiveY:
+        Label: "Right Analog Up"
         Type: AxisPositive
-    PointerAxisNegativeY:
-        Label: "IR Down"
+    AxisRightAnalogNegativeY:
+        Label: "Right Analog Down"
         Type: AxisNegative
-    Pointer2D:
-        Label: "IR"
-        Type: Pointer
-    Gyroscope:
-        Label: "Wii MotionPlus"
-        Type: Gyroscope
+    Button0:
+        Label: "Power"
+        Type: Button

@@ -43,3 +43,9 @@ Layout:
     PointerAxisNegativeY:
         Label: "IR Down"
         Type: AxisNegative
+    Pointer2D:
+        Label: "IR"
+        Type: Pointer
+    Gyroscope:
+        Label: "Wii MotionPlus"
+        Type: Gyroscope

@@ -1,5 +1,5 @@
 # Controllers
-**Version:** `^7.0.0`
+**Version:** `^7.1.0`
 
 A Stone controller definition represents a controller layout for an emulated controller. At least a single platform must be specified that this contoller supports, in the form of a Stone platform ID.
 
@@ -21,7 +21,7 @@ Every element can have one of any of the following types. This means a face butt
 | PointerAxisPositive | A pointer axis that increases in value on the number line, where the pointer device itself is not limited to axis-based representation. For example, continous right mouse movement. |
 | PointerAxisNegative | A pointer axis that increases in value on the number line, where the pointer device itself is not limited to axis-based representation. For example, continous left mouse movement. |
 | Touchscreen         | A touch sensitive surface of unspecified size and precision, where input can be expressed as a non-contiguous matrix of coordinates on a 2 dimentional cartesian plane. However, most touchscreens in video game controllers are only concerned with a single matrix due to the lack of multi-touch |
-
+| Gyroscope           | A 3 axis rotation gyroscope of unspecified precision, where input can be expressed as a vector of 3 coordinates X, Y, and Z  |
 
 ## Valid Controller Elements
 
@@ -99,8 +99,8 @@ Numbered buttons are meant to be used as numeric pad buttons, or placeholder but
 | AxisRightAnalogNegativeY | Downwards movement of the right analog stick along the Y axis (vertically) | Analog stick movement                    |
 | RumbleBig                | A large rumble action (usually through the larger of two rumble motors in a controller | Rumble                                   |
 | RumbleSmall              | A smaller rumble action (usually through the smaller of two rumble motors in a controller | Rumble                                   |
-| Pointer2D                | A pointing device that can express position in the form of a set of coordinates on a 2 dimensional plane. Examples include a mouse, or the Wii Remote IR | Co-ordinate space pointer                |
-| Pointer3D                | A pointing device that can express position in the form of a set of coordinates in 3 dimensional space. Examples include the Oculus Touch device, or the Playstation Move | Co-ordinate space pointer                |
+| Pointer2D                | A pointing device that can express absolute position in the form of a set of coordinates on a 2 dimensional plane. Examples include a mouse, or the Wii Remote IR | Co-ordinate space pointer                |
+| Pointer3D                | A pointing device that can express absolute position in the form of a set of coordinates in 3 dimensional space. Examples include the Oculus Touch device, or the Playstation Move | Co-ordinate space pointer                |
 | PointerAxisPositiveX     | Continous rightwards movement of a pointer device on the X axis (horizontal) | Pointer Axis                             |
 | PointerAxisNegativeX     | Continous leftwards movement of a pointer device on the X axis (horizontal) | Pointer Axis                             |
 | PointerAxisPositiveY     | Continous upwards movement of a pointer device on the Y axis (vertical) | Pointer Axis                             |
@@ -109,4 +109,5 @@ Numbered buttons are meant to be used as numeric pad buttons, or placeholder but
 | PointerAxisNegativeZ     | Continous backwards movement of a pointer device on the Z axis | Pointer Axis                             |
 | Touchscreen              | A touch sensitive surface of unspecified size and precision, where input can be expressed as a set of coordinates on a 2 dimensional plane. | Touchscreen                              |
 | Keyboard                 | A keyboad with an unspecified amount of keys. Intended for emulated computers such as the Commodore 64 | Keyboard                                 |
+| Gyroscope                | A 3-axis gyroscope that can express rotational angles in the form of a 3-dimensional vector of unspecified unit| Gyroscope |
 | NoElement                | No element                               | Null. Intended for internal use by consumers only |

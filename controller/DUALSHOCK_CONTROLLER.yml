@@ -59,6 +59,18 @@ Layout:
     TriggerRight:
         Label: "R2"
         Type: Trigger
+    Button0:
+        Label: "Cross (Analog)"
+        Type: Trigger
+    Button1:
+        Label: "Circle (Analog)"
+        Type: Trigger
+    Button2:
+        Label: "Square (Analog)"
+        Type: Trigger
+    Button3:
+        Label: "Triangle (Analog)"
+        Type: Trigger
     AxisLeftAnalogPositiveX:
         Label: "Left Analog Right"
         Type: AxisPositive
@@ -89,3 +101,6 @@ Layout:
     RumbleSmall:
         Label: "Weak Rumble"
         Type: Rumble
+    Gyroscope:
+        Label: "SIXAXIS"
+        Type: Gyroscope
