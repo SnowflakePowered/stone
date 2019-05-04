@@ -3596,8 +3596,8 @@
       "MaximumInputs": 4,
       "FriendlyName": "Sega Dreamcast",
       "FileTypes": {
-        ".bin": "application/vnd.stone-romfile.sega.dc-rawtrack",
-        ".raw": "application/vnd.stone-romfile.sega.dc-rawtrack",
+        ".bin": "application/vnd.stone-romfile.sega.dc-discimage",
+        ".raw": "application/vnd.stone-romfile.sega.dc-discimage",
         ".gdi": "application/vnd.stone-romfile.sega.dc-gdi",
         ".elf": "application/vnd.stone-romfile.sega.dc-elf",
         ".cdi": "application/vnd.stone-romfile.sega.dc-discjuggler"
@@ -3904,5 +3904,5 @@
       }
     }
   },
-  "version": "7.1.2"
+  "version": "8.0.0"
 }

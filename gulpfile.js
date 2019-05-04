@@ -1,32 +1,32 @@
-var gulp = require('gulp')
-var yaml = require('gulp-yaml')
-var jsonConcat = require('gulp-json-concat')
-var merge = require('merge-stream')
-var jeditor = require('gulp-json-editor')
-var rename = require('gulp-rename')
-var jsonFormat = require('gulp-json-format')
-var tv4 = require('gulp-tv4')
-var through = require('through2')
-var packageData = require('./package.json')
+const gulp = require('gulp')
+const yaml = require('gulp-yaml')
+const jsonConcat = require('gulp-json-concat')
+const merge = require('merge-stream')
+const jeditor = require('gulp-json-editor')
+const rename = require('gulp-rename')
+const jsonFormat = require('gulp-json-format')
+const tv4 = require('gulp-tv4')
+const through = require('through2')
+const packageData = require('./package.json')
 
-gulp.task('default', function () {
-  var controllerJson = gulp.src('./controller/*.yml')
+gulp.task('default', () => {
+  let controllerJson = gulp.src('./controller/*.yml')
     .pipe(yaml({ space: 0 }))
     .pipe(tv4('./schema/controller.schema.json'))
-    .pipe(through.obj(function (file, enc, callback) {
+    .pipe(through.obj((file, enc, callback) => {
       callback(null, file)
       if (!file.tv4.valid) {
         throw new Error(file.tv4.error + ' at ' + file.path)
       }
     }))
-    .pipe(jsonConcat('Controllers.json', function (data) {
+    .pipe(jsonConcat('Controllers.json', (data) => {
       return new Buffer(JSON.stringify(data))
     }))
 
-  var platformJson = gulp.src('./platform/*.yml')
+  let platformJson = gulp.src('./platform/*.yml')
     .pipe(yaml({ space: 0 }))
     .pipe(tv4('./schema/platform.schema.json'))
-    .pipe(through.obj(function (file, enc, callback) {
+    .pipe(through.obj((file, enc, callback) => {
       callback(null, file)
       if (!file.tv4.valid) {
         throw new Error(file.tv4.error + ' at ' + file.path)
@@ -36,7 +36,7 @@ gulp.task('default', function () {
       return new Buffer(JSON.stringify(data))
     }))
 
-  merge(platformJson, controllerJson)
+  return merge(platformJson, controllerJson)
     .pipe(jsonConcat('stone.json', function (data) {
       return new Buffer(JSON.stringify(data))
     }))
@@ -49,13 +49,13 @@ gulp.task('default', function () {
     .pipe(gulp.dest('./dist'))
 })
 
-gulp.task('format-platform', function () {
+gulp.task('format-platform', () => {
   gulp.src('./platform/*.yml')
     .pipe(yaml({ space: 2, safe: true }))
     .pipe(gulp.dest('./src/platform'))
 })
 
-gulp.task('format-controller', function () {
+gulp.task('format-controller', () => {
   gulp.src('./controller/*.yml')
     .pipe(yaml({ space: 2, safe: true }))
     .pipe(gulp.dest('./src/controller'))
