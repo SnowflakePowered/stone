@@ -48,7 +48,7 @@ Certain file formats appear frequently across platforms, especially with disc ba
 
   * For CloneCD formats, the `-clonecd-image`, `-clonecd-control`, and `-clonecd-subchannel` suffixes for their respective filetypes MUST be used.
 
-  * For disc-based platforms, especially in BIN/CUE platforms (CD-ROM), `.bin` **may not necessarily contain a filesystem**. In this case, if the `.bin` file represents a single track on a CD-ROM, the suffix `-disctrack` SHOULD be used. `.iso` files MAY be aliased to `-disctrack`, but if there is a `.bin` format that defines a `-disctrack` format, if a `.iso` definition exists, it MUST be an alias of the `.bin` definition.
+  * For disc-based platforms, especially in BIN/CUE platforms (CD-ROM), `.bin` **may not necessarily contain a filesystem**. In this case, if the `.bin` file represents a single track on a CD-ROM, the suffix `-disctrack` SHOULD be used. If a `.bin` definition defines `-disctrack`, `.iso` MAY also define `-disctrack`, but MUST NOT define anything other than `-disctrack`.
   
   * For disc-based platforms, especially in DVD-ROM or Blu-Ray platforms, if `.iso` and `.bin` files exclusively contain a **single track** that contains a **filesystem**, the `-discimage` suffix SHOULD be used.
 
