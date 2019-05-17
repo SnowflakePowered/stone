@@ -12,6 +12,7 @@ FileTypes:
     .self: 'application/vnd.stone-romfile.sony.ps3-elf-signed'
     .pkg: 'application/vnd.stone-romfile.sony.ps3-package'
     .bin: 'application/vnd.stone-romfile.sony.ps3-elf'
+    .iso: 'application/vnd.stone-romfile.sony.ps3-discimage'
 BiosFiles:
     PS3UPDAT.PUP: 
 # Below is the 4.81 update PUP, other PUPs can and should

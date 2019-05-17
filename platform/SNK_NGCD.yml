@@ -7,6 +7,7 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Neo Geo CD
 FileTypes: 
-    .iso: 'application/vnd.stone-romfile.snk.ngcd-discimage'
-    .bin: 'application/vnd.stone-romfile.snk.ngcd-discimage'
+    .iso: 'application/vnd.stone-romfile.snk.ngcd-disctrack'
+    .bin: 'application/vnd.stone-romfile.snk.ngcd-disctrack'
     .cue: 'application/vnd.stone-romfile.snk.ngcd-cuesheet'
+    .chd: 'application/vnd.stone-romfile.snk.ngcd-chd-compressed'

@@ -7,12 +7,13 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: 'PC-FX'
 FileTypes: 
-    .bin: 'application/vnd.stone-romfile.nec.pcfx-discimage'
-    .iso: 'application/vnd.stone-romfile.nec.pcfx-discimage'
+    .bin: 'application/vnd.stone-romfile.nec.pcfx-disctrack'
+    .iso: 'application/vnd.stone-romfile.nec.pcfx-disctrack'
     .cue: 'application/vnd.stone-romfile.nec.pcfx-cuesheet'
     .ccd: 'application/vnd.stone-romfile.nec.pcfx-clonecd-control'
     .img: 'application/vnd.stone-romfile.nec.pcfx-clonecd-rawimage'
     .sub: 'application/vnd.stone-romfile.nec.pcfx-clonecd-subchannel'
+    .chd: 'application/vnd.stone-romfile.nec.pcfx-chd-compressed'
 BiosFiles:
     pcfx.rom:
         - 08e36edbea28a017f79f8d4f7ff9b6d7

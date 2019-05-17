@@ -30,8 +30,8 @@ Content-type naming follows the following guidelines:
 
   * Content-types SHOULD be suffixed with a description of their format if applicable. For example, the iNES file format (`.nes`) for the Nintendo Entertainment System (`NINTENDO_NES`) has content-type `application/vnd.stone-romfile.nintendo.nes-ines`, while the non-suffixed `application/vnd.stone-romfile.nintendo.nes` is reserved, as per the previous rules, for the unheadered `.pas` unheadered ROM format.
 
-  * If a content-type refers to a container of a filesystem rather than generally raw binary data, then it SHOULD end with a some `image` suffix. Often this is `-discimage` for disc based games. Oftentimes with modern (generation 6 and above) consoles, a filesystem is mandated, and this `image` convention will be invoked.
-
+  * If a content-type refers to a container of a filesystem rather than generally raw binary data, then it SHOULD end with a some `image` suffix. Often this is `-discimage` for disc based games. Oftentimes with modern (generation 6 and above) consoles, a filesystem is mandated, and this `image` convention will be invoked. 
+  
   * It is RECOMMENDED to use describe the file format in the content-type than just leaving it as the file extension. For example, the `.cci` and `.3ds`, with respect to the Nintendo 3DS (`NINTENDO_3DS`) are file extensions for the same image of the NCSD file system of a 3DS cart, they have the content-type `application/vnd.stone-romfile.nintendo.3ds-cartimage`.
 
   * If the content-type refers to multiple files archived with the ZIP compression algorithm, the `+zip` content-type suffix as per [RFC6839](https://tools.ietf.org/html/rfc6839) SHOULD be used. Structured Syntax Suffixes for any other format SHOULD NOT be used in Stone.
@@ -48,17 +48,21 @@ Certain file formats appear frequently across platforms, especially with disc ba
 
   * For CloneCD formats, the `-clonecd-image`, `-clonecd-control`, and `-clonecd-subchannel` suffixes for their respective filetypes MUST be used.
 
-  * For disc-based consoles, `.iso` and `.bin` files SHOULD usually refer to the same `-discimage` format, especially if a cuesheet is required. This is because the `.iso` files commonly available are in actualility renamed `.bin` disc image dumps, with a missing cuesheet. This is excepted if the `.iso`, and the disc from which it was ripped from contains **only** a valid ISO9660, Joliet, or UDF, or some other proprietary file system, without having **any** CD or subchannel data on the disc, in which case the `.bin` file extension often is not defined for such systems, or that the `.bin` files are conversely renamed `.iso` files, meaning they would have the same content-type regardless.
+  * For disc-based platforms, especially in BIN/CUE platforms (CD-ROM), `.bin` **may not necessarily contain a filesystem**. In this case, if the `.bin` file represents a single track on a CD-ROM, the suffix `-disctrack` SHOULD be used. If a `.bin` definition defines `-disctrack`, `.iso` MAY also define `-disctrack`, but MUST NOT define anything other than `-disctrack`.
+  
+  * For disc-based platforms, especially in DVD-ROM or Blu-Ray platforms, if `.iso` and `.bin` files exclusively contain a **single track** that contains a **filesystem**, the `-discimage` suffix SHOULD be used.
 
   * For Nero formats, the `-nero` suffix MUST be used.
 
-  * For Alcohol 120% formats, the `-alcohol120` suffix MUST be useds.
+  * For Alcohol 120% formats, the `-alcohol120` suffix MUST be used.
 
   * For CDI formats, the `-discjuggler` suffix MUST be used.
 
+  * For MAME CHD (Compressed Hunks of Data) formats, the `-chd-compressed` suffix MUST be used. 
+
   * If the platform exposes an operating system with a native executable format, such a format SHOULD be suffixed with `-executable`. 
 
-  * For compressed file formats not compressed with the ZIP compression algorithm, the `-compressed` suffix SHOULD be sued..
+  * For compressed file formats not compressed with the ZIP compression algorithm, the `-compressed` suffix SHOULD be used.
 
 Any defined Stone content-type format can have the `+zip` suffix if compressed **by itself** in a ZIP archive. A common example is `.nes` dumps in `.zip` files, which would have the mimetype `application/vnd.stone-romfile.nintendo.nes-ines+zip`
 
