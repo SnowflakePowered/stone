@@ -1,4 +1,4 @@
-![Stone](https://stone.snowflakepowe.red/static/media/fulllogo.5429c7b6.svg)
+![Stone](https://stone.snowflakepowe.red/static/media/fulllogo.0a605548.svg)
 =====
 
 [![npm](https://img.shields.io/npm/v/stone-definitions.svg)](https://www.npmjs.com/package/stone-definitions) [![Travis](https://img.shields.io/travis/SnowflakePowered/stone.svg)](https://travis-ci.org/SnowflakePowered/stone) [![GitHub license](https://img.shields.io/github/license/SnowflakePowered/stone.svg?maxAge=2592000)]()
