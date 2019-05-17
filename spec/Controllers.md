@@ -1,5 +1,5 @@
 # Controllers
-**Version:** `^7.1.0`
+**Version:** `^9.0.0`
 
 A Stone controller definition represents a controller layout for an emulated controller. At least a single platform must be specified that this contoller supports, in the form of a Stone platform ID.
 
