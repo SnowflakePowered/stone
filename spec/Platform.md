@@ -1,5 +1,5 @@
 # Platforms
-**Version:** `^7.0.0`
+**Version:** `^9.0.0`
 
 A Stone Platform is a unique, keyed description in UTF-8 of a conventional video game console. Each platform is given a unique, ASCII-encoded uppercase ID usually in the format `MANUFACTURER_SHORTNAME`, where `SHORTNAME` is be the contracted form of the game console's name. 
 
