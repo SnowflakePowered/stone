@@ -8,9 +8,10 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: TurboGrafx-CD
 FileTypes: 
-    .bin: 'application/vnd.stone-romfile.nec.tgcd-discimage'
-    .iso: 'application/vnd.stone-romfile.nec.tgcd-discimage'
+    .bin: 'application/vnd.stone-romfile.nec.tgcd-disctrack'
+    .iso: 'application/vnd.stone-romfile.nec.tgcd-disctrack'
     .cue: 'application/vnd.stone-romfile.nec.tgcd-cuesheet'
+    .chd: 'application/vnd.stone-romfile.nec.tgcd-chd-compressed'
 BiosFiles:
     syscard3.pce:
         - ff1a674273fe3540ccef576376407d1d

@@ -7,9 +7,10 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega CD
 FileTypes:
-    .bin: 'application/vnd.stone-romfile.sega.scd-discimage'
-    .iso: 'application/vnd.stone-romfile.sega.scd-discimage'
+    .bin: 'application/vnd.stone-romfile.sega.scd-disctrack'
+    .iso: 'application/vnd.stone-romfile.sega.scd-disctrack'
     .cue: 'application/vnd.stone-romfile.sega.scd-cuesheet'
+    .chd: 'application/vnd.stone-romfile.sega.scd-chd-compressed'
 BiosFiles:
     bios_CD_U.bin:
         - 2efd74e3232ff260e371b99f84024f7f

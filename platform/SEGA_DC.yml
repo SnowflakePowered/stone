@@ -7,11 +7,12 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: Sega Dreamcast
 FileTypes:
-    .bin: 'application/vnd.stone-romfile.sega.dc-discimage'
-    .raw: 'application/vnd.stone-romfile.sega.dc-discimage'
+    .bin: 'application/vnd.stone-romfile.sega.dc-disctrack'
+    .raw: 'application/vnd.stone-romfile.sega.dc-disctrack'
     .gdi: 'application/vnd.stone-romfile.sega.dc-gdi'
     .elf: 'application/vnd.stone-romfile.sega.dc-elf'
     .cdi: 'application/vnd.stone-romfile.sega.dc-discjuggler'
+    .chd: 'application/vnd.stone-romfile.sega.dc-chd-compressed'
 BiosFiles:
     dc_boot.bin:
         - e10c53c2f8b90bab96ead2d368858623 

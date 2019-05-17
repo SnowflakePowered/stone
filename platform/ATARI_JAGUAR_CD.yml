@@ -12,7 +12,7 @@ FileTypes:
     .ccd: 'application/vnd.stone-romfile.atari.jaguar-clonecd-control'
     .img: 'application/vnd.stone-romfile.atari.jaguar-clonecd-image'
     .sub: 'application/vnd.stone-romfile.atari.jaguar-clonecd-subchannel'
-    .bin: 'application/vnd.stone-romfile.atari.jaguar-discimage'
-    .iso: 'application/vnd.stone-romfile.atari.jaguar-discimage'
+    .bin: 'application/vnd.stone-romfile.atari.jaguar-disctrack'
+    .iso: 'application/vnd.stone-romfile.atari.jaguar-disctrack'
     .cue: 'application/vnd.stone-romfile.atari.jaguar-cuesheet'
-    
+    .chd: 'application/vnd.stone-romfile.atari.jaguar-chd-compressed'

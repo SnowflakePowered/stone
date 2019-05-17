@@ -2902,9 +2902,10 @@
         ".ccd": "application/vnd.stone-romfile.atari.jaguar-clonecd-control",
         ".img": "application/vnd.stone-romfile.atari.jaguar-clonecd-image",
         ".sub": "application/vnd.stone-romfile.atari.jaguar-clonecd-subchannel",
-        ".bin": "application/vnd.stone-romfile.atari.jaguar-discimage",
-        ".iso": "application/vnd.stone-romfile.atari.jaguar-discimage",
-        ".cue": "application/vnd.stone-romfile.atari.jaguar-cuesheet"
+        ".bin": "application/vnd.stone-romfile.atari.jaguar-disctrack",
+        ".iso": "application/vnd.stone-romfile.atari.jaguar-disctrack",
+        ".cue": "application/vnd.stone-romfile.atari.jaguar-cuesheet",
+        ".chd": "application/vnd.stone-romfile.atari.jaguar-chd-compressed"
       }
     },
     "ATARI_LYNX": {
@@ -3060,7 +3061,8 @@
       "MaximumInputs": 4,
       "FriendlyName": "Xbox One",
       "FileTypes": {
-        ".appx": "application/vnd.stone-romfile.microsoft.xbo-appx-package"
+        ".appx": "application/vnd.stone-romfile.microsoft.xbo-appx-package",
+        ".iso": "application/vnd.stone-romfile.microsoft.xbo-discimage"
       }
     },
     "MICROSOFT_XBOX": {
@@ -3074,7 +3076,11 @@
       "MaximumInputs": 4,
       "FriendlyName": "Xbox",
       "FileTypes": {
-        ".xbe": "application/vnd.stone-romfile.microsoft.xbox-executable"
+        ".xbe": "application/vnd.stone-romfile.microsoft.xbox-executable",
+        ".bin": "application/vnd.stone-romfile.microsoft.xbox-discimage",
+        ".iso": "application/vnd.stone-romfile.microsoft.xbox-discimage",
+        ".cue": "application/vnd.stone-romfile.microsoft.xbox-cuesheet",
+        ".chd": "application/vnd.stone-romfile.microsoft.xbox-chd-compressed"
       },
       "BiosFiles": {
         "mcpx_1.0.bin": ["d49c52a4102f6df7bcf8d0617ac475ed"],
@@ -3093,12 +3099,13 @@
       "MaximumInputs": 2,
       "FriendlyName": "PC-FX",
       "FileTypes": {
-        ".bin": "application/vnd.stone-romfile.nec.pcfx-discimage",
-        ".iso": "application/vnd.stone-romfile.nec.pcfx-discimage",
+        ".bin": "application/vnd.stone-romfile.nec.pcfx-disctrack",
+        ".iso": "application/vnd.stone-romfile.nec.pcfx-disctrack",
         ".cue": "application/vnd.stone-romfile.nec.pcfx-cuesheet",
         ".ccd": "application/vnd.stone-romfile.nec.pcfx-clonecd-control",
         ".img": "application/vnd.stone-romfile.nec.pcfx-clonecd-rawimage",
-        ".sub": "application/vnd.stone-romfile.nec.pcfx-clonecd-subchannel"
+        ".sub": "application/vnd.stone-romfile.nec.pcfx-clonecd-subchannel",
+        ".chd": "application/vnd.stone-romfile.nec.pcfx-chd-compressed"
       },
       "BiosFiles": {
         "pcfx.rom": ["08e36edbea28a017f79f8d4f7ff9b6d7"],
@@ -3159,9 +3166,10 @@
       "MaximumInputs": 2,
       "FriendlyName": "TurboGrafx-CD",
       "FileTypes": {
-        ".bin": "application/vnd.stone-romfile.nec.tgcd-discimage",
-        ".iso": "application/vnd.stone-romfile.nec.tgcd-discimage",
-        ".cue": "application/vnd.stone-romfile.nec.tgcd-cuesheet"
+        ".bin": "application/vnd.stone-romfile.nec.tgcd-disctrack",
+        ".iso": "application/vnd.stone-romfile.nec.tgcd-disctrack",
+        ".cue": "application/vnd.stone-romfile.nec.tgcd-cuesheet",
+        ".chd": "application/vnd.stone-romfile.nec.tgcd-chd-compressed"
       },
       "BiosFiles": {
         "syscard3.pce": ["ff1a674273fe3540ccef576376407d1d", "38179df8f4ac870017db21ebcbf53114", "0754f903b52e3b3342202bdafb13efa5"],
@@ -3499,9 +3507,10 @@
         ".ccd": "application/vnd.stone-romfile.panasonic.3do-clonecd-control",
         ".img": "application/vnd.stone-romfile.panasonic.3do-clonecd-image",
         ".sub": "application/vnd.stone-romfile.panasonic.3do-clonecd-subchannel",
-        ".bin": "application/vnd.stone-romfile.panasonic.3do-discimage",
-        ".iso": "application/vnd.stone-romfile.panasonic.3do-discimage",
-        ".cue": "application/vnd.stone-romfile.panasonic.3do-cuesheet"
+        ".bin": "application/vnd.stone-romfile.panasonic.3do-disctrack",
+        ".iso": "application/vnd.stone-romfile.panasonic.3do-disctrack",
+        ".cue": "application/vnd.stone-romfile.panasonic.3do-cuesheet",
+        ".chd": "application/vnd.stone-romfile.panasonic.3do-compressed"
       },
       "BiosFiles": {
         "3DO-FZ-10.bin": ["51f2f43ae2f3508a14d9f56597e2d3ce"],
@@ -3545,9 +3554,10 @@
         ".ccd": "application/vnd.stone-romfile.sega.32xcd-clonecd-control",
         ".img": "application/vnd.stone-romfile.sega.32xcd-clonecd-image",
         ".sub": "application/vnd.stone-romfile.sega.32xcd-clonecd-subchannel",
-        ".bin": "application/vnd.stone-romfile.sega.32xcd-discimage",
-        ".iso": "application/vnd.stone-romfile.sega.32xcd-discimage",
-        ".cue": "application/vnd.stone-romfile.sega.32xcd-cuesheet"
+        ".bin": "application/vnd.stone-romfile.sega.32xcd-disctrack",
+        ".iso": "application/vnd.stone-romfile.sega.32xcd-disctrack",
+        ".cue": "application/vnd.stone-romfile.sega.32xcd-cuesheet",
+        ".chd": "application/vnd.stone-romfile.sega.32xcd-chd-compressed"
       },
       "BiosFiles": {
         "32X_G_BIOS.BIN": ["6a5433f6a132a2b683635819a6dcf085"],
@@ -3572,9 +3582,10 @@
       "MaximumInputs": 2,
       "FriendlyName": "Sega CD",
       "FileTypes": {
-        ".bin": "application/vnd.stone-romfile.sega.scd-discimage",
-        ".iso": "application/vnd.stone-romfile.sega.scd-discimage",
-        ".cue": "application/vnd.stone-romfile.sega.scd-cuesheet"
+        ".bin": "application/vnd.stone-romfile.sega.scd-disctrack",
+        ".iso": "application/vnd.stone-romfile.sega.scd-disctrack",
+        ".cue": "application/vnd.stone-romfile.sega.scd-cuesheet",
+        ".chd": "application/vnd.stone-romfile.sega.scd-chd-compressed"
       },
       "BiosFiles": {
         "bios_CD_U.bin": ["2efd74e3232ff260e371b99f84024f7f"],
@@ -3596,11 +3607,12 @@
       "MaximumInputs": 4,
       "FriendlyName": "Sega Dreamcast",
       "FileTypes": {
-        ".bin": "application/vnd.stone-romfile.sega.dc-discimage",
-        ".raw": "application/vnd.stone-romfile.sega.dc-discimage",
+        ".bin": "application/vnd.stone-romfile.sega.dc-disctrack",
+        ".raw": "application/vnd.stone-romfile.sega.dc-disctrack",
         ".gdi": "application/vnd.stone-romfile.sega.dc-gdi",
         ".elf": "application/vnd.stone-romfile.sega.dc-elf",
-        ".cdi": "application/vnd.stone-romfile.sega.dc-discjuggler"
+        ".cdi": "application/vnd.stone-romfile.sega.dc-discjuggler",
+        ".chd": "application/vnd.stone-romfile.sega.dc-chd-compressed"
       },
       "BiosFiles": {
         "dc_boot.bin": ["e10c53c2f8b90bab96ead2d368858623"],
@@ -3660,9 +3672,10 @@
         ".ccd": "application/vnd.stone-romfile.sega.sat-clonecd-control",
         ".img": "application/vnd.stone-romfile.sega.sat-clonecd-image",
         ".sub": "application/vnd.stone-romfile.sega.sat-clonecd-subchannel",
-        ".bin": "application/vnd.stone-romfile.sega.sat-discimage",
-        ".iso": "application/vnd.stone-romfile.sega.sat-discimage",
-        ".cue": "application/vnd.stone-romfile.sega.sat-cuesheet"
+        ".bin": "application/vnd.stone-romfile.sega.sat-disctrack",
+        ".iso": "application/vnd.stone-romfile.sega.sat-disctrack",
+        ".cue": "application/vnd.stone-romfile.sega.sat-cuesheet",
+        ".chd": "application/vnd.stone-romfile.sega.sat-chd-compressed"
       },
       "BiosFiles": {
         "saturn_bios.bin": ["af5828fdff51384f99b3c4926be27762"],
@@ -3737,9 +3750,10 @@
       "MaximumInputs": 2,
       "FriendlyName": "Neo Geo CD",
       "FileTypes": {
-        ".iso": "application/vnd.stone-romfile.snk.ngcd-discimage",
-        ".bin": "application/vnd.stone-romfile.snk.ngcd-discimage",
-        ".cue": "application/vnd.stone-romfile.snk.ngcd-cuesheet"
+        ".iso": "application/vnd.stone-romfile.snk.ngcd-disctrack",
+        ".bin": "application/vnd.stone-romfile.snk.ngcd-disctrack",
+        ".cue": "application/vnd.stone-romfile.snk.ngcd-cuesheet",
+        ".chd": "application/vnd.stone-romfile.snk.ngcd-chd-compressed"
       }
     },
     "SNK_NGP": {
@@ -3817,7 +3831,8 @@
         ".elf": "application/vnd.stone-romfile.sony.ps3-elf",
         ".self": "application/vnd.stone-romfile.sony.ps3-elf-signed",
         ".pkg": "application/vnd.stone-romfile.sony.ps3-package",
-        ".bin": "application/vnd.stone-romfile.sony.ps3-elf"
+        ".bin": "application/vnd.stone-romfile.sony.ps3-elf",
+        ".iso": "application/vnd.stone-romfile.sony.ps3-discimage"
       },
       "BiosFiles": {
         "PS3UPDAT.PUP": ["b2483b4abc157494447c9c409c036041"]
@@ -3835,7 +3850,8 @@
       "MaximumInputs": 4,
       "FriendlyName": "PlayStation 4",
       "FileTypes": {
-        ".elf": "application/vnd.stone-romfile.sony.ps4-elf"
+        ".elf": "application/vnd.stone-romfile.sony.ps4-elf",
+        ".iso": "application/vnd.stone-romfile.sony.ps4-discimage"
       }
     },
     "SONY_PSP": {
@@ -3886,7 +3902,8 @@
       "FriendlyName": "PlayStation",
       "FileTypes": {
         ".m3u": "application/vnd.stone-romfile.sony.psx-playlist",
-        ".bin": "application/vnd.stone-romfile.sony.psx-discimage",
+        ".bin": "application/vnd.stone-romfile.sony.psx-disctrack",
+        ".iso": "application/vnd.stone-romfile.sony.psx-disctrack",
         ".cue": "application/vnd.stone-romfile.sony.psx-cuesheet",
         ".sbi": "application/vnd.stone-romfile.sony.psx-subchannel",
         ".ccd": "application/vnd.stone-romfile.sony.psx-clonecd-control",
@@ -3894,7 +3911,8 @@
         ".sub": "application/vnd.stone-romfile.sony.psx-clonecd-subchannel",
         ".toc": "application/vnd.stone-romfile.sony.psx-cdrdao",
         ".pbp": "application/vnd.stone-romfile.sony.psx-eboot",
-        ".exe": "application/vnd.stone-romfile.sony.psx-exe"
+        ".exe": "application/vnd.stone-romfile.sony.psx-exe",
+        ".chd": "application/vnd.stone-romfile.sony.psx-chd-compressed"
       },
       "BiosFiles": {
         "scph1001.bin": ["924e392ed05558ffdb115408c263dccf"],
@@ -3904,5 +3922,5 @@
       }
     }
   },
-  "version": "8.0.0"
+  "version": "9.0.0"
 }

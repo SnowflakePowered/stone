@@ -9,3 +9,4 @@ MaximumInputs: 4
 FriendlyName: PlayStation 4
 FileTypes:
     .elf: 'application/vnd.stone-romfile.sony.ps4-elf'
+    .iso: 'application/vnd.stone-romfile.sony.ps4-discimage'
