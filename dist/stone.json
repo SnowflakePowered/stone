@@ -624,7 +624,7 @@
       }
     },
     "GBA_LAYOUT": {
-      "LayoutID": "GB_LAYOUT",
+      "LayoutID": "GBA_LAYOUT",
       "FriendlyName": "Game Boy Advanced Layout",
       "Platforms": ["NINTENDO_GBA"],
       "Layout": {
@@ -3925,5 +3925,5 @@
       }
     }
   },
-  "version": "9.1.0"
+  "version": "9.1.1"
 }
