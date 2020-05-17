@@ -1,0 +1,29 @@
+# The CD-i came with a variety of controllers, such as the three button Gamepad, or the four button Touchpad.
+# However, neither of these gamepads had any semantically distinct buttons other than the two 'action' buttons, 
+# that is; the 'third' button acted as a clone of Button 1 or Button 2. 
+#
+# This makes the controller layout of both the Gamepad and Touchpad effectively semantically identical.
+
+LayoutID: CDI_CONTROLLER
+FriendlyName: "CD-i Gamepad/Touchpad"
+Platforms:
+    - PHILIPS_CDI
+Layout:
+    ButtonA:
+        Label: "Button 1"
+        Type: Button
+    ButtonB:
+        Label: "Button 2"
+        Type: Button
+    DirectionalN:
+        Label: "Joystick Up"
+        Type: Directional
+    DirectionalE:
+        Label: "Joystick Right"
+        Type: Directional
+    DirectionalS:
+        Label: "Joystick Down"
+        Type: Directional
+    DirectionalW:
+        Label: "Joystick Left"
+        Type: Directional

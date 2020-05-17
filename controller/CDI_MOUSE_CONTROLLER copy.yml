@@ -1,0 +1,14 @@
+LayoutID: CDI_MOUSE_CONTROLLER
+FriendlyName: "CD-i Mouse"
+Platforms:
+    - PHILIPS_CDI
+Layout:
+    ButtonA:
+        Label: "Button 1"
+        Type: Button
+    ButtonB:
+        Label: "Button 2"
+        Type: Button
+    Pointer2D:
+        Label: "Cursor"
+        Type: Pointer

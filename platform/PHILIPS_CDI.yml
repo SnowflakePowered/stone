@@ -16,11 +16,11 @@ FileTypes:
     .chd: 'application/vnd.stone-romfile.philips.cdi-chd-compressed'
 
 BiosFiles:
-    cd200.rom:
+    cdi200.rom:
         - 2969341396aa61e0143dc2351aaa6ef6
-    cd220b.rom:
+    cdi220b.rom:
         - ac0d468be366779c9df633be98da250a
-    cd490.rom:
+    cdi490a.rom:
         - f0f4e0bf948930b50be8f97730463e34
-    cd910.rom:
+    cdi910.rom:
         - b69d6553134ad69dfd5ce0ea709b02b5

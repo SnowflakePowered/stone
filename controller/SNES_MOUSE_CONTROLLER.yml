@@ -1,0 +1,14 @@
+LayoutID: SNES_MOUSE_CONTROLLER
+FriendlyName: "Super NES Mouse"
+Platforms:
+    - NINTENDO_SNES
+Layout:
+    ButtonA:
+        Label: "Left Button"
+        Type: Button
+    ButtonB:
+        Label: "Right Button"
+        Type: Button
+    Pointer2D:
+        Label: "Mouse"
+        Type: Pointer
