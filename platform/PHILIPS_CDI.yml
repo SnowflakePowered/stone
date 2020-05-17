@@ -1,0 +1,26 @@
+PlatformID: PHILIPS_CDI
+Metadata:
+  platform_releasedate: '1991-12-03'
+  platform_shortname: cdi
+  platform_company: Philips
+  platform_type: Home
+MaximumInputs: 1
+FriendlyName: Philips CD-i
+FileTypes: 
+    .bin: 'application/vnd.stone-romfile.philips.cdi-disctrack'
+    .raw: 'application/vnd.stone-romfile.philips.cdi-disctrack'
+    .cue: 'application/vnd.stone-romfile.philips.cdi-cuesheet'
+    .iso: 'application/vnd.stone-romfile.philips.cdi-disctrack'
+    .cdi: 'application/vnd.stone-romfile.philips.cdi-discjuggler'
+    .nrg: 'application/vnd.stone-romfile.philips.cdi-nero'
+    .chd: 'application/vnd.stone-romfile.philips.cdi-chd-compressed'
+
+BiosFiles:
+    cd200.rom:
+        - 2969341396aa61e0143dc2351aaa6ef6
+    cd220b.rom:
+        - ac0d468be366779c9df633be98da250a
+    cd490.rom:
+        - f0f4e0bf948930b50be8f97730463e34
+    cd910.rom:
+        - b69d6553134ad69dfd5ce0ea709b02b5
