@@ -219,6 +219,56 @@
         }
       }
     },
+    "CDI_CONTROLLER": {
+      "LayoutID": "CDI_CONTROLLER",
+      "FriendlyName": "CD-i Gamepad/Touchpad",
+      "Platforms": ["PHILIPS_CDI"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "Button 1",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "Button 2",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "Joystick Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "Joystick Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "Joystick Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "Joystick Left",
+          "Type": "Directional"
+        }
+      }
+    },
+    "CDI_MOUSE_CONTROLLER": {
+      "LayoutID": "CDI_MOUSE_CONTROLLER",
+      "FriendlyName": "CD-i Mouse",
+      "Platforms": ["PHILIPS_CDI"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "Button 1",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "Button 2",
+          "Type": "Button"
+        },
+        "Pointer2D": {
+          "Label": "Cursor",
+          "Type": "Pointer"
+        }
+      }
+    },
     "COLECOVISION_CONTROLLER": {
       "LayoutID": "COLECOVISION_CONTROLLER",
       "Platforms": ["COLECO_CV"],
@@ -1874,6 +1924,25 @@
         }
       }
     },
+    "SNES_MOUSE_CONTROLLER": {
+      "LayoutID": "SNES_MOUSE_CONTROLLER",
+      "FriendlyName": "Super NES Mouse",
+      "Platforms": ["NINTENDO_SNES"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "Left Button",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "Right Button",
+          "Type": "Button"
+        },
+        "Pointer2D": {
+          "Label": "Mouse",
+          "Type": "Pointer"
+        }
+      }
+    },
     "SWITCH_LEFT_JOYCON_CONTROLLER": {
       "LayoutID": "SWITCH_LEFT_JOYCON_CONTROLLER",
       "FriendlyName": "Nintendo Switch Left JoyCon",
@@ -3520,6 +3589,32 @@
         "sanyotry.bin": ["35fa1a1ebaaeea286dc5cd15487c13ea"]
       }
     },
+    "PHILIPS_CDI": {
+      "PlatformID": "PHILIPS_CDI",
+      "Metadata": {
+        "platform_releasedate": "1991-12-03",
+        "platform_shortname": "cdi",
+        "platform_company": "Philips",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Philips CD-i",
+      "FileTypes": {
+        ".bin": "application/vnd.stone-romfile.philips.cdi-disctrack",
+        ".raw": "application/vnd.stone-romfile.philips.cdi-disctrack",
+        ".cue": "application/vnd.stone-romfile.philips.cdi-cuesheet",
+        ".iso": "application/vnd.stone-romfile.philips.cdi-disctrack",
+        ".cdi": "application/vnd.stone-romfile.philips.cdi-discjuggler",
+        ".nrg": "application/vnd.stone-romfile.philips.cdi-nero",
+        ".chd": "application/vnd.stone-romfile.philips.cdi-chd-compressed"
+      },
+      "BiosFiles": {
+        "cdi200.rom": ["2969341396aa61e0143dc2351aaa6ef6"],
+        "cdi220b.rom": ["ac0d468be366779c9df633be98da250a"],
+        "cdi490a.rom": ["f0f4e0bf948930b50be8f97730463e34"],
+        "cdi910.rom": ["b69d6553134ad69dfd5ce0ea709b02b5"]
+      }
+    },
     "SEGA_32X": {
       "PlatformID": "SEGA_32X",
       "Metadata": {
@@ -3925,5 +4020,5 @@
       }
     }
   },
-  "version": "9.1.1"
+  "version": "9.2.0"
 }
