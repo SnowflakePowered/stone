@@ -3593,7 +3593,7 @@
       "PlatformID": "PHILIPS_CDI",
       "Metadata": {
         "platform_releasedate": "1991-12-03",
-        "platform_shortname": "cdi",
+        "platform_shortname": "CD-i",
         "platform_company": "Philips",
         "platform_type": "Home"
       },
@@ -4020,5 +4020,5 @@
       }
     }
   },
-  "version": "9.2.0"
+  "version": "9.2.1"
 }
