@@ -8,6 +8,7 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: ColecoVision
 FileTypes:
+    .bin: 'application/vnd.stone-romfile.coleco.cv'
     .rom: 'application/vnd.stone-romfile.coleco.cv'
     .col: 'application/vnd.stone-romfile.coleco.cv'
 BiosFiles:
