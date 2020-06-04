@@ -15,6 +15,7 @@ FileTypes:
     .iso: 'application/vnd.stone-romfile.sega.32xcd-disctrack'
     .cue: 'application/vnd.stone-romfile.sega.32xcd-cuesheet'
     .chd: 'application/vnd.stone-romfile.sega.32xcd-chd-compressed'
+    BIOS: 'application/vnd.stone-romfile.sega.32xcd-sys'
 BiosFiles:
     32X_G_BIOS.BIN:
         - 6a5433f6a132a2b683635819a6dcf085

@@ -10,3 +10,7 @@ FriendlyName: Neo Geo Pocket
 FileTypes: 
     .ngp: 'application/vnd.stone-romfile.snk.ngp'
     .bin: 'application/vnd.stone-romfile.snk.ngp'
+    BIOS: 'application/vnd.stone-romfile.snk.ngp-sys'
+BiosFiles:
+    bios.rom:
+      - d87d876c4391935c9d48ef352a3ff02d

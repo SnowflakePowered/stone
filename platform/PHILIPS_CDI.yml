@@ -15,7 +15,7 @@ FileTypes:
     .cdi: 'application/vnd.stone-romfile.philips.cdi-discjuggler'
     .nrg: 'application/vnd.stone-romfile.philips.cdi-nero'
     .chd: 'application/vnd.stone-romfile.philips.cdi-chd-compressed'
-
+    BIOS: 'application/vnd.stone-romfile.phillips.cdi-sys'
 BiosFiles:
     cdi200.rom:
         - 2969341396aa61e0143dc2351aaa6ef6

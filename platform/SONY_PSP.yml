@@ -14,7 +14,7 @@ FileTypes:
     .dax: 'application/vnd.stone-romfile.sony.psp-dax-compressed'
     .pbp: 'application/vnd.stone-romfile.sony.psp-eboot'
     .elf: 'application/vnd.stone-romfile.sony.psp-elf'
-    .pup: 'application/vnd.stone-romfile.sony.psp-update'
+    BIOS: 'application/vnd.stone-romfile.sony.psp-sys'
 BiosFiles:
     PSPUPDAT.PUP:
         - 47398e49360ab021c3ffa42cac3e6f15

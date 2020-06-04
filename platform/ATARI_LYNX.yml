@@ -13,6 +13,7 @@ FileTypes:
     .rom: 'application/vnd.stone-romfile.atari.lynx'
     .bin: 'application/vnd.stone-romfile.atari.lynx'
     .o: 'application/vnd.stone-romfile.atari.lynx-bll'
+    BIOS: 'application/vnd.stone-romfile.atari.lynx-sys'
 BiosFiles:
     lynxboot.img:
         - fcd403db69f54290b51035d82f835e7b

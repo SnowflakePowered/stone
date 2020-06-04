@@ -10,6 +10,7 @@ FriendlyName: Game Boy Advanced
 FileTypes: 
     .gba: 'application/vnd.stone-romfile.nintendo.gba'
     .bin: 'application/vnd.stone-romfile.nintendo.gba'
+    BIOS: 'application/vnd.stone-romfile.nintendo.gba-sys'
 BiosFiles:
     gba_bios.bin:
         - a860e8c0b6d573d191e4ec7db1b1e4f6

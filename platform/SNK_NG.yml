@@ -9,5 +9,6 @@ MaximumInputs: 2
 FriendlyName: Neo Geo
 FileTypes: 
     .zip: 'application/vnd.stone-romfile.snk.arcade-neogeo+zip'
+    BIOS: 'application/vnd.stone-romfile.snk.arcade-neogeo-sys'
 BiosFiles:
     neogeo.zip: []

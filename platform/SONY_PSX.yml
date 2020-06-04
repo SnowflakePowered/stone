@@ -20,6 +20,7 @@ FileTypes:
     .pbp: 'application/vnd.stone-romfile.sony.psx-eboot'
     .exe: 'application/vnd.stone-romfile.sony.psx-exe'
     .chd: 'application/vnd.stone-romfile.sony.psx-chd-compressed'
+    BIOS: 'application/vnd.stone-romfile.sony.psx-sys'
 BiosFiles:
     scph1001.bin:
         - 924e392ed05558ffdb115408c263dccf

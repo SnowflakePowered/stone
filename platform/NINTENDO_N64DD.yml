@@ -8,9 +8,10 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: Nintendo 64 DD
 FileTypes:
-    .d64: 'application/vnd.stone-romfile.nintendo.n64-dd'
-    .dd: 'application/vnd.stone-romfile.nintendo.n64-dd'
-    .bin: 'application/vnd.stone-romfile.nintendo.n64-dd'
+    .d64: 'application/vnd.stone-romfile.nintendo.n64dd'
+    .dd: 'application/vnd.stone-romfile.nintendo.n64dd'
+    .bin: 'application/vnd.stone-romfile.nintendo.n64dd'
+    BIOS: 'application/vnd.stone-romfile.nintendo.n64dd-sys'
 BiosFiles:
     64DD_IPL.bin: 
         - 8d3d9f294b6e174bc7b1d2fd1c727530

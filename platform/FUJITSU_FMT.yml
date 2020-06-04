@@ -13,3 +13,16 @@ FileTypes:
     .cue: 'application/vnd.stone-romfile.fujitsu.fmt-cuesheet'
     .d88: 'application/vnd.stone-romfile.fujitsu.fmt-d88'
     .hdm: 'application/vnd.stone-romfile.fujitsu.fmt-hdm'
+    BIOS: 'application/vnd.stone-romfile.fujitsu.fmt-sys'
+BiosFiles:
+    FMT_DIC.ROM:
+      - 8fa4e553f28cfc0c30a0a1e589799942
+    FMT_DOS.ROM:
+      - 0585b19930d4a7f4c71bcc8a33746588
+    FMT_F20.ROM:
+      - ac0c7021e9bf48ca84b51ab651169a88
+    FMT_FNT.ROM:
+      - b91300e55b70227ce98b59c5f02fa8dd
+    FMT_SYS.ROM:
+      - 86fb6f7280689259f0ca839dd3dd6cde
+      - 5b2f2e4c76a7335e4cdba290546ce52f

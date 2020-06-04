@@ -15,6 +15,7 @@ FileTypes:
     .img: 'application/vnd.stone-romfile.nec.pcfx-clonecd-rawimage'
     .sub: 'application/vnd.stone-romfile.nec.pcfx-clonecd-subchannel'
     .chd: 'application/vnd.stone-romfile.nec.pcfx-chd-compressed'
+    BIOS: 'application/vnd.stone-romfile.nec.pcfx-sys'
 BiosFiles:
     pcfx.rom:
         - 08e36edbea28a017f79f8d4f7ff9b6d7

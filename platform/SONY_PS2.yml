@@ -16,7 +16,7 @@ FileTypes:
     .mdf: 'application/vnd.stone-romfile.sony.ps2-alcohol120'
     .cso: 'application/vnd.stone-romfile.sony.ps2-discimage-compressed'
     .gz: 'application/vnd.stone-romfile.sony.ps2-discimage-gzip-compressed'
-
+    BIOS: 'application/vnd.stone-romfile.sony.ps2-sys'
 BiosFiles:
     scph-10000.bin:
         - acf4730ceb38ac9d8c7d8e21f2614600

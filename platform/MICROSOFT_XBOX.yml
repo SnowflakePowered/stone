@@ -13,6 +13,7 @@ FileTypes:
     .iso: 'application/vnd.stone-romfile.microsoft.xbox-discimage'
     .cue: 'application/vnd.stone-romfile.microsoft.xbox-cuesheet'
     .chd: 'application/vnd.stone-romfile.microsoft.xbox-chd-compressed'
+    BIOS: 'application/vnd.stone-romfile.microsoft.xbox-sys'
 BiosFiles:
     mcpx_1.0.bin:
         - d49c52a4102f6df7bcf8d0617ac475ed

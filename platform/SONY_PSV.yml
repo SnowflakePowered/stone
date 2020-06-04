@@ -13,4 +13,3 @@ FileTypes:
     .vpk: 'application/vnd.stone-romfile.sony.psv-henkaku'
     .pkg: 'application/vnd.stone-romfile.sony.psv-package'
     .zip: 'application/vnd.stone-romfile.sony.psv-mai+zip'
-    .pup: 'application/vnd.stone-romfile.sony.psv-update'

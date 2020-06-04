@@ -12,7 +12,7 @@ FileTypes:
     .bin: 'application/vnd.stone-romfile.nintendo.fds-quickdisk-gaps'
     .raw: 'application/vnd.stone-romfile.nintendo.fds'
     .qd: 'application/vnd.stone-romfile.nintendo.fds-quickdisk'
-
+    BIOS: 'application/vnd.stone-romfile.nintendo.fds-sys'
 BiosFiles:
     disksys.rom:
         - ca30b50f880eb660a320674ed365ef7a

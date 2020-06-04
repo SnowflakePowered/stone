@@ -10,6 +10,7 @@ FriendlyName: Atari 7800 ProSystem
 FileTypes:
     .a78: 'application/vnd.stone-romfile.atari.a7800'
     .bin: 'application/vnd.stone-romfile.atari.a7800'
+    BIOS: 'application/vnd.stone-romfile.atari.a7800-sys'
 BiosFiles:
     7800 BIOS (U).rom:
         - 0763f1ffb006ddbe32e52d497ee848ae

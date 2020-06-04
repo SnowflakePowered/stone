@@ -12,6 +12,7 @@ FileTypes:
     .iso: 'application/vnd.stone-romfile.sega.scd-disctrack'
     .cue: 'application/vnd.stone-romfile.sega.scd-cuesheet'
     .chd: 'application/vnd.stone-romfile.sega.scd-chd-compressed'
+    BIOS: 'application/vnd.stone-romfile.sega.scd-sys'
 BiosFiles:
     bios_CD_U.bin:
         - 2efd74e3232ff260e371b99f84024f7f

@@ -9,6 +9,7 @@ MaximumInputs: 2
 FriendlyName: Satellaview
 FileTypes:
     .bs: 'application/vnd.stone-romfile.nintendo.bs'
+    BIOS: 'application/vnd.stone-romfile.nintendo.bs-sys'
 BiosFiles: 
   BS-X.bin: 
     - fed4d8242cfbed61343d53d48432aced

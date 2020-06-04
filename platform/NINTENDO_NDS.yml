@@ -15,6 +15,7 @@ FileTypes:
     .ids: 'application/vnd.stone-romfile.nintendo.nds'
     .gba: 'application/vnd.stone-romfile.nintendo.nds-slot2'
     .srl: 'application/vnd.stone-romfile.nintendo.nds-clean'
+    BIOS: 'application/vnd.stone-romfile.nintendo.nds-sys'
 BiosFiles:
     biosnds7.rom:
         - df692a80a5b1bc90728bc3dfc76cd948

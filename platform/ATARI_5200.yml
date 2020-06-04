@@ -10,6 +10,7 @@ FriendlyName: Atari 5200 SuperSystem
 FileTypes:
     .a52: 'application/vnd.stone-romfile.atari.a5200'
     .bin: 'application/vnd.stone-romfile.atari.a5200'
+    BIOS: 'application/vnd.stone-romfile.atari.a5200-sys'
 BiosFiles:
     5200.rom: 
         - ee7b85f5ca384dcb1f284946f3c12ac4

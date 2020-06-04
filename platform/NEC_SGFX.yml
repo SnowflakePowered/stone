@@ -10,6 +10,7 @@ FriendlyName: PC Engine SuperGrafx
 FileTypes: 
     .pce: 'application/vnd.stone-romfile.nec.sgfx'
     .bin: 'application/vnd.stone-romfile.nec.sgfx'
+    BIOS: 'application/vnd.stone-romfile.nec.sgfx-sys'
 BiosFiles:
     syscard3.pce:
         - ff1a674273fe3540ccef576376407d1d

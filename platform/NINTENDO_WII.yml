@@ -15,6 +15,7 @@ FileTypes:
     .elf: 'application/vnd.stone-romfile.nintendo.wii-elf'
     .dol: 'application/vnd.stone-romfile.nintendo.wii-executable'
     .wad: 'application/vnd.stone-romfile.nintendo.wii-package'
+    BIOS: 'application/vnd.stone-romfile.nintendo.wii-sys'
 BiosFiles:
     dsp_rom.bin:
          - 23645d446729a166ab3a9aaba2f5fba5

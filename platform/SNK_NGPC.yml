@@ -10,3 +10,7 @@ FriendlyName: Neo Geo Pocket Color
 FileTypes: 
     .ngc: 'application/vnd.stone-romfile.snk.ngpc'
     .bin: 'application/vnd.stone-romfile.snk.ngpc'
+    BIOS: 'application/vnd.stone-romfile.snk.ngpc-sys'
+BiosFiles:
+    bios.rom:
+      - 3655aacebb43a963607d4cf821fc1301

@@ -14,7 +14,7 @@ FileTypes:
     .pkg: 'application/vnd.stone-romfile.sony.ps3-package'
     .bin: 'application/vnd.stone-romfile.sony.ps3-elf'
     .iso: 'application/vnd.stone-romfile.sony.ps3-discimage'
-    .pup: 'application/vnd.stone-romfile.sony.ps3-update'
+    BIOS: 'application/vnd.stone-romfile.sony.ps2-sys'
 BiosFiles:
     PS3UPDAT.PUP: 
         - da5438f39b3b6e5ef904d91162d93086

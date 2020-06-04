@@ -14,6 +14,7 @@ FileTypes:
     .elf: 'application/vnd.stone-romfile.sega.dc-elf'
     .cdi: 'application/vnd.stone-romfile.sega.dc-discjuggler'
     .chd: 'application/vnd.stone-romfile.sega.dc-chd-compressed'
+    BIOS: 'application/vnd.stone-romfile.sega.dc-sys'
 BiosFiles:
     dc_boot.bin:
         - e10c53c2f8b90bab96ead2d368858623 

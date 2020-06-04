@@ -13,6 +13,7 @@ FileTypes:
     .xci: 'application/vnd.stone-romfile.nintendo.nsw-cartimage'
     .nsp: 'application/vnd.stone-romfile.nintendo.nsw-package'
     .nca: 'application/vnd.stone-romfile.nintendo.nsw-importable'
+    BIOS: 'application/vnd.stone-romfile.nintendo.nsw-sys'
 BiosFiles:
     console.keys: []
     prod.keys: []

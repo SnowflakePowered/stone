@@ -34,6 +34,8 @@ Content-type naming follows the following guidelines:
 
   * If the content-type refers to multiple files archived with the ZIP compression algorithm, the `+zip` content-type suffix as per [RFC6839](https://tools.ietf.org/html/rfc6839) SHOULD be used. Structured Syntax Suffixes for any other format SHOULD NOT be used in Stone.
 
+  * The special mimetype `BIOS` MUST be of the format `application/vnd.stone-romfile.manufacturer.nes-sys`, representing BIOS files,refers to any file that matches an MD5 listed in the platform's BIOS files. Any platform that describes at least one BIOS file MUST define the `BIOS` mimetype.
+
 As of Stone 7.0.0, the `application/x-romfile-` prefix is no longer in use. As per [RFC6838&sect;3.2](https://tools.ietf.org/html/rfc6838#section-3.2), Stone will now use the vendor media-type tree under `vnd.stone-romfile`.
 
 ### General file format content-type conventions
