@@ -2,7 +2,8 @@ PlatformID: SNK_NGCD
 Metadata:
   platform_releasedate: '1994-09-10'
   platform_shortname: NGCD
-  platform_company: SNK
+  platform_licensor: SNK
+  platform_manufacturer: SNK
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Neo Geo CD

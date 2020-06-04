@@ -3,7 +3,8 @@ Metadata:
   platform_releasedate: '1987-10-30'
   platform_shortname: TG16
   platform_jp_name: PC Engine
-  platform_company: NEC
+  platform_licensor: NEC
+  platform_manufacturer: NEC
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: TurboGrafx-16

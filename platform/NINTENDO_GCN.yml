@@ -2,7 +2,8 @@ PlatformID: NINTENDO_GCN
 Metadata:
   platform_releasedate: '2001-09-14'
   platform_shortname: GCN
-  platform_company: Nintendo
+  platform_licensor: Nintendo
+  platform_manufacturer: Nintendo
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: Nintendo GameCube

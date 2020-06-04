@@ -2,7 +2,8 @@ PlatformID: SNK_NG
 Metadata:
   platform_releasedate: '1991-04-26'
   platform_shortname: NG
-  platform_company: SNK
+  platform_licensor: SNK
+  platform_manufacturer: SNK
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Neo Geo

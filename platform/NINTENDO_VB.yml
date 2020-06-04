@@ -2,7 +2,8 @@ PlatformID: NINTENDO_VB
 Metadata:
   platform_releasedate: '1995-07-21'
   platform_shortname: VB
-  platform_company: Nintendo
+  platform_licensor: Nintendo
+  platform_manufacturer: Nintendo
   platform_type: Home
 MaximumInputs: 1
 FriendlyName: Virtual Boy 

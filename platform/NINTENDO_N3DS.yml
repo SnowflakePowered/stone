@@ -1,0 +1,23 @@
+PlatformID: NINTENDO_N3DS
+Metadata:
+  platform_releasedate: '2014-10-11'
+  platform_shortname: N3DS
+  platform_licensor: Nintendo
+  platform_manufacturer: Nintendo
+  platform_type: Handheld
+  platform_emulator_dev: Citra
+MaximumInputs: 1
+FriendlyName: New Nintendo 3DS
+FileTypes: 
+# .3ds and .cci files are NCSD containers that contain additional
+# header data by Nintendo to boot NCCH .cxi. Therefore, Stone
+# considers .3ds and .cci files to not be a simple dump of their
+# ROM data, but an image of the filesystem on the cart.
+    .3ds: 'application/vnd.stone-romfile.nintendo.n3ds-cartimage'
+    .cci: 'application/vnd.stone-romfile.nintendo.n3ds-cartimage'
+    .3dsx: 'application/vnd.stone-romfile.nintendo.n3ds-homebrew'
+    .cia: 'application/vnd.stone-romfile.nintendo.n3ds-importable'
+    .cxi: 'application/vnd.stone-romfile.nintendo.n3ds-executable'
+    .app: 'application/vnd.stone-romfile.nintendo.n3ds-executable'
+    .elf: 'application/vnd.stone-romfile.nintendo.n3ds-elf'
+    .axf: 'application/vnd.stone-romfile.nintendo.n3ds-elf'

@@ -2,7 +2,8 @@ PlatformID: PHILIPS_CDI
 Metadata:
   platform_releasedate: '1991-12-03'
   platform_shortname: CD-i
-  platform_company: Philips
+  platform_licensor: Philips
+  platform_manufacturer: Philips
   platform_type: Home
 MaximumInputs: 1
 FriendlyName: Philips CD-i

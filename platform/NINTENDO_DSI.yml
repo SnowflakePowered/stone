@@ -1,0 +1,16 @@
+PlatformID: NINTENDO_DSI
+Metadata:
+  platform_releasedate: '2008-11-01'
+  platform_shortname: DSi
+  platform_licensor: Nintendo
+  platform_manufacturer: Nintendo
+  platform_type: Handheld
+MaximumInputs: 1
+FriendlyName: Nintendo DSi
+FileTypes: 
+    .dsi: 'application/vnd.stone-romfile.nintendo.dsi'
+BiosFiles:
+    biosdsi7.rom:
+        - 2e17b63fc7ad43763f11226c96240ef1
+    biosnds9.rom:
+        - 3fbb3f39bd9a96e5d743f138bd4b9907

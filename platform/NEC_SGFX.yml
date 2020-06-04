@@ -2,7 +2,8 @@ PlatformID: NEC_SGFX
 Metadata:
   platform_releasedate: '1989-11-01'
   platform_shortname: SuperGrafx
-  platform_company: NEC
+  platform_licensor: NEC
+  platform_manufacturer: NEC
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: PC Engine SuperGrafx

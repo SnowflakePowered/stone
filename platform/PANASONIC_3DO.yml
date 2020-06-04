@@ -2,7 +2,8 @@ PlatformID: PANASONIC_3DO
 Metadata:
   platform_releasedate: '1993-10-04'
   platform_shortname: 3DO
-  platform_company: Panasonic
+  platform_licensor: Panasonic
+  platform_manufacturer: Panasonic
   platform_type: Home
 MaximumInputs: 8
 FriendlyName: 3DO Interactive Multiplayer

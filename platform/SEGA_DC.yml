@@ -2,7 +2,8 @@ PlatformID: SEGA_DC
 Metadata:
   platform_releasedate: '1998-11-27'
   platform_shortname: DC
-  platform_company: Sega
+  platform_licensor: Sega
+  platform_manufacturer: Sega
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: Sega Dreamcast

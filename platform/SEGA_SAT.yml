@@ -2,7 +2,8 @@ PlatformID: SEGA_SAT
 Metadata:
   platform_releasedate: '1988-10-29'
   platform_shortname: Saturn
-  platform_company: Sega
+  platform_licensor: Sega
+  platform_manufacturer: Sega
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Sega Saturn

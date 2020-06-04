@@ -51,6 +51,89 @@
         }
       }
     },
+    "3DS_LAYOUT": {
+      "LayoutID": "3DS_LAYOUT",
+      "FriendlyName": "Nintendo 3DS Layout",
+      "Platforms": ["NINTENDO_3DS", "NINTENDO_N3DS"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "A",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "B",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Start",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Select",
+          "Type": "Button"
+        },
+        "ButtonL": {
+          "Label": "L",
+          "Type": "Button"
+        },
+        "ButtonR": {
+          "Label": "R",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        },
+        "AxisLeftAnalogPositiveX": {
+          "Label": "Circle Pad Right",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeX": {
+          "Label": "Circle Pad Left",
+          "Type": "AxisNegative"
+        },
+        "AxisLeftAnalogPositiveY": {
+          "Label": "Circle Pad Up",
+          "Type": "AxisPositive"
+        },
+        "AxisLeftAnalogNegativeY": {
+          "Label": "Circle Pad Down",
+          "Type": "AxisNegative"
+        },
+        "AxisRightAnalogPositiveX": {
+          "Label": "Circle Pad Pro Right",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeX": {
+          "Label": "Circle Pad Pro Left",
+          "Type": "AxisNegative"
+        },
+        "AxisRightAnalogPositiveY": {
+          "Label": "Circle Pad Pro Up",
+          "Type": "AxisPositive"
+        },
+        "AxisRightAnalogNegativeY": {
+          "Label": "Circle Pad Pro Down",
+          "Type": "AxisNegative"
+        },
+        "Touchscreen": {
+          "Label": "Touchscreen",
+          "Type": "Touchscreen"
+        }
+      }
+    },
     "A2600_JOYSTICK_CONTROLLER": {
       "LayoutID": "A2600_JOYSTICK_CONTROLLER",
       "Platforms": ["ATARI_2600", "ATARI_7800"],
@@ -1165,6 +1248,49 @@
         }
       }
     },
+    "MARTY_CONTROLLER": {
+      "LayoutID": "MARTY_CONTROLLER",
+      "FriendlyName": "FM Towns Marty Controller",
+      "Platforms": ["FUJITSU_FMT"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "A",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "B",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Run",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Select",
+          "Type": "Button"
+        },
+        "ButtonR": {
+          "Label": "Resolution",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        }
+      }
+    },
     "N64_CONTROLLER": {
       "LayoutID": "N64_CONTROLLER",
       "FriendlyName": "Nintendo 64 Controller",
@@ -1247,7 +1373,7 @@
     "NDS_LAYOUT": {
       "LayoutID": "NDS_LAYOUT",
       "FriendlyName": "Nintendo DS Layout",
-      "Platforms": ["NINTENDO_NDS"],
+      "Platforms": ["NINTENDO_NDS", "NINTENDO_DSI"],
       "Layout": {
         "ButtonA": {
           "Label": "A",
@@ -1872,7 +1998,7 @@
     "SNES_CONTROLLER": {
       "LayoutID": "SNES_CONTROLLER",
       "FriendlyName": "SNES Controller",
-      "Platforms": ["NINTENDO_SNES"],
+      "Platforms": ["NINTENDO_SNES", "NINTENDO_BS", "NINTENDO_SFT"],
       "Layout": {
         "ButtonA": {
           "Label": "A",
@@ -2889,7 +3015,8 @@
       "Metadata": {
         "platform_releasedate": "1977-09-11",
         "platform_shortname": "2600",
-        "platform_company": "Atari",
+        "platform_licensor": "Atari",
+        "platform_manufacturer": "Atari",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -2905,7 +3032,8 @@
       "Metadata": {
         "platform_releasedate": "1982-03-01",
         "platform_shortname": "5200",
-        "platform_company": "Atari",
+        "platform_licensor": "Atari",
+        "platform_manufacturer": "Atari",
         "platform_type": "Home"
       },
       "MaximumInputs": 4,
@@ -2923,7 +3051,8 @@
       "Metadata": {
         "platform_releasedate": "1986-06-01",
         "platform_shortname": "7800",
-        "platform_company": "Atari",
+        "platform_licensor": "Atari",
+        "platform_manufacturer": "Atari",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -2942,7 +3071,8 @@
       "Metadata": {
         "platform_releasedate": "1993-11-15",
         "platform_shortname": "Jaguar",
-        "platform_company": "Atari",
+        "platform_licensor": "Atari",
+        "platform_manufacturer": "Atari",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -2960,7 +3090,8 @@
       "Metadata": {
         "platform_releasedate": "1995-09-21",
         "platform_shortname": "Jag CD",
-        "platform_company": "Atari",
+        "platform_licensor": "Atari",
+        "platform_manufacturer": "Atari",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -2982,7 +3113,8 @@
       "Metadata": {
         "platform_releasedate": "1989-10-11",
         "platform_shortname": "Lynx",
-        "platform_company": "Atari",
+        "platform_licensor": "Atari",
+        "platform_manufacturer": "Atari",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
@@ -3000,7 +3132,8 @@
       "Metadata": {
         "platform_releasedate": "1999-03-04",
         "platform_shortname": "WS",
-        "platform_company": "Bandai",
+        "platform_licensor": "Bandai",
+        "platform_manufacturer": "Bandai",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
@@ -3015,7 +3148,8 @@
       "Metadata": {
         "platform_releasedate": "2000-12-09",
         "platform_shortname": "WSC",
-        "platform_company": "Bandai",
+        "platform_licensor": "Bandai",
+        "platform_manufacturer": "Bandai",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
@@ -3030,7 +3164,8 @@
       "Metadata": {
         "platform_releasedate": "1982-08-01",
         "platform_shortname": "CV",
-        "platform_company": "Coleco",
+        "platform_licensor": "Coleco",
+        "platform_manufacturer": "Coleco",
         "platform_type": "Home"
       },
       "MaximumInputs": 4,
@@ -3043,12 +3178,32 @@
         "coleco.rom": ["2c66f5911e5b42b8ebe113403548eee7"]
       }
     },
+    "FUJITSU_FMT": {
+      "PlatformID": "FUJITSU_FMT",
+      "Metadata": {
+        "platform_releasedate": "1993-02-20",
+        "platform_shortname": "FMT",
+        "platform_licensor": "Fujitsu",
+        "platform_manufacturer": "Fujitsu",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "FM Towns Marty",
+      "FileTypes": {
+        ".bin": "application/vnd.stone-romfile.fujitsu.fmt-disctrack",
+        ".iso": "application/vnd.stone-romfile.fujitsu.fmt-disctrack",
+        ".cue": "application/vnd.stone-romfile.fujitsu.fmt-cuesheet",
+        ".d88": "application/vnd.stone-romfile.fujitsu.fmt-d88",
+        ".hdm": "application/vnd.stone-romfile.fujitsu.fmt-hdm"
+      }
+    },
     "GCE_VECTREX": {
       "PlatformID": "GCE_VECTREX",
       "Metadata": {
         "platform_releasedate": "1982-08-01",
         "platform_shortname": "Vectrex",
-        "platform_company": "General Computer",
+        "platform_licensor": "General Computer",
+        "platform_manufacturer": "General Computer",
         "platform_type": "Home"
       },
       "MaximumInputs": 1,
@@ -3065,7 +3220,8 @@
       "Metadata": {
         "platform_releasedate": "1978-12-01",
         "platform_shortname": "Odyssey 2",
-        "platform_company": "Magnavox",
+        "platform_licensor": "Magnavox",
+        "platform_manufacturer": "Magnavox",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3085,7 +3241,8 @@
       "Metadata": {
         "platform_releasedate": "1982-08-01",
         "platform_shortname": "INT",
-        "platform_company": "Mattel Electronics",
+        "platform_licensor": "Mattel Electronics",
+        "platform_manufacturer": "Mattel Electronics",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3106,7 +3263,8 @@
       "Metadata": {
         "platform_releasedate": "2005-11-22",
         "platform_shortname": "X360",
-        "platform_company": "Microsoft",
+        "platform_licensor": "Microsoft",
+        "platform_manufacturer": "Microsoft",
         "platform_emulator_dev": "Xenia",
         "platform_type": "Home"
       },
@@ -3123,7 +3281,8 @@
       "Metadata": {
         "platform_releasedate": "2013-11-22T00:00:00.000Z",
         "platform_shortname": "XBO",
-        "platform_company": "Microsoft",
+        "platform_licensor": "Microsoft",
+        "platform_manufacturer": "Microsoft",
         "platform_emulator_dev": "None",
         "platform_type": "Home"
       },
@@ -3139,7 +3298,8 @@
       "Metadata": {
         "platform_releasedate": "2001-11-15",
         "platform_shortname": "XBOX",
-        "platform_company": "Microsoft",
+        "platform_licensor": "Microsoft",
+        "platform_manufacturer": "Microsoft",
         "platform_type": "Home"
       },
       "MaximumInputs": 4,
@@ -3162,7 +3322,8 @@
       "Metadata": {
         "platform_releasedate": "1994-11-23",
         "platform_shortname": "PC-FX",
-        "platform_company": "NEC",
+        "platform_licensor": "NEC",
+        "platform_manufacturer": "NEC",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3189,7 +3350,8 @@
       "Metadata": {
         "platform_releasedate": "1989-11-01",
         "platform_shortname": "SuperGrafx",
-        "platform_company": "NEC",
+        "platform_licensor": "NEC",
+        "platform_manufacturer": "NEC",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3209,7 +3371,8 @@
         "platform_releasedate": "1987-10-30",
         "platform_shortname": "TG16",
         "platform_jp_name": "PC Engine",
-        "platform_company": "NEC",
+        "platform_licensor": "NEC",
+        "platform_manufacturer": "NEC",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3229,7 +3392,8 @@
         "platform_releasedate": "1988-12-04",
         "platform_shortname": "TGCD",
         "platform_jp_name": "PC Engine CD",
-        "platform_company": "NEC",
+        "platform_licensor": "NEC",
+        "platform_manufacturer": "NEC",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3250,7 +3414,8 @@
       "Metadata": {
         "platform_releasedate": "2011-02-26",
         "platform_shortname": "3DS",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Handheld",
         "platform_emulator_dev": "Citra"
       },
@@ -3267,19 +3432,59 @@
         ".axf": "application/vnd.stone-romfile.nintendo.3ds-elf"
       }
     },
+    "NINTENDO_BS": {
+      "PlatformID": "NINTENDO_BS",
+      "Metadata": {
+        "platform_releasedate": "1995-04-24",
+        "platform_shortname": "BS-X",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "Satellaview",
+      "FileTypes": {
+        ".bs": "application/vnd.stone-romfile.nintendo.bs"
+      },
+      "BiosFiles": {
+        "BS-X.bin": ["fed4d8242cfbed61343d53d48432aced"]
+      }
+    },
+    "NINTENDO_DSI": {
+      "PlatformID": "NINTENDO_DSI",
+      "Metadata": {
+        "platform_releasedate": "2008-11-01",
+        "platform_shortname": "DSi",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Nintendo DSi",
+      "FileTypes": {
+        ".dsi": "application/vnd.stone-romfile.nintendo.dsi"
+      },
+      "BiosFiles": {
+        "biosdsi7.rom": ["2e17b63fc7ad43763f11226c96240ef1"],
+        "biosnds9.rom": ["3fbb3f39bd9a96e5d743f138bd4b9907"]
+      }
+    },
     "NINTENDO_FDS": {
       "PlatformID": "NINTENDO_FDS",
       "Metadata": {
         "platform_releasedate": "1985-10-18",
         "platform_shortname": "FDS",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
       "FriendlyName": "Family Computer Disk System",
       "FileTypes": {
-        ".fds": "application/vnd.stone-romfile.nintendo.fds",
-        ".bin": "application/vnd.stone-romfile.nintendo.fds"
+        ".fds": "application/vnd.stone-romfile.nintendo.fds-ines",
+        ".bin": "application/vnd.stone-romfile.nintendo.fds-quickdisk-gaps",
+        ".raw": "application/vnd.stone-romfile.nintendo.fds",
+        ".qd": "application/vnd.stone-romfile.nintendo.fds-quickdisk"
       },
       "BiosFiles": {
         "disksys.rom": ["ca30b50f880eb660a320674ed365ef7a"]
@@ -3290,7 +3495,8 @@
       "Metadata": {
         "platform_releasedate": "1989-04-21",
         "platform_shortname": "GB",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
@@ -3305,7 +3511,8 @@
       "Metadata": {
         "platform_releasedate": "2001-10-21",
         "platform_shortname": "GBA",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
@@ -3323,7 +3530,8 @@
       "Metadata": {
         "platform_releasedate": "1998-10-21",
         "platform_shortname": "GBC",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
@@ -3341,7 +3549,8 @@
       "Metadata": {
         "platform_releasedate": "2001-09-14",
         "platform_shortname": "GCN",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Home"
       },
       "MaximumInputs": 4,
@@ -3357,12 +3566,36 @@
         "IPL.bin": ["fc924a7c879b661abc37cec4f018fdf3", "0cdda509e2da83c85bfe423dd87346cc", "db92574caab77a7ec99d4605fd6f2450"]
       }
     },
+    "NINTENDO_N3DS": {
+      "PlatformID": "NINTENDO_N3DS",
+      "Metadata": {
+        "platform_releasedate": "2014-10-11",
+        "platform_shortname": "N3DS",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
+        "platform_type": "Handheld",
+        "platform_emulator_dev": "Citra"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "New Nintendo 3DS",
+      "FileTypes": {
+        ".3ds": "application/vnd.stone-romfile.nintendo.n3ds-cartimage",
+        ".cci": "application/vnd.stone-romfile.nintendo.n3ds-cartimage",
+        ".3dsx": "application/vnd.stone-romfile.nintendo.n3ds-homebrew",
+        ".cia": "application/vnd.stone-romfile.nintendo.n3ds-importable",
+        ".cxi": "application/vnd.stone-romfile.nintendo.n3ds-executable",
+        ".app": "application/vnd.stone-romfile.nintendo.n3ds-executable",
+        ".elf": "application/vnd.stone-romfile.nintendo.n3ds-elf",
+        ".axf": "application/vnd.stone-romfile.nintendo.n3ds-elf"
+      }
+    },
     "NINTENDO_N64": {
       "PlatformID": "NINTENDO_N64",
       "Metadata": {
         "platform_releasedate": "1996-06-23",
         "platform_shortname": "N64",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Home"
       },
       "MaximumInputs": 4,
@@ -3381,7 +3614,8 @@
       "Metadata": {
         "platform_releasedate": "1999-12-01",
         "platform_shortname": "N64DD",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Home"
       },
       "MaximumInputs": 4,
@@ -3401,7 +3635,8 @@
       "Metadata": {
         "platform_releasedate": "2004-11-21",
         "platform_shortname": "NDS",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
@@ -3423,7 +3658,8 @@
         "platform_releasedate": "1985-10-18",
         "platform_shortname": "NES",
         "platform_name_jp": "Family Computer",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3440,7 +3676,8 @@
       "Metadata": {
         "platform_releasedate": "2017-03-03",
         "platform_shortname": "NSW",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Home"
       },
       "MaximumInputs": 8,
@@ -3465,13 +3702,32 @@
         "rawnand.bin": []
       }
     },
+    "NINTENDO_SFT": {
+      "PlatformID": "NINTENDO_SFT",
+      "Metadata": {
+        "platform_releasedate": "1996-01-01",
+        "platform_shortname": "SFT",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Bandai",
+        "platform_type": "Home"
+      },
+      "MaximumInputs": 2,
+      "FriendlyName": "SuFami Turbo",
+      "FileTypes": {
+        ".st": "application/vnd.stone-romfile.nintendo.st"
+      },
+      "BiosFiles": {
+        "Sufami Turbo (Japan).sfc": ["d3a44ba7d42a74d3ac58cb9c14c6a5ca"]
+      }
+    },
     "NINTENDO_SNES": {
       "PlatformID": "NINTENDO_SNES",
       "Metadata": {
         "platform_releasedate": "1990-11-21",
         "platform_shortname": "SNES",
         "platform_name_jp": "Super Famicom",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3484,7 +3740,6 @@
         ".fig": "application/vnd.stone-romfile.nintendo.snes-profighter"
       },
       "BiosFiles": {
-        "BS-X.bin": ["fed4d8242cfbed61343d53d48432aced"],
         "cx4.data.rom": ["037ac4296b6b6a5c47c440188d3c72e3"],
         "dsp1.data.rom": ["3d81b45fa0c2aa8b852dfb1ece7c0971"],
         "dsp1.program.rom": ["ae209fbe789fbf11a48aea5ab1197321"],
@@ -3510,7 +3765,8 @@
       "Metadata": {
         "platform_releasedate": "1995-07-21",
         "platform_shortname": "VB",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Home"
       },
       "MaximumInputs": 1,
@@ -3525,7 +3781,8 @@
       "Metadata": {
         "platform_releasedate": "2006-12-02",
         "platform_shortname": "Wii",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Home"
       },
       "MaximumInputs": 8,
@@ -3549,7 +3806,8 @@
       "Metadata": {
         "platform_releasedate": "2012-11-18",
         "platform_shortname": "WiiU",
-        "platform_company": "Nintendo",
+        "platform_licensor": "Nintendo",
+        "platform_manufacturer": "Nintendo",
         "platform_type": "Home",
         "platform_emulator_dev": "cemu"
       },
@@ -3567,7 +3825,8 @@
       "Metadata": {
         "platform_releasedate": "1993-10-04",
         "platform_shortname": "3DO",
-        "platform_company": "Panasonic",
+        "platform_licensor": "Panasonic",
+        "platform_manufacturer": "Panasonic",
         "platform_type": "Home"
       },
       "MaximumInputs": 8,
@@ -3594,7 +3853,8 @@
       "Metadata": {
         "platform_releasedate": "1991-12-03",
         "platform_shortname": "CD-i",
-        "platform_company": "Philips",
+        "platform_licensor": "Philips",
+        "platform_manufacturer": "Philips",
         "platform_type": "Home"
       },
       "MaximumInputs": 1,
@@ -3620,7 +3880,8 @@
       "Metadata": {
         "platform_releasedate": "1994-11-21",
         "platform_shortname": "32X",
-        "platform_company": "Sega",
+        "platform_licensor": "Sega",
+        "platform_manufacturer": "Sega",
         "platform_type": "Addon"
       },
       "MaximumInputs": 2,
@@ -3640,7 +3901,8 @@
       "Metadata": {
         "platform_releasedate": "1994-11-21",
         "platform_shortname": "32X CD",
-        "platform_company": "Sega",
+        "platform_licensor": "Sega",
+        "platform_manufacturer": "Sega",
         "platform_type": "Addon"
       },
       "MaximumInputs": 2,
@@ -3671,7 +3933,8 @@
       "Metadata": {
         "platform_releasedate": "1991-12-12",
         "platform_shortname": "SCD",
-        "platform_company": "Sega",
+        "platform_licensor": "Sega",
+        "platform_manufacturer": "Sega",
         "platform_type": "Addon"
       },
       "MaximumInputs": 2,
@@ -3696,7 +3959,8 @@
       "Metadata": {
         "platform_releasedate": "1998-11-27",
         "platform_shortname": "DC",
-        "platform_company": "Sega",
+        "platform_licensor": "Sega",
+        "platform_manufacturer": "Sega",
         "platform_type": "Home"
       },
       "MaximumInputs": 4,
@@ -3721,7 +3985,8 @@
         "platform_shortname": "Genesis",
         "platform_name_eu": "Mega Drive",
         "platform_name_jp": "Mega Drive",
-        "platform_company": "Sega",
+        "platform_licensor": "Sega",
+        "platform_manufacturer": "Sega",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3739,7 +4004,8 @@
       "Metadata": {
         "platform_releasedate": "1990-10-06",
         "platform_shortname": "GG",
-        "platform_company": "Sega",
+        "platform_licensor": "Sega",
+        "platform_manufacturer": "Sega",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
@@ -3758,7 +4024,8 @@
       "Metadata": {
         "platform_releasedate": "1988-10-29",
         "platform_shortname": "Saturn",
-        "platform_company": "Sega",
+        "platform_licensor": "Sega",
+        "platform_manufacturer": "Sega",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3786,7 +4053,8 @@
       "Metadata": {
         "platform_releasedate": "1983-07-15",
         "platform_shortname": "SG-1000",
-        "platform_company": "Sega",
+        "platform_licensor": "Sega",
+        "platform_manufacturer": "Sega",
         "platform_type": "Home"
       },
       "MaximumInputs": 1,
@@ -3802,7 +4070,8 @@
       "Metadata": {
         "platform_releasedate": "1985-10-20",
         "platform_shortname": "SMS",
-        "platform_company": "Sega",
+        "platform_licensor": "Sega",
+        "platform_manufacturer": "Sega",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3822,7 +4091,8 @@
       "Metadata": {
         "platform_releasedate": "1991-04-26",
         "platform_shortname": "NG",
-        "platform_company": "SNK",
+        "platform_licensor": "SNK",
+        "platform_manufacturer": "SNK",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3839,7 +4109,8 @@
       "Metadata": {
         "platform_releasedate": "1994-09-10",
         "platform_shortname": "NGCD",
-        "platform_company": "SNK",
+        "platform_licensor": "SNK",
+        "platform_manufacturer": "SNK",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -3856,7 +4127,8 @@
       "Metadata": {
         "platform_releasedate": "1998-10-28",
         "platform_shortname": "NGP",
-        "platform_company": "SNK",
+        "platform_licensor": "SNK",
+        "platform_manufacturer": "SNK",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
@@ -3871,7 +4143,8 @@
       "Metadata": {
         "platform_releasedate": "1999-03-16",
         "platform_shortname": "NGPC",
-        "platform_company": "SNK",
+        "platform_licensor": "SNK",
+        "platform_manufacturer": "SNK",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
@@ -3886,7 +4159,8 @@
       "Metadata": {
         "platform_releasedate": "2000-03-04",
         "platform_shortname": "PS2",
-        "platform_company": "Sony",
+        "platform_licensor": "Sony",
+        "platform_manufacturer": "Sony",
         "platform_type": "Home"
       },
       "MaximumInputs": 4,
@@ -3916,7 +4190,8 @@
       "Metadata": {
         "platform_releasedate": "2006-11-11",
         "platform_shortname": "PS3",
-        "platform_company": "Sony",
+        "platform_licensor": "Sony",
+        "platform_manufacturer": "Sony",
         "platform_emulator_dev": "rpcs3",
         "platform_type": "Home"
       },
@@ -3927,7 +4202,8 @@
         ".self": "application/vnd.stone-romfile.sony.ps3-elf-signed",
         ".pkg": "application/vnd.stone-romfile.sony.ps3-package",
         ".bin": "application/vnd.stone-romfile.sony.ps3-elf",
-        ".iso": "application/vnd.stone-romfile.sony.ps3-discimage"
+        ".iso": "application/vnd.stone-romfile.sony.ps3-discimage",
+        ".pup": "application/vnd.stone-romfile.sony.ps3-update"
       },
       "BiosFiles": {
         "PS3UPDAT.PUP": ["da5438f39b3b6e5ef904d91162d93086", "374371771ad1608d0684c4d588440f0b", "8b6b4fb0a5fdd68bf85f02d4f6a0f096", "d2c1aa63e55f5eb74e9846112d843f2b", "602a1373cf1845d56348698d7037ab1b", "c4b08159eaa9fce111e076fb255aa106", "9d7f3830fb3082febf303bd0ce2f17c9", "afd01d9c72b3b69c03a0206c45d87dda", "891bf61f56808119c4968ac3a9101540", "3a5f49bcee3948301aa698ed57ecb10e", "468238974943b45c09aeb632853401f2", "fd9887626f734b46b271aec58e827cb2", "b81fe78b163b62ce8983ad990306fe57", "25de800491e8e88104d7e30b7524e9dc", "bcefc8569ae4c2f4b7c09fd52f728c02", "0f99147438936578951dd9d3f514000a", "9c95692d4dd1c1e17c2b0ce5dcaebba1", "f172f9bd37ca3e779dfaaf20ebfe632b", "f9df10bb57cdeeef8395c39415f54965", "1d8e69249aa1a5593307cf7d8ca8a331", "08393f1bd8e91589c95837142caf0a58", "73fe70e0198b80f01525b6b72774af25", "b859ca0f15fe9516d85fd0d89444ac5b", "d33eb3ef5721bc940ca29b4c80b96bde", "dd2e675fce5d2eb28ca93bc32edb3de6", "db48cbcde359982c065c2f5503204b67", "0274382cb3e21aa90e319eba358588c6", "96e9def601672c5abcbb4604bb2346f1", "67c660325b0b97acdeda6c0913dc1f74", "60a6c36e2dd2000b3fda3205428665dc", "da62cbc7eafde9f6792b8a76a4aef004", "823ab63c96d570510b254a80755df446", "e9cd7c268667ee695a708bf00c6853d8", "5b0e9d62ff6e9edc796db9a2916824f0", "043067d8624040f9f3f1a8dc2e662bce", "3352adc32e39ec5f7b4cdeb8b861052a", "d6856f234f3066b94dc88ab430a63bfb", "d69362743142953be7cb44a5fd5cc888", "c049de7a6a4b03d53e7f9fde04e0fc08", "6d956116eb5094564359339f60650f56", "70296b36d559e35752ae6efd04f702c0", "54ee80e14e479f8351a988eb9a472072", "f4c191ffba72e008bc750b091219e1f6", "3a08ef6164a7770ae3e7d5b9f366437a", "6bdf1b2409d705a0136c40746c62e85d", "88b2f8d458119f666c97d893c17201cd", "00c835be718fc3d5f793e130a2b74217", "e07d2b84c9e9691c261b73e5f1aada20", "6ba866514589155ab094099a9f358ffd", "0215e26d1dadeb950471a9c3397a140a", "ca595ad9f3af8f1491d9c9b6921a8c61", "6e070c96e0464e993aaf9deac3660863", "2a52196399a4b96ea568aafa65d1a27e", "91ee193a2fa921a6fce780fc40236e3b", "f446810aabec0af1340c02d852e4118c", "3001e6becbea7abf30fc35a7819c4478", "f4cbe2651e9a0c6115028043bdc2c5dd", "7ee6b91bbd07dde1e65a0681de66745b", "c7d179d273699c2e5d53e401264828f3", "077a6a0a9abf3622373e3daa53f3ec70", "d2bfa473a2ab1c0ff33cd7e452a11684", "52419374ba45a3d4a2b2dface2594140", "2c3671d071279b4f4b4d07e7166eaf38", "7e6dbb1708ab1df66f0a0f0e2987e8f4", "10c273d5390aa318986e81c6f3746b27", "31f890bd9e75deed773c29e51e56a4b9", "a35b7e74015408e463d15fd66a245929", "7e99b978582026df83ad7224ffa8c8d0", "70067a427e003e892ef81a0fca04eb1d", "1b6a1cb5a909325a7f5ed949e8cc57cb", "a2fba1bf2362f1b41737a69dd2433f00", "e6d82c8201d5d528095221bb7034ffa7", "6085b02c415ec912fab4670d7957db68", "e3decaf8beef0abc8f7999f66de05af9", "6edd8792c2659102026003bc8a93534e", "15048b78cd1f7635ef0796fe42727ce2", "0bbfec941b00ca88fdc777182ff95dfe", "8c5c36958ba5faacdc6e477797c051b8", "eb6e53673d92c9791cc9be64b0411378", "6e858cb2037a6db8fdfb0b04665256f1", "02c72e559533abde0add6850aadcfb34", "bf0563dc7d3450945d080a15a64d876d", "fd767e12d7a9f8288c277ee00704256c", "2c7ac82e02db9ce396618e6644a8c52d", "b2483b4abc157494447c9c409c036041", "152d950c365ede4130c53ceb18dcd43b"]
@@ -3938,7 +4214,8 @@
       "Metadata": {
         "platform_releasedate": "2013-11-15",
         "platform_shortname": "PS4",
-        "platform_company": "Sony",
+        "platform_licensor": "Sony",
+        "platform_manufacturer": "Sony",
         "platform_emulator_dev": "None",
         "platform_type": "Home"
       },
@@ -3954,7 +4231,8 @@
       "Metadata": {
         "platform_releasedate": "2004-12-12",
         "platform_shortname": "PSP",
-        "platform_company": "Sony",
+        "platform_licensor": "Sony",
+        "platform_manufacturer": "Sony",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 2,
@@ -3965,7 +4243,8 @@
         ".ciso": "application/vnd.stone-romfile.sony.psp-discimage-compressed",
         ".dax": "application/vnd.stone-romfile.sony.psp-dax-compressed",
         ".pbp": "application/vnd.stone-romfile.sony.psp-eboot",
-        ".elf": "application/vnd.stone-romfile.sony.psp-elf"
+        ".elf": "application/vnd.stone-romfile.sony.psp-elf",
+        ".pup": "application/vnd.stone-romfile.sony.psp-update"
       },
       "BiosFiles": {
         "PSPUPDAT.PUP": ["47398e49360ab021c3ffa42cac3e6f15", "e32eb27980ba8b291eb803e3397e4b24", "ad79cbaa4838d9ed2a16f403567a5222", "b976783070c12c4ed81cc27785222491", "62f6d3d18038f463092e3d6653fae195", "c9629365e58daf4973019c78727f521c", "00df561c8215e42b16661ecde4c57e14", "a69a022fce43b614a8cb305786f59855", "aea0541d63cb1d5112284efb1fb833a0", "d6f3d5dc926c00a8a633361005018813", "8a0d85b6e2d259a3b5710378d892a1ef", "4726589a847329cb03ac5ffd5096d62e", "65e58702b08898da4f155c8d217e5f41", "fd90b0c3ffa0fc73cfecae4945ac3c47", "1dc76eab462c2f9c71aa8536659682f8", "6a1530e6a1c7ec7bf9f50464d4110e0c", "a1dd70c8e8f12d83d954951d9e0d6838", "81b8ca8f63db44996f6f5fbf03c5dee1", "ccd985a6145ecd572aa4a94d483404fa", "842515d85bc1645e3ba2e98533968c62", "58101e3f6e897725ac55ec1ae3dc07a0", "b4e70aea4b09e74aacbe2d83b8868f2c", "9593f0783ebb97f0ea0c0ed0ee66dec5", "9e8da3f26e06b6b04fd31f3fda6069a5", "eaa13343c70d9b0337c75b295474c69a", "6942dccc46cb92161ed1568a784b2ded", "6babee6e1415ae27999928566adbd569", "05d9fe3c72a263d8a4490a8ec727aad3", "0c1668bb95c6e92091c743a53b809997", "923297bb6c6aead603d745e9e724fea0", "64bae5dd0d0f836baedf915fb106e9cc", "af24e8ca2f6b54fd98409dbc2a627157", "32720ecf54e656c401ffc92d33fe62d9", "6046ec031a2757a59fbc2065484b1fe1", "bf8d5081adc08457debe062270646c45", "c593abc023aa9b215710df6e263b3fff", "8497dd2b3485e934b073948b558221c3", "60aa0356d4c66f589b71cfc9abc08713", "46e66cef9ec8a63eb5af2df0a53e6b57", "41b80591c6024a278945f1cdd72aa892", "565c702771472445342a3b8c56578961", "2b0581f4a8752e4171cbdb7a406a2ec0", "eacd91e92abf817ff4ceaf02258f73a6", "148d2a024741df54eacabbc79d9f3014", "d7574bf9504c957e92d98470f1699a27", "42601831bf10e9bbf296c3ab3e782384", "a734c9829b20d17d7fc7a149d8274a8a", "610d3d9ed39befa9c10ce139df01ebfb", "16d8cacc0cdb00a2a6a8c1b77d7dd136", "42601ed4266d175b37ff0d3e6d079f3b", "d7ea54162d2d53c5efb46648ee12f6bc", "5945c21abfa5b1221adda745f9417668", "bcac2b0a4ac55378f300386391e4bb37", "5a21c511c90ed765747c43a9779f7a4b", "d033298a1de455a5d90e06f91c6802f6", "ccce1a0f3ba08e22c26ec5bc047a0063", "2ca64d59dcf48f45fb99b400a586b395", "6be8878f475ac5b1a499b95ab2f7d301"]
@@ -3976,16 +4255,19 @@
       "Metadata": {
         "platform_releasedate": "2011-12-17",
         "platform_shortname": "PSV",
-        "platform_company": "Sony",
+        "platform_licensor": "Sony",
+        "platform_manufacturer": "Sony",
         "platform_emulator_dev": "None",
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
       "FriendlyName": "PlayStation Vita",
       "FileTypes": {
+        ".psv": "application/vnd.stone-romfile.sony.psv-psvgamesd",
         ".vpk": "application/vnd.stone-romfile.sony.psv-henkaku",
         ".pkg": "application/vnd.stone-romfile.sony.psv-package",
-        ".zip": "application/vnd.stone-romfile.sony.psv-mai+zip"
+        ".zip": "application/vnd.stone-romfile.sony.psv-mai+zip",
+        ".pup": "application/vnd.stone-romfile.sony.psv-update"
       }
     },
     "SONY_PSX": {
@@ -3993,7 +4275,8 @@
       "Metadata": {
         "platform_releasedate": "1994-12-03",
         "platform_shortname": "psx",
-        "platform_company": "Sony",
+        "platform_licensor": "Sony",
+        "platform_manufacturer": "Sony",
         "platform_type": "Home"
       },
       "MaximumInputs": 2,
@@ -4020,5 +4303,5 @@
       }
     }
   },
-  "version": "9.2.1"
+  "version": "10.0.0"
 }

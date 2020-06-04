@@ -2,7 +2,8 @@ PlatformID: NINTENDO_NSW
 Metadata:
   platform_releasedate: '2017-03-03'
   platform_shortname: NSW
-  platform_company: Nintendo
+  platform_licensor: Nintendo
+  platform_manufacturer: Nintendo
   platform_type: Home
 MaximumInputs: 8
 FriendlyName: Nintendo Switch

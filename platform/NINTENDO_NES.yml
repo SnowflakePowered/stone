@@ -3,7 +3,8 @@ Metadata:
   platform_releasedate: '1985-10-18'
   platform_shortname: NES
   platform_name_jp: Family Computer
-  platform_company: Nintendo
+  platform_licensor: Nintendo
+  platform_manufacturer: Nintendo
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Nintendo Entertainment System

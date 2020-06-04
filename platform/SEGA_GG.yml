@@ -2,7 +2,8 @@ PlatformID: SEGA_GG
 Metadata:
   platform_releasedate: '1990-10-06'
   platform_shortname: GG
-  platform_company: Sega
+  platform_licensor: Sega
+  platform_manufacturer: Sega
   platform_type: Handheld
 MaximumInputs: 1
 FriendlyName: Sega Game Gear

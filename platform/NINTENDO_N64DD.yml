@@ -2,7 +2,8 @@ PlatformID: NINTENDO_N64DD
 Metadata:
   platform_releasedate: '1999-12-01'
   platform_shortname: N64DD
-  platform_company: Nintendo
+  platform_licensor: Nintendo
+  platform_manufacturer: Nintendo
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: Nintendo 64 DD

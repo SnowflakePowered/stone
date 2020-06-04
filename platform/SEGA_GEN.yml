@@ -4,7 +4,8 @@ Metadata:
   platform_shortname: Genesis
   platform_name_eu: Mega Drive
   platform_name_jp: Mega Drive
-  platform_company: Sega
+  platform_licensor: Sega
+  platform_manufacturer: Sega
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Sega Genesis

@@ -2,7 +2,8 @@ PlatformID: NINTENDO_N64
 Metadata:
   platform_releasedate: '1996-06-23'
   platform_shortname: N64
-  platform_company: Nintendo
+  platform_licensor: Nintendo
+  platform_manufacturer: Nintendo
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: Nintendo 64

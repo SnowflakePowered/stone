@@ -2,6 +2,8 @@ LayoutID: SNES_CONTROLLER
 FriendlyName: "SNES Controller"
 Platforms:
     - NINTENDO_SNES
+    - NINTENDO_BS
+    - NINTENDO_SFT
 Layout:
     ButtonA:
         Label: "A"

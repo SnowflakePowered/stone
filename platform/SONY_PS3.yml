@@ -2,7 +2,8 @@ PlatformID: SONY_PS3
 Metadata:
   platform_releasedate: '2006-11-11'
   platform_shortname: PS3
-  platform_company: Sony
+  platform_licensor: Sony
+  platform_manufacturer: Sony
   platform_emulator_dev: rpcs3
   platform_type: Home
 MaximumInputs: 4
@@ -13,6 +14,7 @@ FileTypes:
     .pkg: 'application/vnd.stone-romfile.sony.ps3-package'
     .bin: 'application/vnd.stone-romfile.sony.ps3-elf'
     .iso: 'application/vnd.stone-romfile.sony.ps3-discimage'
+    .pup: 'application/vnd.stone-romfile.sony.ps3-update'
 BiosFiles:
     PS3UPDAT.PUP: 
         - da5438f39b3b6e5ef904d91162d93086

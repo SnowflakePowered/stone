@@ -2,7 +2,8 @@ PlatformID: SONY_PSP
 Metadata:
   platform_releasedate: '2004-12-12'
   platform_shortname: PSP
-  platform_company: Sony
+  platform_licensor: Sony
+  platform_manufacturer: Sony
   platform_type: Handheld
 MaximumInputs: 2
 FriendlyName: Playstation Portable
@@ -13,6 +14,7 @@ FileTypes:
     .dax: 'application/vnd.stone-romfile.sony.psp-dax-compressed'
     .pbp: 'application/vnd.stone-romfile.sony.psp-eboot'
     .elf: 'application/vnd.stone-romfile.sony.psp-elf'
+    .pup: 'application/vnd.stone-romfile.sony.psp-update'
 BiosFiles:
     PSPUPDAT.PUP:
         - 47398e49360ab021c3ffa42cac3e6f15

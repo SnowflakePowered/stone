@@ -2,7 +2,8 @@ PlatformID: MICROSOFT_X360
 Metadata:
   platform_releasedate: '2005-11-22'
   platform_shortname: X360
-  platform_company: Microsoft
+  platform_licensor: Microsoft
+  platform_manufacturer: Microsoft
   platform_emulator_dev: Xenia
   platform_type: Home
 MaximumInputs: 4

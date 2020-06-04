@@ -2,7 +2,8 @@ PlatformID: MATTEL_INT
 Metadata:
   platform_releasedate: '1982-08-01'
   platform_shortname: 'INT'
-  platform_company: Mattel Electronics
+  platform_licensor: Mattel Electronics
+  platform_manufacturer: Mattel Electronics
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Intellivision

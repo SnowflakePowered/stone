@@ -2,12 +2,15 @@ PlatformID: SONY_PSV
 Metadata:
   platform_releasedate: '2011-12-17'
   platform_shortname: PSV
-  platform_company: Sony
+  platform_licensor: Sony
+  platform_manufacturer: Sony
   platform_emulator_dev: None
   platform_type: Handheld
 MaximumInputs: 1
 FriendlyName: PlayStation Vita
 FileTypes:
+    .psv: 'application/vnd.stone-romfile.sony.psv-psvgamesd'
     .vpk: 'application/vnd.stone-romfile.sony.psv-henkaku'
     .pkg: 'application/vnd.stone-romfile.sony.psv-package'
     .zip: 'application/vnd.stone-romfile.sony.psv-mai+zip'
+    .pup: 'application/vnd.stone-romfile.sony.psv-update'

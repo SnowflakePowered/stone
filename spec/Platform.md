@@ -1,13 +1,11 @@
 # Platforms
-**Version:** `^9.0.0`
+**Version:** `^10.0.0`
 
-A Stone Platform is a unique, keyed description in UTF-8 of a conventional video game console. Each platform is given a unique, ASCII-encoded uppercase ID usually in the format `MANUFACTURER_SHORTNAME`, where `SHORTNAME` is be the contracted form of the game console's name. 
+A Stone Platform is a unique, keyed description in UTF-8 of a conventional video game console. Each platform is given a unique, ASCII-encoded uppercase ID usually in the format `LICENSOR_SHORTNAME`, where `SHORTNAME` is be the contracted form of the game console's name. 
 
-As of version `7.0.0`, a game *console* is defined as a piece of computing equipment of a **unique architecture** whose primary purpose is to play video games. An architecture consists of the ecosystem surrounding such console, in order for an **architecture** to be distinct, it must have a form of reasonably distinct media, and a reasonably distinct computing architecture.
+As of version `10.0.0`, a platform is defined as a marketed computing device of a unique architecture whose primary purpose is to play video games. An architecture consists of the console hardware, peripherals, and media. Unique means that the architecture contains at least one form of media that requires the described hardware, or reproductions thereof (including emulators, compositions, and hardware descriptions), for expected execution.
 
-Under this definition of a console, Stone considers addons such as the Sega 32X (`SEGA_32x`), the Famicom Disk System (`NINTENDO_FDS`), and the Nintendo 64DD (`NINTENDO_64DD`) are distinct *consoles*, but ignores differences between backwards-compatible revisions such as the *Nintendo 3DS* and the *New Nintendo 3DS*, despite there existing games exclusive to the *New Nintendo 3DS*. 
-
-This definition of *Platform* refers only to *gaming Platforms*, thus home computers such as the Apple II, Commodore 64, IBM-PC compatible and various operating systems such as Microsoft Windows and DOS are not included within this definition. As of version `7.0.0`, Stone does not have a specfication for home computers, but it is under consideration.
+This definition of *platform* refers only to *gaming Platforms*, thus home computers such as the Apple II, Commodore 64, IBM-PC compatible and various operating systems such as Microsoft Windows and DOS are not included within this definition. As of version `7.0.0`, Stone does not have a specfication for home computers, but it is under consideration.
 
 Stone does not describe every gaming console out there, many are still not defined within Stone. Support for more and more gaming consoles will be added in the future.
 
@@ -90,10 +88,15 @@ This should always be the **earliest** release date of the console, in any regio
 The release date should be in ISO 8601 (YYYY-MM-DD) format, however this specification does not guarantee the format of this metadata. 
 
 If only a year and a month is known, assume the date of release to be the first of that month (YYYY-MM-01).
-### Company
-**Key:** `platform_company`
+### Licensor
+**Key:** `platform_licensor`
 
-The name of the company that released the *Platform*.
+The name of the company that is the licensor of the *platform*.
+
+### Manufacturer
+**Key:** `platform_manufacturer`
+
+The name of the company that manufactures the *platform*.
 
 ### Short Name
 **Key:** `platform_shortname`

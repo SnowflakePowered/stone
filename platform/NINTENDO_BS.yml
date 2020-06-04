@@ -1,0 +1,14 @@
+PlatformID: NINTENDO_BS
+Metadata:
+  platform_releasedate: '1995-04-24'
+  platform_shortname: BS-X
+  platform_licensor: Nintendo
+  platform_manufacturer: Nintendo
+  platform_type: Home
+MaximumInputs: 2
+FriendlyName: Satellaview
+FileTypes:
+    .bs: 'application/vnd.stone-romfile.nintendo.bs'
+BiosFiles: 
+  BS-X.bin: 
+    - fed4d8242cfbed61343d53d48432aced

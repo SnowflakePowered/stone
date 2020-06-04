@@ -2,7 +2,8 @@ PlatformID: GCE_VECTREX
 Metadata:
   platform_releasedate: '1982-08-01'
   platform_shortname: 'Vectrex'
-  platform_company: General Computer
+  platform_licensor: General Computer
+  platform_manufacturer: General Computer
   platform_type: Home
 MaximumInputs: 1
 FriendlyName: Vectrex

@@ -1,0 +1,15 @@
+PlatformID: FUJITSU_FMT
+Metadata:
+  platform_releasedate: '1993-02-20'
+  platform_shortname: FMT
+  platform_licensor: Fujitsu
+  platform_manufacturer: Fujitsu
+  platform_type: Home
+MaximumInputs: 2
+FriendlyName: FM Towns Marty
+FileTypes: 
+    .bin: 'application/vnd.stone-romfile.fujitsu.fmt-disctrack'
+    .iso: 'application/vnd.stone-romfile.fujitsu.fmt-disctrack'
+    .cue: 'application/vnd.stone-romfile.fujitsu.fmt-cuesheet'
+    .d88: 'application/vnd.stone-romfile.fujitsu.fmt-d88'
+    .hdm: 'application/vnd.stone-romfile.fujitsu.fmt-hdm'

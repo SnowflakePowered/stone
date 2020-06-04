@@ -2,7 +2,8 @@ PlatformID: COLECO_CV
 Metadata:
   platform_releasedate: '1982-08-01'
   platform_shortname: 'CV'
-  platform_company: Coleco
+  platform_licensor: Coleco
+  platform_manufacturer: Coleco
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: ColecoVision

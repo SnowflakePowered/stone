@@ -3,7 +3,8 @@ Metadata:
   platform_releasedate: '1990-11-21'
   platform_shortname: SNES
   platform_name_jp: Super Famicom
-  platform_company: Nintendo
+  platform_licensor: Nintendo
+  platform_manufacturer: Nintendo
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Super Nintendo Entertainment System
@@ -14,8 +15,6 @@ FileTypes:
     .swc: 'application/vnd.stone-romfile.nintendo.snes-wildcard'
     .fig: 'application/vnd.stone-romfile.nintendo.snes-profighter'
 BiosFiles: 
-  BS-X.bin: 
-    - fed4d8242cfbed61343d53d48432aced
   cx4.data.rom: 
     - 037ac4296b6b6a5c47c440188d3c72e3
   dsp1.data.rom: 

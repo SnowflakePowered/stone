@@ -3,7 +3,8 @@ Metadata:
   platform_releasedate: '1988-12-04'
   platform_shortname: TGCD
   platform_jp_name: PC Engine CD
-  platform_company: NEC
+  platform_licensor: NEC
+  platform_manufacturer: NEC
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: TurboGrafx-CD

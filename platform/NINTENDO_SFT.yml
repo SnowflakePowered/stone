@@ -1,0 +1,14 @@
+PlatformID: NINTENDO_SFT
+Metadata:
+  platform_releasedate: '1996-01-01'
+  platform_shortname: SFT
+  platform_licensor: Nintendo
+  platform_manufacturer: Bandai
+  platform_type: Home
+MaximumInputs: 2
+FriendlyName: SuFami Turbo
+FileTypes:
+    .st: 'application/vnd.stone-romfile.nintendo.st'
+BiosFiles: 
+  Sufami Turbo (Japan).sfc: 
+    - d3a44ba7d42a74d3ac58cb9c14c6a5ca

@@ -2,7 +2,8 @@ PlatformID: BANDAI_WS
 Metadata:
   platform_releasedate: '1999-03-04'
   platform_shortname: WS
-  platform_company: Bandai
+  platform_licensor: Bandai
+  platform_manufacturer: Bandai
   platform_type: Handheld
 MaximumInputs: 1
 FriendlyName: Bandai WonderSwan

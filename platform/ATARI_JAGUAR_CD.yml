@@ -2,7 +2,8 @@ PlatformID: ATARI_JAGUAR_CD
 Metadata:
   platform_releasedate: '1995-09-21'
   platform_shortname: Jag CD
-  platform_company: Atari
+  platform_licensor: Atari
+  platform_manufacturer: Atari
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Atari Jaguar CD

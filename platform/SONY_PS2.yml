@@ -2,7 +2,8 @@ PlatformID: SONY_PS2
 Metadata:
   platform_releasedate: '2000-03-04'
   platform_shortname: PS2
-  platform_company: Sony
+  platform_licensor: Sony
+  platform_manufacturer: Sony
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: PlayStation 2

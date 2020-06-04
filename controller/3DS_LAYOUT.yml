@@ -1,0 +1,63 @@
+LayoutID: 3DS_LAYOUT
+FriendlyName: "Nintendo 3DS Layout"
+Platforms:
+    - NINTENDO_3DS
+    - NINTENDO_N3DS
+Layout:
+    ButtonA:
+        Label: "A"
+        Type: Button
+    ButtonB:
+        Label: "B"
+        Type: Button
+    ButtonStart:
+        Label: "Start"
+        Type: Button
+    ButtonSelect:
+        Label: "Select"
+        Type: Button
+    ButtonL:
+        Label: "L"
+        Type: Button
+    ButtonR:
+        Label: "R"
+        Type: Button
+    DirectionalN:
+        Label: "D-Pad Up"
+        Type: Directional
+    DirectionalE:
+        Label: "D-Pad Right"
+        Type: Directional
+    DirectionalS:
+        Label: "D-Pad Down"
+        Type: Directional
+    DirectionalW:
+        Label: "D-Pad Left"
+        Type: Directional
+    AxisLeftAnalogPositiveX:
+        Label: "Circle Pad Right"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeX:
+        Label: "Circle Pad Left"
+        Type: AxisNegative
+    AxisLeftAnalogPositiveY:
+        Label: "Circle Pad Up"
+        Type: AxisPositive
+    AxisLeftAnalogNegativeY:
+        Label: "Circle Pad Down"
+        Type: AxisNegative
+    AxisRightAnalogPositiveX:
+        Label: "Circle Pad Pro Right"
+        Type: AxisPositive
+    AxisRightAnalogNegativeX:
+        Label: "Circle Pad Pro Left"
+        Type: AxisNegative
+    AxisRightAnalogPositiveY:
+        Label: "Circle Pad Pro Up"
+        Type: AxisPositive
+    AxisRightAnalogNegativeY:
+        Label: "Circle Pad Pro Down"
+        Type: AxisNegative
+    Touchscreen:
+        Label: "Touchscreen"
+        Type: Touchscreen
