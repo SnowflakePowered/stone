@@ -1,20 +1,20 @@
 PlatformID: SEGA_32X
 Metadata:
-  platform_releasedate: '1994-11-21'
-  platform_shortname: 32X
-  platform_licensor: Sega
-  platform_manufacturer: Sega
-  platform_type: Addon
+    platform_releasedate: "1994-11-21"
+    platform_shortname: 32X
+    platform_licensor: Sega
+    platform_manufacturer: Sega
+    platform_type: Addon
 MaximumInputs: 2
 FriendlyName: Sega 32X
 FileTypes:
-    .rom: 'application/vnd.stone-romfile.sega.32x'
-    .32x: 'application/vnd.stone-romfile.sega.32x'
-    BIOS: 'application/vnd.stone-romfile.sega.32x-sys'
+    .rom: "application/vnd.stone-romfile.sega.32x"
+    .32x: "application/vnd.stone-romfile.sega.32x"
+    BIOS: "application/vnd.stone-romfile.sega.32x-sys"
 BiosFiles:
     32X_G_BIOS.BIN:
         - 6a5433f6a132a2b683635819a6dcf085
     32X_S_BIOS.BIN:
         - 7f041b6a55cd7423a6c08a219335269e
     32X_M_BIOS.BIN:
-        - f88354ec482be09aeccd76a97bb75868 
+        - f88354ec482be09aeccd76a97bb75868

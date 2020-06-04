@@ -1,29 +1,29 @@
 PlatformID: NEC_PCFX
 Metadata:
-  platform_releasedate: '1994-11-23'
-  platform_shortname: "PC-FX"
-  platform_licensor: NEC
-  platform_manufacturer: NEC
-  platform_type: Home
+    platform_releasedate: "1994-11-23"
+    platform_shortname: "PC-FX"
+    platform_licensor: NEC
+    platform_manufacturer: NEC
+    platform_type: Home
 MaximumInputs: 2
-FriendlyName: 'PC-FX'
-FileTypes: 
-    .bin: 'application/vnd.stone-romfile.nec.pcfx-disctrack'
-    .iso: 'application/vnd.stone-romfile.nec.pcfx-disctrack'
-    .cue: 'application/vnd.stone-romfile.nec.pcfx-cuesheet'
-    .ccd: 'application/vnd.stone-romfile.nec.pcfx-clonecd-control'
-    .img: 'application/vnd.stone-romfile.nec.pcfx-clonecd-rawimage'
-    .sub: 'application/vnd.stone-romfile.nec.pcfx-clonecd-subchannel'
-    .chd: 'application/vnd.stone-romfile.nec.pcfx-chd-compressed'
-    BIOS: 'application/vnd.stone-romfile.nec.pcfx-sys'
+FriendlyName: "PC-FX"
+FileTypes:
+    .bin: "application/vnd.stone-romfile.nec.pcfx-disctrack"
+    .iso: "application/vnd.stone-romfile.nec.pcfx-disctrack"
+    .cue: "application/vnd.stone-romfile.nec.pcfx-cuesheet"
+    .ccd: "application/vnd.stone-romfile.nec.pcfx-clonecd-control"
+    .img: "application/vnd.stone-romfile.nec.pcfx-clonecd-rawimage"
+    .sub: "application/vnd.stone-romfile.nec.pcfx-clonecd-subchannel"
+    .chd: "application/vnd.stone-romfile.nec.pcfx-chd-compressed"
+    BIOS: "application/vnd.stone-romfile.nec.pcfx-sys"
 BiosFiles:
     pcfx.rom:
         - 08e36edbea28a017f79f8d4f7ff9b6d7
     fx-scsi.rom:
         - 430e9745f9235c515bc8e652d6ca3004
-    pcfxbios.bin: 
+    pcfxbios.bin:
         - 08e36edbea28a017f79f8d4f7ff9b6d7
-    pcfx.bios: 
+    pcfx.bios:
         - 08e36edbea28a017f79f8d4f7ff9b6d7
     pcfxv101.bin:
         - e2fb7c7220e3a7838c2dd7e401a7f3d8

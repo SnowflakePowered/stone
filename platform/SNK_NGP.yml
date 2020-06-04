@@ -1,16 +1,16 @@
 PlatformID: SNK_NGP
 Metadata:
-  platform_releasedate: '1998-10-28'
+  platform_releasedate: "1998-10-28"
   platform_shortname: NGP
   platform_licensor: SNK
   platform_manufacturer: SNK
   platform_type: Handheld
 MaximumInputs: 1
 FriendlyName: Neo Geo Pocket
-FileTypes: 
-    .ngp: 'application/vnd.stone-romfile.snk.ngp'
-    .bin: 'application/vnd.stone-romfile.snk.ngp'
-    BIOS: 'application/vnd.stone-romfile.snk.ngp-sys'
+FileTypes:
+  .ngp: "application/vnd.stone-romfile.snk.ngp"
+  .bin: "application/vnd.stone-romfile.snk.ngp"
+  BIOS: "application/vnd.stone-romfile.snk.ngp-sys"
 BiosFiles:
-    bios.rom:
-      - d87d876c4391935c9d48ef352a3ff02d
+  bios.rom:
+    - d87d876c4391935c9d48ef352a3ff02d

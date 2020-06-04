@@ -1,17 +1,17 @@
 PlatformID: ATARI_5200
 Metadata:
-  platform_releasedate: '1982-03-01'
-  platform_shortname: '5200'
+  platform_releasedate: "1982-03-01"
+  platform_shortname: "5200"
   platform_licensor: Atari
   platform_manufacturer: Atari
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: Atari 5200 SuperSystem
 FileTypes:
-    .a52: 'application/vnd.stone-romfile.atari.a5200'
-    .bin: 'application/vnd.stone-romfile.atari.a5200'
-    BIOS: 'application/vnd.stone-romfile.atari.a5200-sys'
+  .a52: "application/vnd.stone-romfile.atari.a5200"
+  .bin: "application/vnd.stone-romfile.atari.a5200"
+  BIOS: "application/vnd.stone-romfile.atari.a5200-sys"
 BiosFiles:
-    5200.rom: 
-        - ee7b85f5ca384dcb1f284946f3c12ac4
-        - 281f20ea4320404ec820fb7ec0693b38
+  5200.rom:
+    - ee7b85f5ca384dcb1f284946f3c12ac4
+    - 281f20ea4320404ec820fb7ec0693b38

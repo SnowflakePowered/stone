@@ -1,14 +1,14 @@
 PlatformID: SNK_NG
 Metadata:
-  platform_releasedate: '1991-04-26'
+  platform_releasedate: "1991-04-26"
   platform_shortname: NG
   platform_licensor: SNK
   platform_manufacturer: SNK
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Neo Geo
-FileTypes: 
-    .zip: 'application/vnd.stone-romfile.snk.arcade-neogeo+zip'
-    BIOS: 'application/vnd.stone-romfile.snk.arcade-neogeo-sys'
+FileTypes:
+  .zip: "application/vnd.stone-romfile.snk.arcade-neogeo+zip"
+  BIOS: "application/vnd.stone-romfile.snk.arcade-neogeo-sys"
 BiosFiles:
-    neogeo.zip: []
+  neogeo.zip: []

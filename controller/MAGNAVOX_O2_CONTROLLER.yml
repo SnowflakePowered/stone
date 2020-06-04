@@ -1,21 +1,20 @@
 LayoutID: MAGNAVOX_O2_CONTROLLER
-Platforms: 
+Platforms:
   - MAGNAVOX_O2
 FriendlyName: "Magnavox Oddysey 2 Joystick"
-Layout: 
-  ButtonA: 
+Layout:
+  ButtonA:
     Label: Fire
     Type: Button
-  DirectionalE: 
+  DirectionalE:
     Label: "Joystick Right"
     Type: Directional
-  DirectionalN: 
+  DirectionalN:
     Label: "Joystick Up"
     Type: Directional
-  DirectionalS: 
+  DirectionalS:
     Label: "Joystick Down"
     Type: Directional
-  DirectionalW: 
+  DirectionalW:
     Label: "Joystick Left"
     Type: Directional
-

@@ -1,26 +1,26 @@
 PlatformID: SONY_PSX
 Metadata:
-  platform_releasedate: '1994-12-03'
-  platform_shortname: psx
-  platform_licensor: Sony
-  platform_manufacturer: Sony
-  platform_type: Home
+    platform_releasedate: "1994-12-03"
+    platform_shortname: psx
+    platform_licensor: Sony
+    platform_manufacturer: Sony
+    platform_type: Home
 MaximumInputs: 2
 FriendlyName: PlayStation
-FileTypes: 
-    .m3u: 'application/vnd.stone-romfile.sony.psx-playlist'
-    .bin: 'application/vnd.stone-romfile.sony.psx-disctrack'
-    .iso: 'application/vnd.stone-romfile.sony.psx-disctrack'
-    .cue: 'application/vnd.stone-romfile.sony.psx-cuesheet'
-    .sbi: 'application/vnd.stone-romfile.sony.psx-subchannel'
-    .ccd: 'application/vnd.stone-romfile.sony.psx-clonecd-control'
-    .img: 'application/vnd.stone-romfile.sony.psx-clonecd-image'
-    .sub: 'application/vnd.stone-romfile.sony.psx-clonecd-subchannel'
-    .toc: 'application/vnd.stone-romfile.sony.psx-cdrdao'    
-    .pbp: 'application/vnd.stone-romfile.sony.psx-eboot'
-    .exe: 'application/vnd.stone-romfile.sony.psx-exe'
-    .chd: 'application/vnd.stone-romfile.sony.psx-chd-compressed'
-    BIOS: 'application/vnd.stone-romfile.sony.psx-sys'
+FileTypes:
+    .m3u: "application/vnd.stone-romfile.sony.psx-playlist"
+    .bin: "application/vnd.stone-romfile.sony.psx-disctrack"
+    .iso: "application/vnd.stone-romfile.sony.psx-disctrack"
+    .cue: "application/vnd.stone-romfile.sony.psx-cuesheet"
+    .sbi: "application/vnd.stone-romfile.sony.psx-subchannel"
+    .ccd: "application/vnd.stone-romfile.sony.psx-clonecd-control"
+    .img: "application/vnd.stone-romfile.sony.psx-clonecd-image"
+    .sub: "application/vnd.stone-romfile.sony.psx-clonecd-subchannel"
+    .toc: "application/vnd.stone-romfile.sony.psx-cdrdao"
+    .pbp: "application/vnd.stone-romfile.sony.psx-eboot"
+    .exe: "application/vnd.stone-romfile.sony.psx-exe"
+    .chd: "application/vnd.stone-romfile.sony.psx-chd-compressed"
+    BIOS: "application/vnd.stone-romfile.sony.psx-sys"
 BiosFiles:
     scph1001.bin:
         - 924e392ed05558ffdb115408c263dccf

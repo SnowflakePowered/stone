@@ -1,6 +1,6 @@
 PlatformID: SEGA_GEN
 Metadata:
-  platform_releasedate: '1988-10-29'
+  platform_releasedate: "1988-10-29"
   platform_shortname: Genesis
   platform_name_eu: Mega Drive
   platform_name_jp: Mega Drive
@@ -10,13 +10,13 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega Genesis
 FileTypes:
-    .bin: 'application/vnd.stone-romfile.sega.gen'
-    .smd: 'application/vnd.stone-romfile.sega.gen'
-    .rom: 'application/vnd.stone-romfile.sega.gen'
-    .md: 'application/vnd.stone-romfile.sega.gen'
-    .gen: 'application/vnd.stone-romfile.sega.gen'
-    BIOS: 'application/vnd.stone-romfile.sega.gen-sys'
+  .bin: "application/vnd.stone-romfile.sega.gen"
+  .smd: "application/vnd.stone-romfile.sega.gen"
+  .rom: "application/vnd.stone-romfile.sega.gen"
+  .md: "application/vnd.stone-romfile.sega.gen"
+  .gen: "application/vnd.stone-romfile.sega.gen"
+  BIOS: "application/vnd.stone-romfile.sega.gen-sys"
 BiosFiles:
-    Genesis_OS_ROM.bin:
-      - d3293ebaaa7f4eb2a6766b68a0fb4609
-      - 45e298905a08f9cfb38fd504cd6dbc84
+  Genesis_OS_ROM.bin:
+    - d3293ebaaa7f4eb2a6766b68a0fb4609
+    - 45e298905a08f9cfb38fd504cd6dbc84

@@ -1,6 +1,6 @@
 PlatformID: NINTENDO_WIIU
 Metadata:
-  platform_releasedate: '2012-11-18'
+  platform_releasedate: "2012-11-18"
   platform_shortname: WiiU
   platform_licensor: Nintendo
   platform_manufacturer: Nintendo
@@ -9,8 +9,8 @@ Metadata:
 MaximumInputs: 5
 FriendlyName: WiiU
 FileTypes:
-    .wud: 'application/vnd.stone-romfile.nintendo.wiiu-discimage'
-    .iso: 'application/vnd.stone-romfile.nintendo.wiiu-discimage'
-    .wux: 'application/vnd.stone-romfile.nintendo.wiiu-discimage-compressed'
-    .rpx: 'application/vnd.stone-romfile.nintendo.wiiu-package'
-    .elf: 'application/vnd.stone-romfile.nintendo.wiiu-elf'
+  .wud: "application/vnd.stone-romfile.nintendo.wiiu-discimage"
+  .iso: "application/vnd.stone-romfile.nintendo.wiiu-discimage"
+  .wux: "application/vnd.stone-romfile.nintendo.wiiu-discimage-compressed"
+  .rpx: "application/vnd.stone-romfile.nintendo.wiiu-package"
+  .elf: "application/vnd.stone-romfile.nintendo.wiiu-elf"

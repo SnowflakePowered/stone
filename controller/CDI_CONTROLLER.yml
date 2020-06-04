@@ -1,6 +1,6 @@
 # The CD-i came with a variety of controllers, such as the three button Gamepad, or the four button Touchpad.
-# However, neither of these gamepads had any semantically distinct buttons other than the two 'action' buttons, 
-# that is; the 'third' button acted as a clone of Button 1 or Button 2. 
+# However, neither of these gamepads had any semantically distinct buttons other than the two 'action' buttons,
+# that is; the 'third' button acted as a clone of Button 1 or Button 2.
 #
 # This makes the controller layout of both the Gamepad and Touchpad effectively semantically identical.
 

@@ -1,16 +1,16 @@
 PlatformID: ATARI_7800
 Metadata:
-  platform_releasedate: '1986-06-01'
-  platform_shortname: '7800'
-  platform_licensor: Atari
-  platform_manufacturer: Atari
-  platform_type: Home
+    platform_releasedate: "1986-06-01"
+    platform_shortname: "7800"
+    platform_licensor: Atari
+    platform_manufacturer: Atari
+    platform_type: Home
 MaximumInputs: 2
 FriendlyName: Atari 7800 ProSystem
 FileTypes:
-    .a78: 'application/vnd.stone-romfile.atari.a7800'
-    .bin: 'application/vnd.stone-romfile.atari.a7800'
-    BIOS: 'application/vnd.stone-romfile.atari.a7800-sys'
+    .a78: "application/vnd.stone-romfile.atari.a7800"
+    .bin: "application/vnd.stone-romfile.atari.a7800"
+    BIOS: "application/vnd.stone-romfile.atari.a7800-sys"
 BiosFiles:
     7800 BIOS (U).rom:
         - 0763f1ffb006ddbe32e52d497ee848ae

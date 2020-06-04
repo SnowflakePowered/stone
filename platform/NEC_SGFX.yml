@@ -1,16 +1,16 @@
 PlatformID: NEC_SGFX
 Metadata:
-  platform_releasedate: '1989-11-01'
-  platform_shortname: SuperGrafx
-  platform_licensor: NEC
-  platform_manufacturer: NEC
-  platform_type: Home
+    platform_releasedate: "1989-11-01"
+    platform_shortname: SuperGrafx
+    platform_licensor: NEC
+    platform_manufacturer: NEC
+    platform_type: Home
 MaximumInputs: 2
 FriendlyName: PC Engine SuperGrafx
-FileTypes: 
-    .pce: 'application/vnd.stone-romfile.nec.sgfx'
-    .bin: 'application/vnd.stone-romfile.nec.sgfx'
-    BIOS: 'application/vnd.stone-romfile.nec.sgfx-sys'
+FileTypes:
+    .pce: "application/vnd.stone-romfile.nec.sgfx"
+    .bin: "application/vnd.stone-romfile.nec.sgfx"
+    BIOS: "application/vnd.stone-romfile.nec.sgfx-sys"
 BiosFiles:
     syscard3.pce:
         - ff1a674273fe3540ccef576376407d1d

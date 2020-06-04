@@ -1,17 +1,17 @@
 PlatformID: NEC_TG16
 Metadata:
-  platform_releasedate: '1987-10-30'
-  platform_shortname: TG16
-  platform_jp_name: PC Engine
-  platform_licensor: NEC
-  platform_manufacturer: NEC
-  platform_type: Home
+    platform_releasedate: "1987-10-30"
+    platform_shortname: TG16
+    platform_jp_name: PC Engine
+    platform_licensor: NEC
+    platform_manufacturer: NEC
+    platform_type: Home
 MaximumInputs: 2
 FriendlyName: TurboGrafx-16
-FileTypes: 
-    .pce: 'application/vnd.stone-romfile.nec.tg16'
-    .bin: 'application/vnd.stone-romfile.nec.tg16'
-    BIOS: 'application/vnd.stone-romfile.nec.tg16-sys'
+FileTypes:
+    .pce: "application/vnd.stone-romfile.nec.tg16"
+    .bin: "application/vnd.stone-romfile.nec.tg16"
+    BIOS: "application/vnd.stone-romfile.nec.tg16-sys"
 BiosFiles:
     syscard3.pce:
         - ff1a674273fe3540ccef576376407d1d

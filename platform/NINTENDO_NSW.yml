@@ -1,6 +1,6 @@
 PlatformID: NINTENDO_NSW
 Metadata:
-  platform_releasedate: '2017-03-03'
+  platform_releasedate: "2017-03-03"
   platform_shortname: NSW
   platform_licensor: Nintendo
   platform_manufacturer: Nintendo
@@ -8,20 +8,20 @@ Metadata:
 MaximumInputs: 8
 FriendlyName: Nintendo Switch
 FileTypes:
-    .nro: 'application/vnd.stone-romfile.nintendo.nsw-homebrew'
-    .nso: 'application/vnd.stone-romfile.nintendo.nsw-executable'
-    .xci: 'application/vnd.stone-romfile.nintendo.nsw-cartimage'
-    .nsp: 'application/vnd.stone-romfile.nintendo.nsw-package'
-    .nca: 'application/vnd.stone-romfile.nintendo.nsw-importable'
-    BIOS: 'application/vnd.stone-romfile.nintendo.nsw-sys'
+  .nro: "application/vnd.stone-romfile.nintendo.nsw-homebrew"
+  .nso: "application/vnd.stone-romfile.nintendo.nsw-executable"
+  .xci: "application/vnd.stone-romfile.nintendo.nsw-cartimage"
+  .nsp: "application/vnd.stone-romfile.nintendo.nsw-package"
+  .nca: "application/vnd.stone-romfile.nintendo.nsw-importable"
+  BIOS: "application/vnd.stone-romfile.nintendo.nsw-sys"
 BiosFiles:
-    console.keys: []
-    prod.keys: []
-    PRODINFO.bin: []
-    "BCPKG2-1-Normal-Main.bin": []
-    fuses.bin: []
-    BOOT0: []
-    BOOT1: []
-    secmon.bin: []
-    pkg1_decr.bin: []
-    rawnand.bin: []
+  console.keys: []
+  prod.keys: []
+  PRODINFO.bin: []
+  "BCPKG2-1-Normal-Main.bin": []
+  fuses.bin: []
+  BOOT0: []
+  BOOT1: []
+  secmon.bin: []
+  pkg1_decr.bin: []
+  rawnand.bin: []

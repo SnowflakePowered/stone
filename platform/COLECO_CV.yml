@@ -1,17 +1,17 @@
 PlatformID: COLECO_CV
 Metadata:
-  platform_releasedate: '1982-08-01'
-  platform_shortname: 'CV'
+  platform_releasedate: "1982-08-01"
+  platform_shortname: "CV"
   platform_licensor: Coleco
   platform_manufacturer: Coleco
   platform_type: Home
 MaximumInputs: 4
 FriendlyName: ColecoVision
 FileTypes:
-    .bin: 'application/vnd.stone-romfile.coleco.cv'
-    .rom: 'application/vnd.stone-romfile.coleco.cv'
-    .col: 'application/vnd.stone-romfile.coleco.cv'
-    BIOS: 'application/vnd.stone-romfile.coleco.cv-sys'
+  .bin: "application/vnd.stone-romfile.coleco.cv"
+  .rom: "application/vnd.stone-romfile.coleco.cv"
+  .col: "application/vnd.stone-romfile.coleco.cv"
+  BIOS: "application/vnd.stone-romfile.coleco.cv-sys"
 BiosFiles:
-    coleco.rom:
-        - 2c66f5911e5b42b8ebe113403548eee7
+  coleco.rom:
+    - 2c66f5911e5b42b8ebe113403548eee7

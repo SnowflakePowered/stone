@@ -1,62 +1,62 @@
 LayoutID: COLECOVISION_CONTROLLER
-Platforms: 
+Platforms:
   - COLECO_CV
 FriendlyName: "ColecoVision Controller"
-Layout: 
-  AxisLeftAnalogNegativeX: 
+Layout:
+  AxisLeftAnalogNegativeX:
     Label: "Control Disk Left"
     Type: AxisNegative
-  AxisLeftAnalogPositiveX: 
+  AxisLeftAnalogPositiveX:
     Label: "Control Disk Right"
     Type: AxisPositive
-  Button0: 
+  Button0:
     Label: "0"
     Type: Button
-  Button1: 
+  Button1:
     Label: "1"
     Type: Button
-  Button10: 
+  Button10:
     Label: "*"
     Type: Button
-  Button11: 
+  Button11:
     Label: "#"
     Type: Button
-  Button2: 
+  Button2:
     Label: "2"
     Type: Button
-  Button3: 
+  Button3:
     Label: "3"
     Type: Button
-  Button4: 
+  Button4:
     Label: "4"
     Type: Button
-  Button5: 
+  Button5:
     Label: "5"
     Type: Button
-  Button6: 
+  Button6:
     Label: "6"
     Type: Button
-  Button7: 
+  Button7:
     Label: "7"
     Type: Button
-  Button8: 
+  Button8:
     Label: "8"
     Type: Button
-  Button9: 
+  Button9:
     Label: "9"
     Type: Button
-  ButtonA: 
+  ButtonA:
     Label: "Fire 1"
     Type: Button
-  ButtonB: 
+  ButtonB:
     Label: "Fire 2"
     Type: Button
-  ButtonGuide: 
+  ButtonGuide:
     Label: Reset
     Type: Button
-  ButtonSelect: 
+  ButtonSelect:
     Label: Pause
     Type: Button
-  ButtonStart: 
+  ButtonStart:
     Label: Start
     Type: Button

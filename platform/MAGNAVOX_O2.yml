@@ -1,15 +1,15 @@
 PlatformID: MAGNAVOX_O2
 Metadata:
-  platform_releasedate: '1978-12-01'
-  platform_shortname: 'Odyssey 2'
-  platform_licensor: Magnavox
-  platform_manufacturer: Magnavox
-  platform_type: Home
+    platform_releasedate: "1978-12-01"
+    platform_shortname: "Odyssey 2"
+    platform_licensor: Magnavox
+    platform_manufacturer: Magnavox
+    platform_type: Home
 MaximumInputs: 2
 FriendlyName: Magnavox Odyssey 2
 FileTypes:
-    .bin: 'application/vnd.stone-romfile.magnavox.o2'
-    BIOS: 'application/vnd.stone-romfile.magnavox.o2-sys'
+    .bin: "application/vnd.stone-romfile.magnavox.o2"
+    BIOS: "application/vnd.stone-romfile.magnavox.o2-sys"
 BiosFiles:
     o2rom.bin:
         - 562d5ebf9e030a40d6fabfc2f33139fd

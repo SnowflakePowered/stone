@@ -1,16 +1,16 @@
 PlatformID: NINTENDO_GBA
 Metadata:
-  platform_releasedate: '2001-10-21'
+  platform_releasedate: "2001-10-21"
   platform_shortname: GBA
   platform_licensor: Nintendo
   platform_manufacturer: Nintendo
   platform_type: Handheld
 MaximumInputs: 1
 FriendlyName: Game Boy Advanced
-FileTypes: 
-    .gba: 'application/vnd.stone-romfile.nintendo.gba'
-    .bin: 'application/vnd.stone-romfile.nintendo.gba'
-    BIOS: 'application/vnd.stone-romfile.nintendo.gba-sys'
+FileTypes:
+  .gba: "application/vnd.stone-romfile.nintendo.gba"
+  .bin: "application/vnd.stone-romfile.nintendo.gba"
+  BIOS: "application/vnd.stone-romfile.nintendo.gba-sys"
 BiosFiles:
-    gba_bios.bin:
-        - a860e8c0b6d573d191e4ec7db1b1e4f6
+  gba_bios.bin:
+    - a860e8c0b6d573d191e4ec7db1b1e4f6

@@ -18,7 +18,7 @@ Layout:
     ButtonGuide:
         Label: "Restart"
         Type: Button
-    Button0: 
+    Button0:
         Label: "Flip"
         Type: Button
     DirectionalN:

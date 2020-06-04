@@ -37,7 +37,7 @@ Layout:
         Type: Button
     ButtonGuide:
         Label: "Guide"
-        Type: Button    
+        Type: Button
     DirectionalN:
         Label: "D-Pad Up"
         Type: Directional

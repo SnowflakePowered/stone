@@ -1,6 +1,6 @@
 PlatformID: ATARI_JAGUAR
 Metadata:
-  platform_releasedate: '1993-11-15'
+  platform_releasedate: "1993-11-15"
   platform_shortname: Jaguar
   platform_licensor: Atari
   platform_manufacturer: Atari
@@ -8,10 +8,10 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Atari Jaguar
 FileTypes:
-# https://icculus.org/virtualjaguar/extensions.html
-    .j64: 'application/vnd.stone-romfile.atari.jaguar'
-    .bin: 'application/vnd.stone-romfile.atari.jaguar-executable-headerless'
-    .jag: 'application/vnd.stone-romfile.atari.jaguar-server'
-    .rom: 'application/vnd.stone-romfile.atari.jaguar-alpine'
-    .abs: 'application/vnd.stone-romfile.atari.jaguar-executable'
-    .cof: 'application/vnd.stone-romfile.atari.jaguar-executable'
+  # https://icculus.org/virtualjaguar/extensions.html
+  .j64: "application/vnd.stone-romfile.atari.jaguar"
+  .bin: "application/vnd.stone-romfile.atari.jaguar-executable-headerless"
+  .jag: "application/vnd.stone-romfile.atari.jaguar-server"
+  .rom: "application/vnd.stone-romfile.atari.jaguar-alpine"
+  .abs: "application/vnd.stone-romfile.atari.jaguar-executable"
+  .cof: "application/vnd.stone-romfile.atari.jaguar-executable"

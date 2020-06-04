@@ -1,21 +1,21 @@
 PlatformID: PHILIPS_CDI
 Metadata:
-  platform_releasedate: '1991-12-03'
-  platform_shortname: CD-i
-  platform_licensor: Philips
-  platform_manufacturer: Philips
-  platform_type: Home
+    platform_releasedate: "1991-12-03"
+    platform_shortname: CD-i
+    platform_licensor: Philips
+    platform_manufacturer: Philips
+    platform_type: Home
 MaximumInputs: 1
 FriendlyName: Philips CD-i
-FileTypes: 
-    .bin: 'application/vnd.stone-romfile.philips.cdi-disctrack'
-    .raw: 'application/vnd.stone-romfile.philips.cdi-disctrack'
-    .cue: 'application/vnd.stone-romfile.philips.cdi-cuesheet'
-    .iso: 'application/vnd.stone-romfile.philips.cdi-disctrack'
-    .cdi: 'application/vnd.stone-romfile.philips.cdi-discjuggler'
-    .nrg: 'application/vnd.stone-romfile.philips.cdi-nero'
-    .chd: 'application/vnd.stone-romfile.philips.cdi-chd-compressed'
-    BIOS: 'application/vnd.stone-romfile.phillips.cdi-sys'
+FileTypes:
+    .bin: "application/vnd.stone-romfile.philips.cdi-disctrack"
+    .raw: "application/vnd.stone-romfile.philips.cdi-disctrack"
+    .cue: "application/vnd.stone-romfile.philips.cdi-cuesheet"
+    .iso: "application/vnd.stone-romfile.philips.cdi-disctrack"
+    .cdi: "application/vnd.stone-romfile.philips.cdi-discjuggler"
+    .nrg: "application/vnd.stone-romfile.philips.cdi-nero"
+    .chd: "application/vnd.stone-romfile.philips.cdi-chd-compressed"
+    BIOS: "application/vnd.stone-romfile.phillips.cdi-sys"
 BiosFiles:
     cdi200.rom:
         - 2969341396aa61e0143dc2351aaa6ef6

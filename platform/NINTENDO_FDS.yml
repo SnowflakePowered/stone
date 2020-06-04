@@ -1,18 +1,18 @@
 PlatformID: NINTENDO_FDS
 Metadata:
-  platform_releasedate: '1985-10-18'
+  platform_releasedate: "1985-10-18"
   platform_shortname: FDS
   platform_licensor: Nintendo
   platform_manufacturer: Nintendo
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Family Computer Disk System
-FileTypes: 
-    .fds: 'application/vnd.stone-romfile.nintendo.fds-ines'
-    .bin: 'application/vnd.stone-romfile.nintendo.fds-quickdisk-gaps'
-    .raw: 'application/vnd.stone-romfile.nintendo.fds'
-    .qd: 'application/vnd.stone-romfile.nintendo.fds-quickdisk'
-    BIOS: 'application/vnd.stone-romfile.nintendo.fds-sys'
+FileTypes:
+  .fds: "application/vnd.stone-romfile.nintendo.fds-ines"
+  .bin: "application/vnd.stone-romfile.nintendo.fds-quickdisk-gaps"
+  .raw: "application/vnd.stone-romfile.nintendo.fds"
+  .qd: "application/vnd.stone-romfile.nintendo.fds-quickdisk"
+  BIOS: "application/vnd.stone-romfile.nintendo.fds-sys"
 BiosFiles:
-    disksys.rom:
-        - ca30b50f880eb660a320674ed365ef7a
+  disksys.rom:
+    - ca30b50f880eb660a320674ed365ef7a

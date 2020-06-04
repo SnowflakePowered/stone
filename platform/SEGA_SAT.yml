@@ -1,21 +1,21 @@
 PlatformID: SEGA_SAT
 Metadata:
-  platform_releasedate: '1988-10-29'
-  platform_shortname: Saturn
-  platform_licensor: Sega
-  platform_manufacturer: Sega
-  platform_type: Home
+    platform_releasedate: "1988-10-29"
+    platform_shortname: Saturn
+    platform_licensor: Sega
+    platform_manufacturer: Sega
+    platform_type: Home
 MaximumInputs: 2
 FriendlyName: Sega Saturn
-FileTypes: 
-    .ccd: 'application/vnd.stone-romfile.sega.sat-clonecd-control'
-    .img: 'application/vnd.stone-romfile.sega.sat-clonecd-image'
-    .sub: 'application/vnd.stone-romfile.sega.sat-clonecd-subchannel'
-    .bin: 'application/vnd.stone-romfile.sega.sat-disctrack'
-    .iso: 'application/vnd.stone-romfile.sega.sat-disctrack'
-    .cue: 'application/vnd.stone-romfile.sega.sat-cuesheet'
-    .chd: 'application/vnd.stone-romfile.sega.sat-chd-compressed'
-    BIOS: 'application/vnd.stone-romfile.sega.sat-sys'
+FileTypes:
+    .ccd: "application/vnd.stone-romfile.sega.sat-clonecd-control"
+    .img: "application/vnd.stone-romfile.sega.sat-clonecd-image"
+    .sub: "application/vnd.stone-romfile.sega.sat-clonecd-subchannel"
+    .bin: "application/vnd.stone-romfile.sega.sat-disctrack"
+    .iso: "application/vnd.stone-romfile.sega.sat-disctrack"
+    .cue: "application/vnd.stone-romfile.sega.sat-cuesheet"
+    .chd: "application/vnd.stone-romfile.sega.sat-chd-compressed"
+    BIOS: "application/vnd.stone-romfile.sega.sat-sys"
 BiosFiles:
     saturn_bios.bin:
         - af5828fdff51384f99b3c4926be27762

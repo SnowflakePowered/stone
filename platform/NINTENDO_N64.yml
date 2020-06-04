@@ -1,6 +1,6 @@
 PlatformID: NINTENDO_N64
 Metadata:
-  platform_releasedate: '1996-06-23'
+  platform_releasedate: "1996-06-23"
   platform_shortname: N64
   platform_licensor: Nintendo
   platform_manufacturer: Nintendo
@@ -8,9 +8,9 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: Nintendo 64
 FileTypes:
-    .n64: 'application/vnd.stone-romfile.nintendo.n64-littleendian'
-    .z64: 'application/vnd.stone-romfile.nintendo.n64-bigendian'
-    .u64: 'application/vnd.stone-romfile.nintendo.n64-indeterminate'
-    .v64: 'application/vnd.stone-romfile.nintendo.n64-byteswapped'
-    .rom: 'application/vnd.stone-romfile.nintendo.n64-indeterminate'
-    .bin: 'application/vnd.stone-romfile.nintendo.n64-indeterminate'
+  .n64: "application/vnd.stone-romfile.nintendo.n64-littleendian"
+  .z64: "application/vnd.stone-romfile.nintendo.n64-bigendian"
+  .u64: "application/vnd.stone-romfile.nintendo.n64-indeterminate"
+  .v64: "application/vnd.stone-romfile.nintendo.n64-byteswapped"
+  .rom: "application/vnd.stone-romfile.nintendo.n64-indeterminate"
+  .bin: "application/vnd.stone-romfile.nintendo.n64-indeterminate"

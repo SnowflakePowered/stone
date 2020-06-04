@@ -1,22 +1,22 @@
 PlatformID: SONY_PS2
 Metadata:
-  platform_releasedate: '2000-03-04'
-  platform_shortname: PS2
-  platform_licensor: Sony
-  platform_manufacturer: Sony
-  platform_type: Home
+    platform_releasedate: "2000-03-04"
+    platform_shortname: PS2
+    platform_licensor: Sony
+    platform_manufacturer: Sony
+    platform_type: Home
 MaximumInputs: 4
 FriendlyName: PlayStation 2
 FileTypes:
-    .bin: 'application/vnd.stone-romfile.sony.ps2-discimage'
-    .iso: 'application/vnd.stone-romfile.sony.ps2-discimage'
-    .img: 'application/vnd.stone-romfile.sony.ps2-discimage'
-    .elf: 'application/vnd.stone-romfile.sony.ps2-elf'
-    .nrg: 'application/vnd.stone-romfile.sony.ps2-nero'
-    .mdf: 'application/vnd.stone-romfile.sony.ps2-alcohol120'
-    .cso: 'application/vnd.stone-romfile.sony.ps2-discimage-compressed'
-    .gz: 'application/vnd.stone-romfile.sony.ps2-discimage-gzip-compressed'
-    BIOS: 'application/vnd.stone-romfile.sony.ps2-sys'
+    .bin: "application/vnd.stone-romfile.sony.ps2-discimage"
+    .iso: "application/vnd.stone-romfile.sony.ps2-discimage"
+    .img: "application/vnd.stone-romfile.sony.ps2-discimage"
+    .elf: "application/vnd.stone-romfile.sony.ps2-elf"
+    .nrg: "application/vnd.stone-romfile.sony.ps2-nero"
+    .mdf: "application/vnd.stone-romfile.sony.ps2-alcohol120"
+    .cso: "application/vnd.stone-romfile.sony.ps2-discimage-compressed"
+    .gz: "application/vnd.stone-romfile.sony.ps2-discimage-gzip-compressed"
+    BIOS: "application/vnd.stone-romfile.sony.ps2-sys"
 BiosFiles:
     scph-10000.bin:
         - acf4730ceb38ac9d8c7d8e21f2614600

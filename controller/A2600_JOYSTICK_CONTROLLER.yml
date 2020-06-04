@@ -1,22 +1,21 @@
 LayoutID: A2600_JOYSTICK_CONTROLLER
-Platforms: 
+Platforms:
   - ATARI_2600
   - ATARI_7800
 FriendlyName: "Atari 2600 Joystick"
-Layout: 
-  ButtonA: 
+Layout:
+  ButtonA:
     Label: Fire
     Type: Button
-  DirectionalE: 
+  DirectionalE:
     Label: "Joystick Right"
     Type: Directional
-  DirectionalN: 
+  DirectionalN:
     Label: "Joystick Up"
     Type: Directional
-  DirectionalS: 
+  DirectionalS:
     Label: "Joystick Down"
     Type: Directional
-  DirectionalW: 
+  DirectionalW:
     Label: "Joystick Left"
     Type: Directional
-

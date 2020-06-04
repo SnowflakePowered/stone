@@ -1,6 +1,6 @@
 PlatformID: NINTENDO_GCN
 Metadata:
-  platform_releasedate: '2001-09-14'
+  platform_releasedate: "2001-09-14"
   platform_shortname: GCN
   platform_licensor: Nintendo
   platform_manufacturer: Nintendo
@@ -8,14 +8,14 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: Nintendo GameCube
 FileTypes:
-    .iso: 'application/vnd.stone-romfile.nintendo.gcn-discimage'
-    .gcm: 'application/vnd.stone-romfile.nintendo.gcn-discimage'
-    .gcz: 'application/vnd.stone-romfile.nintendo.gcn-dolphin-compressed'
-    .dol: 'application/vnd.stone-romfile.nintendo.gcn-executable'
-    .elf: 'application/vnd.stone-romfile.nintendo.gcn-elf'
-    BIOS: 'application/vnd.stone-romfile.nintendo.gcn-sys'
+  .iso: "application/vnd.stone-romfile.nintendo.gcn-discimage"
+  .gcm: "application/vnd.stone-romfile.nintendo.gcn-discimage"
+  .gcz: "application/vnd.stone-romfile.nintendo.gcn-dolphin-compressed"
+  .dol: "application/vnd.stone-romfile.nintendo.gcn-executable"
+  .elf: "application/vnd.stone-romfile.nintendo.gcn-elf"
+  BIOS: "application/vnd.stone-romfile.nintendo.gcn-sys"
 BiosFiles:
-    IPL.bin:
-        - fc924a7c879b661abc37cec4f018fdf3
-        - 0cdda509e2da83c85bfe423dd87346cc
-        - db92574caab77a7ec99d4605fd6f2450
+  IPL.bin:
+    - fc924a7c879b661abc37cec4f018fdf3
+    - 0cdda509e2da83c85bfe423dd87346cc
+    - db92574caab77a7ec99d4605fd6f2450

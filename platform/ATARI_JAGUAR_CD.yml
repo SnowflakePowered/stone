@@ -1,6 +1,6 @@
 PlatformID: ATARI_JAGUAR_CD
 Metadata:
-  platform_releasedate: '1995-09-21'
+  platform_releasedate: "1995-09-21"
   platform_shortname: Jag CD
   platform_licensor: Atari
   platform_manufacturer: Atari
@@ -8,12 +8,12 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Atari Jaguar CD
 FileTypes:
-    .nrg: 'application/vnd.stone-romfile.atari.jaguar-nero'
-    .cdi: 'application/vnd.stone-romfile.atari.jaguar-discjuggler'
-    .ccd: 'application/vnd.stone-romfile.atari.jaguar-clonecd-control'
-    .img: 'application/vnd.stone-romfile.atari.jaguar-clonecd-image'
-    .sub: 'application/vnd.stone-romfile.atari.jaguar-clonecd-subchannel'
-    .bin: 'application/vnd.stone-romfile.atari.jaguar-disctrack'
-    .iso: 'application/vnd.stone-romfile.atari.jaguar-disctrack'
-    .cue: 'application/vnd.stone-romfile.atari.jaguar-cuesheet'
-    .chd: 'application/vnd.stone-romfile.atari.jaguar-chd-compressed'
+  .nrg: "application/vnd.stone-romfile.atari.jaguar-nero"
+  .cdi: "application/vnd.stone-romfile.atari.jaguar-discjuggler"
+  .ccd: "application/vnd.stone-romfile.atari.jaguar-clonecd-control"
+  .img: "application/vnd.stone-romfile.atari.jaguar-clonecd-image"
+  .sub: "application/vnd.stone-romfile.atari.jaguar-clonecd-subchannel"
+  .bin: "application/vnd.stone-romfile.atari.jaguar-disctrack"
+  .iso: "application/vnd.stone-romfile.atari.jaguar-disctrack"
+  .cue: "application/vnd.stone-romfile.atari.jaguar-cuesheet"
+  .chd: "application/vnd.stone-romfile.atari.jaguar-chd-compressed"

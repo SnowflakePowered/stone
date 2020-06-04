@@ -1,21 +1,21 @@
 PlatformID: NINTENDO_NDS
 Metadata:
-  platform_releasedate: '2004-11-21'
-  platform_shortname: NDS
-  platform_licensor: Nintendo
-  platform_manufacturer: Nintendo
-  platform_type: Handheld
+    platform_releasedate: "2004-11-21"
+    platform_shortname: NDS
+    platform_licensor: Nintendo
+    platform_manufacturer: Nintendo
+    platform_type: Handheld
 MaximumInputs: 1
 FriendlyName: Nintendo DS
-FileTypes: 
-# While the NitroROM and NitroARC filesystems are often used for
-# Nintendo DS ROMs, the cart format does not prescribe a file format.
-# Therefore, Stone considers NDS cart dumps to be raw binary data.
-    .nds: 'application/vnd.stone-romfile.nintendo.nds'
-    .ids: 'application/vnd.stone-romfile.nintendo.nds'
-    .gba: 'application/vnd.stone-romfile.nintendo.nds-slot2'
-    .srl: 'application/vnd.stone-romfile.nintendo.nds-clean'
-    BIOS: 'application/vnd.stone-romfile.nintendo.nds-sys'
+FileTypes:
+    # While the NitroROM and NitroARC filesystems are often used for
+    # Nintendo DS ROMs, the cart format does not prescribe a file format.
+    # Therefore, Stone considers NDS cart dumps to be raw binary data.
+    .nds: "application/vnd.stone-romfile.nintendo.nds"
+    .ids: "application/vnd.stone-romfile.nintendo.nds"
+    .gba: "application/vnd.stone-romfile.nintendo.nds-slot2"
+    .srl: "application/vnd.stone-romfile.nintendo.nds-clean"
+    BIOS: "application/vnd.stone-romfile.nintendo.nds-sys"
 BiosFiles:
     biosnds7.rom:
         - df692a80a5b1bc90728bc3dfc76cd948

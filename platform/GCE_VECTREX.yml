@@ -1,14 +1,14 @@
 PlatformID: GCE_VECTREX
 Metadata:
-  platform_releasedate: '1982-08-01'
-  platform_shortname: 'Vectrex'
+  platform_releasedate: "1982-08-01"
+  platform_shortname: "Vectrex"
   platform_licensor: General Computer
   platform_manufacturer: General Computer
   platform_type: Home
 MaximumInputs: 1
 FriendlyName: Vectrex
 FileTypes:
-    .vec: 'application/vnd.stone-romfile.generalcomputer.vec'
-    .bin: 'application/vnd.stone-romfile.generalcomputer.vec'
-    .vol: 'application/vnd.stone-romfile.generalcomputer.vec-overlay-vol'
-    .pcx: 'application/vnd.stone-romfile.generalcomputer.vec-overlay-pcx'
+  .vec: "application/vnd.stone-romfile.generalcomputer.vec"
+  .bin: "application/vnd.stone-romfile.generalcomputer.vec"
+  .vol: "application/vnd.stone-romfile.generalcomputer.vec-overlay-vol"
+  .pcx: "application/vnd.stone-romfile.generalcomputer.vec-overlay-pcx"

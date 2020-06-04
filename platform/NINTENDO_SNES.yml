@@ -1,6 +1,6 @@
 PlatformID: NINTENDO_SNES
 Metadata:
-  platform_releasedate: '1990-11-21'
+  platform_releasedate: "1990-11-21"
   platform_shortname: SNES
   platform_name_jp: Super Famicom
   platform_licensor: Nintendo
@@ -9,46 +9,46 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Super Nintendo Entertainment System
 FileTypes:
-    .sfc: 'application/vnd.stone-romfile.nintendo.snes'
-    .bin: 'application/vnd.stone-romfile.nintendo.snes'
-    .smc: 'application/vnd.stone-romfile.nintendo.snes-magiccard'
-    .swc: 'application/vnd.stone-romfile.nintendo.snes-wildcard'
-    .fig: 'application/vnd.stone-romfile.nintendo.snes-profighter'
-    BIOS: 'application/vnd.stone-romfile.nintendo.snes-sys'
-BiosFiles: 
-  cx4.data.rom: 
+  .sfc: "application/vnd.stone-romfile.nintendo.snes"
+  .bin: "application/vnd.stone-romfile.nintendo.snes"
+  .smc: "application/vnd.stone-romfile.nintendo.snes-magiccard"
+  .swc: "application/vnd.stone-romfile.nintendo.snes-wildcard"
+  .fig: "application/vnd.stone-romfile.nintendo.snes-profighter"
+  BIOS: "application/vnd.stone-romfile.nintendo.snes-sys"
+BiosFiles:
+  cx4.data.rom:
     - 037ac4296b6b6a5c47c440188d3c72e3
-  dsp1.data.rom: 
+  dsp1.data.rom:
     - 3d81b45fa0c2aa8b852dfb1ece7c0971
-  dsp1.program.rom: 
+  dsp1.program.rom:
     - ae209fbe789fbf11a48aea5ab1197321
-  dsp1b.data.rom: 
+  dsp1b.data.rom:
     - 1e3f568634a7d8284020dddc0ae905bc
-  dsp1b.program.rom: 
+  dsp1b.program.rom:
     - d10f446888e097cbf500f3f663cf4f6d
-  dsp2.data.rom: 
+  dsp2.data.rom:
     - e9417e29223b139c3c4b635a2a3b8744
-  dsp2.program.rom: 
+  dsp2.program.rom:
     - aa6e5922a3ed5ded54f24247c11143c5
-  dsp3.data.rom: 
+  dsp3.data.rom:
     - 0a81210c0a940b997dd9843281008ee6
-  dsp3.program.rom: 
+  dsp3.program.rom:
     - d99ca4562818d49cee1f242705bba6f8
-  dsp4.data.rom: 
+  dsp4.data.rom:
     - ee4990879eb68e3cbca239c5bc20303d
-  dsp4.program.rom: 
+  dsp4.program.rom:
     - a151023b948b90ffc23a5b594bb6fef2
-  sgb.boot.rom: 
+  sgb.boot.rom:
     - d574d4f9c12f305074798f54c091a8b4
-  st010.data.rom: 
+  st010.data.rom:
     - 254d70762b6f59f99c27c395aba7d07d
-  st010.program.rom: 
+  st010.program.rom:
     - 1d70019179a59a566a0bb5d3f2845544
-  st011.data.rom: 
+  st011.data.rom:
     - 10bd3f4aa949737ab9836512c35bcc29
-  st011.program.rom: 
+  st011.program.rom:
     - 95222ebf1c0c2990bcf25db43743f032
-  st018.data.rom: 
+  st018.data.rom:
     - 49c898b60d0f15e90d0ba780dd12f366
-  st018.program.rom: 
+  st018.program.rom:
     - dda40ccd57390c96e49d30a041f9a9e7

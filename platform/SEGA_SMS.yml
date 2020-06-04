@@ -1,18 +1,18 @@
 PlatformID: SEGA_SMS
 Metadata:
-  platform_releasedate: '1985-10-20'
-  platform_shortname: SMS
-  platform_licensor: Sega
-  platform_manufacturer: Sega
-  platform_type: Home
+    platform_releasedate: "1985-10-20"
+    platform_shortname: SMS
+    platform_licensor: Sega
+    platform_manufacturer: Sega
+    platform_type: Home
 MaximumInputs: 2
 FriendlyName: Sega Master System
 FileTypes:
-    .bin: 'application/vnd.stone-romfile.sega.sms'
-    .sms: 'application/vnd.stone-romfile.sega.sms'
-    BIOS: 'application/vnd.stone-romfile.sega.sms-sys'
+    .bin: "application/vnd.stone-romfile.sega.sms"
+    .sms: "application/vnd.stone-romfile.sega.sms"
+    BIOS: "application/vnd.stone-romfile.sega.sms-sys"
 BiosFiles:
-    bios_E.sms: 
+    bios_E.sms:
         - 840481177270d5642a14ca71ee72844c
     bios_J.sms:
         - 24a519c53f67b00640d0048ef7089105

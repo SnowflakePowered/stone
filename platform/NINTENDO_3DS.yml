@@ -1,6 +1,6 @@
 PlatformID: NINTENDO_3DS
 Metadata:
-  platform_releasedate: '2011-02-26'
+  platform_releasedate: "2011-02-26"
   platform_shortname: 3DS
   platform_licensor: Nintendo
   platform_manufacturer: Nintendo
@@ -8,22 +8,22 @@ Metadata:
   platform_emulator_dev: Citra
 MaximumInputs: 1
 FriendlyName: Nintendo 3DS
-FileTypes: 
-# .3ds and .cci files are NCSD containers that contain additional
-# header data by Nintendo to boot NCCH .cxi. Therefore, Stone
-# considers .3ds and .cci files to not be a simple dump of their
-# ROM data, but an image of the filesystem on the cart.
-    .3ds: 'application/vnd.stone-romfile.nintendo.3ds-cartimage'
-    .cci: 'application/vnd.stone-romfile.nintendo.3ds-cartimage'
-    .3dsx: 'application/vnd.stone-romfile.nintendo.3ds-homebrew'
-    .cia: 'application/vnd.stone-romfile.nintendo.3ds-importable'
-    .cxi: 'application/vnd.stone-romfile.nintendo.3ds-executable'
-    .app: 'application/vnd.stone-romfile.nintendo.3ds-executable'
-    .elf: 'application/vnd.stone-romfile.nintendo.3ds-elf'
-    .axf: 'application/vnd.stone-romfile.nintendo.3ds-elf'
-    BIOS: 'application/vnd.stone-romfile.nintendo.3ds-sys'
+FileTypes:
+  # .3ds and .cci files are NCSD containers that contain additional
+  # header data by Nintendo to boot NCCH .cxi. Therefore, Stone
+  # considers .3ds and .cci files to not be a simple dump of their
+  # ROM data, but an image of the filesystem on the cart.
+  .3ds: "application/vnd.stone-romfile.nintendo.3ds-cartimage"
+  .cci: "application/vnd.stone-romfile.nintendo.3ds-cartimage"
+  .3dsx: "application/vnd.stone-romfile.nintendo.3ds-homebrew"
+  .cia: "application/vnd.stone-romfile.nintendo.3ds-importable"
+  .cxi: "application/vnd.stone-romfile.nintendo.3ds-executable"
+  .app: "application/vnd.stone-romfile.nintendo.3ds-executable"
+  .elf: "application/vnd.stone-romfile.nintendo.3ds-elf"
+  .axf: "application/vnd.stone-romfile.nintendo.3ds-elf"
+  BIOS: "application/vnd.stone-romfile.nintendo.3ds-sys"
 BiosFiles:
-    boot9.bin:
-      - d8675e80e5dd3a9afaaf885d79b14e9c
-    boot11.bin:
-      - 43454041b0cddf1a34c130593afa8b9b
+  boot9.bin:
+    - d8675e80e5dd3a9afaaf885d79b14e9c
+  boot11.bin:
+    - 43454041b0cddf1a34c130593afa8b9b

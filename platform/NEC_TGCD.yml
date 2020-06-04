@@ -1,22 +1,22 @@
 PlatformID: NEC_TGCD
 Metadata:
-  platform_releasedate: '1988-12-04'
-  platform_shortname: TGCD
-  platform_jp_name: PC Engine CD
-  platform_licensor: NEC
-  platform_manufacturer: NEC
-  platform_type: Home
+    platform_releasedate: "1988-12-04"
+    platform_shortname: TGCD
+    platform_jp_name: PC Engine CD
+    platform_licensor: NEC
+    platform_manufacturer: NEC
+    platform_type: Home
 MaximumInputs: 2
 FriendlyName: TurboGrafx-CD
-FileTypes: 
-    .bin: 'application/vnd.stone-romfile.nec.tgcd-disctrack'
-    .iso: 'application/vnd.stone-romfile.nec.tgcd-disctrack'
-    .cue: 'application/vnd.stone-romfile.nec.tgcd-cuesheet'
-    .ccd: 'application/vnd.stone-romfile.nec.tgcd-clonecd-control'
-    .img: 'application/vnd.stone-romfile.nec.tgcd-clonecd-rawimage'
-    .sub: 'application/vnd.stone-romfile.nec.tgcd-clonecd-subchannel'
-    .chd: 'application/vnd.stone-romfile.nec.tgcd-chd-compressed'
-    BIOS: 'application/vnd.stone-romfile.nec.tgcd-sys'
+FileTypes:
+    .bin: "application/vnd.stone-romfile.nec.tgcd-disctrack"
+    .iso: "application/vnd.stone-romfile.nec.tgcd-disctrack"
+    .cue: "application/vnd.stone-romfile.nec.tgcd-cuesheet"
+    .ccd: "application/vnd.stone-romfile.nec.tgcd-clonecd-control"
+    .img: "application/vnd.stone-romfile.nec.tgcd-clonecd-rawimage"
+    .sub: "application/vnd.stone-romfile.nec.tgcd-clonecd-subchannel"
+    .chd: "application/vnd.stone-romfile.nec.tgcd-chd-compressed"
+    BIOS: "application/vnd.stone-romfile.nec.tgcd-sys"
 BiosFiles:
     syscard3.pce:
         - ff1a674273fe3540ccef576376407d1d

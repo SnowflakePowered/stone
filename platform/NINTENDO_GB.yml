@@ -1,18 +1,18 @@
 PlatformID: NINTENDO_GB
 Metadata:
-  platform_releasedate: '1989-04-21'
+  platform_releasedate: "1989-04-21"
   platform_shortname: GB
   platform_licensor: Nintendo
   platform_manufacturer: Nintendo
   platform_type: Handheld
 MaximumInputs: 1
 FriendlyName: Game Boy
-FileTypes: 
-    .gb: 'application/vnd.stone-romfile.nintendo.gb'
-    .bin: 'application/vnd.stone-romfile.nintendo.gb'
-    BIOS: 'application/vnd.stone-romfile.nintendo.gb-sys'
+FileTypes:
+  .gb: "application/vnd.stone-romfile.nintendo.gb"
+  .bin: "application/vnd.stone-romfile.nintendo.gb"
+  BIOS: "application/vnd.stone-romfile.nintendo.gb-sys"
 BiosFiles:
-    bios.bin:
-      - a8f84a0ac44da5d3f0ee19f9cea80a8c
-      - 71a378e71ff30b2d8a1f02bf5c7896aa
-      - 32fbbd84168d3482956eb3c5051637f5
+  bios.bin:
+    - a8f84a0ac44da5d3f0ee19f9cea80a8c
+    - 71a378e71ff30b2d8a1f02bf5c7896aa
+    - 32fbbd84168d3482956eb3c5051637f5

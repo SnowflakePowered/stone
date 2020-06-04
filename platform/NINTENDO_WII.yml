@@ -1,6 +1,6 @@
 PlatformID: NINTENDO_WII
 Metadata:
-  platform_releasedate: '2006-12-02'
+  platform_releasedate: "2006-12-02"
   platform_shortname: Wii
   platform_licensor: Nintendo
   platform_manufacturer: Nintendo
@@ -8,16 +8,16 @@ Metadata:
 MaximumInputs: 8
 FriendlyName: Wii
 FileTypes:
-    .iso: 'application/vnd.stone-romfile.nintendo.wii-discimage'
-    .wbfs: 'application/vnd.stone-romfile.nintendo.wii-wbfs'
-    .ciso: 'application/vnd.stone-romfile.nintendo.wii-discimage-compressed'
-    .gcz: 'application/vnd.stone-romfile.nintendo.wii-dolphin-compressed'
-    .elf: 'application/vnd.stone-romfile.nintendo.wii-elf'
-    .dol: 'application/vnd.stone-romfile.nintendo.wii-executable'
-    .wad: 'application/vnd.stone-romfile.nintendo.wii-package'
-    BIOS: 'application/vnd.stone-romfile.nintendo.wii-sys'
+  .iso: "application/vnd.stone-romfile.nintendo.wii-discimage"
+  .wbfs: "application/vnd.stone-romfile.nintendo.wii-wbfs"
+  .ciso: "application/vnd.stone-romfile.nintendo.wii-discimage-compressed"
+  .gcz: "application/vnd.stone-romfile.nintendo.wii-dolphin-compressed"
+  .elf: "application/vnd.stone-romfile.nintendo.wii-elf"
+  .dol: "application/vnd.stone-romfile.nintendo.wii-executable"
+  .wad: "application/vnd.stone-romfile.nintendo.wii-package"
+  BIOS: "application/vnd.stone-romfile.nintendo.wii-sys"
 BiosFiles:
-    dsp_rom.bin:
-         - 23645d446729a166ab3a9aaba2f5fba5
-    dsp_coef.bin:
-        -  9a6514b88003c9c47e334de654ec550b
+  dsp_rom.bin:
+    - 23645d446729a166ab3a9aaba2f5fba5
+  dsp_coef.bin:
+    - 9a6514b88003c9c47e334de654ec550b

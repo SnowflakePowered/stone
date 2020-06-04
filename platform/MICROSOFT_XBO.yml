@@ -9,5 +9,5 @@ Metadata:
 MaximumInputs: 4
 FriendlyName: Xbox One
 FileTypes:
-    .appx: 'application/vnd.stone-romfile.microsoft.xbo-appx-package'
-    .iso: 'application/vnd.stone-romfile.microsoft.xbo-discimage'
+  .appx: "application/vnd.stone-romfile.microsoft.xbo-appx-package"
+  .iso: "application/vnd.stone-romfile.microsoft.xbo-discimage"

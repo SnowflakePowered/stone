@@ -1,19 +1,19 @@
 PlatformID: MICROSOFT_XBOX
 Metadata:
-  platform_releasedate: '2001-11-15'
-  platform_shortname: XBOX
-  platform_licensor: Microsoft
-  platform_manufacturer: Microsoft
-  platform_type: Home
+    platform_releasedate: "2001-11-15"
+    platform_shortname: XBOX
+    platform_licensor: Microsoft
+    platform_manufacturer: Microsoft
+    platform_type: Home
 MaximumInputs: 4
 FriendlyName: Xbox
 FileTypes:
-    .xbe: 'application/vnd.stone-romfile.microsoft.xbox-executable'
-    .bin: 'application/vnd.stone-romfile.microsoft.xbox-discimage'
-    .iso: 'application/vnd.stone-romfile.microsoft.xbox-discimage'
-    .cue: 'application/vnd.stone-romfile.microsoft.xbox-cuesheet'
-    .chd: 'application/vnd.stone-romfile.microsoft.xbox-chd-compressed'
-    BIOS: 'application/vnd.stone-romfile.microsoft.xbox-sys'
+    .xbe: "application/vnd.stone-romfile.microsoft.xbox-executable"
+    .bin: "application/vnd.stone-romfile.microsoft.xbox-discimage"
+    .iso: "application/vnd.stone-romfile.microsoft.xbox-discimage"
+    .cue: "application/vnd.stone-romfile.microsoft.xbox-cuesheet"
+    .chd: "application/vnd.stone-romfile.microsoft.xbox-chd-compressed"
+    BIOS: "application/vnd.stone-romfile.microsoft.xbox-sys"
 BiosFiles:
     mcpx_1.0.bin:
         - d49c52a4102f6df7bcf8d0617ac475ed

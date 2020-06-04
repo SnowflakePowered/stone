@@ -29,7 +29,7 @@ Layout:
         Type: Button
     ButtonGuide:
         Label: "PS Button"
-        Type: Button    
+        Type: Button
     DirectionalN:
         Label: "D-Pad Up"
         Type: Directional
@@ -54,4 +54,3 @@ Layout:
     AxisLeftAnalogNegativeY:
         Label: "Analog Down"
         Type: AxisNegative
-        

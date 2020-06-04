@@ -40,7 +40,7 @@ Layout:
         Type: Button
     ButtonGuide:
         Label: "PS Button/Analog Toggle"
-        Type: Button    
+        Type: Button
     DirectionalN:
         Label: "D-Pad Up"
         Type: Directional

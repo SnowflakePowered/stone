@@ -1,19 +1,19 @@
 PlatformID: NINTENDO_N64DD
 Metadata:
-  platform_releasedate: '1999-12-01'
-  platform_shortname: N64DD
-  platform_licensor: Nintendo
-  platform_manufacturer: Nintendo
-  platform_type: Home
+    platform_releasedate: "1999-12-01"
+    platform_shortname: N64DD
+    platform_licensor: Nintendo
+    platform_manufacturer: Nintendo
+    platform_type: Home
 MaximumInputs: 4
 FriendlyName: Nintendo 64 DD
 FileTypes:
-    .d64: 'application/vnd.stone-romfile.nintendo.n64dd'
-    .dd: 'application/vnd.stone-romfile.nintendo.n64dd'
-    .bin: 'application/vnd.stone-romfile.nintendo.n64dd'
-    BIOS: 'application/vnd.stone-romfile.nintendo.n64dd-sys'
+    .d64: "application/vnd.stone-romfile.nintendo.n64dd"
+    .dd: "application/vnd.stone-romfile.nintendo.n64dd"
+    .bin: "application/vnd.stone-romfile.nintendo.n64dd"
+    BIOS: "application/vnd.stone-romfile.nintendo.n64dd-sys"
 BiosFiles:
-    64DD_IPL.bin: 
+    64DD_IPL.bin:
         - 8d3d9f294b6e174bc7b1d2fd1c727530
     64DD_IPL.n64:
         - 8d3d9f294b6e174bc7b1d2fd1c727530

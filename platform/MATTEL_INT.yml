@@ -1,22 +1,22 @@
 PlatformID: MATTEL_INT
 Metadata:
-  platform_releasedate: '1982-08-01'
-  platform_shortname: 'INT'
+  platform_releasedate: "1982-08-01"
+  platform_shortname: "INT"
   platform_licensor: Mattel Electronics
   platform_manufacturer: Mattel Electronics
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Intellivision
 FileTypes:
-    .int: 'application/vnd.stone-romfile.mattel.int'
-    .bin: 'application/vnd.stone-romfile.mattel.int'
-    BIOS: 'application/vnd.stone-romfile.mattel.int-sys'
+  .int: "application/vnd.stone-romfile.mattel.int"
+  .bin: "application/vnd.stone-romfile.mattel.int"
+  BIOS: "application/vnd.stone-romfile.mattel.int-sys"
 BiosFiles:
-    exec.bin: 
-      - 62e761035cb657903761800f4437b8af
-    grom.bin:
-      - 0cd5946c6473e42e8e4c2137785e427f
-    ivoice.bin:
-      - d5530f74681ec6e0f282dab42e6b1c5f
-    ecs.bin:
-      - 2e72a9a2b897d330a35c8b07a6146c52
+  exec.bin:
+    - 62e761035cb657903761800f4437b8af
+  grom.bin:
+    - 0cd5946c6473e42e8e4c2137785e427f
+  ivoice.bin:
+    - d5530f74681ec6e0f282dab42e6b1c5f
+  ecs.bin:
+    - 2e72a9a2b897d330a35c8b07a6146c52

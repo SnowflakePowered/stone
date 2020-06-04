@@ -1,30 +1,29 @@
 PlatformID: PANASONIC_3DO
 Metadata:
-  platform_releasedate: '1993-10-04'
-  platform_shortname: 3DO
-  platform_licensor: Panasonic
-  platform_manufacturer: Panasonic
-  platform_type: Home
+    platform_releasedate: "1993-10-04"
+    platform_shortname: 3DO
+    platform_licensor: Panasonic
+    platform_manufacturer: Panasonic
+    platform_type: Home
 MaximumInputs: 8
 FriendlyName: 3DO Interactive Multiplayer
-FileTypes: 
-    .ccd: 'application/vnd.stone-romfile.panasonic.3do-clonecd-control'
-    .img: 'application/vnd.stone-romfile.panasonic.3do-clonecd-image'
-    .sub: 'application/vnd.stone-romfile.panasonic.3do-clonecd-subchannel'
-    .bin: 'application/vnd.stone-romfile.panasonic.3do-disctrack'
-    .iso: 'application/vnd.stone-romfile.panasonic.3do-disctrack'
-    .cue: 'application/vnd.stone-romfile.panasonic.3do-cuesheet'
-    .chd: 'application/vnd.stone-romfile.panasonic.3do-compressed'
-    BIOS: 'application/vnd.stone-romfile.panasonic.3do-sys'
+FileTypes:
+    .ccd: "application/vnd.stone-romfile.panasonic.3do-clonecd-control"
+    .img: "application/vnd.stone-romfile.panasonic.3do-clonecd-image"
+    .sub: "application/vnd.stone-romfile.panasonic.3do-clonecd-subchannel"
+    .bin: "application/vnd.stone-romfile.panasonic.3do-disctrack"
+    .iso: "application/vnd.stone-romfile.panasonic.3do-disctrack"
+    .cue: "application/vnd.stone-romfile.panasonic.3do-cuesheet"
+    .chd: "application/vnd.stone-romfile.panasonic.3do-compressed"
+    BIOS: "application/vnd.stone-romfile.panasonic.3do-sys"
 BiosFiles:
     3DO-FZ-10.bin:
-        - 51f2f43ae2f3508a14d9f56597e2d3ce 
+        - 51f2f43ae2f3508a14d9f56597e2d3ce
     goldstar.bin:
         - 8639fd5e549bd6238cfee79e3e749114
     panafz1.bin:
-        - f47264dd47fe30f73ab3c010015c155b 
-    panafz10.bin: 
+        - f47264dd47fe30f73ab3c010015c155b
+    panafz10.bin:
         - 51f2f43ae2f3508a14d9f56597e2d3ce
     sanyotry.bin:
         - 35fa1a1ebaaeea286dc5cd15487c13ea
-
