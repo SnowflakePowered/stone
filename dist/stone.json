@@ -3713,7 +3713,8 @@
       },
       "BiosFiles": {
         "64DD_IPL.bin": ["8d3d9f294b6e174bc7b1d2fd1c727530", "37c36e4286d36892a9fc70eafe4104be", "94dba2d79615deed567aa85f4cf74162", "7630650c7fc16e199911269647186e79"],
-        "64DD_IPL.n64": ["8d3d9f294b6e174bc7b1d2fd1c727530", "37c36e4286d36892a9fc70eafe4104be", "94dba2d79615deed567aa85f4cf74162", "7630650c7fc16e199911269647186e79", "aad37b1492886b892f1821f37fd3ae34"]
+        "64DD_IPL.n64": ["8d3d9f294b6e174bc7b1d2fd1c727530", "37c36e4286d36892a9fc70eafe4104be", "94dba2d79615deed567aa85f4cf74162", "7630650c7fc16e199911269647186e79", "aad37b1492886b892f1821f37fd3ae34"],
+        "Nintendo 64 Modem (Japan) (Add-on).z64": ["6ebbbe58d717b3b41985be70a8dfe1be"]
       }
     },
     "NINTENDO_NDS": {
