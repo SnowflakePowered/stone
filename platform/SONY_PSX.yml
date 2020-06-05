@@ -20,6 +20,7 @@ FileTypes:
   .toc: "application/vnd.stone-romfile.sony.psx-cdrdao"
   .pbp: "application/vnd.stone-romfile.sony.psx-eboot"
   .exe: "application/vnd.stone-romfile.sony.psx-exe"
+  .psx: "application/vnd.stone-romfile.sony.psx-exe"
   .chd: "application/vnd.stone-romfile.sony.psx-chd-compressed"
   BIOS: "application/vnd.stone-romfile.sony.psx-sys"
   RSRC: "application/vnd.stone-romfile.sony.psx-resource"
