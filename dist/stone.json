@@ -4090,6 +4090,8 @@
         ".bin": "application/vnd.stone-romfile.sega.dc-disctrack",
         ".iso": "application/vnd.stone-romfile.sega.dc-disctrack",
         ".raw": "application/vnd.stone-romfile.sega.dc-disctrack",
+        ".img": "application/vnd.stone-romfile.sega.dc-disctrack",
+        ".nrg": "application/vnd.stone-romfile.sega.dc-nero",
         ".gdi": "application/vnd.stone-romfile.sega.dc-gdi",
         ".elf": "application/vnd.stone-romfile.sega.dc-elf",
         ".cdi": "application/vnd.stone-romfile.sega.dc-discjuggler",
