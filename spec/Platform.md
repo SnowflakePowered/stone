@@ -129,12 +129,8 @@ The Japanese friendly name for the *platform* as it appears in Japanese script. 
 
 The localised European friendly name for the *platform*. For example, *Mega Drive* for the *Sega Genesis*
 
-### In Development Emulator
-**Key:** `platform_emulator_dev`
-
-For *platforms* that do not have a mature emulation scene, the name of the emulator currently in development that may or may not provide a playable experience on that *platform*.
-
 ## BIOS Files
+
 Stone also describes common BIOS and firmware files required by many emulators to run. BIOS files are optional and may not exist for every *platform*. They are described by mapping the common name of the BIOS file to known lowercase *MD5* hashes of the file, accounting for without describing, different versions of BIOS files. BIOS files that go by different names but are hash-wise the same file, should have their definitions repeated with the different name.
 
 An empty array of hashes means that the file has no known hash, and only a known file name, and thus in regards to Stone, *any file* with that filename could presumably be a valid BIOS file.
