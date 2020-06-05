@@ -14,6 +14,7 @@ FileTypes:
   .dol: "application/vnd.stone-romfile.nintendo.gcn-executable"
   .elf: "application/vnd.stone-romfile.nintendo.gcn-elf"
   BIOS: "application/vnd.stone-romfile.nintendo.gcn-sys"
+  RSRC: "application/vnd.stone-romfile.nintendo.gcn-resource"
 BiosFiles:
   IPL.bin:
     - fc924a7c879b661abc37cec4f018fdf3

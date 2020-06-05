@@ -15,3 +15,8 @@ FileTypes:
   .rom: "application/vnd.stone-romfile.atari.jaguar-alpine"
   .abs: "application/vnd.stone-romfile.atari.jaguar-executable"
   .cof: "application/vnd.stone-romfile.atari.jaguar-executable"
+  .u1: "application/vnd.stone-romfile.atari.jaguar-multipart"
+  .u2: "application/vnd.stone-romfile.atari.jaguar-multipart"
+  .u3: "application/vnd.stone-romfile.atari.jaguar-multipart"
+  .u4: "application/vnd.stone-romfile.atari.jaguar-multipart"
+  RSRC: "application/vnd.stone-romfile.atari.jaguar-resource"

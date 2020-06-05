@@ -8,14 +8,15 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: Nintendo DS
 FileTypes:
-    # While the NitroROM and NitroARC filesystems are often used for
-    # Nintendo DS ROMs, the cart format does not prescribe a file format.
-    # Therefore, Stone considers NDS cart dumps to be raw binary data.
-    .nds: "application/vnd.stone-romfile.nintendo.nds"
-    .ids: "application/vnd.stone-romfile.nintendo.nds"
-    .gba: "application/vnd.stone-romfile.nintendo.nds-slot2"
-    .srl: "application/vnd.stone-romfile.nintendo.nds-clean"
-    BIOS: "application/vnd.stone-romfile.nintendo.nds-sys"
+  # While the NitroROM and NitroARC filesystems are often used for
+  # Nintendo DS ROMs, the cart format does not prescribe a file format.
+  # Therefore, Stone considers NDS cart dumps to be raw binary data.
+  .nds: "application/vnd.stone-romfile.nintendo.nds"
+  .ids: "application/vnd.stone-romfile.nintendo.nds"
+  .gba: "application/vnd.stone-romfile.nintendo.nds-slot2"
+  .srl: "application/vnd.stone-romfile.nintendo.nds-clean"
+  BIOS: "application/vnd.stone-romfile.nintendo.nds-sys"
+  RSRC: "application/vnd.stone-romfile.nintendo.nds-resource"
 BiosFiles:
     biosnds7.rom:
         - df692a80a5b1bc90728bc3dfc76cd948

@@ -11,6 +11,7 @@ FileTypes:
   .gbc: "application/vnd.stone-romfile.nintendo.gbc"
   .bin: "application/vnd.stone-romfile.nintendo.gbc"
   BIOS: "application/vnd.stone-romfile.nintendo.gbc-sys"
+  RSRC: "application/vnd.stone-romfile.nintendo.gbc-resource"
 BiosFiles:
   gbc_bios.bin:
     - dbfce9db9deaa2567f6a84fde55f9680

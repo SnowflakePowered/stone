@@ -17,6 +17,7 @@ FileTypes:
   .img: "application/vnd.stone-romfile.snk.ngcd-clonecd-image"
   .sub: "application/vnd.stone-romfile.snk.ngcd-clonecd-subchannel"
   BIOS: "application/vnd.stone-romfile.snk.ngcd-sys"
+  RSRC: "application/vnd.stone-romfile.snk.ngcd-resource"
 BiosFiles:
   top-sp1.bin:
     - 122aee210324c72e8a11116e6ef9c0d0

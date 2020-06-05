@@ -10,6 +10,7 @@ FriendlyName: SuFami Turbo
 FileTypes:
   .st: "application/vnd.stone-romfile.nintendo.st"
   BIOS: "application/vnd.stone-romfile.nintendo.st-sys"
+  RSRC: "application/vnd.stone-romfile.nintendo.st-resource"
 BiosFiles:
   Sufami Turbo (Japan).sfc:
     - d3a44ba7d42a74d3ac58cb9c14c6a5ca

@@ -11,6 +11,7 @@ FileTypes:
   .int: "application/vnd.stone-romfile.mattel.int"
   .bin: "application/vnd.stone-romfile.mattel.int"
   BIOS: "application/vnd.stone-romfile.mattel.int-sys"
+  RSRC: "application/vnd.stone-romfile.mattel.int-resource"
 BiosFiles:
   exec.bin:
     - 62e761035cb657903761800f4437b8af

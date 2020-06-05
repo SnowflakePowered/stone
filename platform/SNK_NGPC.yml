@@ -11,6 +11,7 @@ FileTypes:
   .ngc: "application/vnd.stone-romfile.snk.ngpc"
   .bin: "application/vnd.stone-romfile.snk.ngpc"
   BIOS: "application/vnd.stone-romfile.snk.ngpc-sys"
+  RSRC: "application/vnd.stone-romfile.snk.ngpc-resource"
 BiosFiles:
   bios.rom:
     - 3655aacebb43a963607d4cf821fc1301

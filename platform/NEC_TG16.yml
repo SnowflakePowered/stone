@@ -9,9 +9,10 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: TurboGrafx-16
 FileTypes:
-    .pce: "application/vnd.stone-romfile.nec.tg16"
-    .bin: "application/vnd.stone-romfile.nec.tg16"
-    BIOS: "application/vnd.stone-romfile.nec.tg16-sys"
+  .pce: "application/vnd.stone-romfile.nec.tg16"
+  .bin: "application/vnd.stone-romfile.nec.tg16"
+  BIOS: "application/vnd.stone-romfile.nec.tg16-sys"
+  RSRC: "application/vnd.stone-romfile.nec.tg16-resource"
 BiosFiles:
     syscard3.pce:
         - ff1a674273fe3540ccef576376407d1d

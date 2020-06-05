@@ -16,6 +16,7 @@ FileTypes:
   .dol: "application/vnd.stone-romfile.nintendo.wii-executable"
   .wad: "application/vnd.stone-romfile.nintendo.wii-importable"
   BIOS: "application/vnd.stone-romfile.nintendo.wii-sys"
+  RSRC: "application/vnd.stone-romfile.nintendo.wii-resource"
 BiosFiles:
   dsp_rom.bin:
     - 23645d446729a166ab3a9aaba2f5fba5

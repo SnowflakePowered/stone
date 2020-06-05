@@ -22,6 +22,7 @@ FileTypes:
   .elf: "application/vnd.stone-romfile.nintendo.n3ds-elf"
   .axf: "application/vnd.stone-romfile.nintendo.n3ds-elf"
   BIOS: "application/vnd.stone-romfile.nintendo.n3ds-sys"
+  RSRC: "application/vnd.stone-romfile.nintendo.n3ds-resource"
 BiosFiles:
   boot9.bin:
     - d8675e80e5dd3a9afaaf885d79b14e9c

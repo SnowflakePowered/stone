@@ -14,6 +14,7 @@ FileTypes:
   .nsp: "application/vnd.stone-romfile.nintendo.nsw-importable"
   .nca: "application/vnd.stone-romfile.nintendo.nsw-importable-encrypted"
   BIOS: "application/vnd.stone-romfile.nintendo.nsw-sys"
+  RSRC: "application/vnd.stone-romfile.nintendo.nsw-resource"
 BiosFiles:
   console.keys: []
   prod.keys: []

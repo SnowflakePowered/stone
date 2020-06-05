@@ -8,9 +8,10 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega Master System
 FileTypes:
-    .bin: "application/vnd.stone-romfile.sega.sms"
-    .sms: "application/vnd.stone-romfile.sega.sms"
-    BIOS: "application/vnd.stone-romfile.sega.sms-sys"
+  .bin: "application/vnd.stone-romfile.sega.sms"
+  .sms: "application/vnd.stone-romfile.sega.sms"
+  BIOS: "application/vnd.stone-romfile.sega.sms-sys"
+  RSRC: "application/vnd.stone-romfile.sega.sms-resource"
 BiosFiles:
     bios_E.sms:
         - 840481177270d5642a14ca71ee72844c

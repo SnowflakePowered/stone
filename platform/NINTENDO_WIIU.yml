@@ -14,3 +14,4 @@ FileTypes:
   .wux: "application/vnd.stone-romfile.nintendo.wiiu-discimage-compressed"
   .rpx: "application/vnd.stone-romfile.nintendo.wiiu-importable"
   .elf: "application/vnd.stone-romfile.nintendo.wiiu-elf"
+  RSRC: "application/vnd.stone-romfile.nintendo.wiiu-resource"

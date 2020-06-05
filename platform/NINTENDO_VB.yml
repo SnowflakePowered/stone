@@ -10,3 +10,4 @@ FriendlyName: Virtual Boy
 FileTypes:
   .vb: "application/vnd.stone-romfile.nintendo.vb"
   .bin: "application/vnd.stone-romfile.nintendo.vb"
+  RSRC: "application/vnd.stone-romfile.nintendo.vb-resource"

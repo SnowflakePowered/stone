@@ -16,6 +16,7 @@ FileTypes:
   .iso: "application/vnd.stone-romfile.sony.ps3-discimage"
   .rap: "application/vnd.stone-romfile.sony.ps3-license"
   BIOS: "application/vnd.stone-romfile.sony.ps3-sys"
+  RSRC: "application/vnd.stone-romfile.sony.ps3-resource"
 BiosFiles:
   PS3UPDAT.PUP:
     - da5438f39b3b6e5ef904d91162d93086

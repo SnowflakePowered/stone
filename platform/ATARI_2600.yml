@@ -1,13 +1,14 @@
 PlatformID: ATARI_2600
 Metadata:
-  platform_releasedate: '1977-09-11'
-  platform_shortname: '2600'
+  platform_releasedate: "1977-09-11"
+  platform_shortname: "2600"
   platform_licensor: Atari
   platform_manufacturer: Atari
   platform_type: Home
 MaximumInputs: 2
 FriendlyName: Atari 2600
 FileTypes:
-    .a26: 'application/vnd.stone-romfile.atari.a2600'
-    .bin: 'application/vnd.stone-romfile.atari.a2600'
-    .rom: 'application/vnd.stone-romfile.atari.a2600'
+  .a26: "application/vnd.stone-romfile.atari.a2600"
+  .bin: "application/vnd.stone-romfile.atari.a2600"
+  .rom: "application/vnd.stone-romfile.atari.a2600"
+  RSRC: "application/vnd.stone-romfile.atari.a2600-resource"

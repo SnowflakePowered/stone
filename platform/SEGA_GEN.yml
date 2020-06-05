@@ -16,6 +16,7 @@ FileTypes:
   .smd: "application/vnd.stone-romfile.sega.gen-magicdrive"
   .gen: "application/vnd.stone-romfile.sega.gen"
   BIOS: "application/vnd.stone-romfile.sega.gen-sys"
+  RSRC: "application/vnd.stone-romfile.sega.gen-resource"
 BiosFiles:
   Genesis_OS_ROM.bin:
     - d3293ebaaa7f4eb2a6766b68a0fb4609

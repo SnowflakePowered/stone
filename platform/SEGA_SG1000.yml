@@ -11,3 +11,4 @@ FileTypes:
   .sg: "application/vnd.stone-romfile.sega.sg1000"
   .sc: "application/vnd.stone-romfile.sega.sg1000"
   .bin: "application/vnd.stone-romfile.sega.sg1000"
+  RSRC: "application/vnd.stone-romfile.sega.sg1000-resource"

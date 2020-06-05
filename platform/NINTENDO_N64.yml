@@ -14,3 +14,4 @@ FileTypes:
   .v64: "application/vnd.stone-romfile.nintendo.n64-byteswapped"
   .rom: "application/vnd.stone-romfile.nintendo.n64-indeterminate"
   .bin: "application/vnd.stone-romfile.nintendo.n64-indeterminate"
+  RSRC: "application/vnd.stone-romfile.nintendo.n64-resource"

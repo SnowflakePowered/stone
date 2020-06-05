@@ -12,3 +12,4 @@ FileTypes:
   .bin: "application/vnd.stone-romfile.generalcomputer.vec"
   .vol: "application/vnd.stone-romfile.generalcomputer.vec-overlay-vol"
   .pcx: "application/vnd.stone-romfile.generalcomputer.vec-overlay-pcx"
+  RSRC: "application/vnd.stone-romfile.generalcomputer.vec-resource"

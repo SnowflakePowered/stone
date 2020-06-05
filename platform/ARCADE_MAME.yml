@@ -3,5 +3,6 @@ Metadata:
   platform_type: Arcade
 MaximumInputs: 8
 FriendlyName: Arcade
-FileTypes: 
-    .zip: 'application/vnd.stone-romfile.arcade+zip'
+FileTypes:
+  .zip: "application/vnd.stone-romfile.arcade+zip"
+  RSRC: "application/vnd.stone-romfile.arcade-resource"

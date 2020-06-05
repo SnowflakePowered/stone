@@ -11,3 +11,4 @@ FriendlyName: Xbox One
 FileTypes:
   .appx: "application/vnd.stone-romfile.microsoft.xbo-importable"
   .iso: "application/vnd.stone-romfile.microsoft.xbo-discimage"
+  RSRC: "application/vnd.stone-romfile.microsoft.xbo-resource"

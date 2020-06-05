@@ -17,6 +17,7 @@ FileTypes:
   .pkg: "application/vnd.stone-romfile.sony.psp-importable"
   .rap: "application/vnd.stone-romfile.sony.psp-license"
   BIOS: "application/vnd.stone-romfile.sony.psp-sys"
+  RSRC: "application/vnd.stone-romfile.sony.psp-resource"
 BiosFiles:
   PSPUPDAT.PUP:
     - 47398e49360ab021c3ffa42cac3e6f15

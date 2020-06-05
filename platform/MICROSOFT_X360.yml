@@ -12,3 +12,4 @@ FileTypes:
   .iso: "application/vnd.stone-romfile.microsoft.x360-discimage"
   .xex: "application/vnd.stone-romfile.microsoft.x360-executable"
   .xcp: "application/vnd.stone-romfile.microsoft.x360-importable"
+  RSRC: "application/vnd.stone-romfile.microsoft.x360-resource"

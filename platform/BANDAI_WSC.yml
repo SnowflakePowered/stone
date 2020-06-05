@@ -10,3 +10,4 @@ FriendlyName: Bandai WonderSwan Color
 FileTypes:
   .wsc: "application/vnd.stone-romfile.bandai.wsc"
   .bin: "application/vnd.stone-romfile.bandai.wsc"
+  RSRC: "application/vnd.stone-romfile.bandai.wsc-resource"

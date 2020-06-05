@@ -9,8 +9,9 @@ Metadata:
 MaximumInputs: 1
 FriendlyName: PlayStation Vita
 FileTypes:
-  .psv: "application/vnd.stone-romfile.sony.psv-psvgamesd"
+  .psv: "application/vnd.stone-romfile.sony.psv-cartimage"
   .vpk: "application/vnd.stone-romfile.sony.psv-henkaku+zip"
   .pkg: "application/vnd.stone-romfile.sony.psv-importable"
   .zip: "application/vnd.stone-romfile.sony.psv-mai+zip"
   .rif: "application/vnd.stone-romfile.sony.psv-license"
+  RSRC: "application/vnd.stone-romfile.sony.psv-resource"

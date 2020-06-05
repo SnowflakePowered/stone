@@ -36,8 +36,17 @@
         "^\\.": {
           "type": "string",
           "pattern": "^application\\/vnd\\.stone-romfile\\..+"
+        },
+        "^RSRC$": {
+          "type": "string",
+          "pattern": "^application\\/vnd\\.stone-romfile\\..+-resource"
+        },
+        "^BIOS$": {
+          "type": "string",
+          "pattern": "^application\\/vnd\\.stone-romfile\\..+-sys"
         }
-      }
+      },
+      "required": [ "RSRC" ]
     },
     "BiosFiles": {
       "id": "http://snowflakepowe.red/stone/schema/platform/BiosFiles",
@@ -48,7 +57,7 @@
           "type": "array",
           "items": {
           	"type": "string",
-            "pattern": "^BIOS$|^[a-f0-9]{32}$"
+            "pattern": "^[a-f0-9]{32}$"
           }
         }
       }

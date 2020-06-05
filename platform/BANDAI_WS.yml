@@ -10,3 +10,4 @@ FriendlyName: Bandai WonderSwan
 FileTypes:
   .ws: "application/vnd.stone-romfile.bandai.ws"
   .bin: "application/vnd.stone-romfile.bandai.ws"
+  RSRC: "application/vnd.stone-romfile.bandai.ws-resource"

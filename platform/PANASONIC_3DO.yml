@@ -8,14 +8,16 @@ Metadata:
 MaximumInputs: 8
 FriendlyName: 3DO Interactive Multiplayer
 FileTypes:
-    .ccd: "application/vnd.stone-romfile.panasonic.3do-clonecd-control"
-    .img: "application/vnd.stone-romfile.panasonic.3do-clonecd-image"
-    .sub: "application/vnd.stone-romfile.panasonic.3do-clonecd-subchannel"
-    .bin: "application/vnd.stone-romfile.panasonic.3do-disctrack"
-    .iso: "application/vnd.stone-romfile.panasonic.3do-disctrack"
-    .cue: "application/vnd.stone-romfile.panasonic.3do-cuesheet"
-    .chd: "application/vnd.stone-romfile.panasonic.3do-compressed"
-    BIOS: "application/vnd.stone-romfile.panasonic.3do-sys"
+  .ccd: "application/vnd.stone-romfile.panasonic.3do-clonecd-control"
+  .img: "application/vnd.stone-romfile.panasonic.3do-clonecd-image"
+  .sub: "application/vnd.stone-romfile.panasonic.3do-clonecd-subchannel"
+  .bin: "application/vnd.stone-romfile.panasonic.3do-disctrack"
+  .wav: "application/vnd.stone-romfile.panasonic.3do-disctrack-riff"
+  .iso: "application/vnd.stone-romfile.panasonic.3do-disctrack"
+  .cue: "application/vnd.stone-romfile.panasonic.3do-cuesheet"
+  .chd: "application/vnd.stone-romfile.panasonic.3do-compressed"
+  BIOS: "application/vnd.stone-romfile.panasonic.3do-sys"
+  RSRC: "application/vnd.stone-romfile.panasonic.3do-resource"
 BiosFiles:
     3DO-FZ-10.bin:
         - 51f2f43ae2f3508a14d9f56597e2d3ce

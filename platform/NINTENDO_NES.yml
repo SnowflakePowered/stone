@@ -13,3 +13,4 @@ FileTypes:
   .bin: "application/vnd.stone-romfile.nintendo.nes-ines"
   .unf: "application/vnd.stone-romfile.nintendo.nes-unif"
   .pas: "application/vnd.stone-romfile.nintendo.nes"
+  RSRC: "application/vnd.stone-romfile.nintendo.nes-resource"

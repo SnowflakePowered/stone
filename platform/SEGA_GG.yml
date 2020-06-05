@@ -12,6 +12,7 @@ FileTypes:
   .sms: "application/vnd.stone-romfile.sega.gg"
   .bin: "application/vnd.stone-romfile.sega.gg"
   BIOS: "application/vnd.stone-romfile.sega.gg-sys"
+  RSRC: "application/vnd.stone-romfile.sega.gg-resource"
 BiosFiles:
   bios.gg:
     - 672e104c3be3a238301aceffc3b23fd6

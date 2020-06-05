@@ -12,6 +12,7 @@ FileTypes:
   .rom: "application/vnd.stone-romfile.coleco.cv"
   .col: "application/vnd.stone-romfile.coleco.cv"
   BIOS: "application/vnd.stone-romfile.coleco.cv-sys"
+  RSRC: "application/vnd.stone-romfile.coleco.cv-resource"
 BiosFiles:
   coleco.rom:
     - 2c66f5911e5b42b8ebe113403548eee7

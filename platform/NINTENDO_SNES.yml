@@ -15,6 +15,7 @@ FileTypes:
   .swc: "application/vnd.stone-romfile.nintendo.snes-wildcard"
   .fig: "application/vnd.stone-romfile.nintendo.snes-profighter"
   BIOS: "application/vnd.stone-romfile.nintendo.snes-sys"
+  RSRC: "application/vnd.stone-romfile.nintendo.snes-resource"
 BiosFiles:
   cx4.data.rom:
     - 037ac4296b6b6a5c47c440188d3c72e3

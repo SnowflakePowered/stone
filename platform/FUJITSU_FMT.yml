@@ -14,6 +14,7 @@ FileTypes:
   .d88: "application/vnd.stone-romfile.fujitsu.fmt-d88"
   .hdm: "application/vnd.stone-romfile.fujitsu.fmt-hdm"
   BIOS: "application/vnd.stone-romfile.fujitsu.fmt-sys"
+  RSRC: "application/vnd.stone-romfile.fujitsu.fmt-resource"
 BiosFiles:
   FMT_DIC.ROM:
     - 8fa4e553f28cfc0c30a0a1e589799942
