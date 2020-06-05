@@ -9,6 +9,7 @@ MaximumInputs: 1
 FriendlyName: Nintendo DSi
 FileTypes:
   .dsi: "application/vnd.stone-romfile.nintendo.dsi"
+  .nds: "application/vnd.stone-romfile.nintendo.dsi"
   BIOS: "application/vnd.stone-romfile.nintendo.dsi-sys"
   RSRC: "application/vnd.stone-romfile.nintendo.dsi-resource"
 BiosFiles:
