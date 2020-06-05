@@ -13,6 +13,7 @@ FileTypes:
     .sub: "application/vnd.stone-romfile.sega.32xcd-clonecd-subchannel"
     .bin: "application/vnd.stone-romfile.sega.32xcd-disctrack"
     .iso: "application/vnd.stone-romfile.sega.32xcd-disctrack"
+    .wav: "application/vnd.stone-romfile.sega.32xcd-disctrack-riff"
     .cue: "application/vnd.stone-romfile.sega.32xcd-cuesheet"
     .chd: "application/vnd.stone-romfile.sega.32xcd-chd-compressed"
     BIOS: "application/vnd.stone-romfile.sega.32xcd-sys"

@@ -11,9 +11,9 @@ MaximumInputs: 2
 FriendlyName: Sega Genesis
 FileTypes:
   .bin: "application/vnd.stone-romfile.sega.gen"
-  .smd: "application/vnd.stone-romfile.sega.gen"
   .rom: "application/vnd.stone-romfile.sega.gen"
   .md: "application/vnd.stone-romfile.sega.gen"
+  .smd: "application/vnd.stone-romfile.sega.gen-magicdrive"
   .gen: "application/vnd.stone-romfile.sega.gen"
   BIOS: "application/vnd.stone-romfile.sega.gen-sys"
 BiosFiles:

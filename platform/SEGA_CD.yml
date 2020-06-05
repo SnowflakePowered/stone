@@ -10,8 +10,12 @@ FriendlyName: Sega CD
 FileTypes:
     .bin: "application/vnd.stone-romfile.sega.scd-disctrack"
     .iso: "application/vnd.stone-romfile.sega.scd-disctrack"
+    .wav: "application/vnd.stone-romfile.sega.scd-disctrack-riff"
     .cue: "application/vnd.stone-romfile.sega.scd-cuesheet"
     .chd: "application/vnd.stone-romfile.sega.scd-chd-compressed"
+    .ccd: "application/vnd.stone-romfile.sega.scd-clonecd-control"
+    .img: "application/vnd.stone-romfile.sega.scd-clonecd-image"
+    .sub: "application/vnd.stone-romfile.sega.scd-clonecd-subchannel"
     BIOS: "application/vnd.stone-romfile.sega.scd-sys"
 BiosFiles:
     bios_CD_U.bin:

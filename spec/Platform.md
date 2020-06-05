@@ -62,6 +62,8 @@ Certain file formats appear frequently across platforms, especially with disc ba
 
   * If the platform exposes an operating system with a native executable format, such a format SHOULD be suffixed with `-executable`. 
 
+  * If the format is the platform-sponsored importable/unpackable archive format, the suffix `-importable` SHOULD be used. 
+  
   * For compressed file formats not compressed with the ZIP compression algorithm, the `-compressed` suffix SHOULD be used.
 
 Any defined Stone content-type format can have the `+zip` suffix if compressed **by itself** in a ZIP archive. A common example is `.nes` dumps in `.zip` files, which would have the mimetype `application/vnd.stone-romfile.nintendo.nes-ines+zip`

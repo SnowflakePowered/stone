@@ -14,7 +14,7 @@ FileTypes:
   .gcz: "application/vnd.stone-romfile.nintendo.wii-dolphin-compressed"
   .elf: "application/vnd.stone-romfile.nintendo.wii-elf"
   .dol: "application/vnd.stone-romfile.nintendo.wii-executable"
-  .wad: "application/vnd.stone-romfile.nintendo.wii-package"
+  .wad: "application/vnd.stone-romfile.nintendo.wii-importable"
   BIOS: "application/vnd.stone-romfile.nintendo.wii-sys"
 BiosFiles:
   dsp_rom.bin:

@@ -13,5 +13,8 @@ FileTypes:
 BiosFiles:
     biosdsi7.rom:
         - 2e17b63fc7ad43763f11226c96240ef1
-    biosnds9.rom:
+        - 559dae4ea78eb9d67702c56c1d791e81
+        - c8b9fe70f1ef5cab8e55540cd1c13dc8
+    biosdsi9.rom:
         - 3fbb3f39bd9a96e5d743f138bd4b9907
+        - 87b665fce118f76251271c3732532777

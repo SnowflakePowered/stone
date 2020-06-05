@@ -8,13 +8,20 @@ Metadata:
 MaximumInputs: 2
 FriendlyName: Sega 32X
 FileTypes:
+    .bin: "application/vnd.stone-romfile.sega.32x"
     .rom: "application/vnd.stone-romfile.sega.32x"
     .32x: "application/vnd.stone-romfile.sega.32x"
+    .smd: "application/vnd.stone-romfile.sega.32x-magicdrive"
     BIOS: "application/vnd.stone-romfile.sega.32x-sys"
 BiosFiles:
     32X_G_BIOS.BIN:
         - 6a5433f6a132a2b683635819a6dcf085
+        - a70a89510ceba467bf9d21ddd1d141f7 # poorman's ROM
     32X_S_BIOS.BIN:
         - 7f041b6a55cd7423a6c08a219335269e
+        - c480d0c9ff0fb1f05c038512b72aec5a # poorman's ROM
     32X_M_BIOS.BIN:
         - f88354ec482be09aeccd76a97bb75868
+        - 3e373e5bd9ea545b43ea190f4174b11b # poorman's ROM
+    32X_M_BIOS_SDK.bin:
+        - f754457e362a347c80c87f99164c3349

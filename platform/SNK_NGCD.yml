@@ -10,8 +10,12 @@ FriendlyName: Neo Geo CD
 FileTypes:
   .iso: "application/vnd.stone-romfile.snk.ngcd-disctrack"
   .bin: "application/vnd.stone-romfile.snk.ngcd-disctrack"
+  .wav: "application/vnd.stone-romfile.snk.ngcd-disctrack-riff"
   .cue: "application/vnd.stone-romfile.snk.ngcd-cuesheet"
   .chd: "application/vnd.stone-romfile.snk.ngcd-chd-compressed"
+  .ccd: "application/vnd.stone-romfile.snk.ngcd-clonecd-control"
+  .img: "application/vnd.stone-romfile.snk.ngcd-clonecd-image"
+  .sub: "application/vnd.stone-romfile.snk.ngcd-clonecd-subchannel"
   BIOS: "application/vnd.stone-romfile.snk.ngcd-sys"
 BiosFiles:
   top-sp1.bin:

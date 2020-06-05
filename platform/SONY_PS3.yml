@@ -11,10 +11,11 @@ FriendlyName: PlayStation 3
 FileTypes:
   .elf: "application/vnd.stone-romfile.sony.ps3-elf"
   .self: "application/vnd.stone-romfile.sony.ps3-elf-signed"
-  .pkg: "application/vnd.stone-romfile.sony.ps3-package"
+  .pkg: "application/vnd.stone-romfile.sony.ps3-importable"
   .bin: "application/vnd.stone-romfile.sony.ps3-elf"
   .iso: "application/vnd.stone-romfile.sony.ps3-discimage"
-  BIOS: "application/vnd.stone-romfile.sony.ps2-sys"
+  .rap: "application/vnd.stone-romfile.sony.ps3-license"
+  BIOS: "application/vnd.stone-romfile.sony.ps3-sys"
 BiosFiles:
   PS3UPDAT.PUP:
     - da5438f39b3b6e5ef904d91162d93086

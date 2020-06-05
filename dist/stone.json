@@ -3292,7 +3292,7 @@
       "FileTypes": {
         ".iso": "application/vnd.stone-romfile.microsoft.x360-discimage",
         ".xex": "application/vnd.stone-romfile.microsoft.x360-executable",
-        ".xcp": "application/vnd.stone-romfile.microsoft.x360-content-package"
+        ".xcp": "application/vnd.stone-romfile.microsoft.x360-importable"
       }
     },
     "MICROSOFT_XBO": {
@@ -3308,7 +3308,7 @@
       "MaximumInputs": 4,
       "FriendlyName": "Xbox One",
       "FileTypes": {
-        ".appx": "application/vnd.stone-romfile.microsoft.xbo-appx-package",
+        ".appx": "application/vnd.stone-romfile.microsoft.xbo-importable",
         ".iso": "application/vnd.stone-romfile.microsoft.xbo-discimage"
       }
     },
@@ -3499,8 +3499,8 @@
         "BIOS": "application/vnd.stone-romfile.nintendo.dsi-sys"
       },
       "BiosFiles": {
-        "biosdsi7.rom": ["2e17b63fc7ad43763f11226c96240ef1"],
-        "biosnds9.rom": ["3fbb3f39bd9a96e5d743f138bd4b9907"]
+        "biosdsi7.rom": ["2e17b63fc7ad43763f11226c96240ef1", "559dae4ea78eb9d67702c56c1d791e81", "c8b9fe70f1ef5cab8e55540cd1c13dc8"],
+        "biosdsi9.rom": ["3fbb3f39bd9a96e5d743f138bd4b9907", "87b665fce118f76251271c3732532777"]
       }
     },
     "NINTENDO_FDS": {
@@ -3670,12 +3670,13 @@
       "FileTypes": {
         ".d64": "application/vnd.stone-romfile.nintendo.n64dd",
         ".dd": "application/vnd.stone-romfile.nintendo.n64dd",
+        ".ndd": "application/vnd.stone-romfile.nintendo.n64dd",
         ".bin": "application/vnd.stone-romfile.nintendo.n64dd",
         "BIOS": "application/vnd.stone-romfile.nintendo.n64dd-sys"
       },
       "BiosFiles": {
-        "64DD_IPL.bin": ["8d3d9f294b6e174bc7b1d2fd1c727530"],
-        "64DD_IPL.n64": ["8d3d9f294b6e174bc7b1d2fd1c727530"]
+        "64DD_IPL.bin": ["8d3d9f294b6e174bc7b1d2fd1c727530", "37c36e4286d36892a9fc70eafe4104be", "94dba2d79615deed567aa85f4cf74162", "7630650c7fc16e199911269647186e79"],
+        "64DD_IPL.n64": ["8d3d9f294b6e174bc7b1d2fd1c727530", "37c36e4286d36892a9fc70eafe4104be", "94dba2d79615deed567aa85f4cf74162", "7630650c7fc16e199911269647186e79", "aad37b1492886b892f1821f37fd3ae34"]
       }
     },
     "NINTENDO_NDS": {
@@ -3735,8 +3736,8 @@
         ".nro": "application/vnd.stone-romfile.nintendo.nsw-homebrew",
         ".nso": "application/vnd.stone-romfile.nintendo.nsw-executable",
         ".xci": "application/vnd.stone-romfile.nintendo.nsw-cartimage",
-        ".nsp": "application/vnd.stone-romfile.nintendo.nsw-package",
-        ".nca": "application/vnd.stone-romfile.nintendo.nsw-importable",
+        ".nsp": "application/vnd.stone-romfile.nintendo.nsw-importable",
+        ".nca": "application/vnd.stone-romfile.nintendo.nsw-importable-encrypted",
         "BIOS": "application/vnd.stone-romfile.nintendo.nsw-sys"
       },
       "BiosFiles": {
@@ -3846,7 +3847,7 @@
         ".gcz": "application/vnd.stone-romfile.nintendo.wii-dolphin-compressed",
         ".elf": "application/vnd.stone-romfile.nintendo.wii-elf",
         ".dol": "application/vnd.stone-romfile.nintendo.wii-executable",
-        ".wad": "application/vnd.stone-romfile.nintendo.wii-package",
+        ".wad": "application/vnd.stone-romfile.nintendo.wii-importable",
         "BIOS": "application/vnd.stone-romfile.nintendo.wii-sys"
       },
       "BiosFiles": {
@@ -3870,7 +3871,7 @@
         ".wud": "application/vnd.stone-romfile.nintendo.wiiu-discimage",
         ".iso": "application/vnd.stone-romfile.nintendo.wiiu-discimage",
         ".wux": "application/vnd.stone-romfile.nintendo.wiiu-discimage-compressed",
-        ".rpx": "application/vnd.stone-romfile.nintendo.wiiu-package",
+        ".rpx": "application/vnd.stone-romfile.nintendo.wiiu-importable",
         ".elf": "application/vnd.stone-romfile.nintendo.wiiu-elf"
       }
     },
@@ -3943,14 +3944,17 @@
       "MaximumInputs": 2,
       "FriendlyName": "Sega 32X",
       "FileTypes": {
+        ".bin": "application/vnd.stone-romfile.sega.32x",
         ".rom": "application/vnd.stone-romfile.sega.32x",
         ".32x": "application/vnd.stone-romfile.sega.32x",
+        ".smd": "application/vnd.stone-romfile.sega.32x-magicdrive",
         "BIOS": "application/vnd.stone-romfile.sega.32x-sys"
       },
       "BiosFiles": {
-        "32X_G_BIOS.BIN": ["6a5433f6a132a2b683635819a6dcf085"],
-        "32X_S_BIOS.BIN": ["7f041b6a55cd7423a6c08a219335269e"],
-        "32X_M_BIOS.BIN": ["f88354ec482be09aeccd76a97bb75868"]
+        "32X_G_BIOS.BIN": ["6a5433f6a132a2b683635819a6dcf085", "a70a89510ceba467bf9d21ddd1d141f7"],
+        "32X_S_BIOS.BIN": ["7f041b6a55cd7423a6c08a219335269e", "c480d0c9ff0fb1f05c038512b72aec5a"],
+        "32X_M_BIOS.BIN": ["f88354ec482be09aeccd76a97bb75868", "3e373e5bd9ea545b43ea190f4174b11b"],
+        "32X_M_BIOS_SDK.bin": ["f754457e362a347c80c87f99164c3349"]
       }
     },
     "SEGA_32X_CD": {
@@ -3970,6 +3974,7 @@
         ".sub": "application/vnd.stone-romfile.sega.32xcd-clonecd-subchannel",
         ".bin": "application/vnd.stone-romfile.sega.32xcd-disctrack",
         ".iso": "application/vnd.stone-romfile.sega.32xcd-disctrack",
+        ".wav": "application/vnd.stone-romfile.sega.32xcd-disctrack-riff",
         ".cue": "application/vnd.stone-romfile.sega.32xcd-cuesheet",
         ".chd": "application/vnd.stone-romfile.sega.32xcd-chd-compressed",
         "BIOS": "application/vnd.stone-romfile.sega.32xcd-sys"
@@ -4000,8 +4005,12 @@
       "FileTypes": {
         ".bin": "application/vnd.stone-romfile.sega.scd-disctrack",
         ".iso": "application/vnd.stone-romfile.sega.scd-disctrack",
+        ".wav": "application/vnd.stone-romfile.sega.scd-disctrack-riff",
         ".cue": "application/vnd.stone-romfile.sega.scd-cuesheet",
         ".chd": "application/vnd.stone-romfile.sega.scd-chd-compressed",
+        ".ccd": "application/vnd.stone-romfile.sega.scd-clonecd-control",
+        ".img": "application/vnd.stone-romfile.sega.scd-clonecd-image",
+        ".sub": "application/vnd.stone-romfile.sega.scd-clonecd-subchannel",
         "BIOS": "application/vnd.stone-romfile.sega.scd-sys"
       },
       "BiosFiles": {
@@ -4026,6 +4035,7 @@
       "FriendlyName": "Sega Dreamcast",
       "FileTypes": {
         ".bin": "application/vnd.stone-romfile.sega.dc-disctrack",
+        ".iso": "application/vnd.stone-romfile.sega.dc-disctrack",
         ".raw": "application/vnd.stone-romfile.sega.dc-disctrack",
         ".gdi": "application/vnd.stone-romfile.sega.dc-gdi",
         ".elf": "application/vnd.stone-romfile.sega.dc-elf",
@@ -4053,9 +4063,9 @@
       "FriendlyName": "Sega Genesis",
       "FileTypes": {
         ".bin": "application/vnd.stone-romfile.sega.gen",
-        ".smd": "application/vnd.stone-romfile.sega.gen",
         ".rom": "application/vnd.stone-romfile.sega.gen",
         ".md": "application/vnd.stone-romfile.sega.gen",
+        ".smd": "application/vnd.stone-romfile.sega.gen-magicdrive",
         ".gen": "application/vnd.stone-romfile.sega.gen",
         "BIOS": "application/vnd.stone-romfile.sega.gen-sys"
       },
@@ -4099,8 +4109,9 @@
         ".ccd": "application/vnd.stone-romfile.sega.sat-clonecd-control",
         ".img": "application/vnd.stone-romfile.sega.sat-clonecd-image",
         ".sub": "application/vnd.stone-romfile.sega.sat-clonecd-subchannel",
-        ".bin": "application/vnd.stone-romfile.sega.sat-disctrack",
         ".iso": "application/vnd.stone-romfile.sega.sat-disctrack",
+        ".bin": "application/vnd.stone-romfile.sega.sat-disctrack",
+        ".wav": "application/vnd.stone-romfile.sega.sat-disctrack-riff",
         ".cue": "application/vnd.stone-romfile.sega.sat-cuesheet",
         ".chd": "application/vnd.stone-romfile.sega.sat-chd-compressed",
         "BIOS": "application/vnd.stone-romfile.sega.sat-sys"
@@ -4186,8 +4197,12 @@
       "FileTypes": {
         ".iso": "application/vnd.stone-romfile.snk.ngcd-disctrack",
         ".bin": "application/vnd.stone-romfile.snk.ngcd-disctrack",
+        ".wav": "application/vnd.stone-romfile.snk.ngcd-disctrack-riff",
         ".cue": "application/vnd.stone-romfile.snk.ngcd-cuesheet",
         ".chd": "application/vnd.stone-romfile.snk.ngcd-chd-compressed",
+        ".ccd": "application/vnd.stone-romfile.snk.ngcd-clonecd-control",
+        ".img": "application/vnd.stone-romfile.snk.ngcd-clonecd-image",
+        ".sub": "application/vnd.stone-romfile.snk.ngcd-clonecd-subchannel",
         "BIOS": "application/vnd.stone-romfile.snk.ngcd-sys"
       },
       "BiosFiles": {
@@ -4283,10 +4298,11 @@
       "FileTypes": {
         ".elf": "application/vnd.stone-romfile.sony.ps3-elf",
         ".self": "application/vnd.stone-romfile.sony.ps3-elf-signed",
-        ".pkg": "application/vnd.stone-romfile.sony.ps3-package",
+        ".pkg": "application/vnd.stone-romfile.sony.ps3-importable",
         ".bin": "application/vnd.stone-romfile.sony.ps3-elf",
         ".iso": "application/vnd.stone-romfile.sony.ps3-discimage",
-        "BIOS": "application/vnd.stone-romfile.sony.ps2-sys"
+        ".rap": "application/vnd.stone-romfile.sony.ps3-license",
+        "BIOS": "application/vnd.stone-romfile.sony.ps3-sys"
       },
       "BiosFiles": {
         "PS3UPDAT.PUP": ["da5438f39b3b6e5ef904d91162d93086", "374371771ad1608d0684c4d588440f0b", "8b6b4fb0a5fdd68bf85f02d4f6a0f096", "d2c1aa63e55f5eb74e9846112d843f2b", "602a1373cf1845d56348698d7037ab1b", "c4b08159eaa9fce111e076fb255aa106", "9d7f3830fb3082febf303bd0ce2f17c9", "afd01d9c72b3b69c03a0206c45d87dda", "891bf61f56808119c4968ac3a9101540", "3a5f49bcee3948301aa698ed57ecb10e", "468238974943b45c09aeb632853401f2", "fd9887626f734b46b271aec58e827cb2", "b81fe78b163b62ce8983ad990306fe57", "25de800491e8e88104d7e30b7524e9dc", "bcefc8569ae4c2f4b7c09fd52f728c02", "0f99147438936578951dd9d3f514000a", "9c95692d4dd1c1e17c2b0ce5dcaebba1", "f172f9bd37ca3e779dfaaf20ebfe632b", "f9df10bb57cdeeef8395c39415f54965", "1d8e69249aa1a5593307cf7d8ca8a331", "08393f1bd8e91589c95837142caf0a58", "73fe70e0198b80f01525b6b72774af25", "b859ca0f15fe9516d85fd0d89444ac5b", "d33eb3ef5721bc940ca29b4c80b96bde", "dd2e675fce5d2eb28ca93bc32edb3de6", "db48cbcde359982c065c2f5503204b67", "0274382cb3e21aa90e319eba358588c6", "96e9def601672c5abcbb4604bb2346f1", "67c660325b0b97acdeda6c0913dc1f74", "60a6c36e2dd2000b3fda3205428665dc", "da62cbc7eafde9f6792b8a76a4aef004", "823ab63c96d570510b254a80755df446", "e9cd7c268667ee695a708bf00c6853d8", "5b0e9d62ff6e9edc796db9a2916824f0", "043067d8624040f9f3f1a8dc2e662bce", "3352adc32e39ec5f7b4cdeb8b861052a", "d6856f234f3066b94dc88ab430a63bfb", "d69362743142953be7cb44a5fd5cc888", "c049de7a6a4b03d53e7f9fde04e0fc08", "6d956116eb5094564359339f60650f56", "70296b36d559e35752ae6efd04f702c0", "54ee80e14e479f8351a988eb9a472072", "f4c191ffba72e008bc750b091219e1f6", "3a08ef6164a7770ae3e7d5b9f366437a", "6bdf1b2409d705a0136c40746c62e85d", "88b2f8d458119f666c97d893c17201cd", "00c835be718fc3d5f793e130a2b74217", "e07d2b84c9e9691c261b73e5f1aada20", "6ba866514589155ab094099a9f358ffd", "0215e26d1dadeb950471a9c3397a140a", "ca595ad9f3af8f1491d9c9b6921a8c61", "6e070c96e0464e993aaf9deac3660863", "2a52196399a4b96ea568aafa65d1a27e", "91ee193a2fa921a6fce780fc40236e3b", "f446810aabec0af1340c02d852e4118c", "3001e6becbea7abf30fc35a7819c4478", "f4cbe2651e9a0c6115028043bdc2c5dd", "7ee6b91bbd07dde1e65a0681de66745b", "c7d179d273699c2e5d53e401264828f3", "077a6a0a9abf3622373e3daa53f3ec70", "d2bfa473a2ab1c0ff33cd7e452a11684", "52419374ba45a3d4a2b2dface2594140", "2c3671d071279b4f4b4d07e7166eaf38", "7e6dbb1708ab1df66f0a0f0e2987e8f4", "10c273d5390aa318986e81c6f3746b27", "31f890bd9e75deed773c29e51e56a4b9", "a35b7e74015408e463d15fd66a245929", "7e99b978582026df83ad7224ffa8c8d0", "70067a427e003e892ef81a0fca04eb1d", "1b6a1cb5a909325a7f5ed949e8cc57cb", "a2fba1bf2362f1b41737a69dd2433f00", "e6d82c8201d5d528095221bb7034ffa7", "6085b02c415ec912fab4670d7957db68", "e3decaf8beef0abc8f7999f66de05af9", "6edd8792c2659102026003bc8a93534e", "15048b78cd1f7635ef0796fe42727ce2", "0bbfec941b00ca88fdc777182ff95dfe", "8c5c36958ba5faacdc6e477797c051b8", "eb6e53673d92c9791cc9be64b0411378", "6e858cb2037a6db8fdfb0b04665256f1", "02c72e559533abde0add6850aadcfb34", "bf0563dc7d3450945d080a15a64d876d", "fd767e12d7a9f8288c277ee00704256c", "2c7ac82e02db9ce396618e6644a8c52d", "b2483b4abc157494447c9c409c036041", "152d950c365ede4130c53ceb18dcd43b"]
@@ -4327,6 +4343,8 @@
         ".dax": "application/vnd.stone-romfile.sony.psp-dax-compressed",
         ".pbp": "application/vnd.stone-romfile.sony.psp-eboot",
         ".elf": "application/vnd.stone-romfile.sony.psp-elf",
+        ".pkg": "application/vnd.stone-romfile.sony.psp-importable",
+        ".rap": "application/vnd.stone-romfile.sony.psp-license",
         "BIOS": "application/vnd.stone-romfile.sony.psp-sys"
       },
       "BiosFiles": {
@@ -4347,9 +4365,10 @@
       "FriendlyName": "PlayStation Vita",
       "FileTypes": {
         ".psv": "application/vnd.stone-romfile.sony.psv-psvgamesd",
-        ".vpk": "application/vnd.stone-romfile.sony.psv-henkaku",
-        ".pkg": "application/vnd.stone-romfile.sony.psv-package",
-        ".zip": "application/vnd.stone-romfile.sony.psv-mai+zip"
+        ".vpk": "application/vnd.stone-romfile.sony.psv-henkaku+zip",
+        ".pkg": "application/vnd.stone-romfile.sony.psv-importable",
+        ".zip": "application/vnd.stone-romfile.sony.psv-mai+zip",
+        ".rif": "application/vnd.stone-romfile.sony.psv-license"
       }
     },
     "SONY_PSX": {
@@ -4366,6 +4385,7 @@
       "FileTypes": {
         ".m3u": "application/vnd.stone-romfile.sony.psx-playlist",
         ".bin": "application/vnd.stone-romfile.sony.psx-disctrack",
+        ".wav": "application/vnd.stone-romfile.sony.psx-disctrack-riff",
         ".iso": "application/vnd.stone-romfile.sony.psx-disctrack",
         ".cue": "application/vnd.stone-romfile.sony.psx-cuesheet",
         ".sbi": "application/vnd.stone-romfile.sony.psx-subchannel",
