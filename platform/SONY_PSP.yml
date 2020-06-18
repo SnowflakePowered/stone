@@ -16,6 +16,7 @@ FileTypes:
   .elf: "application/vnd.stone-romfile.sony.psp-elf"
   .pkg: "application/vnd.stone-romfile.sony.psp-importable"
   .rap: "application/vnd.stone-romfile.sony.psp-license"
+  .edat: "application/vnd.stone-romfile.sony.psp-exdata-encrypted"
   BIOS: "application/vnd.stone-romfile.sony.psp-sys"
   RSRC: "application/vnd.stone-romfile.sony.psp-resource"
 BiosFiles:

@@ -15,6 +15,9 @@ FileTypes:
   .elf: "application/vnd.stone-romfile.nintendo.wii-elf"
   .dol: "application/vnd.stone-romfile.nintendo.wii-executable"
   .wad: "application/vnd.stone-romfile.nintendo.wii-importable"
+  .app: "application/vnd.stone-romfile.nintendo.wii-encrypted"
+  .tik: "application/vnd.stone-romfile.nintendo.wii-ticket"
+  .tmd: "application/vnd.stone-romfile.nintendo.wii-titlemetadata"
   BIOS: "application/vnd.stone-romfile.nintendo.wii-sys"
   RSRC: "application/vnd.stone-romfile.nintendo.wii-resource"
 BiosFiles:

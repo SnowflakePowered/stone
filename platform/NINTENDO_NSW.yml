@@ -12,7 +12,7 @@ FileTypes:
   .nso: "application/vnd.stone-romfile.nintendo.nsw-executable"
   .xci: "application/vnd.stone-romfile.nintendo.nsw-cartimage"
   .nsp: "application/vnd.stone-romfile.nintendo.nsw-importable"
-  .nca: "application/vnd.stone-romfile.nintendo.nsw-importable-encrypted"
+  .nca: "application/vnd.stone-romfile.nintendo.nsw-encrypted"
   BIOS: "application/vnd.stone-romfile.nintendo.nsw-sys"
   RSRC: "application/vnd.stone-romfile.nintendo.nsw-resource"
 BiosFiles:

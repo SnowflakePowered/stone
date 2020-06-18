@@ -3312,6 +3312,8 @@
         ".iso": "application/vnd.stone-romfile.microsoft.x360-discimage",
         ".xex": "application/vnd.stone-romfile.microsoft.x360-executable",
         ".xcp": "application/vnd.stone-romfile.microsoft.x360-importable",
+        ".bin": "application/vnd.stone-romfile.microsoft.x360-discimage",
+        ".cue": "application/vnd.stone-romfile.microsoft.x360-cuesheet",
         "RSRC": "application/vnd.stone-romfile.microsoft.x360-resource"
       }
     },
@@ -3480,9 +3482,11 @@
         ".3dsx": "application/vnd.stone-romfile.nintendo.3ds-homebrew",
         ".cia": "application/vnd.stone-romfile.nintendo.3ds-importable",
         ".cxi": "application/vnd.stone-romfile.nintendo.3ds-executable",
-        ".app": "application/vnd.stone-romfile.nintendo.3ds-executable",
         ".elf": "application/vnd.stone-romfile.nintendo.3ds-elf",
         ".axf": "application/vnd.stone-romfile.nintendo.3ds-elf",
+        ".app": "application/vnd.stone-romfile.nintendo.3ds-encrypted",
+        ".tik": "application/vnd.stone-romfile.nintendo.3ds-ticket",
+        ".tmd": "application/vnd.stone-romfile.nintendo.3ds-titlemetadata",
         "BIOS": "application/vnd.stone-romfile.nintendo.3ds-sys",
         "RSRC": "application/vnd.stone-romfile.nintendo.3ds-resource"
       },
@@ -3525,6 +3529,9 @@
       "FileTypes": {
         ".dsi": "application/vnd.stone-romfile.nintendo.dsi",
         ".nds": "application/vnd.stone-romfile.nintendo.dsi",
+        ".app": "application/vnd.stone-romfile.nintendo.dsi-encrypted",
+        ".tik": "application/vnd.stone-romfile.nintendo.dsi-ticket",
+        ".tmd": "application/vnd.stone-romfile.nintendo.dsi-titlemetadata",
         "BIOS": "application/vnd.stone-romfile.nintendo.dsi-sys",
         "RSRC": "application/vnd.stone-romfile.nintendo.dsi-resource"
       },
@@ -3778,7 +3785,7 @@
         ".nso": "application/vnd.stone-romfile.nintendo.nsw-executable",
         ".xci": "application/vnd.stone-romfile.nintendo.nsw-cartimage",
         ".nsp": "application/vnd.stone-romfile.nintendo.nsw-importable",
-        ".nca": "application/vnd.stone-romfile.nintendo.nsw-importable-encrypted",
+        ".nca": "application/vnd.stone-romfile.nintendo.nsw-encrypted",
         "BIOS": "application/vnd.stone-romfile.nintendo.nsw-sys",
         "RSRC": "application/vnd.stone-romfile.nintendo.nsw-resource"
       },
@@ -3893,6 +3900,9 @@
         ".elf": "application/vnd.stone-romfile.nintendo.wii-elf",
         ".dol": "application/vnd.stone-romfile.nintendo.wii-executable",
         ".wad": "application/vnd.stone-romfile.nintendo.wii-importable",
+        ".app": "application/vnd.stone-romfile.nintendo.wii-encrypted",
+        ".tik": "application/vnd.stone-romfile.nintendo.wii-ticket",
+        ".tmd": "application/vnd.stone-romfile.nintendo.wii-titlemetadata",
         "BIOS": "application/vnd.stone-romfile.nintendo.wii-sys",
         "RSRC": "application/vnd.stone-romfile.nintendo.wii-resource"
       },
@@ -3917,8 +3927,13 @@
         ".wud": "application/vnd.stone-romfile.nintendo.wiiu-discimage",
         ".iso": "application/vnd.stone-romfile.nintendo.wiiu-discimage",
         ".wux": "application/vnd.stone-romfile.nintendo.wiiu-discimage-compressed",
-        ".rpx": "application/vnd.stone-romfile.nintendo.wiiu-importable",
+        ".rpx": "application/vnd.stone-romfile.nintendo.wiiu-executable",
+        ".rpl": "application/vnd.stone-romfile.nintendo.wiiu-linkable",
         ".elf": "application/vnd.stone-romfile.nintendo.wiiu-elf",
+        ".app": "application/vnd.stone-romfile.nintendo.wiiu-encrypted",
+        ".h3": "application/vnd.stone-romfile.nintendo.wiiu-sha1",
+        ".tik": "application/vnd.stone-romfile.nintendo.wiiu-ticket",
+        ".tmd": "application/vnd.stone-romfile.nintendo.wiiu-titlemetadata",
         "RSRC": "application/vnd.stone-romfile.nintendo.wiiu-resource"
       }
     },
@@ -4414,6 +4429,7 @@
         ".elf": "application/vnd.stone-romfile.sony.psp-elf",
         ".pkg": "application/vnd.stone-romfile.sony.psp-importable",
         ".rap": "application/vnd.stone-romfile.sony.psp-license",
+        ".edat": "application/vnd.stone-romfile.sony.psp-exdata-encrypted",
         "BIOS": "application/vnd.stone-romfile.sony.psp-sys",
         "RSRC": "application/vnd.stone-romfile.sony.psp-resource"
       },
@@ -4466,6 +4482,7 @@
         ".toc": "application/vnd.stone-romfile.sony.psx-cdrdao",
         ".pbp": "application/vnd.stone-romfile.sony.psx-eboot",
         ".exe": "application/vnd.stone-romfile.sony.psx-exe",
+        ".psx": "application/vnd.stone-romfile.sony.psx-exe",
         ".chd": "application/vnd.stone-romfile.sony.psx-chd-compressed",
         "BIOS": "application/vnd.stone-romfile.sony.psx-sys",
         "RSRC": "application/vnd.stone-romfile.sony.psx-resource"

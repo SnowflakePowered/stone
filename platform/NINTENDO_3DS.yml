@@ -18,9 +18,11 @@ FileTypes:
   .3dsx: "application/vnd.stone-romfile.nintendo.3ds-homebrew"
   .cia: "application/vnd.stone-romfile.nintendo.3ds-importable"
   .cxi: "application/vnd.stone-romfile.nintendo.3ds-executable"
-  .app: "application/vnd.stone-romfile.nintendo.3ds-executable"
   .elf: "application/vnd.stone-romfile.nintendo.3ds-elf"
   .axf: "application/vnd.stone-romfile.nintendo.3ds-elf"
+  .app: "application/vnd.stone-romfile.nintendo.3ds-encrypted"
+  .tik: "application/vnd.stone-romfile.nintendo.3ds-ticket"
+  .tmd: "application/vnd.stone-romfile.nintendo.3ds-titlemetadata"
   BIOS: "application/vnd.stone-romfile.nintendo.3ds-sys"
   RSRC: "application/vnd.stone-romfile.nintendo.3ds-resource"
 BiosFiles:

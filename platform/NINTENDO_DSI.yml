@@ -10,6 +10,9 @@ FriendlyName: Nintendo DSi
 FileTypes:
   .dsi: "application/vnd.stone-romfile.nintendo.dsi"
   .nds: "application/vnd.stone-romfile.nintendo.dsi"
+  .app: "application/vnd.stone-romfile.nintendo.dsi-encrypted"
+  .tik: "application/vnd.stone-romfile.nintendo.dsi-ticket"
+  .tmd: "application/vnd.stone-romfile.nintendo.dsi-titlemetadata"
   BIOS: "application/vnd.stone-romfile.nintendo.dsi-sys"
   RSRC: "application/vnd.stone-romfile.nintendo.dsi-resource"
 BiosFiles:
