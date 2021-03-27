@@ -16,6 +16,7 @@ FileTypes:
   .mdf: "application/vnd.stone-romfile.sony.ps2-alcohol120"
   .cso: "application/vnd.stone-romfile.sony.ps2-discimage-compressed"
   .gz: "application/vnd.stone-romfile.sony.ps2-discimage-gzip-compressed"
+  .chd: "application/vnd.stone-romfile.sony.ps2-chd-compressed"
   BIOS: "application/vnd.stone-romfile.sony.ps2-sys"
   RSRC: "application/vnd.stone-romfile.sony.ps2-resource"
 BiosFiles:

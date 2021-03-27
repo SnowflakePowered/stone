@@ -6,10 +6,11 @@ Metadata:
   platform_manufacturer: Nintendo
   platform_type: Handheld
 MaximumInputs: 1
-FriendlyName: Game Boy Advanced
+FriendlyName: Game Boy Advance
 FileTypes:
   .gba: "application/vnd.stone-romfile.nintendo.gba"
   .bin: "application/vnd.stone-romfile.nintendo.gba"
+  .mb: "application/vnd.stone-romfile.nintendo.gba"
   BIOS: "application/vnd.stone-romfile.nintendo.gba-sys"
   RSRC: "application/vnd.stone-romfile.nintendo.gba-resource"
 BiosFiles:
