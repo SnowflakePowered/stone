@@ -10,9 +10,14 @@ FriendlyName: Nintendo GameCube
 FileTypes:
   .iso: "application/vnd.stone-romfile.nintendo.gcn-discimage"
   .gcm: "application/vnd.stone-romfile.nintendo.gcn-discimage"
-  .gcz: "application/vnd.stone-romfile.nintendo.gcn-dolphin-compressed"
+  .tgc: "application/vnd.stone-romfile.nintendo.gcn-embedded-discimage"
   .dol: "application/vnd.stone-romfile.nintendo.gcn-executable"
   .elf: "application/vnd.stone-romfile.nintendo.gcn-elf"
+  .nkit.iso: "application/vnd.stone-romfile.nintendo.gcn-nkit-discimage"
+  .nkit.gcz: "application/vnd.stone-romfile.nintendo.gcn-nkit-dolphin-gcz-compressed"
+  .iso.dec: "application/vnd.stone-romfile.nintendo.gcn-nasos-compressed"
+  .rvz: "application/vnd.stone-romfile.nintendo.gcn-dolphin-rvz-compressed"
+  .gcz: "application/vnd.stone-romfile.nintendo.gcn-dolphin-gcz-compressed"
   BIOS: "application/vnd.stone-romfile.nintendo.gcn-sys"
   RSRC: "application/vnd.stone-romfile.nintendo.gcn-resource"
 BiosFiles:

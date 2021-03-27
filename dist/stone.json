@@ -3594,10 +3594,11 @@
         "platform_type": "Handheld"
       },
       "MaximumInputs": 1,
-      "FriendlyName": "Game Boy Advanced",
+      "FriendlyName": "Game Boy Advance",
       "FileTypes": {
         ".gba": "application/vnd.stone-romfile.nintendo.gba",
         ".bin": "application/vnd.stone-romfile.nintendo.gba",
+        ".mb": "application/vnd.stone-romfile.nintendo.gba",
         "BIOS": "application/vnd.stone-romfile.nintendo.gba-sys",
         "RSRC": "application/vnd.stone-romfile.nintendo.gba-resource"
       },
@@ -3640,9 +3641,14 @@
       "FileTypes": {
         ".iso": "application/vnd.stone-romfile.nintendo.gcn-discimage",
         ".gcm": "application/vnd.stone-romfile.nintendo.gcn-discimage",
-        ".gcz": "application/vnd.stone-romfile.nintendo.gcn-dolphin-compressed",
+        ".tgc": "application/vnd.stone-romfile.nintendo.gcn-embedded-discimage",
         ".dol": "application/vnd.stone-romfile.nintendo.gcn-executable",
         ".elf": "application/vnd.stone-romfile.nintendo.gcn-elf",
+        ".nkit.iso": "application/vnd.stone-romfile.nintendo.gcn-nkit-discimage",
+        ".nkit.gcz": "application/vnd.stone-romfile.nintendo.gcn-nkit-dolphin-gcz-compressed",
+        ".iso.dec": "application/vnd.stone-romfile.nintendo.gcn-nasos-compressed",
+        ".rvz": "application/vnd.stone-romfile.nintendo.gcn-dolphin-rvz-compressed",
+        ".gcz": "application/vnd.stone-romfile.nintendo.gcn-dolphin-gcz-compressed",
         "BIOS": "application/vnd.stone-romfile.nintendo.gcn-sys",
         "RSRC": "application/vnd.stone-romfile.nintendo.gcn-resource"
       },
@@ -3896,13 +3902,18 @@
         ".iso": "application/vnd.stone-romfile.nintendo.wii-discimage",
         ".wbfs": "application/vnd.stone-romfile.nintendo.wii-wbfs",
         ".ciso": "application/vnd.stone-romfile.nintendo.wii-discimage-compressed",
-        ".gcz": "application/vnd.stone-romfile.nintendo.wii-dolphin-compressed",
         ".elf": "application/vnd.stone-romfile.nintendo.wii-elf",
         ".dol": "application/vnd.stone-romfile.nintendo.wii-executable",
         ".wad": "application/vnd.stone-romfile.nintendo.wii-importable",
         ".app": "application/vnd.stone-romfile.nintendo.wii-encrypted",
         ".tik": "application/vnd.stone-romfile.nintendo.wii-ticket",
         ".tmd": "application/vnd.stone-romfile.nintendo.wii-titlemetadata",
+        ".nkit.iso": "application/vnd.stone-romfile.nintendo.wii-nkit-discimage",
+        ".nkit.gcz": "application/vnd.stone-romfile.nintendo.wii-nkit-dolphin-gcz-compressed",
+        ".iso.dec": "application/vnd.stone-romfile.nintendo.wii-nasos-compressed",
+        ".rvz": "application/vnd.stone-romfile.nintendo.wii-dolphin-rvz-compressed",
+        ".wia": "application/vnd.stone-romfile.nintendo.wii-wiimm-compressed",
+        ".gcz": "application/vnd.stone-romfile.nintendo.wii-dolphin-gcz-compressed",
         "BIOS": "application/vnd.stone-romfile.nintendo.wii-sys",
         "RSRC": "application/vnd.stone-romfile.nintendo.wii-resource"
       },
@@ -4352,6 +4363,7 @@
         ".mdf": "application/vnd.stone-romfile.sony.ps2-alcohol120",
         ".cso": "application/vnd.stone-romfile.sony.ps2-discimage-compressed",
         ".gz": "application/vnd.stone-romfile.sony.ps2-discimage-gzip-compressed",
+        ".chd": "application/vnd.stone-romfile.sony.ps2-chd-compressed",
         "BIOS": "application/vnd.stone-romfile.sony.ps2-sys",
         "RSRC": "application/vnd.stone-romfile.sony.ps2-resource"
       },
@@ -4430,6 +4442,7 @@
         ".pkg": "application/vnd.stone-romfile.sony.psp-importable",
         ".rap": "application/vnd.stone-romfile.sony.psp-license",
         ".edat": "application/vnd.stone-romfile.sony.psp-exdata-encrypted",
+        ".chd": "application/vnd.stone-romfile.sony.psp-chd-compressed",
         "BIOS": "application/vnd.stone-romfile.sony.psp-sys",
         "RSRC": "application/vnd.stone-romfile.sony.psp-resource"
       },
@@ -4495,5 +4508,5 @@
       }
     }
   },
-  "version": "10.0.0-beta.0"
+  "version": "10.0.0"
 }
