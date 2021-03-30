@@ -2069,6 +2069,45 @@
         }
       }
     },
+    "SV_LAYOUT": {
+      "LayoutID": "SV_LAYOUT",
+      "FriendlyName": "Supervision Layout",
+      "Platforms": ["WATARA_SV"],
+      "Layout": {
+        "ButtonA": {
+          "Label": "A",
+          "Type": "Button"
+        },
+        "ButtonB": {
+          "Label": "B",
+          "Type": "Button"
+        },
+        "ButtonStart": {
+          "Label": "Start",
+          "Type": "Button"
+        },
+        "ButtonSelect": {
+          "Label": "Select",
+          "Type": "Button"
+        },
+        "DirectionalN": {
+          "Label": "D-Pad Up",
+          "Type": "Directional"
+        },
+        "DirectionalE": {
+          "Label": "D-Pad Right",
+          "Type": "Directional"
+        },
+        "DirectionalS": {
+          "Label": "D-Pad Down",
+          "Type": "Directional"
+        },
+        "DirectionalW": {
+          "Label": "D-Pad Left",
+          "Type": "Directional"
+        }
+      }
+    },
     "SWITCH_LEFT_JOYCON_CONTROLLER": {
       "LayoutID": "SWITCH_LEFT_JOYCON_CONTROLLER",
       "FriendlyName": "Nintendo Switch Left JoyCon",
@@ -4510,7 +4549,24 @@
         "scph5501.bin": ["490f666e1afb15b7362b406ed1cea246"],
         "scph5502.bin": ["32736f17079d0b2b7024407c39bd3050"]
       }
+    },
+    "WATARA_SV": {
+      "PlatformID": "WATARA_SV",
+      "Metadata": {
+        "platform_releasedate": "1992-01-01",
+        "platform_shortname": "SV",
+        "platform_licensor": "Watara",
+        "platform_manufacturer": "Watara",
+        "platform_type": "Handheld"
+      },
+      "MaximumInputs": 1,
+      "FriendlyName": "Watara Supervision",
+      "FileTypes": {
+        ".sv": "application/vnd.stone-romfile.watara.sv",
+        "BIOS": "application/vnd.stone-romfile.watara.sv-sys",
+        "RSRC": "application/vnd.stone-romfile.watara.sv-resource"
+      }
     }
   },
-  "version": "11.1.0"
+  "version": "11.2.0"
 }
