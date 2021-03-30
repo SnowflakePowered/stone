@@ -9,6 +9,8 @@ MaximumInputs: 2
 FriendlyName: Satellaview
 FileTypes:
   .bs: "application/vnd.stone-romfile.nintendo.bs"
+  .sfc: "application/vnd.stone-romfile.nintendo.bs"
+  .sms: "application/vnd.stone-romfile.nintendo.bs"
   BIOS: "application/vnd.stone-romfile.nintendo.bs-sys"
   RSRC: "application/vnd.stone-romfile.nintendo.bs-resource"
 BiosFiles:

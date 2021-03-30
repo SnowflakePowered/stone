@@ -3508,6 +3508,8 @@
       "FriendlyName": "Satellaview",
       "FileTypes": {
         ".bs": "application/vnd.stone-romfile.nintendo.bs",
+        ".sfc": "application/vnd.stone-romfile.nintendo.bs",
+        ".sms": "application/vnd.stone-romfile.nintendo.bs",
         "BIOS": "application/vnd.stone-romfile.nintendo.bs-sys",
         "RSRC": "application/vnd.stone-romfile.nintendo.bs-resource"
       },
@@ -3821,6 +3823,8 @@
       "FriendlyName": "SuFami Turbo",
       "FileTypes": {
         ".st": "application/vnd.stone-romfile.nintendo.st",
+        ".sfc": "application/vnd.stone-romfile.nintendo.st",
+        ".sms": "application/vnd.stone-romfile.nintendo.st",
         "BIOS": "application/vnd.stone-romfile.nintendo.st-sys",
         "RSRC": "application/vnd.stone-romfile.nintendo.st-resource"
       },
@@ -4508,5 +4512,5 @@
       }
     }
   },
-  "version": "11.0.0"
+  "version": "11.1.0"
 }
